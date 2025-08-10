@@ -26,15 +26,27 @@ export const experiences: Experience[] = [
   {
     role: "Technical Lead",
     company: "NHS Personal Training GmbH",
-    location: "Munich",
+    location: "Munich, Germany",
     from: "Jan 2025",
     to: "Present",
     bullets: [
       "Co-led and shipped a Swift iOS coaching app enabling premium clients to self-book sessions and track results in real time.",
-      "Launched bilingual corporate site + 5 partner portals using Next.js.",
-      "Directed 6 offshore engineers in Agile sprints; achieved 78% on-time releases.",
+      "Launched a bilingual corporate site plus 5 partner portals with Next.js.",
+      "Directed 6 offshore engineers in Agile sprints; achieved ~78% on-time releases.",
       "Designed scalable backend database architecture for future use by sport scientists and physicians.",
       "Ran internal workshops on app infrastructure and data management.",
+    ],
+  },
+  {
+    role: "Personal Trainer (Tech-Adjacent)",
+    company: "MTM Personal Training",
+    location: "Berlin, Germany",
+    from: "Apr 2024",
+    to: "Dec 2024",
+    bullets: [
+      "Implemented correct data storage practices and version control; optimized the in-house application workflow.",
+      "Coached 25 executives; achieved ~90% adherence to bespoke fitness KPIs over 6 months.",
+      "Cultivated a network of 40+ founders/CEOs, seeding B2B opportunities.",
     ],
   },
   {
@@ -52,7 +64,7 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    role: "Program Manager & Data Analyst",
+    role: "Program Manager",
     company: "Seascape Network",
     location: "Stockholm (remote)",
     from: "Jan 2021",
@@ -61,7 +73,18 @@ export const experiences: Experience[] = [
       "Orchestrated strategic launches of five gaming projects.",
       "Negotiated ~$500k investor funding, extending runway by ~9 months.",
       "Managed development of a fund-generating platform supporting 10+ external game developers.",
-      "Brokered 30+ partner integrations, growing MAU from ~10k to ~56k.",
+    ],
+  },
+  {
+    role: "Data Analyst",
+    company: "Seascape Network",
+    location: "Stockholm (remote)",
+    from: "Jan 2021",
+    to: "Feb 2022",
+    bullets: [
+      "Analyzed user and wallet growth to inform product launches and partnership priorities.",
+      "Partner ecosystem insights contributed to 30+ integrations and MAU growth from ~10k to ~56k.",
+      "Built repeatable KPI tracking to support leadership planning and investor reporting.",
     ],
   },
 ];
