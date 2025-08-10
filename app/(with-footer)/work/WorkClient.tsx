@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import { useReducedMotion, motion } from "framer-motion";
 import Section from "@/components/Section";
+import EducationSection from "@/components/EducationSection";
+import CertificationsGrid from "@/components/CertificationsGrid";
 import { experiences, projects, skills } from "@/content/workData";
 import ProgressRail from "@/components/ProgressRail";
 
@@ -33,7 +35,7 @@ export default function WorkClient() {
 
   return (
     <main className="bg-background">
-      <ProgressRail progress={progress} accentClassName="bg-work" />
+      <ProgressRail progress={progress} accentClassName="bg-white" />
       {/* 1) Intro */}
       <Section className="py-24 md:py-32">
         <motion.div {...fadeSlide()}>
@@ -71,7 +73,7 @@ export default function WorkClient() {
               return (
                 <li key={`${exp.company}-${exp.role}-${idx}`} className="relative">
                   {/* marker */}
-                  <div className="hidden md:block absolute left-1/2 -translate-x-1/2 top-3 w-2.5 h-2.5 rounded-full bg-work shadow-[0_0_0_3px_rgba(10,37,64,0.25)]" />
+                  <div className="hidden md:block absolute left-1/2 -translate-x-1/2 top-3 w-2.5 h-2.5 rounded-full bg-white shadow-[0_0_0_3px_rgba(255,255,255,0.25)]" />
                   <motion.div
                     className="md:grid md:grid-cols-2 md:gap-10"
                     {...fadeSlide(idx)}
@@ -117,35 +119,11 @@ export default function WorkClient() {
         </div>
       </Section>
 
-      {/* 4) Education & Certifications */}
-      <Section className="py-16 md:py-24">
-        <motion.h2 className="font-display text-2xl md:text-3xl mb-8" {...fadeSlide()}>
-          Education & Certifications
-        </motion.h2>
-        <motion.div className="space-y-6" {...fadeSlide()}>
-          <div>
-            <p className="font-medium">B.Sc. International Business</p>
-            <p className="text-foreground/70 text-sm">University of Ljubljana (2019–2023)</p>
-          </div>
-          <div>
-            <p className="font-medium">Exchanges</p>
-            <p className="text-foreground/70 text-sm">
-              University of Seoul (Korea), ISCTE Lisbon (Portugal)
-            </p>
-          </div>
-          <div>
-            <p className="font-medium mb-2">Certifications</p>
-            <ul className="grid sm:grid-cols-2 gap-2 text-sm text-foreground/85">
-              {skills.certifications.map((c) => (
-                <li key={c} className="pl-3 relative">
-                  <span className="absolute left-0 top-2 w-1.5 h-1.5 rounded-full bg-work" />
-                  {c}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </motion.div>
-      </Section>
+      {/* 4) Education */}
+      <EducationSection />
+
+      {/* Certifications */}
+      <CertificationsGrid />
 
       {/* 5) Projects */}
       <Section className="py-16 md:py-24">

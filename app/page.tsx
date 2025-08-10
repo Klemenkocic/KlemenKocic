@@ -30,12 +30,10 @@ export default function Home() {
         aria-label="Go to Work"
         className="split-link grain group relative flex items-center justify-center border-b md:border-b-0 md:border-r border-white/10 focus:outline-none"
         style={{
-          // RGB for work navy
-          // 0A2540 -> (10,37,64)
-          // used by the glow background
+          // Use white accent for glow
           // eslint-disable-next-line @typescript-eslint/ban-ts-comment
           // @ts-ignore custom CSS var
-          "--accent": "10,37,64",
+          "--accent": "255,255,255",
         }}
         onPointerMove={handleMove}
       >
@@ -47,7 +45,7 @@ export default function Home() {
           className="w-full h-full p-10 md:p-16 text-center select-none"
         >
           <div className="mx-auto max-w-xl">
-            <h2 className="font-display text-6xl md:text-7xl lg:text-8xl tracking-tight text-work group-hover:drop-shadow-[0_4px_24px_rgba(10,37,64,0.35)]">
+            <h2 className="font-display text-6xl md:text-7xl lg:text-8xl tracking-tight text-white group-hover:drop-shadow-[0_4px_24px_rgba(255,255,255,0.35)]">
               Work
             </h2>
             <p className="mt-4 text-foreground/80 text-base md:text-lg">
