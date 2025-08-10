@@ -1,11 +1,26 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { useReducedMotion, motion } from "framer-motion";
 import Section from "@/components/Section";
 import { experiences, projects, skills } from "@/content/workData";
+import ProgressRail from "@/components/ProgressRail";
 
 export default function WorkClient() {
   const prefersReduced = useReducedMotion();
+  const [progress, setProgress] = useState(0);
+
+  // Track document scroll progress for the left-edge rail
+  useEffect(() => {
+    const onScroll = () => {
+      const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+      const p = scrollHeight > clientHeight ? scrollTop / (scrollHeight - clientHeight) : 0;
+      setProgress(Math.max(0, Math.min(1, p)));
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   const fadeSlide = (i = 0) => ({
     initial: prefersReduced ? { opacity: 0 } : { opacity: 0, y: 16 },
@@ -18,6 +33,7 @@ export default function WorkClient() {
 
   return (
     <main className="bg-background">
+      <ProgressRail progress={progress} accentClassName="bg-work" />
       {/* 1) Intro */}
       <Section className="py-24 md:py-32">
         <motion.div {...fadeSlide()}>
