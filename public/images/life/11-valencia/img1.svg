@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs><radialGradient id="sun" cx="1" cy="0" r="1"><stop offset="0%" stop-color="#FFBE0B"/><stop offset="100%" stop-color="#0b1220"/></radialGradient></defs>
+  <rect width="1200" height="900" fill="url(#sun)"/>
+</svg>
+

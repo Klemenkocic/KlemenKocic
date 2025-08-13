@@ -22,45 +22,58 @@ export type Skills = {
   certifications: string[];
 };
 
+export const personalSkills: string[] = [
+  "Empathic leadership",
+  "Clear communication",
+  "Active listening",
+  "Coaching and mentoring",
+  "Team building",
+  "Stakeholder alignment",
+  "Conflict resolution",
+  "Psychological safety",
+];
+
 export const experiences: Experience[] = [
   {
     role: "Technical Lead",
     company: "NHS Personal Training GmbH",
-    location: "Munich, Germany",
+    location: "München, Germany",
     from: "Jan 2025",
     to: "Present",
     bullets: [
-      "Co-led and shipped a Swift iOS coaching app enabling premium clients to self-book sessions and track results in real time.",
-      "Launched a bilingual corporate site plus 5 partner portals with Next.js.",
-      "Directed 6 offshore engineers in Agile sprints; achieved ~78% on-time releases.",
-      "Designed scalable backend database architecture for future use by sport scientists and physicians.",
-      "Ran internal workshops on app infrastructure and data management.",
+      "Lead and co-developed a Swift iOS coaching app end-to-end, enabling 10 premium clients to self-book sessions and track results in real time.",
+      "Oversaw development of the company’s web app, integrating scheduling, training plan creation, exercise library, invoicing, accounting, and point-of-sale functionalities.",
+      "Launched 2-language corporate site + 5 partner portals (Next.js).",
+      "Directed 6 offshore engineers through Agile sprints, hitting 78% on-time release.",
+      "Structured backend database architecture, for future usage by Doctors of Sport Scientists.",
+      "Conducted educational sessions on application infrastructure and data management.",
+      "Built partnerships with 5 communities via networking events.",
     ],
   },
   {
-    role: "Personal Trainer (Tech-Adjacent)",
+    role: "Personal Trainer",
     company: "MTM Personal Training",
     location: "Berlin, Germany",
     from: "Apr 2024",
     to: "Dec 2024",
     bullets: [
-      "Implemented correct data storage practices and version control; optimized the in-house application workflow.",
-      "Coached 25 executives; achieved ~90% adherence to bespoke fitness KPIs over 6 months.",
-      "Cultivated a network of 40+ founders/CEOs, seeding B2B opportunities.",
+      "Instructed and educated the management team how to correctly store data, create version control and optimize the inhouse built application.",
+      "Coached 25 executives, achieving 90% adherence to bespoke fitness KPIs over 6 months.",
+      "Cultivated network of 40+ German founders/CEOs, seeding pipeline for future B2B consulting engagements.",
     ],
   },
   {
     role: "Project Manager",
-    company: "MetaKing Studios",
-    location: "Stockholm (remote)",
+    company: "Metaking Studios",
+    location: "Stockholm, Sweden",
     from: "Feb 2022",
     to: "Feb 2024",
     bullets: [
-      "Directed launch of an online strategy game, reaching ~$40M trade volume.",
-      "Led a 10-person cross-time-zone squad; maintained ~95% velocity adherence on Jira Scrum.",
-      "Implemented Jira/Asana workflows, reducing projected deployments from 6 months to 4.",
-      "Global press outreach generating ~4M views across YouTube, Instagram, X, and Telegram.",
-      "Contributed to brand strategy still in use.",
+      "Directed successful launch of an online strategy game, achieving $40 million in trade volume.",
+      "Led 10-person cross-time-zone team; maintained 97% velocity adherence using Jira Scrum boards.",
+      "Assisted with brand strategy creation which is still in use today.",
+      "Enhanced workflow efficiency through implementation of Jira and Asana, reducing project deployment projection from 6 months to 4 months.",
+      "Developed Grafana and Tableau dashboards to enable data-driven business decisions using live blockchain data.",
     ],
   },
   {
@@ -121,5 +134,38 @@ export const skills: Skills = {
     "Salesforce – Sales & CRM Overview",
     "UIUC – Leading Teams: Developing as a Leader",
   ],
+};
+
+export const aiSkills: string[] = [
+  "ChatGPT",
+  "Claude",
+  "Cursor",
+  "Hera",
+  "Gemini",
+  "Sora",
+  "Perplexity",
+  "Power BI with AI",
+  "UiPath",
+  "Cluely",
+  "LangGraph",
+  "DeepSeek",
+  "Grok",
+];
+
+// Uses sourced from tool docs and common workflows; kept concise for UI tooltip
+export const aiUses: Record<string, string> = {
+  ChatGPT: "rapid drafting, refactors, and idea exploration",
+  Claude: "long‑form reasoning, summarization, and sensitive docs",
+  Cursor: "AI pair programming inside the editor",
+  Hera: "agentic automations and workflow orchestration",
+  Gemini: "Workspace help and multimodal research",
+  Sora: "text‑to‑video concept drafts",
+  Perplexity: "grounded web research with citations",
+  "Power BI with AI": "dashboards with natural‑language insights",
+  UiPath: "RPA for repetitive back‑office tasks",
+  Cluely: "data analysis assistance and quick insights",
+  LangGraph: "graph‑based LLM workflows with loops/branches",
+  DeepSeek: "cost‑efficient coding and reasoning",
+  Grok: "real‑time answers and technical Q&A",
 };
 

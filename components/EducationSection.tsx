@@ -30,7 +30,7 @@ export default function EducationSection() {
                   alt={item.imageAlt}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  className="object-cover"
+                  className="object-contain p-4"
                   loading={idx === 0 ? "eager" : "lazy"}
                   priority={idx === 0}
                 />

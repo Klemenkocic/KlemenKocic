@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
+import ClientIntroWrapper from "@/components/ClientIntroWrapper";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -44,9 +45,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Client wrapper to show intro only once per session
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${outfit.variable} antialiased`}>{children}</body>
+      <body className={`${inter.variable} ${outfit.variable} antialiased`}>
+        <ClientIntroWrapper>{children}</ClientIntroWrapper>
+      </body>
     </html>
   );
 }

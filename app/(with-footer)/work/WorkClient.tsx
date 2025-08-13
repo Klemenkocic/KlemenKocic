@@ -1,12 +1,21 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { Space_Grotesk } from "next/font/google";
 import { useReducedMotion, motion } from "framer-motion";
 import Section from "@/components/Section";
 import EducationSection from "@/components/EducationSection";
 import CertificationsGrid from "@/components/CertificationsGrid";
-import { experiences, projects, skills } from "@/content/workData";
+import { experiences, projects, skills, personalSkills, aiSkills, aiUses } from "@/content/workData";
 import ProgressRail from "@/components/ProgressRail";
+
+const techFont = Space_Grotesk({ subsets: ["latin"], display: "swap" });
+
+function chunk<T>(arr: T[], size: number): T[][] {
+  const out: T[][] = [];
+  for (let i = 0; i < arr.length; i += size) out.push(arr.slice(i, i + size));
+  return out;
+}
 
 export default function WorkClient() {
   const prefersReduced = useReducedMotion();
@@ -34,7 +43,7 @@ export default function WorkClient() {
   });
 
   return (
-    <main className="bg-background">
+    <main className={`${techFont.className} bg-background`}>
       <ProgressRail progress={progress} accentClassName="bg-white" />
       {/* 1) Intro */}
       <Section className="py-24 md:py-32">
@@ -43,16 +52,33 @@ export default function WorkClient() {
             Building calm systems and strong teams.
           </h1>
           <p className="mt-6 text-foreground/80 leading-relaxed max-w-3xl">
-            I lead engineering with a product-first mindset and an operations toolkit. My focus
-            is clear scope, tight feedback loops, and pragmatic architecture that scales. I enjoy
-            pairing with designers, shaping with PMs, and translating ideas into reliable
-            software.
-          </p>
-          <p className="mt-4 text-foreground/80 leading-relaxed max-w-3xl">
-            As a coach, I elevate people through structure and care: clear goals, thoughtful
-            reviews, and steady rituals. The result is steady delivery without drama.
+            I lead engineering with a user-first mindset and an operations toolkit. I keep scope
+            clear, run tight feedback loops, and design pragmatic systems that scale, while
+            staying flexible. I like pairing with designers, shaping with PMs, and turning ideas
+            into reliable, maintainable software.
           </p>
         </motion.div>
+      </Section>
+
+      {/* How I work */}
+      <Section className="py-12 md:py-16">
+        <motion.h2 className="font-display text-2xl md:text-3xl mb-6" {...fadeSlide()}>
+          How work gets done
+        </motion.h2>
+        <motion.ul className="space-y-3 leading-relaxed max-w-3xl" {...fadeSlide(0)}>
+          <li className="text-foreground/85">
+            I thrive in fast-paced teams thanks to hands-on time in VC, startups, and consulting. I take ownership,
+            spot problems early, design a plan fast, and execute.
+          </li>
+          <li className="text-foreground/85">
+            I work in a structured way with process optimisation, and I balance speed with quality. People come first,
+            so plans adapt when reality changes.
+          </li>
+          <li className="text-foreground/85">
+            I communicate clearly in English, Slovenian, and developing German, and I enjoy deep-tech topics. Learning
+            fast and staying curious is part of the job.
+          </li>
+        </motion.ul>
       </Section>
 
       {/* 2) Experience Timeline */}
@@ -117,6 +143,32 @@ export default function WorkClient() {
           <Category title="Data Platforms" items={skills.data_platforms} />
           <Category title="Tools" items={skills.tools} />
         </div>
+        <div className="grid md:grid-cols-2 gap-10 mt-10">
+          <Category title="Personal & People Skills" items={personalSkills} />
+          <div>
+            <h3 className="text-sm uppercase tracking-widest text-foreground/60 mb-3">AI Skill Set</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl relative">
+              {/* Reserve vertical space for tooltips so the first row can be hovered without overlap */}
+              <div className="absolute -top-8 left-0 right-0 h-8" />
+              {chunk<string>(aiSkills, Math.ceil(aiSkills.length / 2)).map((col: string[], idx: number) => (
+                <div key={idx} className="space-y-2">
+                  {col.map((s: string) => (
+                    <div key={s} className="relative group inline-block">
+                      <span className="text-xs px-2.5 py-1 rounded-full bg-white/10 text-foreground/90 inline-block">
+                        {s}
+                      </span>
+                      <span className="pointer-events-none absolute left-0 -top-8 z-20 whitespace-nowrap text-[11px] px-2 py-1 rounded bg-black/80 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                        I use this for {aiUses[s] ?? "everyday tasks"}.
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        
       </Section>
 
       {/* 4) Education */}
