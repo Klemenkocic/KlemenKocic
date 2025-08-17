@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { motion, useReducedMotion } from "framer-motion";
+import { motion, useReducedMotion, TargetAndTransition } from "framer-motion";
 import { useCallback } from "react";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
     target.style.setProperty("--y", `${y}px`);
   }, []);
 
-  const baseHover = prefersReduced
+  const baseHover: TargetAndTransition = prefersReduced
     ? {}
     : { scale: 1.02 };
 
@@ -40,7 +40,7 @@ export default function Home() {
         <motion.div
           initial={false}
           whileHover={baseHover}
-          whileFocus={baseHover as any}
+          whileFocus={baseHover}
           transition={{ type: "spring", stiffness: 260, damping: 25 }}
           className="w-full h-full p-10 md:p-16 text-center select-none"
         >
@@ -72,7 +72,7 @@ export default function Home() {
         <motion.div
           initial={false}
           whileHover={baseHover}
-          whileFocus={baseHover as any}
+          whileFocus={baseHover}
           transition={{ type: "spring", stiffness: 260, damping: 25 }}
           className="w-full h-full p-10 md:p-16 text-center select-none"
         >

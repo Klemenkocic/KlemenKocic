@@ -25,8 +25,8 @@ export default function StackVertical({ title, copy, images }: Props) {
       </div>
       <div className="sv-grid">
         {images.slice(0, 3).map((img, i) => (
-          <figure key={i} className={prefersReduced ? "sv-img" : "sv-img parallax"}>
-            <Image src={img.src} alt={img.alt} width={1200} height={800} loading="lazy" />
+          <figure key={i} className={prefersReduced ? "sv-img" : "sv-img parallax ratio-3x2 ph"}>
+            <Image src={img.src} alt={img.alt} fill sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 90vw" style={{ objectFit: "cover" }} loading="lazy" />
           </figure>
         ))}
       </div>

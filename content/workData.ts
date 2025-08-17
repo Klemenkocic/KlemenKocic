@@ -5,6 +5,12 @@ export type Experience = {
   from: string; // "Jan 2025"
   to: string; // "Present" or "Dec 2024"
   bullets: string[];
+  video?: {
+    label: string;
+    srcWebm: string;
+    srcMp4?: string;
+    poster?: string;
+  };
 };
 
 export type Project = {
@@ -42,13 +48,19 @@ export const experiences: Experience[] = [
     to: "Present",
     bullets: [
       "Lead and co-developed a Swift iOS coaching app end-to-end, enabling 10 premium clients to self-book sessions and track results in real time.",
-      "Oversaw development of the company’s web app, integrating scheduling, training plan creation, exercise library, invoicing, accounting, and point-of-sale functionalities.",
+      "Oversaw development of the company's web app, integrating scheduling, training plan creation, exercise library, invoicing, accounting, and point-of-sale functionalities.",
       "Launched 2-language corporate site + 5 partner portals (Next.js).",
       "Directed 6 offshore engineers through Agile sprints, hitting 78% on-time release.",
       "Structured backend database architecture, for future usage by Doctors of Sport Scientists.",
       "Conducted educational sessions on application infrastructure and data management.",
       "Built partnerships with 5 communities via networking events.",
     ],
+    video: {
+      label: "NHS Personal Training — iOS app demo",
+      srcWebm: "",
+      srcMp4: "/videos/work/New Health Society Technical Lead.mp4",
+      poster: "/videos/work/nhs-poster.jpg",
+    },
   },
   {
     role: "Personal Trainer",
@@ -61,6 +73,12 @@ export const experiences: Experience[] = [
       "Coached 25 executives, achieving 90% adherence to bespoke fitness KPIs over 6 months.",
       "Cultivated network of 40+ German founders/CEOs, seeding pipeline for future B2B consulting engagements.",
     ],
+    video: {
+      label: "MTM Personal Training — Fitness tech demo",
+      srcWebm: "",
+      srcMp4: "/videos/work/MTM Personal Training.mp4",
+      poster: "/videos/work/mtm-poster.jpg",
+    },
   },
   {
     role: "Project Manager",
@@ -75,6 +93,12 @@ export const experiences: Experience[] = [
       "Enhanced workflow efficiency through implementation of Jira and Asana, reducing project deployment projection from 6 months to 4 months.",
       "Developed Grafana and Tableau dashboards to enable data-driven business decisions using live blockchain data.",
     ],
+    video: {
+      label: "Metaking Studios — Game launch demo",
+      srcWebm: "",
+      srcMp4: "/videos/work/Metaking Studios Project Manager.mp4",
+      poster: "/videos/work/metaking-poster.jpg",
+    },
   },
   {
     role: "Program Manager",
@@ -87,6 +111,12 @@ export const experiences: Experience[] = [
       "Negotiated ~$500k investor funding, extending runway by ~9 months.",
       "Managed development of a fund-generating platform supporting 10+ external game developers.",
     ],
+    video: {
+      label: "Seascape Network — Program management overview",
+      srcWebm: "",
+      srcMp4: "/videos/work/Seascaep network Program Manager.mp4",
+      poster: "/videos/work/seascape-pm-poster.jpg",
+    },
   },
   {
     role: "Data Analyst",
@@ -99,6 +129,12 @@ export const experiences: Experience[] = [
       "Partner ecosystem insights contributed to 30+ integrations and MAU growth from ~10k to ~56k.",
       "Built repeatable KPI tracking to support leadership planning and investor reporting.",
     ],
+    video: {
+      label: "Seascape Network — Data analytics dashboard",
+      srcWebm: "",
+      srcMp4: "/videos/work/Seascape Network Data analyst.mp4",
+      poster: "/videos/work/seascape-data-poster.jpg",
+    },
   },
 ];
 
@@ -143,6 +179,7 @@ export const aiSkills: string[] = [
   "Hera",
   "Gemini",
   "Sora",
+  "Dora.AI",
   "Perplexity",
   "Power BI with AI",
   "UiPath",
@@ -167,5 +204,6 @@ export const aiUses: Record<string, string> = {
   LangGraph: "graph‑based LLM workflows with loops/branches",
   DeepSeek: "cost‑efficient coding and reasoning",
   Grok: "real‑time answers and technical Q&A",
+  "Dora.AI": "web animation and motion design for prototype sites",
 };
 

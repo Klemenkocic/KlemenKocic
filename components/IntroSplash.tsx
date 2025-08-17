@@ -9,6 +9,7 @@ type IntroSplashProps = {
 export default function IntroSplash({ onDone }: IntroSplashProps) {
   const [hidden, setHidden] = useState(false);
   const [closing, setClosing] = useState(false);
+  const [preBlack, setPreBlack] = useState(true);
 
   const prefersReduced = useMemo(() => {
     if (typeof window === "undefined") return false;
@@ -28,16 +29,20 @@ export default function IntroSplash({ onDone }: IntroSplashProps) {
       return () => clearTimeout(t);
     }
 
-    const showMs = 1200; // quick, elegant intro
-    const fadeMs = 350;
+    // First show a pure black screen for smoother visual load, then the text
+    const preBlackMs = 500;
+    const showMs = 2200; // longer display time
+    const fadeMs = 700;  // longer fade duration
 
-    const toClose = setTimeout(() => setClosing(true), showMs);
+    const toShowText = setTimeout(() => setPreBlack(false), preBlackMs);
+    const toClose = setTimeout(() => setClosing(true), preBlackMs + showMs);
     const toHide = setTimeout(() => {
       setHidden(true);
       onDone();
-    }, showMs + fadeMs);
+    }, preBlackMs + showMs + fadeMs);
 
     return () => {
+      clearTimeout(toShowText);
       clearTimeout(toClose);
       clearTimeout(toHide);
     };
@@ -51,18 +56,22 @@ export default function IntroSplash({ onDone }: IntroSplashProps) {
     <div
       className={
         "fixed inset-0 z-50 flex items-center justify-center bg-background text-foreground " +
-        (closing ? "opacity-0 transition-opacity duration-300" : "opacity-100")
+        (closing ? "opacity-0 transition-opacity duration-700" : "opacity-100")
       }
       role="dialog"
       aria-label="Intro"
     >
-      <div className="intro-text flex gap-2 text-2xl md:text-4xl font-display select-none">
-        {words.map((w, i) => (
-          <span key={w} className="intro-word" style={{ animationDelay: `${i * 120}ms` }}>
-            {w}
-          </span>
-        ))}
-      </div>
+      {preBlack ? (
+        <div className="absolute inset-0 bg-black" aria-hidden />
+      ) : (
+        <div className="intro-text flex gap-3 text-4xl md:text-6xl lg:text-7xl font-display select-none">
+          {words.map((w, i) => (
+            <span key={w} className="intro-word" style={{ animationDelay: `${i * 260}ms` }}>
+              {w}
+            </span>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

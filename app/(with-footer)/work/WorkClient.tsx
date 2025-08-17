@@ -8,6 +8,7 @@ import EducationSection from "@/components/EducationSection";
 import CertificationsGrid from "@/components/CertificationsGrid";
 import { experiences, projects, skills, personalSkills, aiSkills, aiUses } from "@/content/workData";
 import ProgressRail from "@/components/ProgressRail";
+import ExperienceVideo from "@/components/work/ExperienceVideo";
 
 const techFont = Space_Grotesk({ subsets: ["latin"], display: "swap" });
 
@@ -120,7 +121,17 @@ export default function WorkClient() {
                         ))}
                       </ul>
                     </div>
-                    <div className={`${isLeft ? "md:order-2" : ""}`}></div>
+                    <div className={`${isLeft ? "md:order-2" : ""} ${exp.video ? "mt-6 md:mt-0" : ""}`}>
+                      {exp.video && (
+                        <ExperienceVideo
+                          label={exp.video.label}
+                          srcWebm={exp.video.srcWebm}
+                          srcMp4={exp.video.srcMp4}
+                          poster={exp.video.poster}
+                          className="w-full"
+                        />
+                      )}
+                    </div>
                   </motion.div>
 
                   {/* mobile connector */}

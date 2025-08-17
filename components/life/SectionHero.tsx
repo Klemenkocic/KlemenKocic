@@ -13,7 +13,6 @@ type Props = {
 export default function SectionHero({ title, copy, images }: Props) {
   return (
     <div className="hero-wrap">
-      <div className="hero-bg" />
       <div className="hero-inner">
         <h1 className="hero-title">{title.toUpperCase()}</h1>
         <p className="hero-copy">{copy}</p>

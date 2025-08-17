@@ -89,8 +89,8 @@ a:focus-visible {
 /* Intro word animation inspired by sequential word reveal pattern */
 .intro-word {
   opacity: 0;
-  transform: translateY(8px);
-  animation: introWord 420ms ease-out forwards;
+  transform: translateY(10px);
+  animation: introWord 720ms ease-out forwards;
 }
 
 @keyframes introWord {
