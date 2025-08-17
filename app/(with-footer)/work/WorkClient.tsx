@@ -45,7 +45,7 @@ export default function WorkClient() {
   });
 
   return (
-    <main className={`${techFont.className} bg-background`}>
+    <main className={`${techFont.className} bg-background overflow-x-hidden`}>
       <ProgressRail progress={progress} accentClassName="bg-white" />
       {/* 1) Intro */}
       <Section className="py-16 sm:py-20 md:py-24 lg:py-32">
@@ -168,7 +168,7 @@ export default function WorkClient() {
                     <span className="text-xs px-2 sm:px-2.5 py-1 rounded-full bg-white/10 text-foreground/90 inline-block">
                       {s}
                     </span>
-                    <span className="pointer-events-none absolute left-0 -top-8 z-20 whitespace-nowrap text-[10px] sm:text-[11px] px-2 py-1 rounded bg-black/80 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span className="hidden sm:block pointer-events-none absolute left-0 -top-8 z-20 whitespace-nowrap text-[10px] sm:text-[11px] px-2 py-1 rounded bg-black/80 text-white opacity-0 group-hover:opacity-100 transition-opacity">
                       I use this for {aiUses[s] ?? "everyday tasks"}.
                     </span>
                   </div>
