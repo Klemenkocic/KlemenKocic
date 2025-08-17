@@ -64,7 +64,7 @@ export default function IntroSplash({ onDone }: IntroSplashProps) {
       {preBlack ? (
         <div className="absolute inset-0 bg-black" aria-hidden />
       ) : (
-        <div className="intro-text flex gap-3 text-4xl md:text-6xl lg:text-7xl font-display select-none">
+        <div className="intro-text flex gap-2 sm:gap-3 text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-display select-none px-4">
           {words.map((w, i) => (
             <span key={w} className="intro-word" style={{ animationDelay: `${i * 260}ms` }}>
               {w}

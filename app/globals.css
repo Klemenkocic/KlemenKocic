@@ -19,6 +19,17 @@ html {
 
 body {
   @apply bg-background text-foreground font-sans antialiased;
+  /* Prevent horizontal scroll on mobile */
+  overflow-x: hidden;
+}
+
+/* Ensure no element can cause horizontal overflow */
+* {
+  box-sizing: border-box;
+}
+
+*:not(html):not(body) {
+  max-width: 100%;
 }
 
 /* Split landing visual effects */
@@ -105,6 +116,25 @@ a:focus-visible {
   *, *::before, *::after {
     animation: none !important;
     transition: none !important;
+  }
+}
+
+/* Mobile-specific improvements */
+@media (max-width: 640px) {
+  /* Improve text readability on small screens */
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Ensure touch targets are at least 44px */
+  button, a, input, select, textarea {
+    min-height: 44px;
+  }
+  
+  /* Improve tap highlighting */
+  a, button {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0.1);
   }
 }
 

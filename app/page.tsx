@@ -42,13 +42,13 @@ export default function Home() {
           whileHover={baseHover}
           whileFocus={baseHover}
           transition={{ type: "spring", stiffness: 260, damping: 25 }}
-          className="w-full h-full p-10 md:p-16 text-center select-none"
+          className="w-full h-full p-6 sm:p-10 md:p-16 text-center select-none"
         >
           <div className="mx-auto max-w-xl">
-            <h2 className="font-display text-6xl md:text-7xl lg:text-8xl tracking-tight text-white group-hover:drop-shadow-[0_4px_24px_rgba(255,255,255,0.35)]">
+            <h2 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-tight text-white group-hover:drop-shadow-[0_4px_24px_rgba(255,255,255,0.35)]">
               Work
             </h2>
-            <p className="mt-4 text-foreground/80 text-base md:text-lg">
+            <p className="mt-3 sm:mt-4 text-foreground/80 text-sm sm:text-base md:text-lg">
               Professional Journey
             </p>
           </div>
@@ -74,13 +74,13 @@ export default function Home() {
           whileHover={baseHover}
           whileFocus={baseHover}
           transition={{ type: "spring", stiffness: 260, damping: 25 }}
-          className="w-full h-full p-10 md:p-16 text-center select-none"
+          className="w-full h-full p-6 sm:p-10 md:p-16 text-center select-none"
         >
           <div className="mx-auto max-w-xl">
-            <h2 className="font-display text-6xl md:text-7xl lg:text-8xl tracking-tight text-life group-hover:drop-shadow-[0_4px_24px_rgba(255,122,89,0.35)]">
+            <h2 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl tracking-tight text-life group-hover:drop-shadow-[0_4px_24px_rgba(255,122,89,0.35)]">
               Life
             </h2>
-            <p className="mt-4 text-foreground/80 text-base md:text-lg">
+            <p className="mt-3 sm:mt-4 text-foreground/80 text-sm sm:text-base md:text-lg">
               Personal Journey
             </p>
           </div>
