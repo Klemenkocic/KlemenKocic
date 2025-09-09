@@ -157,6 +157,9 @@ export default function WorkClient() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-10 mt-8 sm:mt-10">
           <Category title="Personal & People Skills" items={personalSkills} />
+          <LanguagesSection />
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-10 mt-8 sm:mt-10">
           <div className="min-w-0">
             <h3 className="text-xs sm:text-sm uppercase tracking-widest text-foreground/60 mb-3">AI Skill Set</h3>
             <div className="relative">
@@ -176,9 +179,8 @@ export default function WorkClient() {
               </div>
             </div>
           </div>
+          <div /> {/* Empty div for grid alignment */}
         </div>
-
-        
       </Section>
 
       {/* 4) Education */}
@@ -217,6 +219,40 @@ export default function WorkClient() {
         </div>
       </Section>
 
+      {/* CV Download */}
+      <Section className="py-12 sm:py-16 md:py-24">
+        <motion.div className="text-center" {...fadeSlide()}>
+          <h2 className="font-display text-xl sm:text-2xl md:text-3xl mb-4 sm:mb-6">
+            Want to know more?
+          </h2>
+          <p className="text-sm sm:text-base text-foreground/80 mb-6 sm:mb-8">
+            Download my resume for a complete overview of my experience and qualifications.
+          </p>
+          <motion.a
+            href="/CV Klemen Kocic.pdf"
+            download
+            className="inline-flex items-center gap-2 px-6 py-3 bg-white text-black rounded-lg font-medium text-sm sm:text-base hover:bg-white/90 transition-colors"
+            whileHover={prefersReduced ? undefined : { scale: 1.05 }}
+            whileTap={prefersReduced ? undefined : { scale: 0.95 }}
+          >
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+              />
+            </svg>
+            Download CV
+          </motion.a>
+        </motion.div>
+      </Section>
+
       {/* 6) Closer */}
       <Section className="py-16 sm:py-20 md:py-28">
         <motion.p className="text-sm sm:text-base text-foreground/80" {...fadeSlide()}>
@@ -238,6 +274,31 @@ function Category({ title, items }: { title: string; items: string[] }) {
             className="text-xs px-2 sm:px-2.5 py-1 rounded-full bg-white/10 text-foreground/90"
           >
             {it}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function LanguagesSection() {
+  const languages = [
+    { name: "Slovenian", level: "Mother Language" },
+    { name: "English", level: "C2" },
+    { name: "SerboCroatian", level: "B2" },
+    { name: "German", level: "A2" },
+  ];
+  
+  return (
+    <div>
+      <h3 className="text-xs sm:text-sm uppercase tracking-widest text-foreground/60 mb-3">Languages</h3>
+      <div className="flex flex-wrap gap-1.5 sm:gap-2">
+        {languages.map((lang) => (
+          <span
+            key={lang.name}
+            className="text-xs px-2 sm:px-2.5 py-1 rounded-full bg-white/10 text-foreground/90"
+          >
+            {lang.name}: {lang.level}
           </span>
         ))}
       </div>

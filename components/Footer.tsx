@@ -12,6 +12,12 @@ export default function Footer() {
           <div className="flex flex-col gap-1 sm:gap-0">
             <p className="text-xs sm:text-sm text-foreground/80">© {year} Klemen Kocic.</p>
             <p className="text-xs text-foreground/60">v0.01</p>
+            <a 
+              href="mailto:klemen@mydetour.co"
+              className="text-xs sm:text-sm text-foreground/80 hover:text-white hover:underline decoration-white/40 underline-offset-4 transition-colors mt-2"
+            >
+              klemen@mydetour.co
+            </a>
           </div>
           <ul className="flex flex-wrap gap-x-6 gap-y-2 justify-start sm:justify-end text-xs sm:text-sm">
             <li>

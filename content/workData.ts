@@ -153,7 +153,7 @@ export const projects: Project[] = [
   {
     name: "Squat Visualizer (iOS)",
     summary:
-      "Record and analyze squat technique with visual cues and a step-by-step improvement guide.",
+      "A free Squat visualizer App built in Swift on iOS for users to be able to record their squat and improve their technique with visual cues including a step-by-step technique Improvement guide.",
     tech: ["Swift", "AVFoundation", "CoreMotion"],
   },
 ];
