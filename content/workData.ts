@@ -20,6 +20,15 @@ export type Project = {
   notes?: string[];
 };
 
+export type BlogPost = {
+  title: string;
+  excerpt: string;
+  url: string;
+  date: string;
+  readingTime: string;
+  publication: string;
+};
+
 export type Skills = {
   languages: string[];
   frameworks: string[];
@@ -206,4 +215,23 @@ export const aiUses: Record<string, string> = {
   Grok: "real‑time answers and technical Q&A",
   "Dora.AI": "web animation and motion design for prototype sites",
 };
+
+export const blogPosts: BlogPost[] = [
+  {
+    title: "More Than a Mirror",
+    excerpt: "AI isn't lacking—most of the time, it's a you-problem. Bring vague questions and thin knowledge, and AI will upscale your vagueness. This article explores the Augmentation Arc: Mirror, Lens, Lighthouse, and Prism—four modes that transform how we work with AI from reflection to resonance.",
+    url: "https://www.luminousgroup.net/luminosity/more-than-a-mirror",
+    date: "Sep 24",
+    readingTime: "5 min read",
+    publication: "Luminous Group"
+  },
+  {
+    title: "The Racing Yacht",
+    excerpt: "Steve Jobs called the computer a 'bicycle for the mind'—but that metaphor no longer fits. In the age of AI, leaders need to think less like cyclists and more like sailors. This piece explores how augmentation requires collective intelligence, turning ambient signals into strategic advantage.",
+    url: "https://www.luminousgroup.net/luminosity/the-racing-yacht",
+    date: "Oct 10",
+    readingTime: "4 min read",
+    publication: "Luminous Group"
+  }
+];
 

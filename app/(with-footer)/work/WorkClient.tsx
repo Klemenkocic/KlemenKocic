@@ -6,7 +6,7 @@ import { useReducedMotion, motion } from "framer-motion";
 import Section from "@/components/Section";
 import EducationSection from "@/components/EducationSection";
 import CertificationsGrid from "@/components/CertificationsGrid";
-import { experiences, projects, skills, personalSkills, aiSkills, aiUses } from "@/content/workData";
+import { experiences, projects, skills, personalSkills, aiSkills, aiUses, blogPosts } from "@/content/workData";
 import ProgressRail from "@/components/ProgressRail";
 import ExperienceVideo from "@/components/work/ExperienceVideo";
 
@@ -144,7 +144,59 @@ export default function WorkClient() {
         </div>
       </Section>
 
-      {/* 3) Skills & Tools */}
+      {/* 3) Writing */}
+      <Section className="py-12 sm:py-16 md:py-24">
+        <motion.h2 className="font-display text-xl sm:text-2xl md:text-3xl mb-6 sm:mb-8" {...fadeSlide()}>
+          Writing
+        </motion.h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
+          {blogPosts.map((post, i) => (
+            <motion.a
+              key={post.url}
+              href={post.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block border border-white/10 rounded-xl p-4 sm:p-6 bg-white/5 backdrop-blur-[1px] min-w-0 hover:bg-white/[0.07] transition-colors"
+              whileHover={prefersReduced ? undefined : { y: -4 }}
+              {...fadeSlide(i)}
+            >
+              {/* Meta information */}
+              <div className="flex items-center gap-2 text-xs sm:text-sm text-foreground/60 mb-3">
+                <span>{post.date}</span>
+                <span>•</span>
+                <span>{post.readingTime}</span>
+                <span>•</span>
+                <span className="flex items-center gap-1">
+                  {post.publication}
+                  <svg className="w-3 h-3 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </span>
+              </div>
+              
+              {/* Title */}
+              <h3 className="font-display text-lg sm:text-xl md:text-2xl mb-3 group-hover:text-white transition-colors">
+                {post.title}
+              </h3>
+              
+              {/* Excerpt */}
+              <p className="text-sm sm:text-base text-foreground/80 leading-relaxed line-clamp-3">
+                {post.excerpt}
+              </p>
+              
+              {/* Read more link */}
+              <div className="mt-4 text-sm text-foreground/60 group-hover:text-foreground/80 transition-colors flex items-center gap-1">
+                <span>Read on {post.publication}</span>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </div>
+            </motion.a>
+          ))}
+        </div>
+      </Section>
+
+      {/* 4) Skills & Tools */}
       <Section className="py-12 sm:py-16 md:py-24">
         <motion.h2 className="font-display text-xl sm:text-2xl md:text-3xl mb-6 sm:mb-8" {...fadeSlide()}>
           Skills & Tools
@@ -183,13 +235,13 @@ export default function WorkClient() {
         </div>
       </Section>
 
-      {/* 4) Education */}
+      {/* 5) Education */}
       <EducationSection />
 
       {/* Certifications */}
       <CertificationsGrid />
 
-      {/* 5) Projects */}
+      {/* 6) Projects */}
       <Section className="py-12 sm:py-16 md:py-24">
         <motion.h2 className="font-display text-xl sm:text-2xl md:text-3xl mb-6 sm:mb-8" {...fadeSlide()}>
           Projects
@@ -253,7 +305,7 @@ export default function WorkClient() {
         </motion.div>
       </Section>
 
-      {/* 6) Closer */}
+      {/* 7) Closer */}
       <Section className="py-16 sm:py-20 md:py-28">
         <motion.p className="text-sm sm:text-base text-foreground/80" {...fadeSlide()}>
           Thanks for reading — onward.
