@@ -9,6 +9,7 @@ import CertificationsGrid from "@/components/CertificationsGrid";
 import { experiences, projects, skills, personalSkills, aiSkills, aiUses, blogPosts } from "@/content/workData";
 import ProgressRail from "@/components/ProgressRail";
 import ExperienceVideo from "@/components/work/ExperienceVideo";
+import ProjectVideo from "@/components/work/ProjectVideo";
 
 const techFont = Space_Grotesk({ subsets: ["latin"], display: "swap" });
 
@@ -223,9 +224,9 @@ export default function WorkClient() {
                     <span className="text-xs px-2 sm:px-2.5 py-1 rounded-full bg-white/10 text-foreground/90 inline-block">
                       {s}
                     </span>
-                    <span className="hidden sm:block pointer-events-none absolute left-0 -top-8 z-20 whitespace-nowrap text-[10px] sm:text-[11px] px-2 py-1 rounded bg-black/80 text-white opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="hidden sm:inline-block pointer-events-none absolute left-0 -top-8 z-20 w-fit max-w-none whitespace-nowrap text-[10px] sm:text-[11px] px-3 py-1.5 rounded-md bg-gradient-to-r from-gray-900 to-black backdrop-blur-sm text-white shadow-lg border border-white/10 opacity-0 group-hover:opacity-100 transition-opacity">
                       I use this for {aiUses[s] ?? "everyday tasks"}.
-                    </span>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -246,28 +247,97 @@ export default function WorkClient() {
         <motion.h2 className="font-display text-xl sm:text-2xl md:text-3xl mb-6 sm:mb-8" {...fadeSlide()}>
           Projects
         </motion.h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
-          {projects.map((p, i) => (
+        <div className="space-y-6 sm:space-y-8">
+          {/* Luminous Group - Full Width */}
+          {projects[0] && (
             <motion.article
-              key={p.name}
+              key={projects[0].name}
               className="border border-white/10 rounded-xl p-4 sm:p-6 bg-white/5 backdrop-blur-[1px] min-w-0"
-              whileHover={prefersReduced ? undefined : { y: -4 }}
-              {...fadeSlide(i)}
+              {...fadeSlide(0)}
             >
-              <h3 className="font-display text-lg sm:text-xl break-words">{p.name}</h3>
-              <p className="mt-2 text-sm sm:text-base text-foreground/80 leading-relaxed break-words">{p.summary}</p>
-              <div className="mt-3 sm:mt-4 flex flex-wrap gap-1.5 sm:gap-2">
-                {p.tech.map((t) => (
-                  <span
-                    key={t}
-                    className="text-xs px-2 py-1 rounded-full bg-white/10 text-foreground/90 break-words"
-                  >
-                    {t}
-                  </span>
-                ))}
+              <div className="flex flex-col gap-4 sm:gap-6">
+                <div className="min-w-0">
+                  <h3 className="font-display text-lg sm:text-xl md:text-2xl break-words">{projects[0].name}</h3>
+                  <p className="mt-2 text-sm sm:text-base text-foreground/80 leading-relaxed break-words">{projects[0].summary}</p>
+                  <div className="mt-3 sm:mt-4 flex flex-wrap gap-1.5 sm:gap-2">
+                    {projects[0].tech.map((t) => (
+                      <span key={t} className="text-xs px-2 py-1 rounded-full bg-white/10 text-foreground/90 break-words">
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                {projects[0].video && (
+                  <div className="min-w-0 w-full">
+                    <ProjectVideo
+                      label={projects[0].video.label}
+                      srcWebm={projects[0].video.srcWebm}
+                      srcMp4={projects[0].video.srcMp4}
+                      poster={projects[0].video.poster}
+                      format={projects[0].video.format}
+                      className="w-full"
+                    />
+                  </div>
+                )}
               </div>
             </motion.article>
-          ))}
+          )}
+
+          {/* ViaVia and Squat Visualizer - Side by Side */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+            {[projects[1], projects[2]].map((p, idx) => p && (
+              <motion.article
+                key={p.name}
+                className="border border-white/10 rounded-xl p-4 sm:p-6 bg-white/5 backdrop-blur-[1px] min-w-0 flex flex-col"
+                {...fadeSlide(idx + 1)}
+              >
+                <div className="min-w-0 flex-1">
+                  <h3 className="font-display text-lg sm:text-xl break-words">{p.name}</h3>
+                  <p className="mt-2 text-sm sm:text-base text-foreground/80 leading-relaxed break-words">{p.summary}</p>
+                  <div className="mt-3 sm:mt-4 flex flex-wrap gap-1.5 sm:gap-2">
+                    {p.tech.map((t) => (
+                      <span key={t} className="text-xs px-2 py-1 rounded-full bg-white/10 text-foreground/90 break-words">
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                {p.video && (
+                  <div className="min-w-0 w-full mt-4 sm:mt-6">
+                    <ProjectVideo
+                      label={p.video.label}
+                      srcWebm={p.video.srcWebm}
+                      srcMp4={p.video.srcMp4}
+                      poster={p.video.poster}
+                      format={p.video.format}
+                      className="w-full"
+                    />
+                  </div>
+                )}
+              </motion.article>
+            ))}
+          </div>
+
+          {/* Libre Sudoku - Full Width */}
+          {projects[3] && (
+            <motion.article
+              key={projects[3].name}
+              className="border border-white/10 rounded-xl p-4 sm:p-6 bg-white/5 backdrop-blur-[1px] min-w-0"
+              {...fadeSlide(3)}
+            >
+              <div className="min-w-0">
+                <h3 className="font-display text-lg sm:text-xl md:text-2xl break-words">{projects[3].name}</h3>
+                <p className="mt-2 text-sm sm:text-base text-foreground/80 leading-relaxed break-words">{projects[3].summary}</p>
+                <div className="mt-3 sm:mt-4 flex flex-wrap gap-1.5 sm:gap-2">
+                  {projects[3].tech.map((t) => (
+                    <span key={t} className="text-xs px-2 py-1 rounded-full bg-white/10 text-foreground/90 break-words">
+                      {t}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </motion.article>
+          )}
         </div>
       </Section>
 

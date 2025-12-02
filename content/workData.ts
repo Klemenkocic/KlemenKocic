@@ -18,6 +18,13 @@ export type Project = {
   summary: string;
   tech: string[];
   notes?: string[];
+  video?: {
+    label: string;
+    srcWebm: string;
+    srcMp4?: string;
+    poster?: string;
+    format?: "laptop" | "phone"; // Display format for the video
+  };
 };
 
 export type BlogPost = {
@@ -149,21 +156,48 @@ export const experiences: Experience[] = [
 
 export const projects: Project[] = [
   {
-    name: "Detour",
+    name: "Luminous Group",
+    summary:
+      "Developing AI solutions and digital strategy tools for a human-centered consulting firm operating across Berlin and USA, focusing on adaptive capability and technological integration.",
+    tech: ["TypeScript", "Next.js", "AI/ML Integration", "Python", "Strategic Consulting"],
+    video: {
+      label: "Luminous Group — AI solutions demo",
+      srcWebm: "",
+      srcMp4: "/videos/work/Luminous.mp4",
+      poster: "/videos/work/luminous-poster.jpg",
+      format: "laptop",
+    },
+  },
+  {
+    name: "ViaVia",
     summary:
       "Road-trip planner that turns basic inputs into an interactive 3D itinerary with optimized routes and a quick AI planning feature.",
     tech: ["Cesium", "Google Maps", "TypeScript", "Next.js", "Node.js"],
-  },
-  {
-    name: "Libre Sudoku (iOS)",
-    summary: "Free Sudoku app built in Swift for distraction-free play.",
-    tech: ["Swift", "UIKit/SwiftUI"],
+    video: {
+      label: "ViaVia — Road-trip planner demo",
+      srcWebm: "",
+      srcMp4: "/videos/work/ViaVia.mp4",
+      poster: "/videos/work/viavia-poster.jpg",
+      format: "phone",
+    },
   },
   {
     name: "Squat Visualizer (iOS)",
     summary:
       "A free Squat visualizer App built in Swift on iOS for users to be able to record their squat and improve their technique with visual cues including a step-by-step technique Improvement guide.",
     tech: ["Swift", "AVFoundation", "CoreMotion"],
+    video: {
+      label: "Squat Visualizer — Technique analysis demo",
+      srcWebm: "",
+      srcMp4: "/videos/work/Squat App.mp4",
+      poster: "/videos/work/squat-poster.jpg",
+      format: "phone",
+    },
+  },
+  {
+    name: "Libre Sudoku (iOS)",
+    summary: "Frustrated by intrusive ads in existing Sudoku apps, I built my own free, ad-free version in Swift for truly distraction-free play.",
+    tech: ["Swift", "UIKit/SwiftUI"],
   },
 ];
 
@@ -217,6 +251,14 @@ export const aiUses: Record<string, string> = {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    title: "Open the Window",
+    excerpt: "Using AI at work is not cheating—when it is used to augment human judgment and capability, not replace it. A framework for organizations to permit, equip, and audit AI-assisted work.",
+    url: "https://www.luminousgroup.net/luminosity/open-the-window",
+    date: "Nov 28",
+    readingTime: "6 min read",
+    publication: "Luminous Group"
+  },
   {
     title: "More Than a Mirror",
     excerpt: "AI isn't lacking—most of the time, it's a you-problem. Bring vague questions and thin knowledge, and AI will upscale your vagueness. This article explores the Augmentation Arc: Mirror, Lens, Lighthouse, and Prism—four modes that transform how we work with AI from reflection to resonance.",
