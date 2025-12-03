@@ -25,12 +25,13 @@ export default function Home() {
     : { scale: 1.02 };
 
   return (
-    <main className="landing relative min-h-screen grid md:grid-cols-2 grid-cols-1">
-      {/* Work */}
-      <Link
-        href="/work"
-        aria-label="Go to Work"
-        className="split-link grain group relative flex items-center justify-center border-b md:border-b-0 md:border-r border-white/10 focus:outline-none"
+    <div className="relative min-h-screen">
+      <main className="landing grid md:grid-cols-2 grid-cols-1 min-h-screen">
+        {/* Work */}
+        <Link
+          href="/work"
+          aria-label="Go to Work"
+          className="split-link grain group relative flex items-center justify-center border-b md:border-b-0 md:border-r border-white/10 focus:outline-none"
         style={{
           // Use white accent for glow
           // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -88,35 +89,36 @@ export default function Home() {
           </div>
         </motion.div>
       </Link>
+    </main>
 
-      {/* Scalable Team Button */}
-      <motion.button
-        onClick={() => setIsModalOpen(true)}
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.5, duration: 0.6 }}
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 px-4 sm:px-6 py-2 sm:py-2.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-sm hover:bg-white/10 hover:border-white/30 transition-all duration-300 group"
-        aria-label="View message for Scalable Team"
-      >
-        <span className="text-xs sm:text-sm text-white/80 group-hover:text-white transition-colors flex items-center gap-2">
-          <svg className="w-3 h-3 sm:w-4 sm:h-4" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-          </svg>
-          For the Scalable Team
-        </span>
-      </motion.button>
+    {/* Scalable Team Button */}
+    <motion.button
+      onClick={() => setIsModalOpen(true)}
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.5, duration: 0.6 }}
+      className="fixed bottom-6 inset-x-0 mx-auto w-fit z-10 px-4 sm:px-6 py-2 sm:py-2.5 rounded-full border border-white/20 bg-white/5 backdrop-blur-sm hover:bg-white/10 hover:border-white/30 transition-all duration-300 group"
+      aria-label="View message for Scalable Team"
+    >
+      <span className="text-xs sm:text-sm text-white/80 group-hover:text-white transition-colors flex items-center gap-2">
+        <svg className="w-3 h-3 sm:w-4 sm:h-4" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+          <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+        </svg>
+        For the Scalable Team
+      </span>
+    </motion.button>
 
-      {/* Image Modal */}
-      <ImageModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        imageSrc="/images/scalable-team.png"
-        imageAlt="Message for the Scalable Team"
-      />
+    {/* Image Modal */}
+    <ImageModal
+      isOpen={isModalOpen}
+      onClose={() => setIsModalOpen(false)}
+      imageSrc="/images/scalable-team.png"
+      imageAlt="Message for the Scalable Team"
+    />
 
-      {/* Focus ring for accessibility */}
-      <style jsx>{`
+    {/* Focus ring for accessibility */}
+    <style jsx>{`
         a.split-link:focus-visible {
           outline: 2px solid rgba(255, 255, 255, 0.6);
           outline-offset: -4px;
@@ -130,6 +132,6 @@ export default function Home() {
           }
         }
       `}</style>
-    </main>
+    </div>
   );
 }

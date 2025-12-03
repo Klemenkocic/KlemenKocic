@@ -259,13 +259,6 @@ export default function WorkClient() {
                 <div className="min-w-0">
                   <h3 className="font-display text-lg sm:text-xl md:text-2xl break-words">{projects[0].name}</h3>
                   <p className="mt-2 text-sm sm:text-base text-foreground/80 leading-relaxed break-words">{projects[0].summary}</p>
-                  <div className="mt-3 sm:mt-4 flex flex-wrap gap-1.5 sm:gap-2">
-                    {projects[0].tech.map((t) => (
-                      <span key={t} className="text-xs px-2 py-1 rounded-full bg-white/10 text-foreground/90 break-words">
-                        {t}
-                      </span>
-                    ))}
-                  </div>
                 </div>
                 {projects[0].video && (
                   <div className="min-w-0 w-full">
@@ -294,13 +287,6 @@ export default function WorkClient() {
                 <div className="min-w-0 flex-1">
                   <h3 className="font-display text-lg sm:text-xl break-words">{p.name}</h3>
                   <p className="mt-2 text-sm sm:text-base text-foreground/80 leading-relaxed break-words">{p.summary}</p>
-                  <div className="mt-3 sm:mt-4 flex flex-wrap gap-1.5 sm:gap-2">
-                    {p.tech.map((t) => (
-                      <span key={t} className="text-xs px-2 py-1 rounded-full bg-white/10 text-foreground/90 break-words">
-                        {t}
-                      </span>
-                    ))}
-                  </div>
                 </div>
                 {p.video && (
                   <div className="min-w-0 w-full mt-4 sm:mt-6">
@@ -328,13 +314,6 @@ export default function WorkClient() {
               <div className="min-w-0">
                 <h3 className="font-display text-lg sm:text-xl md:text-2xl break-words">{projects[3].name}</h3>
                 <p className="mt-2 text-sm sm:text-base text-foreground/80 leading-relaxed break-words">{projects[3].summary}</p>
-                <div className="mt-3 sm:mt-4 flex flex-wrap gap-1.5 sm:gap-2">
-                  {projects[3].tech.map((t) => (
-                    <span key={t} className="text-xs px-2 py-1 rounded-full bg-white/10 text-foreground/90 break-words">
-                      {t}
-                    </span>
-                  ))}
-                </div>
               </div>
             </motion.article>
           )}
