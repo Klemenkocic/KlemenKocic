@@ -203,7 +203,7 @@ export default function WorkClient() {
           Skills & Tools
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-10">
-          <Category title="Languages" items={skills.languages} />
+          <Category title="Programming Languages" items={skills.languages} />
           <Category title="Frameworks" items={skills.frameworks} />
           <Category title="Data Platforms" items={skills.data_platforms} />
           <Category title="Tools" items={skills.tools} />
