@@ -202,10 +202,10 @@ export const projects: Project[] = [
 ];
 
 export const skills: Skills = {
-  languages: ["TypeScript", "Python", "Swift", "Kotlin", "Java", "R"],
-  frameworks: ["Node.js", "Next.js", "Django", "Ruby on Rails", "Stimulus"],
+  languages: ["JavaScript", "TypeScript", "Python", "Swift", "Kotlin", "Java", "SQL", "HTML/CSS", "R"],
+  frameworks: ["React", "Next.js", "React Native", "Node.js", "Tailwind CSS", "SwiftUI", "Django", "Ruby on Rails", "Stimulus"],
   data_platforms: ["PostgreSQL", "MongoDB", "Firebase", "Tableau", "Grafana"],
-  tools: ["Jira", "Asana", "Git", "Agile/Scrum"],
+  tools: ["Git", "GitHub", "Jira", "Asana", "Xcode", "VS Code", "Vercel", "npm/pnpm", "Agile/Scrum"],
   certifications: [
     "Meta – Backend Developer",
     "Google – Project Management Specialization",
