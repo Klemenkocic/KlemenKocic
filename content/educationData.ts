@@ -33,7 +33,7 @@ export const education: EducationItem[] = [
   },
   {
     institution: "University of Seoul",
-    program: "Exchange — Business Administration",
+    program: "Bilateral Exchange — Business Administration",
     location: "Seoul, South Korea",
     from: "2021",
     to: "2022",
