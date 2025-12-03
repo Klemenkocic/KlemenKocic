@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="flex flex-col gap-4 sm:grid sm:grid-cols-2 sm:items-center">
           <div className="flex flex-col gap-1 sm:gap-0">
             <p className="text-xs sm:text-sm text-foreground/80">© {year} Klemen Kocic.</p>
-            <p className="text-xs text-foreground/60">v0.01</p>
+            <p className="text-xs text-foreground/60">Always evolving — v22</p>
             <a
               href="mailto:klemen.kocic@gmail.com"
               className="text-xs sm:text-sm text-foreground/80 hover:text-white hover:underline decoration-white/40 underline-offset-4 transition-colors mt-2"
