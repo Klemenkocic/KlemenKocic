@@ -171,7 +171,7 @@ export const projects: Project[] = [
   {
     name: "ViaVia",
     summary:
-      "Road-trip planner that turns basic inputs into an interactive 3D itinerary with optimized routes and a quick AI planning feature.",
+      "Co-founded and served as CEO of ViaVia, a road-trip planner that turns basic inputs into an interactive 3D itinerary with optimized routes and a quick AI planning feature.",
     tech: ["Cesium", "Google Maps", "TypeScript", "Next.js", "Node.js"],
     video: {
       label: "ViaVia — Road-trip planner demo",
