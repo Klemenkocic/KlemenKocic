@@ -408,7 +408,7 @@ function LanguagesSection() {
     { name: "Slovenian", level: "Mother Language" },
     { name: "English", level: "C2" },
     { name: "SerboCroatian", level: "B2" },
-    { name: "German", level: "A2" },
+    { name: "German", level: "B1" },
   ];
   
   return (
