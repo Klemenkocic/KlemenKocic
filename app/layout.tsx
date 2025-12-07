@@ -45,9 +45,59 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Person schema markup for Google Knowledge Panel
+  const personSchema = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "Klemen Kocic",
+    alternateName: "Klemen Kočič",
+    jobTitle: "CEO & Co-Founder",
+    worksFor: {
+      "@type": "Organization",
+      name: "ViaVia Travel",
+    },
+    alumniOf: [
+      {
+        "@type": "EducationalOrganization",
+        name: "University of Ljubljana",
+        url: "https://www.uni-lj.si/",
+      },
+      {
+        "@type": "EducationalOrganization",
+        name: "University of Seoul",
+        url: "https://www.uos.ac.kr/",
+      },
+    ],
+    sameAs: [
+      "https://www.linkedin.com/in/klemen-kocic",
+      "https://github.com/Klemenkocic",
+      "https://klemenkocic.com",
+    ],
+    url: "https://klemenkocic.com",
+    image: "https://klemenkocic.com/images/profile.jpg",
+    description:
+      "CEO & Co-Founder of ViaVia Travel. Technical lead with expertise in AI, product development, and European travel. Based in Munich, Germany.",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Munich",
+      addressRegion: "Bavaria",
+      addressCountry: "Germany",
+    },
+    nationality: {
+      "@type": "Country",
+      name: "Slovenia",
+    },
+  };
+
   // Client wrapper to show intro only once per session
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+        />
+      </head>
       <body className={`${inter.variable} ${outfit.variable} antialiased`}>
         <ClientIntroWrapper>{children}</ClientIntroWrapper>
       </body>

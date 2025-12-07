@@ -6,6 +6,7 @@ import { useReducedMotion, motion } from "framer-motion";
 import Section from "@/components/Section";
 import EducationSection from "@/components/EducationSection";
 import CertificationsGrid from "@/components/CertificationsGrid";
+import BusinessCard from "@/components/BusinessCard";
 import { experiences, projects, skills, personalSkills, aiSkills, aiUses, blogPosts } from "@/content/workData";
 import ProgressRail from "@/components/ProgressRail";
 import ExperienceVideo from "@/components/work/ExperienceVideo";
@@ -48,8 +49,14 @@ export default function WorkClient() {
   return (
     <main className={`${techFont.className} bg-background overflow-x-hidden`}>
       <ProgressRail progress={progress} accentClassName="bg-white" />
-      {/* 1) Intro */}
+
+      {/* Business Card */}
       <Section className="py-16 sm:py-20 md:py-24 lg:py-32">
+        <BusinessCard />
+      </Section>
+
+      {/* 1) Intro */}
+      <Section className="py-0 sm:py-0 md:py-0 lg:py-0">
         <motion.div {...fadeSlide()}>
           <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight">
             Building calm systems and strong teams.
