@@ -327,37 +327,60 @@ export default function WorkClient() {
         </div>
       </Section>
 
-      {/* CV Download */}
+      {/* CV Download & Contact */}
       <Section className="py-12 sm:py-16 md:py-24">
         <motion.div className="text-center" {...fadeSlide()}>
           <h2 className="font-display text-xl sm:text-2xl md:text-3xl mb-4 sm:mb-6">
             Want to know more?
           </h2>
           <p className="text-sm sm:text-base text-foreground/80 mb-6 sm:mb-8">
-            Download my resume for a complete overview of my experience and qualifications.
+            Download my resume or reach out directly — I'd love to hear from you.
           </p>
-          <motion.a
-            href="/CV Klemen Kocic.pdf"
-            download
-            className="inline-flex items-center gap-2 px-6 py-3 bg-white text-black rounded-lg font-medium text-sm sm:text-base hover:bg-white/90 transition-colors"
-            whileHover={prefersReduced ? undefined : { scale: 1.05 }}
-            whileTap={prefersReduced ? undefined : { scale: 0.95 }}
-          >
-            <svg
-              className="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <motion.a
+              href="/Klemen_Kocic_Resume.pdf"
+              download
+              className="inline-flex items-center gap-2 px-6 py-3 bg-white text-black rounded-lg font-medium text-sm sm:text-base hover:bg-white/90 transition-colors"
+              whileHover={prefersReduced ? undefined : { scale: 1.05 }}
+              whileTap={prefersReduced ? undefined : { scale: 0.95 }}
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-              />
-            </svg>
-            Download CV
-          </motion.a>
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                />
+              </svg>
+              Download CV
+            </motion.a>
+            <motion.a
+              href="mailto:klemen.kocic@gmail.com"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-transparent border border-white/30 text-white rounded-lg font-medium text-sm sm:text-base hover:bg-white/10 transition-colors"
+              whileHover={prefersReduced ? undefined : { scale: 1.05 }}
+              whileTap={prefersReduced ? undefined : { scale: 0.95 }}
+            >
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                />
+              </svg>
+              Email Me
+            </motion.a>
+          </div>
         </motion.div>
       </Section>
 

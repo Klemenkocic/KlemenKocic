@@ -156,6 +156,45 @@ export default function Orchestrator() {
         </p>
       </section>
 
+      <section className="relative space-y-6 sm:space-y-8 md:pl-24" style={{ zIndex: 1 }}>
+        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground">
+          What I Do Now
+        </h2>
+        <p className="text-base sm:text-lg leading-relaxed text-foreground/85 max-w-3xl mb-6">
+          These days I split my time between building products, leading teams, and helping businesses work smarter with AI.
+        </p>
+
+        <div className="space-y-6">
+          <div className="border-l-2 border-life/50 pl-4 sm:pl-6">
+            <h3 className="text-lg sm:text-xl font-semibold text-foreground">CEO & Co-Founder · ViaVia</h3>
+            <p className="text-sm text-foreground/60 mb-2">Munich · 2024 – Present</p>
+            <p className="text-base leading-relaxed text-foreground/85">
+              Building a multi-city European trip planning platform. Planning a trip to Europe is time-consuming, confusing, and costly — we&apos;re fixing that with one seamless booking flow for flights, trains, hotels, and activities.
+            </p>
+          </div>
+
+          <div className="border-l-2 border-life/50 pl-4 sm:pl-6">
+            <h3 className="text-lg sm:text-xl font-semibold text-foreground">Technical Lead · NHS Personal Training GmbH</h3>
+            <p className="text-sm text-foreground/60 mb-2">Munich · Jan 2025 – Present</p>
+            <p className="text-base leading-relaxed text-foreground/85">
+              Leading development of iOS coaching apps and web platforms. Directing 6 offshore engineers, building scheduling systems, and launching corporate sites in multiple languages.
+            </p>
+          </div>
+
+          <div className="border-l-2 border-life/50 pl-4 sm:pl-6">
+            <h3 className="text-lg sm:text-xl font-semibold text-foreground">AI Researcher · Luminous Group</h3>
+            <p className="text-sm text-foreground/60 mb-2">Berlin / USA · 2024 – Present</p>
+            <p className="text-base leading-relaxed text-foreground/85">
+              Helping organizations transition from AI augmentation to automation. Building governance frameworks, CRM integrations, and publishing thought leadership on responsible AI adoption.
+            </p>
+          </div>
+        </div>
+
+        <p className="text-base sm:text-lg leading-relaxed text-foreground/85 max-w-3xl mt-6">
+          I also run <span className="font-medium">Viadio</span>, a mobile app that generates cinematic AI videos from photos, and maintain a few open-source iOS apps on the side.
+        </p>
+      </section>
+
       <section className="relative space-y-3 sm:space-y-4 md:pl-24" style={{ zIndex: 1 }}>
         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground">
           Outro
@@ -163,7 +202,7 @@ export default function Orchestrator() {
         <p className="text-base sm:text-lg leading-relaxed text-foreground/85 max-w-3xl">
           I don&apos;t try to write the ending. My job is to set the stage: do the work, meet people halfway, keep showing up, and leave space for opportunity to land. The rest isn&apos;t mine to control, and I&apos;m grateful for that. It keeps surprise alive. The next honest step is enough. I&apos;ll keep noticing, helping, and moving toward the places that teach me.
         </p>
-          </section>
+      </section>
     </main>
   );
 }

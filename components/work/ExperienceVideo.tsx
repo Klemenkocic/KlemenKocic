@@ -19,6 +19,7 @@ export default function ExperienceVideo({
   poster,
   className = "",
 }: Props) {
+  const hasVideoSource = !!(srcWebm || srcMp4);
   const { videoRef, hasLoaded, reducedMotion } = useInViewVideo({
     srcWebm,
     srcMp4,
@@ -35,8 +36,29 @@ export default function ExperienceVideo({
       : { duration: 0.6, ease: "easeOut" },
   };
 
+  // If we have a poster but no video, just show the image
+  if (poster && !hasVideoSource) {
+    return (
+      <motion.div
+        className={`experience-video ${className}`}
+        {...fadeSlide}
+      >
+        <figure aria-label={label} className="relative aspect-video bg-black rounded-xl overflow-hidden flex items-center justify-center">
+          <Image
+            src={poster}
+            alt={label}
+            width={640}
+            height={360}
+            className="w-auto h-full max-w-full object-contain"
+          />
+          <figcaption className="sr-only">{label}</figcaption>
+        </figure>
+      </motion.div>
+    );
+  }
+
   return (
-    <motion.div 
+    <motion.div
       className={`experience-video ${className}`}
       {...fadeSlide}
     >
@@ -45,9 +67,9 @@ export default function ExperienceVideo({
         {!hasLoaded && !reducedMotion && (
           <div className="absolute inset-0 bg-white/5 animate-pulse" />
         )}
-        
-        {/* Fallback placeholder when no video/poster */}
-        {(!poster || (!srcWebm && !srcMp4)) && (
+
+        {/* Fallback placeholder when no video and no poster */}
+        {!poster && !hasVideoSource && (
           <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-white/5 to-white/10">
             <div className="text-center">
               <div className="text-white/40 text-sm font-medium">Video Preview</div>
@@ -55,7 +77,7 @@ export default function ExperienceVideo({
             </div>
           </div>
         )}
-        
+
         <video
           ref={videoRef}
           playsInline
@@ -68,18 +90,18 @@ export default function ExperienceVideo({
         >
           {/* Sources are dynamically added by the hook */}
         </video>
-        
+
         {/* Show static image for reduced motion */}
         {reducedMotion && poster && (
-          <Image 
-            src={poster} 
-            alt={label} 
-            width={640} 
-            height={360} 
-            className="absolute inset-0 w-full h-full object-cover" 
+          <Image
+            src={poster}
+            alt={label}
+            width={640}
+            height={360}
+            className="absolute inset-0 w-full h-full object-cover"
           />
         )}
-        
+
         <figcaption className="sr-only">{label}</figcaption>
       </figure>
     </motion.div>

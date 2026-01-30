@@ -57,6 +57,25 @@ export const personalSkills: string[] = [
 
 export const experiences: Experience[] = [
   {
+    role: "CEO & Co-Founder",
+    company: "ViaVia",
+    location: "Munich, Germany",
+    from: "2024",
+    to: "Present",
+    bullets: [
+      "Building a multi-city European trip planning platform solving the problem: planning trips to Europe is time-consuming, confusing, and costly.",
+      "Led product development from concept to live early-access platform with integrated booking flow for flights, trains, hotels, and activities.",
+      "Designed and built the technical architecture using Next.js, TypeScript, Supabase, Cesium, and Google Maps.",
+      "Managing go-to-market strategy, user acquisition, and investor relations.",
+    ],
+    video: {
+      label: "ViaVia — European trip planner",
+      srcWebm: "",
+      srcMp4: "",
+      poster: "/images/viavia-logo.png",
+    },
+  },
+  {
     role: "Technical Lead",
     company: "NHS Personal Training GmbH",
     location: "München, Germany",
@@ -158,8 +177,14 @@ export const projects: Project[] = [
   {
     name: "Luminous Group",
     summary:
-      "Developing AI solutions and digital strategy tools for a human-centered consulting firm operating across Berlin and USA, focusing on adaptive capability and technological integration.",
-    tech: ["TypeScript", "Next.js", "AI/ML Integration", "Python", "Strategic Consulting"],
+      "AI Researcher at a human-centered consulting firm operating across Berlin and USA. We help organizations transition from AI augmentation to automation through strategic frameworks, governance systems, and hands-on implementation. Built comprehensive tooling including CRM integrations (Attio, Linear, GitHub), lead generation systems, AI governance frameworks, and engineering manifestos that guide how teams adopt AI responsibly.",
+    tech: ["TypeScript", "Next.js", "Python", "AI Governance", "LangGraph", "Attio API", "Linear API", "Strategic Consulting"],
+    notes: [
+      "AI governance and augmentation frameworks for enterprise adoption",
+      "Custom API integrations for CRM, project management, and analytics",
+      "Published thought leadership on AI integration in organizations",
+      "Lead generation and case study systems for consulting pipeline",
+    ],
     video: {
       label: "Luminous Group — AI solutions demo",
       srcWebm: "",
@@ -171,13 +196,36 @@ export const projects: Project[] = [
   {
     name: "ViaVia",
     summary:
-      "Co-founded and serving as CEO of ViaVia — Less stress. More memories. One app to plan, discover, and share your unique European journey.",
-    tech: ["Cesium", "Google Maps", "TypeScript", "Next.js", "Node.js"],
+      "CEO and co-founder solving a real problem: planning a trip to Europe is time-consuming, confusing, and costly. ViaVia is a multi-city trip planning platform that lets travelers book flights, trains, hotels, and activities across multiple European cities in a single checkout. Less stress. More memories.",
+    tech: ["Next.js", "TypeScript", "Supabase", "Cesium", "Google Maps", "Node.js"],
+    notes: [
+      "Multi-city European trip booking in one seamless flow",
+      "Integrated flights, trains, hotels, and activities",
+      "Lead capture and early access platform live",
+    ],
     video: {
-      label: "ViaVia — Road-trip planner demo",
+      label: "ViaVia — European trip planner demo",
       srcWebm: "",
       srcMp4: "/videos/work/ViaVia.mp4",
       poster: "/videos/work/viavia-poster.jpg",
+      format: "phone",
+    },
+  },
+  {
+    name: "Viadio",
+    summary:
+      "Mobile AI video creation app that generates cinematic drone-style transition videos from two photos. Built with Flutter for iOS and Android, using fal.ai and Kling AI for video generation, with RevenueCat handling subscriptions.",
+    tech: ["Flutter", "Dart", "Supabase", "fal.ai", "Kling AI", "RevenueCat"],
+    notes: [
+      "AI-powered video generation from static images",
+      "Subscription-based monetization model",
+      "Cross-platform mobile app (iOS & Android)",
+    ],
+    video: {
+      label: "Viadio — AI video creation demo",
+      srcWebm: "",
+      srcMp4: "/videos/work/Viadio.mp4",
+      poster: "/videos/work/viadio-poster.jpg",
       format: "phone",
     },
   },
@@ -230,6 +278,10 @@ export const aiSkills: string[] = [
   "LangGraph",
   "DeepSeek",
   "Grok",
+  "fal.ai",
+  "Kling AI",
+  "Supabase AI",
+  "RevenueCat",
 ];
 
 // Uses sourced from tool docs and common workflows; kept concise for UI tooltip
@@ -248,6 +300,10 @@ export const aiUses: Record<string, string> = {
   DeepSeek: "cost‑efficient coding and reasoning",
   Grok: "real‑time answers and technical Q&A",
   "Dora.AI": "web animation and motion design for prototype sites",
+  "fal.ai": "AI infrastructure for video generation pipelines",
+  "Kling AI": "cinematic AI video creation from images",
+  "Supabase AI": "vector embeddings and AI-powered database queries",
+  RevenueCat: "subscription analytics and in-app purchase management",
 };
 
 export const blogPosts: BlogPost[] = [
