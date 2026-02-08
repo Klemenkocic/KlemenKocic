@@ -269,7 +269,7 @@ export default function WorkClient() {
             Want to know more?
           </h2>
           <p className="text-sm sm:text-base text-foreground/80 mb-6 sm:mb-8">
-            Download my resume or reach out directly — I'd love to hear from you.
+            Download my resume or reach out directly — I&apos;d love to hear from you.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <motion.a
