@@ -45,28 +45,44 @@ export type Skills = {
 };
 
 export const personalSkills: string[] = [
-  "Empathic leadership",
+  "Team leadership",
   "Clear communication",
-  "Active listening",
   "Coaching and mentoring",
-  "Team building",
   "Stakeholder alignment",
   "Conflict resolution",
-  "Psychological safety",
 ];
 
 export const experiences: Experience[] = [
   {
-    role: "CEO & Co-Founder",
-    company: "ViaVia",
+    role: "Consultant",
+    company: "Luminous Group",
     location: "Munich, Germany",
-    from: "2024",
+    from: "Jul 2025",
     to: "Present",
     bullets: [
-      "Building a multi-city European trip planning platform solving the problem: planning trips to Europe is time-consuming, confusing, and costly.",
-      "Led product development from concept to live early-access platform with integrated booking flow for flights, trains, hotels, and activities.",
-      "Designed and built the technical architecture using Next.js, TypeScript, Supabase, Cesium, and Google Maps.",
-      "Managing go-to-market strategy, user acquisition, and investor relations.",
+      "Luminous Group is a human-centred AI consultancy helping organizations move from AI adoption to AI capability — designing governance, workflows, and implementation systems that produce measurable outcomes.",
+      "Built internal systems including CRM integrations (Attio, Linear, GitHub) and operational tooling that keeps the team coordinated.",
+      "Created AI-augmented workflows used across the company — designing how the team works with AI, not just advising others on it.",
+      "Published research on AI augmentation strategy — \"Open the Window,\" \"More Than a Mirror,\" and \"The Racing Yacht\" — contributing to the firm's thought leadership on human-AI collaboration.",
+      "Work spans strategic consulting (client-facing workshops, capability assessments, workflow redesign) and hands-on building (prototyping AI tools, integrating systems, shipping internal products).",
+    ],
+    video: {
+      label: "Luminous Group — AI solutions demo",
+      srcWebm: "",
+      srcMp4: "/videos/work/Luminous.mp4",
+      poster: "/videos/work/luminous-poster.jpg",
+    },
+  },
+  {
+    role: "Co-Founder",
+    company: "ViaVia",
+    location: "Munich, Germany",
+    from: "Sep 2025",
+    to: "Present",
+    bullets: [
+      "Planning a trip across Europe is confusing, time-consuming, and costly. ViaVia exists to fix that.",
+      "Leading product development from concept to live early-access platform, making core architecture and UX decisions that shape the product direction.",
+      "Built and iterated the MVP hands-on with my co-founder.",
     ],
     video: {
       label: "ViaVia — European trip planner",
@@ -80,15 +96,13 @@ export const experiences: Experience[] = [
     company: "NHS Personal Training GmbH",
     location: "München, Germany",
     from: "Jan 2025",
-    to: "Present",
+    to: "Feb 2026",
     bullets: [
-      "Lead and co-developed a Swift iOS coaching app end-to-end, enabling 10 premium clients to self-book sessions and track results in real time.",
-      "Oversaw development of the company's web app, integrating scheduling, training plan creation, exercise library, invoicing, accounting, and point-of-sale functionalities.",
-      "Launched 2-language corporate site + 5 partner portals (Next.js).",
-      "Directed 6 offshore engineers through Agile sprints, hitting 78% on-time release.",
-      "Structured backend database architecture, for future usage by Doctors of Sport Scientists.",
-      "Conducted educational sessions on application infrastructure and data management.",
-      "Built partnerships with 5 communities via networking events.",
+      "Led technology development for a premium personal training studio, building the digital infrastructure that supported coaching delivery, client management, and business operations.",
+      "Co-developed a native iOS coaching app (Swift) for premium clients with real-time session booking, progress tracking, and trainer-client communication.",
+      "Oversaw the web platform handling scheduling, training plans, exercise libraries, invoicing, and point-of-sale operations.",
+      "Directed a team of 6 offshore engineers, maintaining a 78% on-time release rate across concurrent product streams.",
+      "Launched a bilingual corporate website and 5 partner portals, expanding the studio's B2B reach.",
     ],
     video: {
       label: "NHS Personal Training — iOS app demo",
@@ -104,9 +118,8 @@ export const experiences: Experience[] = [
     from: "Apr 2024",
     to: "Dec 2024",
     bullets: [
-      "Instructed and educated the management team how to correctly store data, create version control and optimize the inhouse built application.",
-      "Coached 25 executives, achieving 90% adherence to bespoke fitness KPIs over 6 months.",
-      "Cultivated network of 40+ German founders/CEOs, seeding pipeline for future B2B consulting engagements.",
+      "Pursued personal training out of a deep interest in sport and human performance. Coached executives and founders one-on-one in a premium studio setting.",
+      "Built a professional network of 40+ German founders and CEOs through coaching relationships — connections that informed later consulting and startup work.",
     ],
     video: {
       label: "MTM Personal Training — Fitness tech demo",
@@ -122,11 +135,10 @@ export const experiences: Experience[] = [
     from: "Feb 2022",
     to: "Feb 2024",
     bullets: [
-      "Directed successful launch of an online strategy game, achieving $40 million in trade volume.",
-      "Led 10-person cross-time-zone team; maintained 97% velocity adherence using Jira Scrum boards.",
-      "Assisted with brand strategy creation which is still in use today.",
-      "Enhanced workflow efficiency through implementation of Jira and Asana, reducing project deployment projection from 6 months to 4 months.",
-      "Developed Grafana and Tableau dashboards to enable data-driven business decisions using live blockchain data.",
+      "Directed the launch and live operations of BLOCKLORDS, an online blockchain strategy game that reached $40M in trade volume.",
+      "Led a 10-person cross-timezone team, implementing Jira and Asana workflows that cut deployment projection from 6 to 4 months and maintained 97% sprint velocity adherence.",
+      "Introduced the technical connection between Unity and blockchain smart contracts for a Direct Sales feature, generating $200K in direct revenue.",
+      "Built Grafana and Tableau dashboards for on-chain analytics, giving leadership real-time visibility into game economy health and player behavior.",
     ],
     video: {
       label: "Metaking Studios — Game launch demo",
@@ -156,9 +168,9 @@ export const experiences: Experience[] = [
   {
     role: "Data Analyst",
     company: "Seascape Network",
-    location: "Stockholm (remote)",
-    from: "Jan 2021",
-    to: "Feb 2022",
+    location: "Seoul, South Korea",
+    from: "Mar 2020",
+    to: "Jan 2021",
     bullets: [
       "Analyzed user and wallet growth to inform product launches and partnership priorities.",
       "Partner ecosystem insights contributed to 30+ integrations and MAU growth from ~10k to ~56k.",
@@ -173,86 +185,12 @@ export const experiences: Experience[] = [
   },
 ];
 
-export const projects: Project[] = [
-  {
-    name: "Luminous Group",
-    summary:
-      "AI Researcher at a human-centered consulting firm operating across Berlin and USA. We help organizations transition from AI augmentation to automation through strategic frameworks, governance systems, and hands-on implementation. Built comprehensive tooling including CRM integrations (Attio, Linear, GitHub), lead generation systems, AI governance frameworks, and engineering manifestos that guide how teams adopt AI responsibly.",
-    tech: ["TypeScript", "Next.js", "Python", "AI Governance", "LangGraph", "Attio API", "Linear API", "Strategic Consulting"],
-    notes: [
-      "AI governance and augmentation frameworks for enterprise adoption",
-      "Custom API integrations for CRM, project management, and analytics",
-      "Published thought leadership on AI integration in organizations",
-      "Lead generation and case study systems for consulting pipeline",
-    ],
-    video: {
-      label: "Luminous Group — AI solutions demo",
-      srcWebm: "",
-      srcMp4: "/videos/work/Luminous.mp4",
-      poster: "/videos/work/luminous-poster.jpg",
-      format: "laptop",
-    },
-  },
-  {
-    name: "ViaVia",
-    summary:
-      "CEO and co-founder solving a real problem: planning a trip to Europe is time-consuming, confusing, and costly. ViaVia is a multi-city trip planning platform that lets travelers book flights, trains, hotels, and activities across multiple European cities in a single checkout. Less stress. More memories.",
-    tech: ["Next.js", "TypeScript", "Supabase", "Cesium", "Google Maps", "Node.js"],
-    notes: [
-      "Multi-city European trip booking in one seamless flow",
-      "Integrated flights, trains, hotels, and activities",
-      "Lead capture and early access platform live",
-    ],
-    video: {
-      label: "ViaVia — European trip planner demo",
-      srcWebm: "",
-      srcMp4: "/videos/work/ViaVia.mp4",
-      poster: "/videos/work/viavia-poster.jpg",
-      format: "phone",
-    },
-  },
-  {
-    name: "Viadio",
-    summary:
-      "Mobile AI video creation app that generates cinematic drone-style transition videos from two photos. Built with Flutter for iOS and Android, using fal.ai and Kling AI for video generation, with RevenueCat handling subscriptions.",
-    tech: ["Flutter", "Dart", "Supabase", "fal.ai", "Kling AI", "RevenueCat"],
-    notes: [
-      "AI-powered video generation from static images",
-      "Subscription-based monetization model",
-      "Cross-platform mobile app (iOS & Android)",
-    ],
-    video: {
-      label: "Viadio — AI video creation demo",
-      srcWebm: "",
-      srcMp4: "/videos/work/Viadio.mp4",
-      poster: "/videos/work/viadio-poster.jpg",
-      format: "phone",
-    },
-  },
-  {
-    name: "Squat Visualizer (iOS)",
-    summary:
-      "A free Squat visualizer App built in Swift on iOS for users to be able to record their squat and improve their technique with visual cues including a step-by-step technique Improvement guide.",
-    tech: ["Swift", "AVFoundation", "CoreMotion"],
-    video: {
-      label: "Squat Visualizer — Technique analysis demo",
-      srcWebm: "",
-      srcMp4: "/videos/work/Squat App.mp4",
-      poster: "/videos/work/squat-poster.jpg",
-      format: "phone",
-    },
-  },
-  {
-    name: "Libre Sudoku (iOS)",
-    summary: "Frustrated by intrusive ads in existing Sudoku apps, I built my own free, ad-free version in Swift for truly distraction-free play.",
-    tech: ["Swift", "UIKit/SwiftUI"],
-  },
-];
+export const projects: Project[] = [];
 
 export const skills: Skills = {
-  languages: ["JavaScript", "TypeScript", "Python", "Swift", "Kotlin", "Java", "SQL", "HTML/CSS", "R"],
-  frameworks: ["React", "Next.js", "React Native", "Node.js", "Tailwind CSS", "SwiftUI", "Django", "Ruby on Rails", "Stimulus"],
-  data_platforms: ["PostgreSQL", "MongoDB", "Firebase", "Tableau", "Grafana"],
+  languages: ["JavaScript", "TypeScript", "Python", "Swift", "SQL", "HTML/CSS"],
+  frameworks: ["React", "Next.js", "React Native", "Node.js", "Tailwind CSS", "SwiftUI"],
+  data_platforms: ["PostgreSQL", "Supabase", "MongoDB", "Firebase", "Tableau", "Grafana"],
   tools: ["Git", "GitHub", "Jira", "Asana", "Xcode", "VS Code", "Vercel", "npm/pnpm", "Agile/Scrum"],
   certifications: [
     "Meta – Backend Developer",

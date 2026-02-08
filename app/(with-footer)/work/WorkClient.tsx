@@ -7,10 +7,9 @@ import Section from "@/components/Section";
 import EducationSection from "@/components/EducationSection";
 import CertificationsGrid from "@/components/CertificationsGrid";
 import BusinessCard from "@/components/BusinessCard";
-import { experiences, projects, skills, personalSkills, aiSkills, aiUses, blogPosts } from "@/content/workData";
+import { experiences, skills, personalSkills, aiSkills, aiUses, blogPosts } from "@/content/workData";
 import ProgressRail from "@/components/ProgressRail";
 import ExperienceVideo from "@/components/work/ExperienceVideo";
-import ProjectVideo from "@/components/work/ProjectVideo";
 
 const techFont = Space_Grotesk({ subsets: ["latin"], display: "swap" });
 
@@ -59,36 +58,50 @@ export default function WorkClient() {
       <Section className="py-0 sm:py-0 md:py-0 lg:py-0">
         <motion.div {...fadeSlide()}>
           <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight">
-            Building calm systems and strong teams.
+            Hi, I&apos;m Klemen.
           </h1>
-          <p className="mt-4 sm:mt-6 text-sm sm:text-base text-foreground/80 leading-relaxed max-w-3xl">
-            I lead engineering with a user-first mindset and an operations toolkit. I keep scope
-            clear, run tight feedback loops, and design pragmatic systems that scale, while
-            staying flexible. I like pairing with designers, shaping with PMs, and turning ideas
-            into reliable, maintainable software.
-          </p>
+          <div className="mt-4 sm:mt-6 space-y-4 text-sm sm:text-base text-foreground/80 leading-relaxed max-w-3xl">
+            <p>
+              I work with teams and leaders on difficult problems — situations where things
+              are moving fast, information is incomplete, and decisions actually matter.
+              I&apos;m at my best when I&apos;m part of the team, not outside it.
+            </p>
+            <p>
+              My background is in building products, leading teams, and consulting — usually
+              at the point where technology meets how people actually work. Right now, a lot
+              of that work involves AI: helping organisations figure out where it genuinely
+              helps and where it doesn&apos;t.
+            </p>
+            <p>
+              I like working with people who care about doing the work well: who value clarity
+              over noise, ownership over posturing, and progress over perfection. I&apos;m most
+              useful when there&apos;s real complexity on the table and no obvious playbook.
+            </p>
+          </div>
         </motion.div>
       </Section>
 
       {/* How I work */}
       <Section className="py-10 sm:py-12 md:py-16">
         <motion.h2 className="font-display text-xl sm:text-2xl md:text-3xl mb-4 sm:mb-6" {...fadeSlide()}>
-          How work gets done
+          How I work
         </motion.h2>
-        <motion.ul className="space-y-3 text-sm sm:text-base leading-relaxed max-w-3xl" {...fadeSlide(0)}>
-          <li className="text-foreground/85">
-            I thrive in fast-paced teams thanks to hands-on time in VC, startups, and consulting. I take ownership,
-            spot problems early, design a plan fast, and execute.
-          </li>
-          <li className="text-foreground/85">
-            I work in a structured way with process optimisation, and I balance speed with quality. People come first,
-            so plans adapt when reality changes.
-          </li>
-          <li className="text-foreground/85">
-            I communicate clearly in English, Slovenian, and developing German, and I enjoy deep-tech topics. Learning
-            fast and staying curious is part of the job.
-          </li>
-        </motion.ul>
+        <motion.div className="space-y-4 text-sm sm:text-base leading-relaxed max-w-3xl" {...fadeSlide(0)}>
+          <p className="text-foreground/85">
+            Hands-on by default. Asking questions early, surfacing problems before they
+            harden, and helping the team put just enough structure in place to move with
+            confidence rather than force.
+          </p>
+          <p className="text-foreground/85">
+            Structure matters — but only when it earns its place. Process exists to support
+            good work, not replace thinking, and it adapts when reality changes.
+          </p>
+          <p className="text-foreground/85">
+            The work usually lives between people, product, and technology. Being comfortable
+            in all three — and staying close to the team through each — is what makes the
+            difference.
+          </p>
+        </motion.div>
       </Section>
 
       {/* 2) Experience Timeline */}
@@ -248,84 +261,6 @@ export default function WorkClient() {
 
       {/* Certifications */}
       <CertificationsGrid />
-
-      {/* 6) Projects */}
-      <Section className="py-12 sm:py-16 md:py-24">
-        <motion.h2 className="font-display text-xl sm:text-2xl md:text-3xl mb-6 sm:mb-8" {...fadeSlide()}>
-          Projects
-        </motion.h2>
-        <div className="space-y-6 sm:space-y-8">
-          {/* Luminous Group - Full Width */}
-          {projects[0] && (
-            <motion.article
-              key={projects[0].name}
-              className="border border-white/10 rounded-xl p-4 sm:p-6 bg-white/5 backdrop-blur-[1px] min-w-0"
-              {...fadeSlide(0)}
-            >
-              <div className="flex flex-col gap-4 sm:gap-6">
-                <div className="min-w-0">
-                  <h3 className="font-display text-lg sm:text-xl md:text-2xl break-words">{projects[0].name}</h3>
-                  <p className="mt-2 text-sm sm:text-base text-foreground/80 leading-relaxed break-words">{projects[0].summary}</p>
-                </div>
-                {projects[0].video && (
-                  <div className="min-w-0 w-full">
-                    <ProjectVideo
-                      label={projects[0].video.label}
-                      srcWebm={projects[0].video.srcWebm}
-                      srcMp4={projects[0].video.srcMp4}
-                      poster={projects[0].video.poster}
-                      format={projects[0].video.format}
-                      className="w-full"
-                    />
-                  </div>
-                )}
-              </div>
-            </motion.article>
-          )}
-
-          {/* ViaVia and Squat Visualizer - Side by Side */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-            {[projects[1], projects[2]].map((p, idx) => p && (
-              <motion.article
-                key={p.name}
-                className="border border-white/10 rounded-xl p-4 sm:p-6 bg-white/5 backdrop-blur-[1px] min-w-0 flex flex-col"
-                {...fadeSlide(idx + 1)}
-              >
-                <div className="min-w-0 flex-1">
-                  <h3 className="font-display text-lg sm:text-xl break-words">{p.name}</h3>
-                  <p className="mt-2 text-sm sm:text-base text-foreground/80 leading-relaxed break-words">{p.summary}</p>
-                </div>
-                {p.video && (
-                  <div className="min-w-0 w-full mt-4 sm:mt-6">
-                    <ProjectVideo
-                      label={p.video.label}
-                      srcWebm={p.video.srcWebm}
-                      srcMp4={p.video.srcMp4}
-                      poster={p.video.poster}
-                      format={p.video.format}
-                      className="w-full"
-                    />
-                  </div>
-                )}
-              </motion.article>
-            ))}
-          </div>
-
-          {/* Libre Sudoku - Full Width */}
-          {projects[3] && (
-            <motion.article
-              key={projects[3].name}
-              className="border border-white/10 rounded-xl p-4 sm:p-6 bg-white/5 backdrop-blur-[1px] min-w-0"
-              {...fadeSlide(3)}
-            >
-              <div className="min-w-0">
-                <h3 className="font-display text-lg sm:text-xl md:text-2xl break-words">{projects[3].name}</h3>
-                <p className="mt-2 text-sm sm:text-base text-foreground/80 leading-relaxed break-words">{projects[3].summary}</p>
-              </div>
-            </motion.article>
-          )}
-        </div>
-      </Section>
 
       {/* CV Download & Contact */}
       <Section className="py-12 sm:py-16 md:py-24">

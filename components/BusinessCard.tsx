@@ -141,7 +141,7 @@ export default function BusinessCard() {
                 Klemen Kocic
               </h1>
               <p className="text-sm sm:text-base text-foreground/80 mt-1">
-                Building technology and teams
+                AI Consultant · Co-Founder
               </p>
             </div>
 

@@ -166,26 +166,26 @@ export default function Orchestrator() {
 
         <div className="space-y-6">
           <div className="border-l-2 border-life/50 pl-4 sm:pl-6">
-            <h3 className="text-lg sm:text-xl font-semibold text-foreground">CEO & Co-Founder · ViaVia</h3>
-            <p className="text-sm text-foreground/60 mb-2">Munich · 2024 – Present</p>
+            <h3 className="text-lg sm:text-xl font-semibold text-foreground">Co-Founder · ViaVia</h3>
+            <p className="text-sm text-foreground/60 mb-2">Munich · Sep 2025 – Present</p>
             <p className="text-base leading-relaxed text-foreground/85">
-              Building a multi-city European trip planning platform. Planning a trip to Europe is time-consuming, confusing, and costly — we&apos;re fixing that with one seamless booking flow for flights, trains, hotels, and activities.
+              Planning a trip across Europe is confusing, time-consuming, and costly. I&apos;m building ViaVia to fix that — one seamless booking flow for flights, trains, hotels, and activities across cities.
+            </p>
+          </div>
+
+          <div className="border-l-2 border-life/50 pl-4 sm:pl-6">
+            <h3 className="text-lg sm:text-xl font-semibold text-foreground">Consultant · Luminous Group</h3>
+            <p className="text-sm text-foreground/60 mb-2">Munich · Jul 2025 – Present</p>
+            <p className="text-base leading-relaxed text-foreground/85">
+              Helping organizations move from AI adoption to AI capability. I build internal systems, create AI-augmented workflows, and publish research on human-AI collaboration.
             </p>
           </div>
 
           <div className="border-l-2 border-life/50 pl-4 sm:pl-6">
             <h3 className="text-lg sm:text-xl font-semibold text-foreground">Technical Lead · NHS Personal Training GmbH</h3>
-            <p className="text-sm text-foreground/60 mb-2">Munich · Jan 2025 – Present</p>
+            <p className="text-sm text-foreground/60 mb-2">Munich · Jan 2025 – Feb 2026</p>
             <p className="text-base leading-relaxed text-foreground/85">
-              Leading development of iOS coaching apps and web platforms. Directing 6 offshore engineers, building scheduling systems, and launching corporate sites in multiple languages.
-            </p>
-          </div>
-
-          <div className="border-l-2 border-life/50 pl-4 sm:pl-6">
-            <h3 className="text-lg sm:text-xl font-semibold text-foreground">AI Researcher · Luminous Group</h3>
-            <p className="text-sm text-foreground/60 mb-2">Berlin / USA · 2024 – Present</p>
-            <p className="text-base leading-relaxed text-foreground/85">
-              Helping organizations transition from AI augmentation to automation. Building governance frameworks, CRM integrations, and publishing thought leadership on responsible AI adoption.
+              Led technology development for a premium personal training studio. Co-developed an iOS coaching app, directed 6 offshore engineers, and launched bilingual corporate sites.
             </p>
           </div>
         </div>

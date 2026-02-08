@@ -51,11 +51,17 @@ export default function RootLayout({
     "@type": "Person",
     name: "Klemen Kocic",
     alternateName: "Klemen Kočič",
-    jobTitle: "CEO & Co-Founder",
-    worksFor: {
-      "@type": "Organization",
-      name: "ViaVia Travel",
-    },
+    jobTitle: "AI Consultant & Co-Founder",
+    worksFor: [
+      {
+        "@type": "Organization",
+        name: "Luminous Group",
+      },
+      {
+        "@type": "Organization",
+        name: "ViaVia Travel",
+      },
+    ],
     alumniOf: [
       {
         "@type": "EducationalOrganization",
@@ -76,7 +82,7 @@ export default function RootLayout({
     url: "https://klemenkocic.com",
     image: "https://klemenkocic.com/images/profile.jpg",
     description:
-      "CEO & Co-Founder of ViaVia Travel. Technical lead with expertise in AI, product development, and European travel. Based in Munich, Germany.",
+      "AI Consultant at Luminous Group and Co-Founder of ViaVia Travel. Helping teams turn AI into organisational capability. Based in Munich, Germany.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Munich",
