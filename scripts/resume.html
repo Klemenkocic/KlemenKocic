@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klemen Kocic - Resume</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+            font-size: 10.5pt;
+            line-height: 1.5;
+            color: #1a1a1a;
+            background: white;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 15mm;
+        }
+
+        h1 {
+            font-size: 28pt;
+            font-weight: 700;
+            margin-bottom: 8pt;
+            color: #000;
+            letter-spacing: -0.5px;
+        }
+
+        h2 {
+            font-size: 14pt;
+            font-weight: 700;
+            margin-top: 18pt;
+            margin-bottom: 10pt;
+            color: #000;
+            border-bottom: 1.5pt solid #000;
+            padding-bottom: 4pt;
+        }
+
+        h3 {
+            font-size: 11.5pt;
+            font-weight: 600;
+            margin-bottom: 3pt;
+            color: #1a1a1a;
+        }
+
+        .header {
+            margin-bottom: 20pt;
+        }
+
+        .contact-info {
+            font-size: 10pt;
+            color: #4a4a4a;
+            margin-bottom: 12pt;
+        }
+
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .summary {
+            margin-bottom: 18pt;
+            font-size: 10.5pt;
+            line-height: 1.6;
+            color: #2a2a2a;
+        }
+
+        .summary p {
+            margin-bottom: 8pt;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 14pt;
+            page-break-inside: avoid;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4pt;
+        }
+
+        .job-title {
+            font-weight: 600;
+            font-size: 11pt;
+        }
+
+        .company {
+            color: #4a4a4a;
+        }
+
+        .date-location {
+            font-size: 9.5pt;
+            color: #666;
+            margin-bottom: 6pt;
+        }
+
+        ul {
+            margin-left: 16pt;
+            margin-top: 4pt;
+        }
+
+        li {
+            margin-bottom: 4pt;
+            line-height: 1.5;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10pt;
+            margin-bottom: 12pt;
+        }
+
+        .skill-category {
+            margin-bottom: 8pt;
+        }
+
+        .skill-category strong {
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .skill-list {
+            margin-left: 0;
+            list-style: none;
+            font-size: 10pt;
+            color: #4a4a4a;
+        }
+
+        .education-grid {
+            display: grid;
+            gap: 10pt;
+        }
+
+        .publications {
+            margin-bottom: 12pt;
+        }
+
+        .publication-item {
+            margin-bottom: 8pt;
+        }
+
+        .publication-title {
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .publication-meta {
+            font-size: 9.5pt;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Klemen Kocic</h1>
+        <div class="contact-info">
+            Munich, Germany | <a href="mailto:kocicklemen@gmail.com">kocicklemen@gmail.com</a> |
+            <a href="https://klemenkocic.com">klemenkocic.com</a> |
+            <a href="https://linkedin.com/in/klemen-kocic">linkedin.com/in/klemen-kocic</a>
+        </div>
+    </div>
+
+    <div class="summary">
+        <p>
+            I work with teams and leaders on difficult problems — situations where things are moving fast,
+            information is incomplete, and decisions actually matter. I'm at my best when I'm part of the team, not outside it.
+        </p>
+        <p>
+            My background is in building products, leading teams, and consulting — usually at the point where
+            technology meets how people actually work. Right now, a lot of that work involves AI: helping
+            organisations figure out where it genuinely helps and where it doesn't.
+        </p>
+    </div>
+
+    <h2>Experience</h2>
+
+    <div class="experience-item">
+        <div class="job-header">
+            <div>
+                <span class="job-title">Consultant</span> <span class="company">— Luminous Group</span>
+            </div>
+        </div>
+        <div class="date-location">Munich, Germany | Jul 2025 – Present</div>
+        <ul>
+            <li>Luminous Group is a human-centred AI consultancy helping organizations move from AI adoption to AI capability — designing governance, workflows, and implementation systems that produce measurable outcomes.</li>
+            <li>Built internal systems including CRM integrations (Attio, Linear, GitHub) and operational tooling that keeps the team coordinated.</li>
+            <li>Created AI-augmented workflows used across the company — designing how the team works with AI, not just advising others on it.</li>
+            <li>Published research on AI augmentation strategy — "Open the Window," "More Than a Mirror," and "The Racing Yacht" — contributing to the firm's thought leadership on human-AI collaboration.</li>
+            <li>Work spans strategic consulting (client-facing workshops, capability assessments, workflow redesign) and hands-on building (prototyping AI tools, integrating systems, shipping internal products).</li>
+        </ul>
+    </div>
+
+    <div class="experience-item">
+        <div class="job-header">
+            <div>
+                <span class="job-title">Co-Founder</span> <span class="company">— ViaVia</span>
+            </div>
+        </div>
+        <div class="date-location">Munich, Germany | Sep 2025 – Present</div>
+        <ul>
+            <li>Planning a trip across Europe is confusing, time-consuming, and costly. ViaVia exists to fix that.</li>
+            <li>Leading product development from concept to live early-access platform, making core architecture and UX decisions that shape the product direction.</li>
+            <li>Built and iterated the MVP hands-on with my co-founder.</li>
+        </ul>
+    </div>
+
+    <div class="experience-item">
+        <div class="job-header">
+            <div>
+                <span class="job-title">Technical Lead</span> <span class="company">— NHS Personal Training GmbH</span>
+            </div>
+        </div>
+        <div class="date-location">Munich, Germany | Jan 2025 – Feb 2026</div>
+        <ul>
+            <li>Led technology development for a premium personal training studio, building the digital infrastructure that supported coaching delivery, client management, and business operations.</li>
+            <li>Co-developed a native iOS coaching app (Swift) for premium clients with real-time session booking, progress tracking, and trainer-client communication.</li>
+            <li>Oversaw the web platform handling scheduling, training plans, exercise libraries, invoicing, and point-of-sale operations.</li>
+            <li>Directed a team of 6 offshore engineers, maintaining a 78% on-time release rate across concurrent product streams.</li>
+            <li>Launched a bilingual corporate website and 5 partner portals, expanding the studio's B2B reach.</li>
+        </ul>
+    </div>
+
+    <div class="experience-item">
+        <div class="job-header">
+            <div>
+                <span class="job-title">Personal Trainer</span> <span class="company">— MTM Personal Training</span>
+            </div>
+        </div>
+        <div class="date-location">Berlin, Germany | Apr 2024 – Dec 2024</div>
+        <ul>
+            <li>Pursued personal training out of a deep interest in sport and human performance. Coached executives and founders one-on-one in a premium studio setting.</li>
+            <li>Built a professional network of 40+ German founders and CEOs through coaching relationships — connections that informed later consulting and startup work.</li>
+        </ul>
+    </div>
+
+    <div class="experience-item">
+        <div class="job-header">
+            <div>
+                <span class="job-title">Project Manager</span> <span class="company">— Metaking Studios</span>
+            </div>
+        </div>
+        <div class="date-location">Stockholm, Sweden | Feb 2022 – Feb 2024</div>
+        <ul>
+            <li>Directed the launch and live operations of BLOCKLORDS, an online blockchain strategy game that reached $40M in trade volume.</li>
+            <li>Led a 10-person cross-timezone team, implementing Jira and Asana workflows that cut deployment projection from 6 to 4 months and maintained 97% sprint velocity adherence.</li>
+            <li>Introduced the technical connection between Unity and blockchain smart contracts for a Direct Sales feature, generating $200K in direct revenue.</li>
+            <li>Built Grafana and Tableau dashboards for on-chain analytics, giving leadership real-time visibility into game economy health and player behavior.</li>
+        </ul>
+    </div>
+
+    <div class="experience-item">
+        <div class="job-header">
+            <div>
+                <span class="job-title">Program Manager</span> <span class="company">— Seascape Network</span>
+            </div>
+        </div>
+        <div class="date-location">Stockholm (remote) | Jan 2021 – Feb 2022</div>
+        <ul>
+            <li>Orchestrated strategic launches of five gaming projects.</li>
+            <li>Negotiated ~$500k investor funding, extending runway by ~9 months.</li>
+            <li>Managed development of a fund-generating platform supporting 10+ external game developers.</li>
+        </ul>
+    </div>
+
+    <div class="experience-item">
+        <div class="job-header">
+            <div>
+                <span class="job-title">Data Analyst</span> <span class="company">— Seascape Network</span>
+            </div>
+        </div>
+        <div class="date-location">Seoul, South Korea | Mar 2020 – Jan 2021</div>
+        <ul>
+            <li>Analyzed user and wallet growth to inform product launches and partnership priorities.</li>
+            <li>Partner ecosystem insights contributed to 30+ integrations and MAU growth from ~10k to ~56k.</li>
+            <li>Built repeatable KPI tracking to support leadership planning and investor reporting.</li>
+        </ul>
+    </div>
+
+    <h2>Education</h2>
+
+    <div class="education-grid">
+        <div class="education-item">
+            <h3>University of Ljubljana — School of Economics and Business</h3>
+            <div class="date-location">B.Sc. International Business | Ljubljana, Slovenia | 2019 – 2023</div>
+        </div>
+
+        <div class="education-item">
+            <h3>ISCTE — Instituto Universitário de Lisboa</h3>
+            <div class="date-location">Erasmus Exchange — International Business | Lisbon, Portugal | 2022</div>
+        </div>
+
+        <div class="education-item">
+            <h3>University of Seoul</h3>
+            <div class="date-location">Bilateral Exchange — Business Administration | Seoul, South Korea | 2021 – 2022</div>
+        </div>
+    </div>
+
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+        <div>
+            <div class="skill-category">
+                <strong>Languages:</strong> JavaScript, TypeScript, Python, Swift, SQL, HTML/CSS
+            </div>
+            <div class="skill-category">
+                <strong>Frameworks:</strong> React, Next.js, React Native, Node.js, Tailwind CSS, SwiftUI
+            </div>
+            <div class="skill-category">
+                <strong>Data & Platforms:</strong> PostgreSQL, Supabase, MongoDB, Firebase, Tableau, Grafana
+            </div>
+        </div>
+        <div>
+            <div class="skill-category">
+                <strong>Tools:</strong> Git, GitHub, Jira, Asana, Xcode, VS Code, Vercel, npm/pnpm
+            </div>
+            <div class="skill-category">
+                <strong>AI Tools:</strong> ChatGPT, Claude, Cursor, Gemini, Perplexity, LangGraph, DeepSeek, Sora
+            </div>
+            <div class="skill-category">
+                <strong>Leadership:</strong> Team leadership, Clear communication, Coaching and mentoring, Stakeholder alignment
+            </div>
+        </div>
+    </div>
+
+    <h2>Certifications</h2>
+
+    <ul class="skill-list">
+        <li>Meta – Backend Developer</li>
+        <li>Google – Project Management Specialization</li>
+        <li>GO TEL – Programming Using Python</li>
+        <li>Salesforce – Sales & CRM Overview</li>
+        <li>UIUC – Leading Teams: Developing as a Leader</li>
+    </ul>
+
+    <h2>Publications</h2>
+
+    <div class="publications">
+        <div class="publication-item">
+            <div class="publication-title">"Open the Window"</div>
+            <div class="publication-meta">Luminous Group | Nov 2025 | Using AI at work is not cheating—when it is used to augment human judgment and capability, not replace it.</div>
+        </div>
+        <div class="publication-item">
+            <div class="publication-title">"More Than a Mirror"</div>
+            <div class="publication-meta">Luminous Group | Sep 2025 | Explores the Augmentation Arc: Mirror, Lens, Lighthouse, and Prism—four modes that transform how we work with AI.</div>
+        </div>
+        <div class="publication-item">
+            <div class="publication-title">"The Racing Yacht"</div>
+            <div class="publication-meta">Luminous Group | Oct 2025 | In the age of AI, leaders need to think less like cyclists and more like sailors.</div>
+        </div>
+    </div>
+</body>
+</html>
