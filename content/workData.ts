@@ -246,6 +246,14 @@ export const aiUses: Record<string, string> = {
 
 export const blogPosts: BlogPost[] = [
   {
+    title: "What Agents Cannot Want",
+    excerpt: "In an agent-mediated world, execution becomes abundant. What becomes scarce is direction driven by human intent. When agents raise the standard, they erase the old signal that 'good work' once carried—and scarcity migrates upward, from making things to deciding which things deserve to exist.",
+    url: "https://www.luminousgroup.net/luminosity/what-agents-cannot-want",
+    date: "Feb 16",
+    readingTime: "7 min read",
+    publication: "Luminous Group"
+  },
+  {
     title: "Open the Window",
     excerpt: "Using AI at work is not cheating—when it is used to augment human judgment and capability, not replace it. A framework for organizations to permit, equip, and audit AI-assisted work.",
     url: "https://www.luminousgroup.net/luminosity/open-the-window",
