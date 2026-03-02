@@ -60,10 +60,11 @@ export const experiences: Experience[] = [
     from: "Jul 2025",
     to: "Present",
     bullets: [
-      "Luminous Group is a human-centred AI consultancy helping organizations move from AI adoption to AI capability — designing governance, workflows, and implementation systems that produce measurable outcomes.",
-      "Built internal systems including CRM integrations (Attio, Linear, GitHub) and operational tooling that keeps the team coordinated.",
-      "Created AI-augmented workflows used across the company — designing how the team works with AI, not just advising others on it.",
-      "Published research on AI augmentation strategy — \"Open the Window,\" \"More Than a Mirror,\" and \"The Racing Yacht\" — contributing to the firm's thought leadership on human-AI collaboration.",
+      "Luminous Group is a human-centred AI consultancy helping organisations move from AI adoption to AI capability — designing governance, workflows, and implementation systems that produce measurable outcomes.",
+      "Built Luminosity — the firm\u2019s internal multi-agent system. Five AI agents with isolated memory and deliberate message-passing coordination. No shared context by default — if it\u2019s not explicit, it doesn\u2019t happen.",
+      "Built internal systems: CRM integrations (Attio, Linear, GitHub), operational tooling, and agent-mediated workflows that keep the team coordinated without adding meetings.",
+      "Created AI-augmented workflows used across the company — designing how we work with AI, not just advising others on it.",
+      "Published research on AI augmentation strategy — \"What Agents Cannot Want,\" \"Open the Window,\" \"More Than a Mirror,\" and \"The Racing Yacht\" — four pieces that form the firm\u2019s intellectual foundation on human-AI collaboration.",
       "Work spans strategic consulting (client-facing workshops, capability assessments, workflow redesign) and hands-on building (prototyping AI tools, integrating systems, shipping internal products).",
     ],
     video: {
@@ -80,9 +81,9 @@ export const experiences: Experience[] = [
     from: "Sep 2025",
     to: "Present",
     bullets: [
-      "Planning a trip across Europe is confusing, time-consuming, and costly. ViaVia exists to fix that.",
-      "Leading product development from concept to live early-access platform, making core architecture and UX decisions that shape the product direction.",
-      "Built and iterated the MVP hands-on with my co-founder.",
+      "ViaVia is a product company building three products under one UG: Viadio (AI-powered memory videos from phone photos — no prompts needed), ShipStack (production framework with 7 AI departments and human approval gates), and Celestia (localised astrology for underserved markets, in development).",
+      "Leading product development from concept to live platform — core architecture, UX decisions, and the multi-product strategy that makes each new product ship faster than the last.",
+      "Built and iterated MVPs hands-on with my co-founder. Designed ShipStack as the shared production backbone across all ViaVia products.",
     ],
     video: {
       label: "ViaVia — European trip planner",
@@ -94,15 +95,14 @@ export const experiences: Experience[] = [
   {
     role: "Technical Lead",
     company: "NHS Personal Training GmbH",
-    location: "München, Germany",
+    location: "Munich, Germany",
     from: "Jan 2025",
     to: "Feb 2026",
     bullets: [
-      "Led technology development for a premium personal training studio, building the digital infrastructure that supported coaching delivery, client management, and business operations.",
-      "Co-developed a native iOS coaching app (Swift) for premium clients with real-time session booking, progress tracking, and trainer-client communication.",
-      "Oversaw the web platform handling scheduling, training plans, exercise libraries, invoicing, and point-of-sale operations.",
+      "Led technology development for a premium personal training studio — building digital infrastructure for coaching delivery, client management, and business operations.",
+      "Co-developed a native iOS coaching app (Swift): real-time session booking, progress tracking, trainer-client communication.",
+      "Oversaw the web platform: scheduling, training plans, exercise libraries, invoicing, and point-of-sale.",
       "Directed a team of 6 offshore engineers, maintaining a 78% on-time release rate across concurrent product streams.",
-      "Launched a bilingual corporate website and 5 partner portals, expanding the studio's B2B reach.",
     ],
     video: {
       label: "NHS Personal Training — iOS app demo",
@@ -130,15 +130,15 @@ export const experiences: Experience[] = [
   },
   {
     role: "Project Manager",
-    company: "Metaking Studios",
+    company: "MetaKing Studios",
     location: "Stockholm, Sweden",
     from: "Feb 2022",
     to: "Feb 2024",
     bullets: [
-      "Directed the launch and live operations of BLOCKLORDS, an online blockchain strategy game that reached $40M in trade volume.",
-      "Led a 10-person cross-timezone team, implementing Jira and Asana workflows that cut deployment projection from 6 to 4 months and maintained 97% sprint velocity adherence.",
-      "Introduced the technical connection between Unity and blockchain smart contracts for a Direct Sales feature, generating $200K in direct revenue.",
-      "Built Grafana and Tableau dashboards for on-chain analytics, giving leadership real-time visibility into game economy health and player behavior.",
+      "Directed launch and live operations of BLOCKLORDS — an online blockchain strategy game that reached $40M in trade volume.",
+      "Led a 10-person cross-timezone team. Cut deployment projection from 6 to 4 months. Maintained 97% sprint velocity adherence.",
+      "Introduced the Unity-to-blockchain smart contract connection for Direct Sales — $200K in direct revenue.",
+      "Built Grafana and Tableau dashboards for on-chain analytics, giving leadership real-time visibility into game economy health.",
     ],
     video: {
       label: "Metaking Studios — Game launch demo",
@@ -150,13 +150,13 @@ export const experiences: Experience[] = [
   {
     role: "Program Manager",
     company: "Seascape Network",
-    location: "Stockholm (remote)",
+    location: "Stockholm (remote from Lisbon)",
     from: "Jan 2021",
     to: "Feb 2022",
     bullets: [
-      "Orchestrated strategic launches of five gaming projects.",
-      "Negotiated ~$500k investor funding, extending runway by ~9 months.",
-      "Managed development of a fund-generating platform supporting 10+ external game developers.",
+      "Orchestrated 5 gaming project launches across Ethereum, Polygon, and BSC.",
+      "Negotiated ~$500K investor funding, extending runway by ~9 months.",
+      "Managed Lighthouse — a fund-generating platform supporting 10+ external game developers.",
     ],
     video: {
       label: "Seascape Network — Program management overview",

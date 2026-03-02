@@ -62,20 +62,23 @@ export default function WorkClient() {
           </h1>
           <div className="mt-4 sm:mt-6 space-y-4 text-sm sm:text-base text-foreground/80 leading-relaxed max-w-3xl">
             <p>
-              I work with teams and leaders on difficult problems — situations where things
-              are moving fast, information is incomplete, and decisions actually matter.
-              I&apos;m at my best when I&apos;m part of the team, not outside it.
+              I help leaders and teams turn AI from a tool into an organisational
+              capability. That means finding where judgement and coordination really
+              happen — usually in the messy middle of the business — and redesigning
+              the workflows so decisions get better and faster, without creating new risk.
             </p>
             <p>
-              My background is in building products, leading teams, and consulting — usually
-              at the point where technology meets how people actually work. Right now, a lot
-              of that work involves AI: helping organisations figure out where it genuinely
-              helps and where it doesn&apos;t.
+              I also build. At Luminous Group I designed a multi-agent system with five
+              AI agents, isolated memory, and deliberate coordination. At ViaVia I ship
+              products — from AI-powered memory videos to production frameworks with
+              human approval gates. The common thread: I understand how people actually
+              work under pressure, and I design systems that make that work better.
             </p>
             <p>
-              I like working with people who care about doing the work well: who value clarity
-              over noise, ownership over posturing, and progress over perfection. I&apos;m most
-              useful when there&apos;s real complexity on the table and no obvious playbook.
+              I like working with people who care about doing the work well: who value
+              clarity over noise, ownership over posturing, and progress over perfection.
+              I&apos;m most useful when there&apos;s real complexity on the table and no
+              obvious playbook.
             </p>
           </div>
         </motion.div>
@@ -88,18 +91,19 @@ export default function WorkClient() {
         </motion.h2>
         <motion.div className="space-y-4 text-sm sm:text-base leading-relaxed max-w-3xl" {...fadeSlide(0)}>
           <p className="text-foreground/85">
+            I care about the team, I work hard, I tell the truth, and I try to understand
+            before I optimise. I&apos;m at my best with people who want clarity, momentum,
+            and outcomes.
+          </p>
+          <p className="text-foreground/85">
             Hands-on by default. Asking questions early, surfacing problems before they
-            harden, and helping the team put just enough structure in place to move with
-            confidence rather than force.
+            harden. The work lives between people, product, and technology — being
+            comfortable in all three is what makes the difference.
           </p>
           <p className="text-foreground/85">
-            Structure matters — but only when it earns its place. Process exists to support
-            good work, not replace thinking, and it adapts when reality changes.
-          </p>
-          <p className="text-foreground/85">
-            The work usually lives between people, product, and technology. Being comfortable
-            in all three — and staying close to the team through each — is what makes the
-            difference.
+            Sport taught me to read people before reading data. Coaching taught me
+            patience — and that the best intervention is usually a good question, not
+            a good answer. Showing up is the whole thing.
           </p>
         </motion.div>
       </Section>
