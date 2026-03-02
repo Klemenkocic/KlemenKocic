@@ -81,7 +81,7 @@ export const experiences: Experience[] = [
     from: "Sep 2025",
     to: "Present",
     bullets: [
-      "ViaVia is a product company building three products under one UG: Viadio (AI-powered memory videos from phone photos — no prompts needed), ShipStack (production framework with 7 AI departments and human approval gates), and Celestia (localised astrology for underserved markets, in development).",
+      "ViaVia is a product studio — we build and ship digital products: apps, AI workflows, automation agents, SaaS, websites. Currently shipping Viadio (AI-powered memory videos from phone photos), ShipStack (production framework with 7 AI departments and human approval gates), and Celestia (localised astrology for underserved markets).",
       "Leading product development from concept to live platform — core architecture, UX decisions, and the multi-product strategy that makes each new product ship faster than the last.",
       "Built and iterated MVPs hands-on with my co-founder. Designed ShipStack as the shared production backbone across all ViaVia products.",
     ],

@@ -12,7 +12,7 @@ I consult on AI strategy at Luminous Group and build products at ViaVia. My work
 
 I help leaders and teams turn AI from a tool into an organisational capability. That means finding where judgement and coordination really happen — usually in the messy middle of the business — and redesigning the workflows so decisions get better and faster, without creating new risk.
 
-I also build. I'm Co-Founder of ViaVia, where we ship products across travel, content, and astrology. I built Luminosity — a multi-agent system with five AI agents, isolated memory, and deliberate coordination. Before that I shipped products in Web3 gaming at real scale, led distributed engineering teams, and coached executives on performance.
+I also build. I'm Co-Founder of ViaVia, a product studio that ships digital products — apps, AI workflows, automation agents, SaaS. I built Luminosity — a multi-agent system with five AI agents, isolated memory, and deliberate coordination. Before that I shipped products in Web3 gaming at real scale, led distributed engineering teams, and coached executives on performance.
 
 The common thread: I understand how people actually work under pressure, and I design systems — human and technical — that make that work better.
 

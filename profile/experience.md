@@ -19,9 +19,9 @@ Luminous Group is a human-centred AI consultancy. We help organisations move fro
 ### Co-Founder — ViaVia
 **Sep 2025 – Present · Munich, Germany**
 
-ViaVia is a product company. Three products under one UG:
+ViaVia is a product studio — we build and ship digital products: custom apps, AI workflows, automation agents, SaaS, websites. The model is simple: identify a problem, build the product, ship it. Currently shipping three:
 - **Viadio** — AI-powered memory video app. Turn existing phone photos and videos into meaningful compilations. No prompts, no editing skills needed. Just your memories, assembled.
-- **ShipStack** — Production framework for AI-native products. Seven AI departments, human approval gates. The infrastructure that makes the other products possible.
+- **ShipStack** — Production framework for AI-native products. Seven AI departments, human approval gates. The infrastructure that makes every subsequent product faster to ship.
 - **Celestia** — Localised astrology app for underserved markets. In development.
 
 **What I do:**
