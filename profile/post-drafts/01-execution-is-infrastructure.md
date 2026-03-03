@@ -1,29 +1,16 @@
-# Post 1 — Execution Is Infrastructure
+# Post — The Catching
 
-**Pillar:** Augmentation Thinking
-**Scheduled:** March W1
-**Status:** Draft
-
----
-
-Execution used to be the hard part.
-
-You had an idea, and the bottleneck was making it real. Finding the right people, managing the timeline, fighting the codebase. The person who could ship — reliably, under pressure — was the scarce resource.
-
-That's changing. AI agents can draft, build, test, and iterate faster than any team I've managed. Execution is becoming infrastructure — available, affordable, abundant.
-
-So what becomes scarce?
-
-Direction. Human intent. The ability to decide what deserves to exist, why it matters, and what trade-offs you're willing to accept.
-
-Not strategy in the abstract — I mean the specific, committed kind. The kind where you say "we're doing this and not that" and live with the consequences.
-
-AI raises the floor. It does not raise the ceiling. The ceiling is still judgement, taste, and the willingness to commit before the data tells you to.
-
-The people who can name what matters — and what doesn't — are the new bottleneck.
-
-That's not a problem. That's a design constraint worth building around.
+**Status:** Approved by Klemen + Barton feedback incorporated
+**Pillar:** Building in Public
 
 ---
 
-#AI #Augmentation #Leadership #FutureOfWork #HumanInTheLoop
+I've been using AI pretty intensely for the last two months. 277 sessions — building agent systems, managing pipelines, shipping products. Basically running my entire operation through it.
+
+But what actually happened was that the AI got it wrong a lot. Like, a lot. Wrong approach, wrong files, jumping ahead before I'd even finished thinking. And I kept catching it. Kept saying no, that's not what I meant, go back.
+
+I think that's actually the skill. Not the prompting — the catching. Knowing when something's off before you've fully articulated why.
+
+It reminds me of coaching, honestly. In a gym you learn to watch someone move and just know something's wrong before you can name the muscle. Same thing here. You develop a feel for when the output isn't quite right — even when it looks fine on the surface.
+
+I don't know if that's teachable. But I know it matters more than most of the AI advice I see online.

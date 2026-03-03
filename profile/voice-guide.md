@@ -6,98 +6,115 @@ Klemen dictates. He thinks out loud — using Wispr Flow, speaking his ideas, th
 
 The voice is conversational, direct, and unpolished in the right places. Short bursts of thought, then a longer reflection. Never smooth. Never corporate. Always human.
 
-## Sentence rhythm
+## Two modes — know the difference
 
-Default sentence length: 8–18 words. Punch after a long sentence — drop to 4–6 words. Let the short sentence land.
+Klemen has two writing modes. They are NOT the same voice.
 
-Paragraphs are 2–4 sentences. One idea per paragraph. If a paragraph needs more than four sentences, it's two paragraphs.
+### Natural voice (LinkedIn, messages, conversations, most writing)
+
+This is the real voice. How he talks. How he thinks. This is the DEFAULT for everything except published articles.
+
+- Starts mid-thought — "I've been using AI pretty intensely..."
+- Admits uncertainty freely — "I don't know if that's teachable"
+- Uses conversational filler — "like, a lot," "honestly," "kind of," "basically," "right?"
+- Shares what happened, not what people should learn from it
+- Connects domains naturally (coaching → AI) without turning it into a framework
+- No packaged lessons at the end — leaves things open
+- No hooks. No "Most people think..." openers. No teaching posture.
+- Never sounds cocky. Never "my outputs were better than most." Just shares what he noticed.
+- The reader should feel like they're hearing him think, not reading his conclusions.
+
+**Example (approved post):**
+> I've been using AI pretty intensely for the last two months. 277 sessions — building agent systems, managing pipelines, shipping products. Basically running my entire operation through it.
+>
+> But what actually happened was that the AI got it wrong a lot. Like, a lot. Wrong approach, wrong files, jumping ahead before I'd even finished thinking. And I kept catching it. Kept saying no, that's not what I meant, go back.
+>
+> I think that's actually the skill. Not the prompting — the catching. Knowing when something's off before you've fully articulated why.
+>
+> It reminds me of coaching, honestly. In a gym you learn to watch someone move and just know something's wrong before you can name the muscle. Same thing here. You develop a feel for when the output isn't quite right — even when it looks fine on the surface.
+>
+> I don't know if that's teachable. But I know it matters more than most of the AI advice I see online.
+
+**What makes this HIM:**
+- "Like, a lot" — unpolished, real
+- "Basically running my entire operation through it" — casual summary
+- "I think that's actually the skill" — discovery in real time, not a pre-packaged claim
+- "It reminds me of coaching, honestly" — natural connection, not a framework
+- "I don't know if that's teachable" — honest uncertainty at the end, not a bow-tied lesson
+
+### Luminous blog voice (published articles only)
+
+More structured, framework-driven. Used ONLY for Luminous Group publications. Still sounds like Klemen but with more intentional architecture — opening claims, developed arguments, named frameworks (Augmentation Arc, scarcity migration). This is the writing version. The natural voice is the speaking version.
 
 ## Vocabulary
 
 **Words he uses:** shipped, built, clarity, momentum, simple, honest, useful, real, concrete, grounded, trust, discipline, consistent, tested, measured, designed, coordinated, specific, deliberate, durable.
 
-**Phrases he uses:** "I learned...", "The common thread:", "That means...", "Not because... but because...", "The real job is...", "What actually happens is...", "I also build."
+**Phrases he uses (natural voice):** "I think that's actually...", "Like, a lot", "Basically...", "Honestly...", "I don't know if...", "But what actually happened was...", "Kind of...", "Right?", "The thing is..."
+
+**Phrases he uses (both modes):** "I learned...", "The common thread:", "That means...", "Not because... but because...", "What actually happens is...", "I also build."
 
 **Words he never uses:** passionate, innovative, thrilled, game-changer, cutting-edge, synergy, leverage (as a verb), disrupt, unlock, empower, holistic, robust, scalable (unless literally discussing infrastructure), revolutionise, best-in-class, thought leader, ecosystem (unless literally about a platform).
 
-**Never:** exclamation marks (almost never), "In today's rapidly evolving...", "I'm excited to announce...", "Thrilled to share...", any sentence that starts with "As a..."
+**Never:** exclamation marks (almost never), "In today's rapidly evolving...", "I'm excited to announce...", "Thrilled to share...", any sentence that starts with "As a...", any sentence that starts with "Most people think..."
+
+**Never in natural voice:** hooks, teaching openers, packaged takeaways, framework names, "That's [concept]" conclusions, anything that sounds like a blog post.
 
 ## Punctuation
 
-- **Em dashes** — used frequently. For asides, for emphasis, for pivots mid-sentence. One per sentence maximum.
-- **Colons:** to introduce a list, a consequence, or a restatement. "The result: clarity."
-- **Semicolons:** sparingly, for closely related independent clauses.
+- **Em dashes** — used frequently. For asides, for emphasis, for pivots mid-sentence.
+- **Colons:** to introduce a list, a consequence, or a restatement.
 - **Periods.** Short sentences end with periods. Let them breathe.
-- **Exclamation marks:** almost never. If something is exciting, the content shows it. The punctuation doesn't need to.
-
-## Sentence structures
-
-**Stacked fragments for emphasis:**
-> Ship it. Measure it. Improve it.
-
-**"I learned..." for reflective insight:**
-> I learned that timezone management is a skill, not a constraint.
-
-**X-then-Y parallels:**
-> Not because I enjoy conflict, but because avoiding it always costs more.
-
-**Concrete claim openers:**
-> In an agent-mediated world, execution becomes abundant.
-
-**Triads:**
-> Clarity, ownership, progress.
-> Ship it, measure it, improve it.
-> Seoul, Berlin, Munich.
+- **Exclamation marks:** almost never. If something is exciting, the content shows it.
 
 ## Opening patterns
 
-**Do:** Open with a concrete claim, a scene, or "I + verb."
-- "I help leaders and teams turn AI from a tool into an organisational capability."
+**Natural voice — do:**
+- Start mid-thought: "I've been using AI pretty intensely..."
+- Start with what happened: "So this week I built..."
+- Start with an observation: "There's something weird about..."
+- Start with honesty: "I don't know if this is useful but..."
+
+**Natural voice — don't:**
+- "Most people think..." (hook)
+- "Here's the truth about..." (teaching)
+- "3 things I learned from..." (listicle)
+- Any opener designed to make someone stop scrolling. If the thought is worth sharing, it doesn't need a trick.
+
+**Blog voice — do:**
+- Open with a concrete claim or a scene
 - "In an agent-mediated world, execution becomes abundant."
-- "I built a multi-agent system with five AI agents."
-- "Planning a trip across Europe is confusing, time-consuming, and costly."
 
-**Don't:** Open with "In today's world...", "As a...", "I'm excited to...", "Having worked in...", or any throat-clearing.
+**Both — never:**
+- "In today's world...", "As a...", "I'm excited to...", "Having worked in..."
 
-## 15 example quotes that ARE him
+## 10 sentences that ARE him (natural voice)
 
-1. "I care about the team, I work hard, I tell the truth, and I try to understand before I optimise."
-2. "Augmentation produces returns that automation cannot."
-3. "Bring vague questions and thin knowledge, and AI will upscale your vagueness."
-4. "Leaders need to think less like cyclists and more like sailors."
-5. "The point isn't automation for its own sake. It's economic performance."
-6. "I also build."
-7. "When agents raise the standard, they erase the old signal that 'good work' once carried."
-8. "Showing up is the whole thing."
-9. "I'd rather have an uncomfortable conversation on Tuesday than a crisis on Friday."
-10. "Consistency beats intensity. Every time."
-11. "Most of what matters in a career is just not quitting when it gets boring."
-12. "The common thread: I understand how people actually work under pressure."
-13. "Complexity is a cost, not a feature."
-14. "Good enough and deployed beats perfect and theoretical."
-15. "Reading people before reading data."
+1. "I've been using AI pretty intensely for the last two months."
+2. "But what actually happened was that the AI got it wrong a lot. Like, a lot."
+3. "I think that's actually the skill."
+4. "It reminds me of coaching, honestly."
+5. "I don't know if that's teachable."
+6. "I don't want to sound cocky. I want to be heard in a different way."
+7. "I would rather write one good post that I'm proud of than many that I'm not."
+8. "Everything is written by AI and in a really bad way."
+9. "I think Europe is a little bit too segregated."
+10. "That's not the goal. The goal is to connect it with the things I'm doing."
 
-## 5 example sentences that are NOT him
+## 5 sentences that are NOT him
 
-1. "I'm passionate about leveraging cutting-edge AI to drive transformative outcomes for stakeholders."
-2. "Thrilled to share that we've launched an innovative new product that's disrupting the market!"
-3. "As a seasoned professional with over 6 years of experience, I bring a holistic approach to problem-solving."
-4. "In today's rapidly evolving technological landscape, organizations must embrace digital transformation."
-5. "I'm a results-driven leader committed to empowering teams through synergistic collaboration."
-
-## Rules for blog/thought leadership mode
-
-- Open with a concrete observation or a claim. No preamble.
-- Build through specifics — name the tool, the number, the exact situation.
-- One framework per piece. Introduce it, demonstrate it, let it work.
-- End with awareness, not a call to action. Leave the reader thinking, not clicking.
-- No "What do you think?" endings unless the question is genuinely worth sitting with.
-- Every paragraph should earn its place. If it restates the previous paragraph in different words, cut it.
+1. "Most people think getting good at AI means writing better prompts." (hook — teaching posture)
+2. "And my outputs were better than most." (cocky)
+3. "That's augmentation. Not outsourcing your thinking to a machine." (packaged framework conclusion)
+4. "The people who get the most from AI aren't the best prompters." (telling people what's right)
+5. "I'm passionate about leveraging cutting-edge AI to drive transformative outcomes." (corporate garbage)
 
 ## Editing principles
 
-1. **Cut anything anyone could claim about themselves.** "I'm a hard worker" — everyone says this. "I maintained 97% sprint velocity across a 10-person cross-timezone team" — only one person can say this.
-2. **Replace adjectives with evidence.** Not "innovative approach" — "a system with five agents, isolated memory, and deliberate message-passing."
-3. **If the sentence works without the first three words, delete them.** "I think that augmentation" → "Augmentation."
-4. **One idea per sentence.** If there's a comma followed by a different thought, it's two sentences.
-5. **Read it aloud.** If you stumble, rewrite. If you run out of breath, it's too long.
+1. **Read it as if you're hearing him talk.** If it sounds like writing, rewrite it until it sounds like speaking.
+2. **Keep the "like, a lot" moments.** Conversational filler is what makes it human. Don't polish it out.
+3. **End with honesty, not a lesson.** "I don't know if that's teachable" is better than "The skill isn't prompting — it's catching."
+4. **No hooks.** If the opening is designed to make someone stop scrolling, delete it and start with the actual thought.
+5. **Share what happened. Not what people should learn.** The reader can draw their own conclusions.
+6. **Cut anything cocky.** If it sounds like bragging, rewrite it as observation. "I kept catching it" not "my outputs were better."
+7. **Leave things open.** Not everything needs a conclusion. Sometimes the best ending is "I don't know."
