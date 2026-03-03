@@ -10,7 +10,7 @@ No schedule. Post when there's something worth sharing — an insight from the w
 
 Source material lives in Obsidian session logs and Tana. If something from the week's work feels worth sharing and isn't under NDA, that's a post. If nothing does, that's fine. Silence is better than noise.
 
-Inspiration: Reed Hastings posts like he's texting a friend. 1-2 sentences sometimes. No hashtags, no emojis, no optimization. Just what he's thinking. The credibility comes from the work, not the format. That's the north star.
+Inspiration: Marc Randolph. Netflix co-founder. No hashtags, no emojis, no formatting tricks. Opens with a question or a blunt observation — "When you come home from work, what do your kids hear?" Writes like a mentor having coffee, not a brand broadcasting. His most popular posts are his most sincere ones, not his most polished. Anti-inspirational — asks uncomfortable questions instead of packaging lessons. That's the north star.
 
 ## Quality gate — two questions
 
