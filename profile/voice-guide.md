@@ -6,13 +6,7 @@ Klemen dictates. He thinks out loud — using Wispr Flow, speaking his ideas, th
 
 The voice is conversational, direct, and unpolished in the right places. Short bursts of thought, then a longer reflection. Never smooth. Never corporate. Always human.
 
-## Two modes — know the difference
-
-Klemen has two writing modes. They are NOT the same voice.
-
-### Natural voice (LinkedIn, messages, conversations, most writing)
-
-This is the real voice. How he talks. How he thinks. This is the DEFAULT for everything except published articles.
+## What it sounds like
 
 - Starts mid-thought — "I've been using AI pretty intensely..."
 - Admits uncertainty freely — "I don't know if that's teachable"
@@ -42,23 +36,17 @@ This is the real voice. How he talks. How he thinks. This is the DEFAULT for eve
 - "It reminds me of coaching, honestly" — natural connection, not a framework
 - "I don't know if that's teachable" — honest uncertainty at the end, not a bow-tied lesson
 
-### Luminous blog voice (published articles only)
-
-More structured, framework-driven. Used ONLY for Luminous Group publications. Still sounds like Klemen but with more intentional architecture — opening claims, developed arguments, named frameworks (Augmentation Arc, scarcity migration). This is the writing version. The natural voice is the speaking version.
-
 ## Vocabulary
 
 **Words he uses:** shipped, built, clarity, momentum, simple, honest, useful, real, concrete, grounded, trust, discipline, consistent, tested, measured, designed, coordinated, specific, deliberate, durable.
 
-**Phrases he uses (natural voice):** "I think that's actually...", "Like, a lot", "Basically...", "Honestly...", "I don't know if...", "But what actually happened was...", "Kind of...", "Right?", "The thing is..."
-
-**Phrases he uses (both modes):** "I learned...", "The common thread:", "That means...", "Not because... but because...", "What actually happens is...", "I also build."
+**Phrases he uses:** "I think that's actually...", "Like, a lot", "Basically...", "Honestly...", "I don't know if...", "But what actually happened was...", "Kind of...", "Right?", "The thing is...", "I learned...", "The common thread:", "That means...", "Not because... but because...", "What actually happens is...", "I also build."
 
 **Words he never uses:** passionate, innovative, thrilled, game-changer, cutting-edge, synergy, leverage (as a verb), disrupt, unlock, empower, holistic, robust, scalable (unless literally discussing infrastructure), revolutionise, best-in-class, thought leader, ecosystem (unless literally about a platform).
 
 **Never:** exclamation marks (almost never), "In today's rapidly evolving...", "I'm excited to announce...", "Thrilled to share...", any sentence that starts with "As a...", any sentence that starts with "Most people think..."
 
-**Never in natural voice:** hooks, teaching openers, packaged takeaways, framework names, "That's [concept]" conclusions, anything that sounds like a blog post.
+**Never:** hooks, teaching openers, packaged takeaways, framework names, "That's [concept]" conclusions, anything that sounds like a blog post.
 
 ## Punctuation
 
@@ -69,24 +57,18 @@ More structured, framework-driven. Used ONLY for Luminous Group publications. St
 
 ## Opening patterns
 
-**Natural voice — do:**
+**Do:**
 - Start mid-thought: "I've been using AI pretty intensely..."
 - Start with what happened: "So this week I built..."
 - Start with an observation: "There's something weird about..."
 - Start with honesty: "I don't know if this is useful but..."
 
-**Natural voice — don't:**
+**Don't:**
 - "Most people think..." (hook)
 - "Here's the truth about..." (teaching)
 - "3 things I learned from..." (listicle)
-- Any opener designed to make someone stop scrolling. If the thought is worth sharing, it doesn't need a trick.
-
-**Blog voice — do:**
-- Open with a concrete claim or a scene
-- "In an agent-mediated world, execution becomes abundant."
-
-**Both — never:**
 - "In today's world...", "As a...", "I'm excited to...", "Having worked in..."
+- Any opener designed to make someone stop scrolling. If the thought is worth sharing, it doesn't need a trick.
 
 ## 10 sentences that ARE him (natural voice)
 
