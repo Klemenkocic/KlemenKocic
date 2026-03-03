@@ -4,6 +4,21 @@
 
 I build AI systems that keep humans in the loop — and I write about what I learn.
 
+## Cadence
+
+No schedule. Post when there's something worth sharing — an insight from the work, something I built, something I noticed. Not because it's Tuesday and the calendar says to post.
+
+Source material lives in Obsidian session logs and Tana. If something from the week's work feels worth sharing and isn't under NDA, that's a post. If nothing does, that's fine. Silence is better than noise.
+
+Inspiration: Reed Hastings posts like he's texting a friend. 1-2 sentences sometimes. No hashtags, no emojis, no optimization. Just what he's thinking. The credibility comes from the work, not the format. That's the north star.
+
+## Quality gate — two questions
+
+Before publishing, it must pass both:
+
+1. **Am I proud of this?** Would I send it to someone I respect — a client, a founder, a friend who doesn't work in tech — and feel good about it?
+2. **Do I truly believe this?** Not "is this a good take" — do I *believe* it? Did it come from something I actually experienced, built, or learned? If I'm performing an insight I don't fully own, kill it.
+
 ## Voice rules
 
 - Short sentences. Em dashes. Triads.
@@ -12,7 +27,7 @@ I build AI systems that keep humans in the loop — and I write about what I lea
 - **No:** "passionate," "innovative," "thrilled," "game-changer," exclamation marks
 - **Yes:** "shipped," "built," "clarity," "momentum," "simple," "honest," "I learned..."
 - Hook → Context → Insight → Takeaway. No CTAs unless natural.
-- Every post should pass: "Would Klemen actually say this out loud?"
+- The post should sound like me talking — dictated, direct, thinking out loud. Not like someone who sat down to Write A LinkedIn Post.
 
 ## 4 Content Pillars
 
@@ -23,22 +38,32 @@ I build AI systems that keep humans in the loop — and I write about what I lea
 | 3 | The Non-Linear Path | Gaming → coaching → AI. Travel. Sport. | Nobody else has this combo |
 | 4 | How We Work | Teams, coordination, care as operations | Attracts collaborators |
 
-## 6-Month Biweekly Calendar (12 posts)
+## Topic bank
 
-| # | Date | Pillar | Topic | Hook |
-|---|------|--------|-------|------|
-| 1 | Mar W1 | Augmentation | Execution is infrastructure | "Execution used to be the hard part." |
-| 2 | Mar W3 | Building | Five agents, no shared context | "I built a system with five AI agents. None of them can see what the others are doing." |
-| 3 | Apr W1 | Non-Linear | Gym to AI | "Six months ago I was coaching a CEO through a deadlift. Now I build agent infrastructure." |
-| 4 | Apr W3 | How We Work | Writing things down | "The best team I ever led communicated almost entirely in writing." |
-| 5 | May W1 | Augmentation | The Mirror problem | "Most people use AI like a mirror. They get back what they bring." |
-| 6 | May W3 | Building | ShipStack and human gates | "Every AI decision in our system passes through a human approval gate." |
-| 7 | Jun W1 | Non-Linear | Seoul to Munich — what travel teaches | "I moved to Seoul with no Korean, no network, and a pandemic starting." |
-| 8 | Jun W3 | How We Work | The Tuesday conversation | "I'd rather have an uncomfortable conversation on Tuesday than a crisis on Friday." |
-| 9 | Jul W1 | Augmentation | The yacht, not the bicycle | "Steve Jobs called the computer a bicycle for the mind. That metaphor is broken." |
-| 10 | Jul W3 | Building | CRM integrations nobody asked for | "The best internal tools are the ones nobody requested but everyone uses." |
-| 11 | Aug W1 | Non-Linear | Reading people before reading data | "The most useful skill I brought from coaching to consulting has nothing to do with code." |
-| 12 | Aug W3 | How We Work | Showing up is the whole thing | "Not motivation. Not inspiration. Just being there, doing the work, day after day." |
+Not a calendar. A bank of ideas to pull from when the work produces something worth sharing. Add to this list anytime. Pull from it when it's time.
+
+| Pillar | Topic | Hook |
+|--------|-------|------|
+| Augmentation | Execution is infrastructure | "Execution used to be the hard part." |
+| Building | Five agents, no shared context | "I built a system with five AI agents. None of them can see what the others are doing." |
+| Non-Linear | Gym to AI | "Six months ago I was coaching a CEO through a deadlift." |
+| How We Work | Writing things down | "The best team I ever led communicated almost entirely in writing." |
+| Augmentation | The Mirror problem | "Most people use AI like a mirror. They get back what they bring." |
+| Building | ShipStack and human gates | "Every AI decision in our system passes through a human approval gate." |
+| Non-Linear | Seoul to Munich | "I moved to Seoul with no Korean, no network, and a pandemic starting." |
+| How We Work | The Tuesday conversation | "I'd rather have an uncomfortable conversation on Tuesday than a crisis on Friday." |
+| Augmentation | The yacht, not the bicycle | "Steve Jobs called the computer a bicycle for the mind. That metaphor is broken." |
+| Building | CRM integrations nobody asked for | "The best internal tools are the ones nobody requested but everyone uses." |
+| Non-Linear | Reading people before reading data | "The most useful skill I brought from coaching to consulting has nothing to do with code." |
+| How We Work | Showing up is the whole thing | "Not motivation. Not inspiration. Just being there, doing the work, day after day." |
+| Augmentation | Scarcity migrates upward | "Execution is becoming abundant. Direction is becoming scarce." |
+| Building | Building a product studio | "The first product is slow. The second is faster. By the third, you're mostly configuring." |
+| Non-Linear | Seven cities, one thread | "Ljubljana, Seoul, Berlin, Valencia, Lisbon, Stockholm, Munich." |
+| How We Work | Good questions > good answers | "The best intervention is usually a question, not an answer." |
+| How We Work | Trust compounds from honesty | "Trust isn't built in offsites." |
+| Augmentation | Permit, equip, audit | "Most companies say they use AI. Very few have a framework for it." |
+| Non-Linear | Europe's untapped advantage | "Europe has more diversity per square kilometre than anywhere. We barely use it." |
+| How We Work | Complexity is a cost | "Complexity is a cost, not a feature." |
 
 ## Post format
 

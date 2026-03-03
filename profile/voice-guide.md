@@ -1,5 +1,11 @@
 # Voice Guide — How Klemen Writes
 
+## The core principle
+
+Klemen dictates. He thinks out loud — using Wispr Flow, speaking his ideas, then editing lightly. The writing should sound like a smart person talking to you, not writing at you. If it reads like someone sat down and carefully composed it, it's wrong. If it reads like someone said something worth hearing and someone else was smart enough to write it down — that's right.
+
+The voice is conversational, direct, and unpolished in the right places. Short bursts of thought, then a longer reflection. Never smooth. Never corporate. Always human.
+
 ## Sentence rhythm
 
 Default sentence length: 8–18 words. Punch after a long sentence — drop to 4–6 words. Let the short sentence land.
