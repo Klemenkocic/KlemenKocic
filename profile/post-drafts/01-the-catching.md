@@ -1,6 +1,6 @@
 # Post — The Catching
 
-**Status:** Approved by Klemen + Barton feedback incorporated
+**Status:** Ready to post
 **Pillar:** Building in Public
 
 ---
@@ -13,6 +13,4 @@ I think that's actually the skill. Not the prompting. The catching. Knowing when
 
 It reminds me of coaching, honestly. In a gym you learn to watch someone move and just know something's wrong before you can name the muscle. Same thing here. You develop a feel for when the output isn't quite right, even when it looks fine on the surface.
 
-The other thing I've started to realise is that the hard part isn't the AI itself. It's the coordination. How do you hand things back and forth between yourself and the machine? When do you step in, when do you let it run, when do you stop it? That's a design problem. And almost nobody talks about it that way.
-
-I don't know if any of this is teachable. But I know it matters more than most of the AI advice I see online.
+I don't know if that's teachable. But I know it matters more than most of the AI advice I see online.
