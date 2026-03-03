@@ -50,9 +50,10 @@ The voice is conversational, direct, and unpolished in the right places. Short b
 
 ## Punctuation
 
-- **Em dashes** — used frequently. For asides, for emphasis, for pivots mid-sentence.
-- **Colons:** to introduce a list, a consequence, or a restatement.
-- **Periods.** Short sentences end with periods. Let them breathe.
+- **No dashes.** No em dashes, no en dashes. They signal AI-generated writing. Use a period, a comma, or just start a new sentence instead. "Not the prompting. The catching." not "Not the prompting — the catching."
+- **Colons:** to introduce a list, a consequence, or a restatement. Sparingly.
+- **Periods.** Short sentences end with periods. Let them breathe. When in doubt, use a period.
+- **Commas:** for natural pauses within a sentence. Keep it conversational.
 - **Exclamation marks:** almost never. If something is exciting, the content shows it.
 
 ## Opening patterns
