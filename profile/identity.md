@@ -38,6 +38,7 @@ AI raises the floor. It does not raise the ceiling. The ceiling is still human j
 - **Non-linear path.** Gaming → coaching → AI. Seoul → Berlin → Munich. The unusual combination means I read rooms differently and design for how people actually behave, not how org charts say they should.
 - **Practitioner-writer.** Four published pieces on AI augmentation strategy. The writing comes from building, not from reading about building.
 - **Operates at two altitudes.** Strategic consulting (workshops, capability assessments, governance design) and hands-on building (code, integrations, agent systems) — in the same week, often the same day.
+- **European by conviction.** Slovenian, lived and worked across seven cities in five countries. I believe Europe's diversity is an asset that's underused because people work in national lanes instead of across them. I build cross-border by default.
 
 ## What I'm NOT
 

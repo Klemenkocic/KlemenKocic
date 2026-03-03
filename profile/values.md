@@ -24,7 +24,7 @@ I trained as a personal trainer because I care about sport — not as a career d
 
 ## What travel taught me
 
-I've lived in Ljubljana, Seoul, Berlin, Lisbon, Stockholm, and Munich. Not as a tourist — working, building, learning the city from the inside.
+I've lived in Ljubljana, Seoul, Berlin, Valencia, Lisbon, Stockholm, and Munich. Not as a tourist — working, building, learning the city from the inside.
 
 **Adaptability is a practice.** Moving to Seoul with no Korean, no network, and a pandemic starting — you either figure it out or you don't. I figured it out. That experience recalibrated my baseline for what counts as a real problem.
 
@@ -39,3 +39,13 @@ Coaching 40+ executives and founders in Berlin — one-on-one, in a gym, where t
 **The value of a good question.** "What are you actually trying to do?" is the most useful question in consulting, coaching, and product work. Most of the time, the person hasn't asked it of themselves yet.
 
 **Trust is built in small moments.** Not in offsites or team-building exercises. In the Tuesday standup where you admit you don't know. In the client call where you say "I was wrong about that." Trust compounds from honesty, not from performance.
+
+## What I believe about Europe
+
+I'm deeply proud of Europe. Not in a way that diminishes anywhere else — I adore Asia, I love America, every place I've lived has shaped me. But Europe is home, and I think it has a problem worth naming.
+
+It's too segregated. The Germans build with Germans. The French with the French. The Spanish, the Norwegians, the Dutch — everyone working in their own lane. And I think that's a waste. Europe has more cultural diversity packed into a smaller space than almost anywhere on earth. Different languages, different traditions, different ways of thinking about work and life and food and time. That's not a complication — that's an asset. But only if people actually work together across those lines.
+
+I've lived in Ljubljana, Seoul, Berlin, Valencia, Lisbon, Stockholm, and Munich. I've worked on teams where the project language was English but the thinking was Korean, German, Serbian, Portuguese — all at once. Those teams were harder to run. They were also better. The friction produced ideas that a monocultural team never would have found.
+
+I want to advocate for that. Not with slogans — by building things that bring Europeans together. Products, teams, companies that cross borders by default instead of by exception. ViaVia started with European travel for a reason. Luminous Group operates across European markets for a reason. This isn't an accident. It's a conviction.
