@@ -21,13 +21,14 @@ Before publishing, it must pass both:
 
 ## Voice rules
 
-- Short sentences. Em dashes. Triads.
-- Open with a concrete claim or scene, never "In today's world..."
-- End with awareness, not a sales pitch
-- **No:** "passionate," "innovative," "thrilled," "game-changer," exclamation marks
-- **Yes:** "shipped," "built," "clarity," "momentum," "simple," "honest," "I learned..."
-- Hook → Context → Insight → Takeaway. No CTAs unless natural.
-- The post should sound like me talking — dictated, direct, thinking out loud. Not like someone who sat down to Write A LinkedIn Post.
+- Short sentences. No dashes. Triads.
+- Open mid-thought or with what happened, never "In today's world..."
+- End with honesty, not a sales pitch. "I don't know" is a valid ending.
+- **No:** "passionate," "innovative," "thrilled," "game-changer," exclamation marks, hooks, dashes
+- **Yes:** "shipped," "built," "clarity," "momentum," "simple," "honest," "I learned...", "I don't know if..."
+- The post should sound like me talking. Dictated, direct, thinking out loud.
+- Never say "link in comments." Put the link in the post.
+- For Luminous blog posts: write your own post about the piece (why you wrote it, what sparked it). Barton posts the company version. Two posts, two audiences, both authentic.
 
 ## 4 Content Pillars
 
