@@ -246,6 +246,14 @@ export const aiUses: Record<string, string> = {
 
 export const blogPosts: BlogPost[] = [
   {
+    title: "The Resolution of Intelligence",
+    excerpt: "AI integration often erodes human judgement rather than enhancing it. When systems replace judgement long enough, practitioners lose the capacity to originate decisions independently. The most valuable organisations in forty years will be those that preserved and elevated human authorship, not those that optimised it away.",
+    url: "https://www.luminousgroup.net/luminosity/the-resolution-of-intelligence",
+    date: "Mar 4",
+    readingTime: "8 min read",
+    publication: "Luminous Group"
+  },
+  {
     title: "What Agents Cannot Want",
     excerpt: "In an agent-mediated world, execution becomes abundant. What becomes scarce is direction driven by human intent. When agents raise the standard, they erase the old signal that 'good work' once carried—and scarcity migrates upward, from making things to deciding which things deserve to exist.",
     url: "https://www.luminousgroup.net/luminosity/what-agents-cannot-want",

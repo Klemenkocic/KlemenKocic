@@ -1,6 +1,17 @@
 # Writing — Klemen Kocic
 
-Four published pieces at Luminous Group. Each one came from building something, not from reading about it.
+Five published pieces at Luminous Group. Each one came from building something, not from reading about it.
+
+---
+
+## The Resolution of Intelligence
+**Mar 2026 · 8 min read · [Luminous Group](https://www.luminousgroup.net/luminosity/the-resolution-of-intelligence)**
+
+**Core argument:** AI integration often erodes human judgement rather than enhancing it. When systems replace judgement long enough, practitioners lose the capacity to originate decisions independently. Atrophied judgement cannot be restored by removing the system that replaced it.
+
+**Key framework:** The Resolution. Two possible outcomes of AI integration. Failed: technology remains visible, human judgement disappears. Successful: technology resolves into background, human capability deepens. Like a pianist and a piano. The instrument disappears into the music.
+
+**Best quote:** "Atrophied judgement cannot be restored by removing the system that replaced it."
 
 ---
 
