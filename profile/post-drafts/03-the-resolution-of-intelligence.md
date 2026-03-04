@@ -7,14 +7,14 @@
 
 I just published a new piece. It's called The Resolution of Intelligence.
 
-The idea started with a luxury handbag. A concierge who used to pick pieces based on years of taste and instinct. Then a system got introduced to help. Then the system started picking. Then the concierge forgot how to pick at all.
+It started from reading about Heidegger's hammer. The idea that a good tool disappears in use. You don't think about the hammer. You think about the nail. The moment you notice the tool, something is broken.
 
-That's what I keep seeing. Not AI replacing people overnight. Something slower. The judgement just thins out. The human is still there, still looks like they're deciding, but the actual decision moved into infrastructure a long time ago.
+A piano does this. A good Mac does this. The best tools get out of the way so completely that you forget they're there. You just do the work.
 
-The scary part is you can't just undo it. Once the skill atrophies, removing the system doesn't bring it back. You just have a person who used to know how to decide and a system that's been turned off.
+I think AI should work the same way. But most of the time it doesn't. What I keep seeing is the opposite. The technology stays visible and the human judgement quietly disappears. A concierge who used to pick pieces based on years of taste. Then a system gets introduced. Then the system starts picking. Then the concierge forgets how to pick at all.
 
-I wrote about how to build the other way. Where the technology disappears into the background instead of the human disappearing into the technology. Like a pianist and a piano. You don't notice the instrument. You notice the music.
+The scary part is you can't just undo it. Once the skill atrophies, removing the system doesn't bring it back.
 
-I think the most valuable organisations in forty years won't be the ones that optimised the hardest. They'll be the ones that kept their people sharp.
+I wrote about how to build the other way. Where the technology resolves into the background and human capability deepens instead of eroding. The most valuable organisations in forty years won't be the ones that optimised the hardest. They'll be the ones that kept their people sharp.
 
 Link in comments.
