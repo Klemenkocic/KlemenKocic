@@ -1,11 +1,11 @@
 # Post — The Catching
 
-**Status:** Ready to post
+**Status:** Posted
 **Pillar:** Building in Public
 
 ---
 
-I've been working with AI for a while now. But in just the last two months I ran 277 sessions. Building agent systems, managing pipelines, shipping products. Basically running my entire operation through it.
+I've been working with AI for a while now. I use it for basically everything. Building agent systems, managing pipelines, shipping products. Running my entire operation through it.
 
 But what actually happened was that the AI got it wrong a lot. Like, a lot. Wrong approach, wrong files, jumping ahead before I'd even finished thinking. And I kept catching it. Kept saying no, that's not what I meant, go back.
 

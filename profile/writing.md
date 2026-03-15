@@ -1,6 +1,17 @@
 # Writing — Klemen Kocic
 
-Five published pieces at Luminous Group. Each one came from building something, not from reading about it.
+Six published pieces at Luminous Group. Each one came from building something, not from reading about it.
+
+---
+
+## What You Govern Determines What You Become
+**Mar 2026 · 12 min read · [Luminous Group](https://www.luminousgroup.net/luminosity/what-you-govern-determines-what-you-become)**
+
+**Core argument:** AI systems optimise what is specified, not what ought to be specified. A single misaligned metric, compounded at machine speed across pricing, hiring, incentives, and capital allocation, produces a restructuring problem, not a pivot. Governance-as-compliance is insufficient; what is needed is governance-as-authorship — the ongoing act of defining and defending what these systems should pursue.
+
+**Key framework:** Three capacities for governing intent under acceleration: Foresight (detecting when objectives are narrowing before they compound), Coordination (realigning systems when misalignment surfaces without paralysis), and Coherence (maintaining credibility and trust while course-correcting at speed).
+
+**Best quote:** "Execution is becoming abundant. Judgement is not. And the economic logic is asymmetric: a single well-governed redirection preserves more value than a thousand efficiently executed iterations of the wrong objective."
 
 ---
 

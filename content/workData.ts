@@ -246,6 +246,14 @@ export const aiUses: Record<string, string> = {
 
 export const blogPosts: BlogPost[] = [
   {
+    title: "What You Govern Determines What You Become",
+    excerpt: "AI systems optimise what is specified; they do not determine what ought to be specified. If the objective encoded three years ago was incomplete, the system has been compounding that gap at scale — into pricing, hiring, incentives, and capital allocation. The dashboards stay green the entire time.",
+    url: "https://www.luminousgroup.net/luminosity/what-you-govern-determines-what-you-become",
+    date: "Mar 15",
+    readingTime: "12 min read",
+    publication: "Luminous Group"
+  },
+  {
     title: "The Resolution of Intelligence",
     excerpt: "AI integration often erodes human judgement rather than enhancing it. When systems replace judgement long enough, practitioners lose the capacity to originate decisions independently. The most valuable organisations in forty years will be those that preserved and elevated human authorship, not those that optimised it away.",
     url: "https://www.luminousgroup.net/luminosity/the-resolution-of-intelligence",
