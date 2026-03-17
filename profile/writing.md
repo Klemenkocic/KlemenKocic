@@ -5,7 +5,7 @@ Six published pieces at Luminous Group. Each one came from building something, n
 ---
 
 ## What You Govern Determines What You Become
-**Mar 2026 · 12 min read · [LinkedIn](https://www.linkedin.com/pulse/what-you-scaling-mark-b%C3%A9liczky-mfoze/)**
+**Mar 2026 · 12 min read · [Luminous Group](https://www.luminousgroup.net/luminosity/what-are-you-scaling)**
 
 **Core argument:** AI systems optimise what is specified, not what ought to be specified. A single misaligned metric, compounded at machine speed across pricing, hiring, incentives, and capital allocation, produces a restructuring problem, not a pivot. Governance-as-compliance is insufficient; what is needed is governance-as-authorship — the ongoing act of defining and defending what these systems should pursue.
 

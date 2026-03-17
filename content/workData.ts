@@ -248,7 +248,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "What You Govern Determines What You Become",
     excerpt: "AI systems optimise what is specified; they do not determine what ought to be specified. If the objective encoded three years ago was incomplete, the system has been compounding that gap at scale — into pricing, hiring, incentives, and capital allocation. The dashboards stay green the entire time.",
-    url: "https://www.linkedin.com/pulse/what-you-scaling-mark-b%C3%A9liczky-mfoze/",
+    url: "https://www.luminousgroup.net/luminosity/what-are-you-scaling",
     date: "Mar 15",
     readingTime: "12 min read",
     publication: "Luminous Group"
