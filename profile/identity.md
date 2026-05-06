@@ -8,11 +8,17 @@ I build AI systems that keep humans in the loop — and I write about what I lea
 
 I'm Interaction Architecture at Luminous Group — designing how humans work with our internal multi-agent system, Luminosity. I also co-founded ViaVia, where we ship AI products for professionals. Currently building Charles, an AI strength training coach. Before this: Web3 gaming at $40M scale, distributed engineering teams, coaching founders in Berlin.
 
-## Site intro (thesis-led, ~50 words)
+## Site intro
 
-I work on *interaction architecture* for AI systems: the structure that decides how humans and agents work together. The bet I'm making is that human judgement gets sharper as the system gets more capable — not duller.
+I build AI systems that keep humans in the loop. AI raises the floor. The ceiling is still human — and the bet I'm making is that human judgement gets sharper as the system gets more capable, not duller.
 
-AI raises the floor. The ceiling is still human. That's what I build at Luminous Group and ViaVia, and what I write about.
+The work is interaction architecture, across three layers: how agents get the right information at the right time (retrieval, vectors, the structure of context); how humans and agents work together (transparency, pacing, deliberate coordination); and what gets surfaced back to the user at the right moment.
+
+At Luminous Group I'm Interaction Architecture on Luminosity — a multi-agent, multi-person system. Co-inventor on four patents filed there.
+
+I co-founded ViaVia, where we build AI products for professionals. Currently shipping Charles — an AI strength training coach with multi-model orchestration (Claude, Gemini, swappable), vector retrieval via Pinecone for the right training context session by session, and six layers of filtering before the LLM sees the data. Earlier products: Viadio (AI memory videos from phone photos) and ShipStack (production framework for AI-native software — seven AI departments, human approval gates).
+
+I write about what I learn from building. Seven essays at luminousgroup.net on human-AI collaboration, including *The Displacement of Judgement* (with Barton Friedland), *They Built It. They Can't Control It.*, and *What You Govern Determines What You Become*.
 
 ## Medium bio (120 words)
 

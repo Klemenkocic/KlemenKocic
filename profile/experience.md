@@ -17,12 +17,12 @@ Luminous Group is a human-centred AI consultancy that's also building its own AI
 
 **What I learned:** Augmentation works when you design for human judgement, not around it. The organisations that get the most from AI are the ones that got specific about what their people are actually good at — then built AI around those strengths.
 
-### Co-Founder — ViaVia UG
+### Co-Founder — ViaVia
 **Sep 2025 – Present · Munich, Germany**
 
 ViaVia builds AI systems for professionals. Started in September 2025 — a place to ship AI products outside the consultancy work, against problems I care about.
 
-**Current focus: Charles.** An AI strength training coach, coming soon to the App Store. Charles builds periodised training programmes (accumulation, intensification, strength blocks) and rebuilds them session by session as the user logs what actually happened. Multi-model under the hood (Claude, Gemini, swappable). Six layers of filtering before the LLM ever sees the data: AI does what's genuinely hard to code, deterministic code does the rest.
+**Current focus: Charles.** An AI strength training coach, coming soon to the App Store. Charles builds periodised training programmes (accumulation, intensification, strength blocks) and rebuilds them session by session as the user logs what actually happened. Multi-model under the hood (Claude, Gemini, swappable). Vector retrieval via Pinecone for surfacing the right training context session by session. Six layers of filtering before the LLM ever sees the data: AI does what's genuinely hard to code, deterministic code does the rest.
 
 **What I do:**
 - Lead Charles end-to-end with my co-founder: data model, periodisation logic, the feedback loop, multi-model orchestration, the filtering pipeline.

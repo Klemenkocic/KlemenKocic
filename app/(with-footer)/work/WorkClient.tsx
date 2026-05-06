@@ -62,14 +62,45 @@ export default function WorkClient() {
           </h1>
           <div className="mt-4 sm:mt-6 space-y-4 text-sm sm:text-base text-foreground/80 leading-relaxed max-w-3xl">
             <p>
-              I work on <em>interaction architecture</em> for AI systems: the
-              structure that decides how humans and agents work together. The
-              bet I&apos;m making is that human judgement gets sharper as the
-              system gets more capable — not duller.
+              I build AI systems that keep humans in the loop. AI raises the
+              floor. The ceiling is still human — and the bet I&apos;m making
+              is that human judgement gets sharper as the system gets more
+              capable, not duller.
             </p>
             <p>
-              AI raises the floor. The ceiling is still human. That&apos;s what
-              I build at Luminous Group and ViaVia, and what I write about.
+              The work is interaction architecture, across three layers: how
+              agents get the right information at the right time (retrieval,
+              vectors, the structure of context); how humans and agents work
+              together (transparency, pacing, deliberate coordination); and
+              what gets surfaced back to the user at the right moment.
+            </p>
+            <p>
+              At Luminous Group I&apos;m Interaction Architecture on Luminosity
+              — a multi-agent, multi-person system. Co-inventor on four
+              patents filed there.
+            </p>
+            <p>
+              I co-founded ViaVia, where we build AI products for professionals.
+              Currently shipping Charles — an AI strength training coach with
+              multi-model orchestration (Claude, Gemini, swappable), vector
+              retrieval via Pinecone for the right training context session by
+              session, and six layers of filtering before the LLM sees the
+              data. Earlier products: Viadio (AI memory videos from phone
+              photos) and ShipStack (production framework for AI-native
+              software — seven AI departments, human approval gates).
+            </p>
+            <p>
+              I write about what I learn from building. Seven essays at
+              luminousgroup.net on human-AI collaboration, including
+              {" "}<em>The Displacement of Judgement</em> (with Barton Friedland),
+              {" "}<em>They Built It. They Can&apos;t Control It.</em>, and
+              {" "}<em>What You Govern Determines What You Become</em>.
+            </p>
+            <p>
+              I like working with people who care about doing the work well: who
+              value clarity over noise, ownership over posturing, and progress
+              over perfection. I&apos;m most useful when there&apos;s real
+              complexity on the table and no obvious playbook.
             </p>
           </div>
         </motion.div>

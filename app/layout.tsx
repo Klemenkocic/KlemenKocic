@@ -51,7 +51,7 @@ export default function RootLayout({
     "@type": "Person",
     name: "Klemen Kocic",
     alternateName: "Klemen Kočič",
-    jobTitle: "AI Consultant & Co-Founder",
+    jobTitle: "Builder of AI systems · Interaction Architecture · Co-Founder",
     worksFor: [
       {
         "@type": "Organization",
@@ -59,7 +59,7 @@ export default function RootLayout({
       },
       {
         "@type": "Organization",
-        name: "ViaVia Travel",
+        name: "ViaVia",
       },
     ],
     alumniOf: [
@@ -82,7 +82,7 @@ export default function RootLayout({
     url: "https://klemenkocic.com",
     image: "https://klemenkocic.com/images/profile.jpg",
     description:
-      "AI Consultant at Luminous Group and Co-Founder of ViaVia Travel. Helping teams turn AI into organisational capability. Based in Munich, Germany.",
+      "Builder of AI systems. Interaction Architecture at Luminous Group, working on Luminosity (a multi-agent, multi-person system). Co-Founder of ViaVia, where we ship AI products for professionals — currently Charles, an AI strength training coach. Based in Munich, Germany.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Munich",
