@@ -8,9 +8,15 @@ I build AI systems that keep humans in the loop — and I write about what I lea
 
 I'm Interaction Architecture at Luminous Group — designing how humans work with our internal multi-agent system, Luminosity. I also co-founded ViaVia, where we ship AI products for professionals. Currently building Charles, an AI strength training coach. Before this: Web3 gaming at $40M scale, distributed engineering teams, coaching founders in Berlin.
 
+## Site intro (thesis-led, ~50 words)
+
+I work on *interaction architecture* for AI systems: the structure that decides how humans and agents work together. The bet I'm making is that human judgement gets sharper as the system gets more capable — not duller.
+
+AI raises the floor. The ceiling is still human. That's what I build at Luminous Group and ViaVia, and what I write about.
+
 ## Medium bio (120 words)
 
-I build AI systems that keep humans in the loop. At Luminous Group I'm Interaction Architecture — designing and helping build Luminosity, our internal multi-agent system: five agents with isolated memory and deliberate message-passing coordination. Four patent constructs carry my name.
+I build AI systems that keep humans in the loop. At Luminous Group I'm Interaction Architecture — designing and helping build Luminosity, our internal multi-agent, multi-person system: each person works with their own agents, agents coordinate across people through deliberate, observable message-passing. Co-inventor on four patents filed there, on the architecture of human-agent collaboration.
 
 I co-founded ViaVia, where we build AI products for professionals. Currently shipping Charles — an AI strength training coach with multi-model orchestration (Claude, Gemini, swappable) and six layers of filtering before the LLM ever sees the data. Earlier ViaVia products: Viadio (AI memory videos from phone photos) and ShipStack (production framework for AI-native software — seven AI departments, human approval gates).
 

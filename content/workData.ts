@@ -62,11 +62,11 @@ export const experiences: Experience[] = [
     bullets: [
       "Luminous Group is a human-centred AI consultancy that's also building its own AI product, Luminosity. I work both sides.",
       "Interaction Architecture: designing the full structure of how humans work with the agents. The transparency that makes communication visible, the pacing that keeps autonomous action under human control, the progressive structure that lets domain experts engage with autonomous AI without technical fluency.",
-      "Help build Luminosity — five agents with isolated memory and deliberate message-passing coordination. No shared context by default: if it's not explicit, it doesn't happen.",
+      "Help build Luminosity — a multi-agent, multi-person system. Each person works with their own agents; agents coordinate across people through deliberate, observable message-passing. Isolated memory by default — if context isn't explicit, it doesn't propagate.",
       "Led capability-assessment workshops with CEOs, executives, and professionals across dentistry, education, and sport. Helped ~20 individuals plus one full company go from \"I don't know how AI fits\" to a working answer for their specific work.",
       "Built internal systems: CRM integrations (Attio, Linear, GitHub), operational tooling, agent-mediated workflows that keep the team coordinated without adding meetings.",
       "Lead author and co-author of seven essays on human-AI collaboration at Luminous Group, including \"The Displacement of Judgement,\" \"They Built It. They Can't Control It.,\" \"What You Govern Determines What You Become,\" \"The Resolution of Intelligence,\" and \"What Agents Cannot Want.\"",
-      "Four patent constructs carry my name.",
+      "Co-inventor on four patents filed at Luminous Group, on the architecture of human-agent collaboration.",
     ],
     video: {
       label: "Luminous Group — AI solutions demo",
@@ -196,7 +196,7 @@ export const skills: Skills = {
   languages: ["JavaScript", "TypeScript", "Python", "Swift", "SQL", "HTML/CSS"],
   frameworks: ["React", "Next.js", "React Native", "Node.js", "Tailwind CSS", "SwiftUI"],
   data_platforms: ["PostgreSQL", "Supabase", "Pinecone", "MongoDB", "Firebase", "Tableau", "Grafana"],
-  tools: ["Git", "GitHub", "Warp", "Jira", "Asana", "Xcode", "VS Code", "Vercel", "Tana", "Obsidian", "npm/pnpm", "Agile/Scrum"],
+  tools: ["Git", "GitHub", "Warp", "Miro", "Jira", "Asana", "Xcode", "VS Code", "Vercel", "Tana", "Obsidian", "npm/pnpm", "Agile/Scrum"],
   certifications: [
     "Meta – Backend Developer",
     "Google – Project Management Specialization",
