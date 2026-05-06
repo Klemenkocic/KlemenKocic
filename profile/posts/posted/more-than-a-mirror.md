@@ -19,4 +19,4 @@ But when you bring real expertise and specific questions, it becomes something e
 
 The quality of AI output is bounded by the quality of human input. That's it. That's the whole thing.
 
-https://www.luminousgroup.net/luminosity/more-than-a-mirror
+https://www.luminousgroup.net/liminality/more-than-a-mirror

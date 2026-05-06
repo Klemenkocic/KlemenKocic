@@ -62,17 +62,27 @@ export default function WorkClient() {
           </h1>
           <div className="mt-4 sm:mt-6 space-y-4 text-sm sm:text-base text-foreground/80 leading-relaxed max-w-3xl">
             <p>
-              I help leaders and teams turn AI from a tool into an organisational
-              capability. That means finding where judgement and coordination really
-              happen — usually in the messy middle of the business — and redesigning
-              the workflows so decisions get better and faster, without creating new risk.
+              I build AI systems that keep humans in the loop. At Luminous Group
+              I&apos;m Interaction Architecture — designing and helping build
+              Luminosity, our internal multi-agent system: five agents with
+              isolated memory and deliberate message-passing coordination. Four
+              patent constructs carry my name.
             </p>
             <p>
-              I also build. At Luminous Group I designed a multi-agent system with five
-              AI agents, isolated memory, and deliberate coordination. At ViaVia I ship
-              products — from AI-powered memory videos to production frameworks with
-              human approval gates. The common thread: I understand how people actually
-              work under pressure, and I design systems that make that work better.
+              I co-founded ViaVia, where we build AI products for professionals.
+              Currently shipping Charles — an AI strength training coach with
+              multi-model orchestration (Claude, Gemini, swappable) and six layers
+              of filtering before the LLM ever sees the data. Earlier ViaVia
+              products: Viadio (AI memory videos from phone photos) and ShipStack
+              (production framework for AI-native software — seven AI departments,
+              human approval gates).
+            </p>
+            <p>
+              I write about what I learn from building. Seven essays at
+              luminousgroup.net on human-AI collaboration, including
+              {" "}<em>The Displacement of Judgement</em> (with Barton Friedland),
+              {" "}<em>They Built It. They Can&apos;t Control It.</em>, and
+              {" "}<em>What You Govern Determines What You Become</em>.
             </p>
             <p>
               I like working with people who care about doing the work well: who value
@@ -167,6 +177,42 @@ export default function WorkClient() {
             })}
           </ul>
         </div>
+      </Section>
+
+      {/* Currently Building */}
+      <Section className="py-12 sm:py-16 md:py-24">
+        <motion.h2 className="font-display text-xl sm:text-2xl md:text-3xl mb-6 sm:mb-8" {...fadeSlide()}>
+          Currently Building
+        </motion.h2>
+        <motion.a
+          href="https://charles-website-ten.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group block border border-white/10 rounded-xl p-4 sm:p-6 bg-white/5 backdrop-blur-[1px] min-w-0 hover:bg-white/[0.07] transition-colors max-w-2xl"
+          whileHover={prefersReduced ? undefined : { y: -4 }}
+          {...fadeSlide()}
+        >
+          <div className="flex items-center gap-2 text-xs sm:text-sm text-foreground/60 mb-3">
+            <span>ViaVia · iOS</span>
+            <span>•</span>
+            <span>Coming soon to the App Store</span>
+          </div>
+          <h3 className="font-display text-lg sm:text-xl md:text-2xl mb-3 group-hover:text-white transition-colors">
+            Charles
+          </h3>
+          <p className="text-sm sm:text-base text-foreground/80 leading-relaxed">
+            An AI strength training coach. Periodised programmes that rebuild
+            session by session as you log what actually happened. Multi-model
+            under the hood, surgical AI throughout — six layers of filtering
+            before the LLM ever sees the data.
+          </p>
+          <div className="mt-4 text-sm text-foreground/60 group-hover:text-foreground/80 transition-colors flex items-center gap-1">
+            <span>charles-website-ten.vercel.app</span>
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </div>
+        </motion.a>
       </Section>
 
       {/* 3) Writing */}
@@ -277,7 +323,7 @@ export default function WorkClient() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <motion.a
-              href="/Klemen_Kocic_Resume.pdf"
+              href="/Klemen_Kocic_CV.pdf"
               download
               className="inline-flex items-center gap-2 px-6 py-3 bg-white text-black rounded-lg font-medium text-sm sm:text-base hover:bg-white/90 transition-colors"
               whileHover={prefersReduced ? undefined : { scale: 1.05 }}

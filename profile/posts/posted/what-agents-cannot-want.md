@@ -17,4 +17,4 @@ I think that's worth protecting. Not because AI isn't powerful. It is. But becau
 
 Execution is becoming infrastructure. The scarce thing is the willingness to commit to a direction before you know if it's right.
 
-https://www.luminousgroup.net/luminosity/what-agents-cannot-want
+https://www.luminousgroup.net/liminality/what-agents-cannot-want

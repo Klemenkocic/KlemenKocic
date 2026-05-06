@@ -54,18 +54,19 @@ export const personalSkills: string[] = [
 
 export const experiences: Experience[] = [
   {
-    role: "Consultant",
+    role: "Interaction Architecture",
     company: "Luminous Group",
     location: "Munich, Germany",
     from: "Jul 2025",
     to: "Present",
     bullets: [
-      "Luminous Group is a human-centred AI consultancy helping organisations move from AI adoption to AI capability — designing governance, workflows, and implementation systems that produce measurable outcomes.",
-      "Built Luminosity — the firm\u2019s internal multi-agent system. Five AI agents with isolated memory and deliberate message-passing coordination. No shared context by default — if it\u2019s not explicit, it doesn\u2019t happen.",
-      "Built internal systems: CRM integrations (Attio, Linear, GitHub), operational tooling, and agent-mediated workflows that keep the team coordinated without adding meetings.",
-      "Created AI-augmented workflows used across the company — designing how we work with AI, not just advising others on it.",
-      "Published research on AI augmentation strategy — \"What Agents Cannot Want,\" \"Open the Window,\" \"More Than a Mirror,\" and \"The Racing Yacht\" — four pieces that form the firm\u2019s intellectual foundation on human-AI collaboration.",
-      "Work spans strategic consulting (client-facing workshops, capability assessments, workflow redesign) and hands-on building (prototyping AI tools, integrating systems, shipping internal products).",
+      "Luminous Group is a human-centred AI consultancy that's also building its own AI product, Luminosity. I work both sides.",
+      "Interaction Architecture: designing the full structure of how humans work with the agents. The transparency that makes communication visible, the pacing that keeps autonomous action under human control, the progressive structure that lets domain experts engage with autonomous AI without technical fluency.",
+      "Help build Luminosity — five agents with isolated memory and deliberate message-passing coordination. No shared context by default: if it's not explicit, it doesn't happen.",
+      "Led capability-assessment workshops with CEOs, executives, and professionals across dentistry, education, and sport. Helped ~20 individuals plus one full company go from \"I don't know how AI fits\" to a working answer for their specific work.",
+      "Built internal systems: CRM integrations (Attio, Linear, GitHub), operational tooling, agent-mediated workflows that keep the team coordinated without adding meetings.",
+      "Lead author and co-author of seven essays on human-AI collaboration at Luminous Group, including \"The Displacement of Judgement,\" \"They Built It. They Can't Control It.,\" \"What You Govern Determines What You Become,\" \"The Resolution of Intelligence,\" and \"What Agents Cannot Want.\"",
+      "Four patent constructs carry my name.",
     ],
     video: {
       label: "Luminous Group — AI solutions demo",
@@ -76,17 +77,19 @@ export const experiences: Experience[] = [
   },
   {
     role: "Co-Founder",
-    company: "ViaVia",
+    company: "ViaVia UG",
     location: "Munich, Germany",
     from: "Sep 2025",
     to: "Present",
     bullets: [
-      "ViaVia is a product studio — we build and ship digital products: apps, AI workflows, automation agents, SaaS, websites. Currently shipping Viadio (AI-powered memory videos from phone photos), ShipStack (production framework with 7 AI departments and human approval gates), and Celestia (localised astrology for underserved markets).",
-      "Leading product development from concept to live platform — core architecture, UX decisions, and the multi-product strategy that makes each new product ship faster than the last.",
-      "Built and iterated MVPs hands-on with my co-founder. Designed ShipStack as the shared production backbone across all ViaVia products.",
+      "ViaVia builds AI systems for professionals. Started in September 2025 — a place to ship AI products outside the consultancy work, against problems I care about.",
+      "Current focus: Charles — an AI strength training coach, coming soon to the App Store. Charles builds periodised training programmes (accumulation, intensification, strength blocks) and rebuilds them session by session as the user logs what actually happened. Multi-model under the hood (Claude, Gemini, swappable). Six layers of filtering before the LLM ever sees the data: AI does what's genuinely hard to code, deterministic code does the rest.",
+      "Lead Charles end-to-end with my co-founder: data model, periodisation logic, the feedback loop, multi-model orchestration, the filtering pipeline.",
+      "Earlier ViaVia products I built: Viadio (AI-powered memory video app — turn existing phone photos and videos into meaningful compilations) and ShipStack (production framework for AI-native software — seven AI departments, human approval gates).",
+      "The hard part of building AI products isn't getting the model to do something. It's deciding what it should NOT do. Surgical AI — deterministic code where it matters, model where it has to — beats \"throw it all at the LLM and hope\" by a lot.",
     ],
     video: {
-      label: "ViaVia — European trip planner",
+      label: "ViaVia — building AI systems for professionals",
       srcWebm: "",
       srcMp4: "",
       poster: "/images/viavia-logo.png",
@@ -102,7 +105,9 @@ export const experiences: Experience[] = [
       "Led technology development for a premium personal training studio — building digital infrastructure for coaching delivery, client management, and business operations.",
       "Co-developed a native iOS coaching app (Swift): real-time session booking, progress tracking, trainer-client communication.",
       "Oversaw the web platform: scheduling, training plans, exercise libraries, invoicing, and point-of-sale.",
+      "Built the bilingual corporate website and 5 partner portals, expanding the studio's B2B reach.",
       "Directed a team of 6 offshore engineers, maintaining a 78% on-time release rate across concurrent product streams.",
+      "Helped the coaching team adopt AI in their daily work — turning a vague \"we should use AI\" aspiration into specific use cases people actually applied.",
     ],
     video: {
       label: "NHS Personal Training — iOS app demo",
@@ -190,8 +195,8 @@ export const projects: Project[] = [];
 export const skills: Skills = {
   languages: ["JavaScript", "TypeScript", "Python", "Swift", "SQL", "HTML/CSS"],
   frameworks: ["React", "Next.js", "React Native", "Node.js", "Tailwind CSS", "SwiftUI"],
-  data_platforms: ["PostgreSQL", "Supabase", "MongoDB", "Firebase", "Tableau", "Grafana"],
-  tools: ["Git", "GitHub", "Jira", "Asana", "Xcode", "VS Code", "Vercel", "npm/pnpm", "Agile/Scrum"],
+  data_platforms: ["PostgreSQL", "Supabase", "Pinecone", "MongoDB", "Firebase", "Tableau", "Grafana"],
+  tools: ["Git", "GitHub", "Warp", "Jira", "Asana", "Xcode", "VS Code", "Vercel", "Tana", "Obsidian", "npm/pnpm", "Agile/Scrum"],
   certifications: [
     "Meta – Backend Developer",
     "Google – Project Management Specialization",
@@ -202,53 +207,69 @@ export const skills: Skills = {
 };
 
 export const aiSkills: string[] = [
-  "ChatGPT",
   "Claude",
+  "ChatGPT",
+  "Gemini",
+  "Mistral",
+  "Cove AI",
+  "Llama (local)",
+  "MCP",
+  "LangGraph",
   "Cursor",
   "Hera",
-  "Gemini",
+  "Perplexity",
   "Sora",
   "Dora.AI",
-  "Perplexity",
+  "fal.ai",
+  "Kling AI",
   "Power BI with AI",
   "UiPath",
   "Cluely",
-  "LangGraph",
   "DeepSeek",
   "Grok",
-  "fal.ai",
-  "Kling AI",
   "Supabase AI",
   "RevenueCat",
 ];
 
 // Uses sourced from tool docs and common workflows; kept concise for UI tooltip
 export const aiUses: Record<string, string> = {
+  Claude: "long-form reasoning, agent backbone, sensitive documents",
   ChatGPT: "rapid drafting, refactors, and idea exploration",
-  Claude: "long‑form reasoning, summarization, and sensitive docs",
+  Gemini: "Workspace help and multimodal research",
+  Mistral: "European LLM, cost-efficient inference",
+  "Cove AI": "visual AI canvas — used before Microsoft acquired the team",
+  "Llama (local)": "local LLM for offline experimentation and privacy-sensitive work",
+  MCP: "Model Context Protocol — connecting tools and data to LLMs",
+  LangGraph: "graph-based LLM workflows with loops and branches",
   Cursor: "AI pair programming inside the editor",
   Hera: "agentic automations and workflow orchestration",
-  Gemini: "Workspace help and multimodal research",
-  Sora: "text‑to‑video concept drafts",
   Perplexity: "grounded web research with citations",
-  "Power BI with AI": "dashboards with natural‑language insights",
-  UiPath: "RPA for repetitive back‑office tasks",
-  Cluely: "data analysis assistance and quick insights",
-  LangGraph: "graph‑based LLM workflows with loops/branches",
-  DeepSeek: "cost‑efficient coding and reasoning",
-  Grok: "real‑time answers and technical Q&A",
+  Sora: "text-to-video concept drafts",
   "Dora.AI": "web animation and motion design for prototype sites",
   "fal.ai": "AI infrastructure for video generation pipelines",
   "Kling AI": "cinematic AI video creation from images",
-  "Supabase AI": "vector embeddings and AI-powered database queries",
+  "Power BI with AI": "dashboards with natural-language insights",
+  UiPath: "RPA for repetitive back-office tasks",
+  Cluely: "data analysis assistance and quick insights",
+  DeepSeek: "cost-efficient coding and reasoning",
+  Grok: "real-time answers and technical Q&A",
+  "Supabase AI": "vector embeddings and AI-powered database queries (pgvector)",
   RevenueCat: "subscription analytics and in-app purchase management",
 };
 
 export const blogPosts: BlogPost[] = [
   {
+    title: "They Built It. They Can't Control It.",
+    excerpt: "The largest AI companies keep losing control of their own systems — Amazon, Anthropic, Google, Microsoft, OpenAI. The pattern is the same: AI-generated code deployed without adequate human review, then a post-hoc requirement that senior engineers approve AI-assisted changes. Co-written with Barton Friedland and Jim Highsmith, this piece argues the failures are not technological but architectural, and that aviation, surgery, and nuclear safety solved a version of this problem decades ago by treating human oversight as essential capability rather than expendable overhead.",
+    url: "https://www.luminousgroup.net/liminality/they-built-it-they-cant-control-it",
+    date: "Apr 26",
+    readingTime: "9 min read",
+    publication: "Luminous Group"
+  },
+  {
     title: "What You Govern Determines What You Become",
     excerpt: "AI systems optimise what is specified; they do not determine what ought to be specified. If the objective encoded three years ago was incomplete, the system has been compounding that gap at scale — into pricing, hiring, incentives, and capital allocation. The dashboards stay green the entire time.",
-    url: "https://www.luminousgroup.net/luminosity/what-are-you-scaling",
+    url: "https://www.luminousgroup.net/liminality/what-are-you-scaling",
     date: "Mar 15",
     readingTime: "12 min read",
     publication: "Luminous Group"
@@ -256,7 +277,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "The Resolution of Intelligence",
     excerpt: "AI integration often erodes human judgement rather than enhancing it. When systems replace judgement long enough, practitioners lose the capacity to originate decisions independently. The most valuable organisations in forty years will be those that preserved and elevated human authorship, not those that optimised it away.",
-    url: "https://www.luminousgroup.net/luminosity/the-resolution-of-intelligence",
+    url: "https://www.luminousgroup.net/liminality/the-resolution-of-intelligence",
     date: "Mar 4",
     readingTime: "8 min read",
     publication: "Luminous Group"
@@ -264,15 +285,23 @@ export const blogPosts: BlogPost[] = [
   {
     title: "What Agents Cannot Want",
     excerpt: "In an agent-mediated world, execution becomes abundant. What becomes scarce is direction driven by human intent. When agents raise the standard, they erase the old signal that 'good work' once carried—and scarcity migrates upward, from making things to deciding which things deserve to exist.",
-    url: "https://www.luminousgroup.net/luminosity/what-agents-cannot-want",
+    url: "https://www.luminousgroup.net/liminality/what-agents-cannot-want",
     date: "Feb 16",
     readingTime: "7 min read",
     publication: "Luminous Group"
   },
   {
+    title: "The Displacement of Judgement",
+    excerpt: "Modern organisations have systematically moved consequential decision-making away from human judgement, automating critical choices upstream while leaders remain nominally responsible for ratifying predetermined outcomes. The displacement creates the illusion of control while eliminating genuine strategic choice. Co-written with Barton Friedland — formative vs corrective intervention as the lever for redesigning systems that preserve discernment while decisions remain malleable.",
+    url: "https://www.luminousgroup.net/liminality/the-displacement-of-judgement",
+    date: "Feb 9",
+    readingTime: "8 min read",
+    publication: "Luminous Group"
+  },
+  {
     title: "Open the Window",
     excerpt: "Using AI at work is not cheating—when it is used to augment human judgment and capability, not replace it. A framework for organizations to permit, equip, and audit AI-assisted work.",
-    url: "https://www.luminousgroup.net/luminosity/open-the-window",
+    url: "https://www.luminousgroup.net/liminality/open-the-window",
     date: "Nov 28",
     readingTime: "6 min read",
     publication: "Luminous Group"
@@ -280,7 +309,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "More Than a Mirror",
     excerpt: "AI isn't lacking—most of the time, it's a you-problem. Bring vague questions and thin knowledge, and AI will upscale your vagueness. This article explores the Augmentation Arc: Mirror, Lens, Lighthouse, and Prism—four modes that transform how we work with AI from reflection to resonance.",
-    url: "https://www.luminousgroup.net/luminosity/more-than-a-mirror",
+    url: "https://www.luminousgroup.net/liminality/more-than-a-mirror",
     date: "Sep 24",
     readingTime: "5 min read",
     publication: "Luminous Group"
@@ -288,7 +317,7 @@ export const blogPosts: BlogPost[] = [
   {
     title: "The Racing Yacht",
     excerpt: "Steve Jobs called the computer a 'bicycle for the mind'—but that metaphor no longer fits. In the age of AI, leaders need to think less like cyclists and more like sailors. This piece explores how augmentation requires collective intelligence, turning ambient signals into strategic advantage.",
-    url: "https://www.luminousgroup.net/luminosity/the-racing-yacht",
+    url: "https://www.luminousgroup.net/liminality/the-racing-yacht",
     date: "Oct 10",
     readingTime: "4 min read",
     publication: "Luminous Group"

@@ -17,4 +17,4 @@ The scary part is you can't just undo it. Once the skill atrophies, removing the
 
 I wrote about how to build the other way. Where the technology resolves into the background and human capability deepens instead of eroding. The most valuable organisations in forty years won't be the ones that optimised the hardest. They'll be the ones that kept their people sharp.
 
-https://www.luminousgroup.net/luminosity/the-resolution-of-intelligence
+https://www.luminousgroup.net/liminality/the-resolution-of-intelligence

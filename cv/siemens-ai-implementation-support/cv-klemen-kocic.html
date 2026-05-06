@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Klemen Kocic</title>
+<style>
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+    font-size: 8.5pt;
+    line-height: 1.4;
+    color: #222;
+    background: #e8e8e8;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .page {
+    width: 210mm;
+    height: 297mm;
+    margin: 20px auto;
+    background: white;
+    display: flex;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.08);
+    overflow: hidden;
+  }
+
+  @media print {
+    body { background: white; }
+    .page {
+      margin: 0;
+      box-shadow: none;
+      width: 100%;
+      min-height: 100vh;
+    }
+  }
+
+  /* --- Sidebar --- */
+  .sidebar {
+    width: 68mm;
+    min-width: 68mm;
+    background: #fafafa;
+    border-right: 1px solid #e5e5e5;
+    padding: 22px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .sidebar .photo {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 4px auto;
+  }
+
+  .sidebar h2 {
+    font-size: 7.5pt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #888;
+    margin-bottom: 6px;
+  }
+
+  .sidebar .section { margin-bottom: 0; }
+
+  .contact-item {
+    font-size: 8pt;
+    color: #444;
+    margin-bottom: 4px;
+    line-height: 1.4;
+  }
+
+  .contact-label {
+    color: #999;
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    display: block;
+  }
+
+  .lang-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 8.5pt;
+    padding: 1.5px 0;
+    color: #333;
+  }
+
+  .lang-level {
+    color: #777;
+    font-size: 7.5pt;
+  }
+
+  .skill-list {
+    font-size: 8pt;
+    color: #444;
+    line-height: 1.7;
+  }
+
+  .skill-sep {
+    color: #ccc;
+    margin: 0 2px;
+  }
+
+  .cert-item {
+    font-size: 8pt;
+    color: #444;
+    margin-bottom: 3px;
+  }
+
+  .cert-issuer {
+    color: #777;
+  }
+
+  /* --- Main --- */
+  .main {
+    flex: 1;
+    padding: 22px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-name {
+    font-size: 20pt;
+    font-weight: 600;
+    color: #111;
+    letter-spacing: -0.3px;
+    line-height: 1.1;
+  }
+
+  .header-title {
+    font-size: 9.5pt;
+    color: #666;
+    font-weight: 400;
+    margin-top: 3px;
+  }
+
+  .main h2 {
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #888;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 3px;
+    margin-bottom: 7px;
+  }
+
+  .main .section { margin-bottom: 2px; }
+
+  .job {
+    margin-bottom: 9px;
+    page-break-inside: avoid;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1px;
+  }
+
+  .job-title {
+    font-size: 9.5pt;
+    font-weight: 600;
+    color: #111;
+  }
+
+  .job-date {
+    font-size: 7.5pt;
+    color: #999;
+    white-space: nowrap;
+  }
+
+  .job-company {
+    font-size: 8.5pt;
+    color: #555;
+    margin-bottom: 3px;
+  }
+
+  .job-location {
+    color: #999;
+  }
+
+  .job ul {
+    padding-left: 13px;
+    margin-top: 2px;
+  }
+
+  .job li {
+    font-size: 8pt;
+    margin-bottom: 1.5px;
+    color: #333;
+    line-height: 1.45;
+  }
+
+  .edu-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 5px;
+  }
+
+  .edu-school {
+    font-weight: 600;
+    font-size: 8.5pt;
+    color: #222;
+  }
+
+  .edu-degree {
+    font-size: 8pt;
+    color: #666;
+  }
+
+  .edu-date {
+    font-size: 7.5pt;
+    color: #999;
+    white-space: nowrap;
+  }
+
+  .summary-text {
+    font-size: 8.5pt;
+    color: #333;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <img src="profile-small.jpg" alt="Klemen Kocic" class="photo">
+
+    <div class="section">
+      <h2>Contact</h2>
+      <div class="contact-item">
+        <span class="contact-label">Email</span>
+        klemen.kocic@gmail.com
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">Location</span>
+        Munich, Germany
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">Web</span>
+        klemenkocic.com
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">LinkedIn</span>
+        linkedin.com/in/klemenkocic
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <div class="lang-row"><span>English</span><span class="lang-level">Fluent / C2</span></div>
+      <div class="lang-row"><span>German</span><span class="lang-level">Intermediate / B1</span></div>
+      <div class="lang-row"><span>Slovenian</span><span class="lang-level">Native</span></div>
+      <div class="lang-row"><span>Croatian</span><span class="lang-level">Fluent / C2</span></div>
+    </div>
+
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <div style="margin-bottom: 6px;">
+        <div style="font-size: 7pt; text-transform: uppercase; letter-spacing: 1px; color: #999; margin-bottom: 2px;">Languages</div>
+        <div class="skill-list">JavaScript, TypeScript, Python, Swift, SQL, HTML/CSS</div>
+      </div>
+      <div style="margin-bottom: 6px;">
+        <div style="font-size: 7pt; text-transform: uppercase; letter-spacing: 1px; color: #999; margin-bottom: 2px;">Frameworks</div>
+        <div class="skill-list">React, Next.js, React Native, Node.js, Tailwind CSS, SwiftUI</div>
+      </div>
+      <div style="margin-bottom: 6px;">
+        <div style="font-size: 7pt; text-transform: uppercase; letter-spacing: 1px; color: #999; margin-bottom: 2px;">Data & Platforms</div>
+        <div class="skill-list">PostgreSQL, Supabase, MongoDB, Firebase, Tableau, Grafana</div>
+      </div>
+      <div>
+        <div style="font-size: 7pt; text-transform: uppercase; letter-spacing: 1px; color: #999; margin-bottom: 2px;">Tools</div>
+        <div class="skill-list">Git, GitHub, Jira, Asana, Xcode, VS Code, Vercel, Agile/Scrum</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>AI Tools</h2>
+      <div class="skill-list">Claude, ChatGPT, Gemini, Cursor, LangGraph, Perplexity, UiPath, Power BI with AI, Supabase AI, fal.ai</div>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <div class="cert-item">Project Management <span class="cert-issuer">— Google</span></div>
+      <div class="cert-item">Backend Developer <span class="cert-issuer">— Meta</span></div>
+      <div class="cert-item">Leading Teams <span class="cert-issuer">— UIUC</span></div>
+      <div class="cert-item">Negotiation Strategy <span class="cert-issuer">— Yale</span></div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <div>
+      <div class="header-name">Klemen Kocic</div>
+      <div class="header-title">AI Implementation & Project Management</div>
+    </div>
+
+    <div class="section">
+      <h2>Experience</h2>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Consultant</span>
+          <span class="job-date">Jul 2025 — Present</span>
+        </div>
+        <div class="job-company">Luminous Group <span class="job-location">— Berlin / Munich, Germany</span></div>
+        <ul>
+          <li>Design and build Luminosity's interaction experience and human-agent architecture — the transparency, pacing, and progressive structure that let domain experts engage with autonomous AI systems.</li>
+          <li>Translate business needs into AI implementation plans: gather requirements, scope solutions, and bridge non-technical stakeholders with engineering teams.</li>
+          <li>Build internal tooling and integrations (Attio, Linear, GitHub, agent-mediated workflows) so AI is part of how the firm operates day-to-day, not just what it advises on.</li>
+          <li>Author of six published articles on AI strategy and human-AI collaboration, including <em>What Agents Cannot Want</em>, <em>The Resolution of Intelligence</em>, and <em>What You Govern Determines What You Become</em>.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Technical Lead</span>
+          <span class="job-date">Jan 2025 — Feb 2026</span>
+        </div>
+        <div class="job-company">NHS Personal Training GmbH <span class="job-location">— Munich, Germany</span></div>
+        <ul>
+          <li>Technology development for a premium personal training studio — digital infrastructure for coaching delivery, client management, and business operations.</li>
+          <li>Co-developed a native iOS coaching app (Swift): real-time session booking, progress tracking, trainer-client communication.</li>
+          <li>The web platform: scheduling, training plans, exercise libraries, invoicing, and point-of-sale.</li>
+          <li>A team of 6 offshore engineers, 78% on-time release rate across concurrent product streams.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Personal Trainer</span>
+          <span class="job-date">Apr 2024 — Dec 2024</span>
+        </div>
+        <div class="job-company">MTM Personal Training <span class="job-location">— Berlin, Germany</span></div>
+        <ul>
+          <li>Coached executives and founders one-on-one in a premium studio setting, pursuing a deep interest in sport and human performance.</li>
+          <li>Built a professional network of German founders and CEOs through coaching relationships — connections that informed later consulting and startup work.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Project Manager</span>
+          <span class="job-date">Feb 2022 — Feb 2024</span>
+        </div>
+        <div class="job-company">MetaKing Studios <span class="job-location">— Stockholm, Sweden</span></div>
+        <ul>
+          <li>Led launch and live operations of BLOCKLORDS, an online blockchain strategy game that reached $40M in trade volume.</li>
+          <li>Managed a 10-person cross-timezone team; cut deployment projection from 6 to 4 months at 97% sprint velocity.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-header">
+          <span class="job-title">Program Manager &amp; Data Analyst</span>
+          <span class="job-date">Mar 2020 — Feb 2022</span>
+        </div>
+        <div class="job-company">Seascape Network <span class="job-location">— Seoul / Stockholm / Lisbon</span></div>
+        <ul>
+          <li>Coordinated 5 gaming project launches across Ethereum, Polygon, and BSC; negotiated ~$500K investor funding extending runway by ~9 months.</li>
+          <li>User and partner ecosystem analysis contributing to 30+ integrations and MAU growth from ~10K to ~56K.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <div class="edu-row">
+        <div>
+          <div class="edu-school">University of Ljubljana — School of Economics and Business</div>
+          <div class="edu-degree">Bachelors of International Business</div>
+        </div>
+        <span class="edu-date">2019 — 2023</span>
+      </div>
+      <div class="edu-row">
+        <div>
+          <div class="edu-school">University of Seoul — Exchange</div>
+          <div class="edu-degree">Business Administration</div>
+        </div>
+        <span class="edu-date">2021 — 2022</span>
+      </div>
+      <div class="edu-row">
+        <div>
+          <div class="edu-school">ISCTE Lisboa — Erasmus</div>
+          <div class="edu-degree">International Business</div>
+        </div>
+        <span class="edu-date">2022</span>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+</body>
+</html>

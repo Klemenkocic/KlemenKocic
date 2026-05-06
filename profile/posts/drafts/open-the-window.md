@@ -17,4 +17,4 @@ These posts I write on LinkedIn, for example. These are mine. I'm writing them. 
 
 The shift isn't from "don't use AI" to "use AI." It's from "use AI for everything" to "decide what stays human."
 
-https://www.luminousgroup.net/luminosity/open-the-window
+https://www.luminousgroup.net/liminality/open-the-window

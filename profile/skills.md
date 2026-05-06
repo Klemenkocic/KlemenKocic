@@ -16,6 +16,11 @@
 - **Data:** PostgreSQL, Supabase, MongoDB, Firebase, Tableau, Grafana
 - **Infrastructure:** Git, GitHub, Vercel, npm/pnpm, Xcode, VS Code
 - **Methodologies:** Agile/Scrum, CI/CD, async-first distributed team workflows
+- **AI engineering:** Multi-agent orchestration, plan-and-execute patterns, tool-use, MCP (Model Context Protocol), LangGraph
+- **LLM providers in production:** Anthropic (Claude), OpenAI, Google (Gemini), Mistral, Cove AI (pre-Microsoft acquisition), local Llama
+- **Vector stores:** Pinecone, Supabase pgvector
+- **Eval methodology:** Agility-based, developed working with Jim Highsmith and Joshua Kerievsky at Luminous Group
+- **Knowledge / orchestration tools:** Tana, Obsidian, Graphly, Gstack; comfortable in Warp
 
 ## Leadership (what I do every day)
 

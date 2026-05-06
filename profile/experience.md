@@ -2,34 +2,34 @@
 
 ## Current Roles
 
-### Consultant — Luminous Group
+### Interaction Architecture — Luminous Group
 **Jul 2025 – Present · Munich, Germany**
 
-Luminous Group is a human-centred AI consultancy. We help organisations move from AI adoption to AI capability — designing governance, workflows, and implementation systems that produce measurable outcomes.
+Luminous Group is a human-centred AI consultancy that's also building its own AI product, Luminosity. I work both sides.
 
 **What I do:**
-- Built Luminosity — the firm's internal multi-agent system. Five AI agents (Susan, Albert, Tad, Barton, Jules), each with isolated memory and deliberate message-passing coordination. No shared context by default. Boring-is-better engineering: if it's not explicit, it doesn't happen.
+- Interaction Architecture: designing the structure of how humans work with the agents. The transparency that makes communication visible, the pacing that keeps autonomous action under human control, the progressive structure that lets domain experts engage with autonomous AI without technical fluency.
+- Help build Luminosity — our internal multi-agent system. Five agents with isolated memory and deliberate message-passing coordination. No shared context by default: if it's not explicit, it doesn't happen.
+- Led capability-assessment workshops with CEOs, executives, and professionals across dentistry, education, and sport. Helped ~20 individuals plus one full company go from "I don't know how AI fits" to a working answer for their specific work.
 - Built internal systems: CRM integrations (Attio, Linear, GitHub), operational tooling, agent-mediated workflows that keep the team coordinated without adding meetings.
-- Created AI-augmented workflows used across the company — designing how we work with AI, not just advising others on it.
-- Published research: "Open the Window," "More Than a Mirror," "The Racing Yacht," and "What Agents Cannot Want" — four pieces on AI augmentation strategy that form the firm's intellectual foundation.
-- Client-facing work spans strategic consulting (workshops, capability assessments, workflow redesign) and hands-on building (prototyping AI tools, integrating systems, shipping internal products).
+- Lead author and co-author of seven essays on human-AI collaboration at Luminous Group, including *The Displacement of Judgement*, *They Built It. They Can't Control It.*, *What You Govern Determines What You Become*, *The Resolution of Intelligence*, and *What Agents Cannot Want*.
+- Four patent constructs carry my name.
 
 **What I learned:** Augmentation works when you design for human judgement, not around it. The organisations that get the most from AI are the ones that got specific about what their people are actually good at — then built AI around those strengths.
 
-### Co-Founder — ViaVia
+### Co-Founder — ViaVia UG
 **Sep 2025 – Present · Munich, Germany**
 
-ViaVia is a product studio — we build and ship digital products: custom apps, AI workflows, automation agents, SaaS, websites. The model is simple: identify a problem, build the product, ship it. Currently shipping three:
-- **Viadio** — AI-powered memory video app. Turn existing phone photos and videos into meaningful compilations. No prompts, no editing skills needed. Just your memories, assembled.
-- **ShipStack** — Production framework for AI-native products. Seven AI departments, human approval gates. The infrastructure that makes every subsequent product faster to ship.
-- **Celestia** — Localised astrology app for underserved markets. In development.
+ViaVia builds AI systems for professionals. Started in September 2025 — a place to ship AI products outside the consultancy work, against problems I care about.
+
+**Current focus: Charles.** An AI strength training coach, coming soon to the App Store. Charles builds periodised training programmes (accumulation, intensification, strength blocks) and rebuilds them session by session as the user logs what actually happened. Multi-model under the hood (Claude, Gemini, swappable). Six layers of filtering before the LLM ever sees the data: AI does what's genuinely hard to code, deterministic code does the rest.
 
 **What I do:**
-- Lead product development from concept to live platform — core architecture and UX decisions that shape product direction.
-- Built and iterated MVPs hands-on with my co-founder.
-- Designed ShipStack as the shared production backbone — so each new product ships faster than the last.
+- Lead Charles end-to-end with my co-founder: data model, periodisation logic, the feedback loop, multi-model orchestration, the filtering pipeline.
+- Earlier ViaVia products I built: **Viadio** (AI-powered memory video app — turn existing phone photos and videos into meaningful compilations) and **ShipStack** (production framework for AI-native products: seven AI departments, human approval gates).
+- Lead architecture and product decisions across the studio.
 
-**What I learned:** Multi-product strategy works when you invest in shared infrastructure early. The first product is slow. The second is faster. By the third, you're mostly configuring, not building from scratch.
+**What I learned:** The hard part of building AI products isn't getting the LLM to do something. It's deciding what the LLM should NOT do. Surgical AI — six layers of filtering, deterministic code where it matters, model where it has to — beats "throw it all at the LLM and hope" by a lot.
 
 ---
 
@@ -42,7 +42,9 @@ Led technology development for a premium personal training studio — building t
 
 - Co-developed a native iOS coaching app (Swift) for premium clients — real-time session booking, progress tracking, trainer-client communication.
 - Oversaw the web platform: scheduling, training plans, exercise libraries, invoicing, point-of-sale.
+- Built the bilingual corporate website and 5 partner portals, expanding the studio's B2B reach.
 - Directed a team of 6 offshore engineers, maintaining a 78% on-time release rate across concurrent product streams.
+- Helped the coaching team adopt AI in their daily work — turning a vague "we should use AI" aspiration into specific use cases people actually applied.
 - Launched a bilingual corporate website and 5 partner portals, expanding B2B reach.
 
 **What I learned:** Managing offshore teams well comes down to three things: clear specs, consistent check-ins, and never assuming silence means progress. The 78% on-time rate came from catching slippage early, not from heroics at the end.

@@ -1,11 +1,22 @@
 # Writing — Klemen Kocic
 
-Six published pieces at Luminous Group. Each one came from building something, not from reading about it.
+Seven published pieces at Luminous Group. Each one came from building something, not from reading about it.
+
+---
+
+## They Built It. They Can't Control It.
+**Apr 2026 · 9 min read · [Luminous Group](https://www.luminousgroup.net/liminality/they-built-it-they-cant-control-it) · Co-written with Barton Friedland and Jim Highsmith**
+
+**Core argument:** The largest AI companies keep losing control of their own systems — Amazon, Anthropic, Google, Microsoft, OpenAI. The failures are not technological but architectural. The dominant design philosophy in AI treats human participation as overhead to be minimised, when industries that mastered safety (aviation, surgery, nuclear) did the opposite — they built architectures where humans stay in the loop on purpose. Resilience comes from prospective visibility, real-time monitoring, and experiential mining: practices that preserve the conditions under which failure can be noticed and corrected before it cascades.
+
+**Key framework:** Three mechanisms borrowed from high-reliability industries — prospective visibility (seeing what is about to happen), real-time monitoring (intervening as it unfolds), and experiential mining (learning from incidents that did not become disasters). The architecture does not prevent failure. It preserves the conditions under which failure can be noticed.
+
+**Best quote:** "The architecture does not prevent failure. It preserves the conditions under which failure can be noticed, contained, and corrected by the humans who remain in the loop."
 
 ---
 
 ## What You Govern Determines What You Become
-**Mar 2026 · 12 min read · [Luminous Group](https://www.luminousgroup.net/luminosity/what-are-you-scaling)**
+**Mar 2026 · 12 min read · [Luminous Group](https://www.luminousgroup.net/liminality/what-are-you-scaling)**
 
 **Core argument:** AI systems optimise what is specified, not what ought to be specified. A single misaligned metric, compounded at machine speed across pricing, hiring, incentives, and capital allocation, produces a restructuring problem, not a pivot. Governance-as-compliance is insufficient; what is needed is governance-as-authorship — the ongoing act of defining and defending what these systems should pursue.
 
@@ -16,7 +27,7 @@ Six published pieces at Luminous Group. Each one came from building something, n
 ---
 
 ## The Resolution of Intelligence
-**Mar 2026 · 8 min read · [Luminous Group](https://www.luminousgroup.net/luminosity/the-resolution-of-intelligence)**
+**Mar 2026 · 8 min read · [Luminous Group](https://www.luminousgroup.net/liminality/the-resolution-of-intelligence)**
 
 **Core argument:** AI integration often erodes human judgement rather than enhancing it. When systems replace judgement long enough, practitioners lose the capacity to originate decisions independently. Atrophied judgement cannot be restored by removing the system that replaced it.
 
@@ -27,7 +38,7 @@ Six published pieces at Luminous Group. Each one came from building something, n
 ---
 
 ## What Agents Cannot Want
-**Feb 2026 · 7 min read · [Luminous Group](https://www.luminousgroup.net/luminosity/what-agents-cannot-want)**
+**Feb 2026 · 7 min read · [Luminous Group](https://www.luminousgroup.net/liminality/what-agents-cannot-want)**
 
 **Core argument:** In an agent-mediated world, execution becomes abundant. What becomes scarce is direction driven by human intent. When agents raise the standard, they erase the old signal that "good work" once carried — and scarcity migrates upward, from making things to deciding which things deserve to exist.
 
@@ -37,8 +48,19 @@ Six published pieces at Luminous Group. Each one came from building something, n
 
 ---
 
+## The Displacement of Judgement
+**Feb 2026 · [Luminous Group](https://www.luminousgroup.net/liminality/the-displacement-of-judgement) · With Barton Friedland (Klemen first author)**
+
+**Core argument:** Modern organisations have systematically moved consequential decision-making away from human judgement, automating critical choices upstream while leaders remain nominally responsible for ratifying predetermined outcomes. The displacement creates the illusion of control while eliminating genuine strategic choice. Sustainable organisational performance requires deliberately redesigning systems to preserve human discernment while decisions remain malleable and value is still being determined.
+
+**Key framework:** Formative vs corrective intervention. Formative intervention happens while direction is still open — it reallocates resources, takes visible risk, and shapes where value will be created. Corrective intervention happens after commitments are locked in.
+
+**Best quote:** "Formative intervention happens while direction is still open: it reallocates resources, takes visible risk, and shapes where value will be created. Corrective intervention happens after commitments are locked in."
+
+---
+
 ## Open the Window
-**Nov 2025 · 6 min read · [Luminous Group](https://www.luminousgroup.net/luminosity/open-the-window)**
+**Nov 2025 · 6 min read · [Luminous Group](https://www.luminousgroup.net/liminality/open-the-window)**
 
 **Core argument:** Using AI at work is not cheating — when it's used to augment human judgement and capability, not replace it. Organisations need a framework to permit, equip, and audit AI-assisted work. Without one, people either hide their AI use or avoid it entirely. Both are waste.
 
@@ -49,7 +71,7 @@ Six published pieces at Luminous Group. Each one came from building something, n
 ---
 
 ## More Than a Mirror
-**Sep 2025 · 5 min read · [Luminous Group](https://www.luminousgroup.net/luminosity/more-than-a-mirror)**
+**Sep 2025 · 5 min read · [Luminous Group](https://www.luminousgroup.net/liminality/more-than-a-mirror)**
 
 **Core argument:** AI isn't lacking — most of the time, it's a you-problem. Bring vague questions and thin knowledge, and AI will upscale your vagueness. The quality of AI output is bounded by the quality of human input.
 
@@ -60,7 +82,7 @@ Six published pieces at Luminous Group. Each one came from building something, n
 ---
 
 ## The Racing Yacht
-**Oct 2025 · 4 min read · [Luminous Group](https://www.luminousgroup.net/luminosity/the-racing-yacht)**
+**Oct 2025 · 4 min read · [Luminous Group](https://www.luminousgroup.net/liminality/the-racing-yacht)**
 
 **Core argument:** Steve Jobs called the computer a "bicycle for the mind" — but that metaphor no longer fits. AI isn't a bicycle. It's a racing yacht: powerful, fast, and useless without a crew who can read the wind together. Augmentation requires collective intelligence, not individual productivity.
 
