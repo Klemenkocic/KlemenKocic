@@ -62,20 +62,19 @@ export default function WorkClient() {
           </h1>
           <div className="mt-4 sm:mt-6 space-y-4 text-sm sm:text-base text-foreground/80 leading-relaxed max-w-3xl">
             <p>
-              I build AI systems that keep humans in the loop. The work is
-              interaction architecture, across three layers: how agents get
-              the right information at the right time (retrieval, vectors,
-              the structure of context); how humans and agents work together
-              (transparency, pacing, deliberate coordination); and what gets
-              surfaced back to the user at the right moment.
+              I build AI architecture that keeps humans in the loop. More
+              precisely, I work on interaction architecture, across three
+              layers: how agents get the right information at the right time
+              (retrieval, vectors, the structure of context); how humans and
+              agents work together (transparency, pacing, deliberate
+              coordination); and what gets surfaced back to the user at the
+              right moment.
             </p>
             <p>
-              AI raises the floor. The ceiling is still human. The bet I&apos;m
-              making is that human judgement gets sharper as the system gets
-              more capable, not duller.
-            </p>
-            <p>
-              I build, I write, and I&apos;m in this work daily.
+              I focus on understanding what people actually need and finding
+              where AI can help them specifically. A lot of people are lost
+              in the pace AI is moving at right now. I stay close to the
+              work, so I can give real help to real people.
             </p>
           </div>
         </motion.div>
