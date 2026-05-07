@@ -66,7 +66,7 @@ export const experiences: Experience[] = [
       "Led capability-assessment workshops with CEOs, executives, and professionals across dentistry, education, and sport. Helped ~20 individuals plus one full company go from \"I don't know how AI fits\" to a working answer for their specific work.",
       "Built internal systems: CRM integrations (Attio, Linear, GitHub), operational tooling, agent-mediated workflows that keep the team coordinated without adding meetings.",
       "Lead author and co-author of seven essays on human-AI collaboration at Luminous Group, including \"The Displacement of Judgement,\" \"They Built It. They Can't Control It.,\" \"What You Govern Determines What You Become,\" \"The Resolution of Intelligence,\" and \"What Agents Cannot Want.\"",
-      "Co-inventor on four patents filed at Luminous Group, on the architecture of human-agent collaboration.",
+      "Co-inventor on patents filed at Luminous Group, on the architecture of human-agent collaboration.",
     ],
     video: {
       label: "Luminous Group — AI solutions demo",

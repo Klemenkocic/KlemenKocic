@@ -16,7 +16,7 @@ I focus on understanding what people actually need and finding where AI can help
 
 ## Medium bio (120 words)
 
-I build AI systems that keep humans in the loop. At Luminous Group I'm Interaction Architecture — designing and helping build Luminosity, our internal multi-agent, multi-person system: each person works with their own agents, agents coordinate across people through deliberate, observable message-passing. Co-inventor on four patents filed there, on the architecture of human-agent collaboration.
+I build AI systems that keep humans in the loop. At Luminous Group I'm Interaction Architecture — designing and helping build Luminosity, our internal multi-agent, multi-person system: each person works with their own agents, agents coordinate across people through deliberate, observable message-passing. Co-inventor on patents filed there, on the architecture of human-agent collaboration.
 
 I co-founded ViaVia, where we build AI products for professionals. Currently shipping Charles — an AI strength training coach with multi-model orchestration (Claude, Gemini, swappable) and six layers of filtering before the LLM ever sees the data. Earlier ViaVia products: Viadio (AI memory videos from phone photos) and ShipStack (production framework for AI-native software — seven AI departments, human approval gates).
 
