@@ -156,42 +156,12 @@ export default function Orchestrator() {
         </p>
       </section>
 
-      <section className="relative space-y-6 sm:space-y-8 md:pl-24" style={{ zIndex: 1 }}>
+      <section className="relative space-y-3 sm:space-y-4 md:pl-24" style={{ zIndex: 1 }}>
         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-foreground">
           What I Do Now
         </h2>
-        <p className="text-base sm:text-lg leading-relaxed text-foreground/85 max-w-3xl mb-6">
-          These days I split my time between building products, leading teams, and helping businesses work smarter with AI.
-        </p>
-
-        <div className="space-y-6">
-          <div className="border-l-2 border-life/50 pl-4 sm:pl-6">
-            <h3 className="text-lg sm:text-xl font-semibold text-foreground">Co-Founder · ViaVia</h3>
-            <p className="text-sm text-foreground/60 mb-2">Munich · Sep 2025 – Present</p>
-            <p className="text-base leading-relaxed text-foreground/85">
-              Planning a trip across Europe is confusing, time-consuming, and costly. I&apos;m building ViaVia to fix that — one seamless booking flow for flights, trains, hotels, and activities across cities.
-            </p>
-          </div>
-
-          <div className="border-l-2 border-life/50 pl-4 sm:pl-6">
-            <h3 className="text-lg sm:text-xl font-semibold text-foreground">Consultant · Luminous Group</h3>
-            <p className="text-sm text-foreground/60 mb-2">Munich · Jul 2025 – Present</p>
-            <p className="text-base leading-relaxed text-foreground/85">
-              Helping organizations move from AI adoption to AI capability. I build internal systems, create AI-augmented workflows, and publish research on human-AI collaboration.
-            </p>
-          </div>
-
-          <div className="border-l-2 border-life/50 pl-4 sm:pl-6">
-            <h3 className="text-lg sm:text-xl font-semibold text-foreground">Technical Lead · NHS Personal Training GmbH</h3>
-            <p className="text-sm text-foreground/60 mb-2">Munich · Jan 2025 – Feb 2026</p>
-            <p className="text-base leading-relaxed text-foreground/85">
-              Led technology development for a premium personal training studio. Co-developed an iOS coaching app, directed 6 offshore engineers, and launched bilingual corporate sites.
-            </p>
-          </div>
-        </div>
-
-        <p className="text-base sm:text-lg leading-relaxed text-foreground/85 max-w-3xl mt-6">
-          I also run <span className="font-medium">Viadio</span>, a mobile app that generates cinematic AI videos from photos, and maintain a few open-source iOS apps on the side.
+        <p className="text-base sm:text-lg leading-relaxed text-foreground/85 max-w-3xl">
+          Most of my time goes into Luminous Group. I work on AI interaction architecture there — how agents get the right context, how humans and agents work together, and what gets surfaced back to the user at the right moment. The work spans building internal systems, designing workflows, publishing research, and sitting with clients through the hard parts of change. On the side I build smaller AI products against problems I care about — coaching, travel, the everyday things people use software for without thinking about it. Right now I&apos;m in the US for a few months, working from different cities and talking to people outside my usual orbit. Different room, different conversations, more learning.
         </p>
       </section>
 

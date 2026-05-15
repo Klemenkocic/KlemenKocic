@@ -7,7 +7,7 @@ import Section from "@/components/Section";
 import EducationSection from "@/components/EducationSection";
 import CertificationsGrid from "@/components/CertificationsGrid";
 import BusinessCard from "@/components/BusinessCard";
-import { experiences, skills, personalSkills, aiSkills, aiUses, blogPosts } from "@/content/workData";
+import { experiences, projects, skills, personalSkills, aiSkills, aiUses, blogPosts } from "@/content/workData";
 import ProgressRail from "@/components/ProgressRail";
 import ExperienceVideo from "@/components/work/ExperienceVideo";
 
@@ -162,6 +162,29 @@ export default function WorkClient() {
               );
             })}
           </ul>
+        </div>
+      </Section>
+
+      {/* 2b) Projects */}
+      <Section className="py-12 sm:py-16 md:py-24">
+        <motion.h2 className="font-display text-xl sm:text-2xl md:text-3xl mb-6 sm:mb-8" {...fadeSlide()}>
+          Projects
+        </motion.h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-8">
+          {projects.map((p, i) => (
+            <motion.div
+              key={p.name}
+              className="border border-white/10 rounded-xl p-4 sm:p-6 bg-white/5 backdrop-blur-[1px] min-w-0"
+              {...fadeSlide(i)}
+            >
+              <h3 className="font-display text-lg sm:text-xl md:text-2xl mb-2 sm:mb-3">
+                {p.name}
+              </h3>
+              <p className="text-sm sm:text-base text-foreground/80 leading-relaxed">
+                {p.summary}
+              </p>
+            </motion.div>
+          ))}
         </div>
       </Section>
 

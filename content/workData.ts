@@ -76,26 +76,6 @@ export const experiences: Experience[] = [
     },
   },
   {
-    role: "Co-Founder",
-    company: "ViaVia",
-    location: "Munich, Germany",
-    from: "Sep 2025",
-    to: "Present",
-    bullets: [
-      "ViaVia builds AI systems for professionals. Started in September 2025 — a place to ship AI products outside the consultancy work, against problems I care about.",
-      "Current focus: Charles — an AI strength training coach, coming soon to the App Store. Charles builds periodised training programmes (accumulation, intensification, strength blocks) and rebuilds them session by session as the user logs what actually happened. Multi-model under the hood (Claude, Gemini, swappable). Vector retrieval via Pinecone for surfacing the right training context session by session. Six layers of filtering before the LLM ever sees the data: AI does what's genuinely hard to code, deterministic code does the rest.",
-      "Lead Charles end-to-end with my co-founder: data model, periodisation logic, the feedback loop, multi-model orchestration, the filtering pipeline.",
-      "Earlier ViaVia products I built: Viadio (AI-powered memory video app — turn existing phone photos and videos into meaningful compilations) and ShipStack (production framework for AI-native software — seven AI departments, human approval gates).",
-      "The hard part of building AI products isn't getting the model to do something. It's deciding what it should NOT do. Surgical AI — deterministic code where it matters, model where it has to — beats \"throw it all at the LLM and hope\" by a lot.",
-    ],
-    video: {
-      label: "ViaVia — building AI systems for professionals",
-      srcWebm: "",
-      srcMp4: "",
-      poster: "/images/viavia-logo.png",
-    },
-  },
-  {
     role: "Technical Lead",
     company: "NHS Personal Training GmbH",
     location: "Munich, Germany",
@@ -190,7 +170,32 @@ export const experiences: Experience[] = [
   },
 ];
 
-export const projects: Project[] = [];
+export const projects: Project[] = [
+  {
+    name: "ViaVia",
+    summary:
+      "A multi-city European travel platform. Planning a five-city trip across Europe is meant to be the fun part — right now it's the bottleneck. ViaVia turns the routing, booking, and pacing into something simple and affordable.",
+    tech: [],
+  },
+  {
+    name: "Charles",
+    summary:
+      "An AI strength training coach for iOS. Builds periodised training programmes — accumulation, intensification, strength — and rebuilds them session by session as the user logs what actually happened. Multi-model orchestration, Pinecone vector retrieval, six layers of deterministic filtering before the model ever sees the data.",
+    tech: [],
+  },
+  {
+    name: "CelesteAI",
+    summary:
+      "Localised astrology, computed and written by AI. Charts and readings that take time, place, and language seriously.",
+    tech: [],
+  },
+  {
+    name: "ShipStack",
+    summary:
+      "A production framework for AI-native software. Seven AI departments coordinating through human approval gates — the structure that lets a small team ship product without losing oversight.",
+    tech: [],
+  },
+];
 
 export const skills: Skills = {
   languages: ["JavaScript", "TypeScript", "Python", "Swift", "SQL", "HTML/CSS"],
