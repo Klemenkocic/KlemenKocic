@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# rendercv build output (regenerate with: rendercv render cv/master/Klemen_Kocic_CV.yaml)
+cv/master/rendercv_output/

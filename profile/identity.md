@@ -6,7 +6,7 @@ I build AI systems that keep humans in the loop — and I write about what I lea
 
 ## Short bio (50 words)
 
-I'm Interaction Architecture at Luminous Group — designing how humans work with our internal multi-agent system, Luminosity. I also co-founded ViaVia, where we ship AI products for professionals. Currently building Charles, an AI strength training coach. Before this: Web3 gaming at $40M scale, distributed engineering teams, coaching founders in Berlin.
+I'm AI Solutions Engineer / Interaction Architect at Luminous Group — designing Luminosity (our internal multi-agent multi-person system) and running capability assessments with non-technical leaders. I also ship AI products under my own ventures: Charles, ViaVia, Viadio, CelesteAI. Before this: Web3 gaming at $40M scale, distributed engineering teams, coaching founders in Berlin.
 
 ## Site intro (focus-only, no experience-listing)
 
@@ -16,11 +16,13 @@ I focus on understanding what people actually need and finding where AI can help
 
 ## Medium bio (120 words)
 
-I build AI systems that keep humans in the loop. At Luminous Group I'm Interaction Architecture — designing and helping build Luminosity, our internal multi-agent, multi-person system: each person works with their own agents, agents coordinate across people through deliberate, observable message-passing. Co-inventor on patents filed there, on the architecture of human-agent collaboration.
+I help non-technical leaders find where AI fits their work — and build the systems behind it. At Luminous Group I'm AI Solutions Engineer / Interaction Architect: I design Luminosity, our multi-agent multi-person production system, and operate the production substrate behind it (agent provisioning, MCP servers, multi-machine rule sync, intelligence-sweep infrastructure, video production pipeline). Co-inventor on patents covering multi-agent multi-team coordination.
 
-I co-founded ViaVia, where we build AI products for professionals. Currently shipping Charles — an AI strength training coach with multi-model orchestration (Claude, Gemini, swappable) and six layers of filtering before the LLM ever sees the data. Earlier ViaVia products: Viadio (AI memory videos from phone photos) and ShipStack (production framework for AI-native software — seven AI departments, human approval gates).
+I run capability assessments with CEOs and senior executives — ~20 individuals plus one full company — translating ambiguous AI goals into specific workflows their teams adopted.
 
-I write about what I learn from building. Seven essays at luminousgroup.net on human-AI collaboration, including *The Displacement of Judgement* (with Barton Friedland), *They Built It. They Can't Control It.*, and *What You Govern Determines What You Become*.
+I also ship AI products under my own ventures: Charles (AI strength training coach, iOS — Flutter + Supabase + pgvector, multi-model orchestration with six deterministic filter layers), ViaVia (multi-city European travel), Viadio (AI memory videos from phone photos), CelesteAI (localised astrology).
+
+I write about what I learn. Seven essays at luminousgroup.net on human-AI collaboration, including *The Displacement of Judgement* (with Barton Friedland) and *They Built It. They Can't Control It.*
 
 ## Core thesis
 
@@ -34,7 +36,7 @@ AI raises the floor. It does not raise the ceiling. The ceiling is still human j
 
 - Design AI-augmented workflows for organisations — where AI fits, where it doesn't, what changes
 - Build internal systems: CRM integrations, agent architecture, operational tooling
-- Ship products: Viadio (AI video from phone photos), ShipStack (production framework), Celestia (localised astrology)
+- Ship products: Charles (Flutter iOS AI strength coach), ViaVia (multi-city European travel), Viadio (AI video from phone photos), CelesteAI (localised astrology), ShipStack (internal Luminous Group framework)
 - Write research on human-AI collaboration — published at Luminous Group
 - Lead and coordinate distributed teams across consulting and product work
 

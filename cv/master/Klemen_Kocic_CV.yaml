@@ -1,0 +1,136 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Klemen Kocic
+  headline: AI Solutions Engineer · Forward-Deployed · Multi-Agent Production Systems
+  location: Munich, Germany
+  email: klemen.kocic@gmail.com
+  website: https://klemenkocic.com
+  social_networks:
+    - network: LinkedIn
+      username: klemenkocic
+    - network: GitHub
+      username: Klemenkocic
+  sections:
+    summary:
+      - Co-architect of an internal multi-agent multi-person production system (30 agents, 5 machines, two years live); co-inventor on its patents. Hands-on across iOS, web, and LLM orchestration; customer-facing delivery with ~20 CEO workshops and one enterprise rollout. Ship surgical AI — deterministic code where it matters, model where it has to.
+
+    experience:
+      - company: Luminous Group
+        position: AI Solutions Engineer / Interaction Architect
+        start_date: 2025-07
+        end_date: present
+        location: Munich, Germany
+        highlights:
+          - Ran ~20 CEO/executive capability assessments plus one company rollout — translated ambiguous AI goals into adopted workflows across dentistry, education, and sport.
+          - Built and operate Luminosity's production substrate — agent provisioning, MCP tool servers, multi-machine rule sync, weekly automated intelligence sweeps (Firecrawl + RSS + Exa), and an automated video production pipeline (Remotion + ElevenLabs + ffmpeg).
+          - Co-architect of Luminosity, an internal multi-agent multi-person production system — 30 agents across 5 machines, two years live; agents coordinate via observable, deliberate message-passing with prospective visibility and drift detection built in.
+          - Co-inventor on patents covering multi-agent multi-team coordination architecture.
+          - Author or co-author of seven published essays on human-AI collaboration at luminousgroup.net.
+          - Shipped agent-mediated tooling integrating Attio, Linear, and GitHub that keeps a distributed team coordinated without recurring meetings.
+
+      - company: NHS Personal Training GmbH
+        position: Technical Lead
+        start_date: 2025-01
+        end_date: 2026-02
+        location: Munich, Germany
+        highlights:
+          - Co-developed a native iOS coaching app (Swift, SwiftUI) — real-time booking, progress tracking, trainer–client communication.
+          - Built the web platform — scheduling, training plans, exercise libraries, invoicing, point-of-sale — plus a bilingual corporate site and 5 partner portals expanding B2B reach.
+          - Coordinated 6 offshore engineers across concurrent product streams at 78% on-time release rate; deployed AI into the coaching team's daily workflow with applied use cases.
+
+      - company: MetaKing Studios
+        position: Project Manager
+        start_date: 2022-02
+        end_date: 2024-02
+        location: Stockholm, Sweden
+        highlights:
+          - Shipped BLOCKLORDS, an online blockchain strategy game that reached $40M in trade volume; led a 10-person cross-timezone team and cut deployment projection 6 → 4 months at 97% sprint velocity.
+          - Built the Unity-to-blockchain smart-contract integration for Direct Sales, generating $200K direct revenue; shipped Grafana and Tableau dashboards giving leadership real-time visibility into game-economy health.
+
+      - company: Seascape Network
+        position: Program Manager & Data Analyst
+        start_date: 2020-03
+        end_date: 2022-02
+        location: Seoul / Stockholm / Lisbon
+        highlights:
+          - Shipped 5 gaming launches across Ethereum, Polygon, and BSC; managed Lighthouse, a fund-generating platform supporting 10+ external game developers; negotiated ~$500K investor funding (~9 months runway).
+          - Partner-ecosystem analytics contributed to 30+ integrations and MAU growth from ~10K to ~56K.
+
+    projects:
+      - name: '[Charles](https://charles-website-ten.vercel.app/) (Beta)'
+        summary: AI strength-training coach for iOS. Periodised programmes that rebuild session by session; Flutter + Supabase + pgvector (two-layer architecture), multi-model orchestration (Claude, Gemini), six deterministic filter layers wrapping the model.
+      - name: '[ViaVia](https://viavia.solutions/) (Live)'
+        summary: Multi-city European travel platform. One flow for routing, booking, and pacing across cities.
+      - name: '[Viadio](https://www.getviadio.com/) (Live · App Store + Google Play)'
+        summary: AI-powered memory video app. Turn existing phone photos and videos into meaningful compilations.
+      - name: '[CelesteAI](https://getcelestai.com) (Live)'
+        summary: Localised astrology, AI-computed; charts that take time, place, and language seriously.
+      - name: 'ShipStack (Internal · Luminous Group)'
+        summary: Production framework for AI-native software; seven AI departments coordinating through human approval gates.
+
+    skills:
+      - label: AI & LLMs
+        details: Claude, GPT, Gemini, multi-model orchestration, LangGraph, MCP, Pinecone, RAG, prompt design, agent architecture, evaluations
+      - label: Engineering
+        details: TypeScript, Python, Swift/SwiftUI, Flutter, React/Next.js, Node.js, PostgreSQL, Supabase, pgvector
+      - label: Solutions & Delivery
+        details: Workshop facilitation, executive presentation, technical scoping, presales, stakeholder alignment, CRM (Salesforce, Attio)
+
+    education:
+      - institution: University of Ljubljana
+        area: International Business
+        degree: BA
+        start_date: 2019-09
+        end_date: 2023-06
+        location: Ljubljana, Slovenia
+        highlights:
+          - Exchange semester at University of Seoul (2021–2022)
+
+    languages:
+      - label: Languages
+        details: Slovenian (Native) · English (C2) · Serbo-Croatian (B2) · German (B1)
+
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 1.1cm
+    bottom_margin: 1.1cm
+    left_margin: 1.3cm
+    right_margin: 1.3cm
+    show_footer: false
+  typography:
+    line_spacing: 0.4em
+    font_size:
+      body: 9.5pt
+      name: 20pt
+      headline: 9.5pt
+      connections: 9pt
+      section_titles: 11pt
+  section_titles:
+    space_above: 0.22cm
+    space_below: 0.12cm
+  sections:
+    space_between_regular_entries: 0.18cm
+    space_between_text_based_entries: 0.06cm
+  entries:
+    date_and_location_width: 3.3cm
+    space_between_columns: 0.2cm
+  header:
+    space_below_name: 0.2cm
+    space_below_headline: 0.15cm
+    space_below_connections: 0.3cm
+locale:
+  language: english
+settings:
+  current_date: today
+  bold_keywords:
+    - Luminosity
+    - patents
+    - multi-agent
+    - LLM
+    - BLOCKLORDS
+    - $40M
+    - $200K
+    - 78%
+    - 97%

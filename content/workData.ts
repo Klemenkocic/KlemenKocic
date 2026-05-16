@@ -17,6 +17,8 @@ export type Project = {
   name: string;
   summary: string;
   tech: string[];
+  status: string; // "Live", "Beta", "Live · App Store + Google Play", "Internal · Luminous Group"
+  url?: string;
   notes?: string[];
   video?: {
     label: string;
@@ -54,19 +56,19 @@ export const personalSkills: string[] = [
 
 export const experiences: Experience[] = [
   {
-    role: "Interaction Architecture",
+    role: "AI Solutions Engineer / Interaction Architect",
     company: "Luminous Group",
     location: "Munich, Germany",
     from: "Jul 2025",
     to: "Present",
     bullets: [
-      "Luminous Group is a human-centred AI consultancy that's also building its own AI product, Luminosity. I work both sides.",
-      "Interaction Architecture: designing the full structure of how humans work with the agents. The transparency that makes communication visible, the pacing that keeps autonomous action under human control, the progressive structure that lets domain experts engage with autonomous AI without technical fluency.",
-      "Help build Luminosity — a multi-agent, multi-person system. Each person works with their own agents; agents coordinate across people through deliberate, observable message-passing. Isolated memory by default — if context isn't explicit, it doesn't propagate.",
-      "Led capability-assessment workshops with CEOs, executives, and professionals across dentistry, education, and sport. Helped ~20 individuals plus one full company go from \"I don't know how AI fits\" to a working answer for their specific work.",
-      "Built internal systems: CRM integrations (Attio, Linear, GitHub), operational tooling, agent-mediated workflows that keep the team coordinated without adding meetings.",
-      "Lead author and co-author of seven essays on human-AI collaboration at Luminous Group, including \"The Displacement of Judgement,\" \"They Built It. They Can't Control It.,\" \"What You Govern Determines What You Become,\" \"The Resolution of Intelligence,\" and \"What Agents Cannot Want.\"",
-      "Co-inventor on patents filed at Luminous Group, on the architecture of human-agent collaboration.",
+      "Led capability-assessment engagements with ~20 CEOs and senior executives plus one full company rollout — translated ambiguous AI goals into specific workflows their teams adopted, across dentistry, education, and sport.",
+      "Built and operate Luminosity's production substrate — agent provisioning, MCP tool servers, multi-machine rule sync, weekly automated intelligence sweeps (Firecrawl + RSS + Exa), and an automated video production pipeline (Remotion + ElevenLabs + ffmpeg).",
+      "Co-architect of Luminosity, our internal multi-agent multi-person production system — each person works with their own agents, and agents coordinate across people through deliberate, observable message-passing. Isolated memory by default — if context isn't explicit, it doesn't propagate.",
+      "Designed the interaction architecture — the transparency that makes communication visible, the pacing that keeps autonomous action under human control, the progressive structure that lets domain experts engage with autonomous AI without technical fluency.",
+      "Co-inventor on patents covering multi-agent multi-team coordination architecture.",
+      "Author or co-author of seven published essays on human-AI collaboration — see Writing section.",
+      "Built agent-mediated workflows integrating Attio, Linear, and GitHub that keep a distributed team coordinated without recurring meetings.",
     ],
     video: {
       label: "Luminous Group — AI solutions demo",
@@ -82,12 +84,10 @@ export const experiences: Experience[] = [
     from: "Jan 2025",
     to: "Feb 2026",
     bullets: [
-      "Led technology development for a premium personal training studio — building digital infrastructure for coaching delivery, client management, and business operations.",
-      "Co-developed a native iOS coaching app (Swift): real-time session booking, progress tracking, trainer-client communication.",
-      "Oversaw the web platform: scheduling, training plans, exercise libraries, invoicing, and point-of-sale.",
-      "Built the bilingual corporate website and 5 partner portals, expanding the studio's B2B reach.",
-      "Directed a team of 6 offshore engineers, maintaining a 78% on-time release rate across concurrent product streams.",
-      "Helped the coaching team adopt AI in their daily work — turning a vague \"we should use AI\" aspiration into specific use cases people actually applied.",
+      "Co-developed a native iOS coaching app (Swift, SwiftUI) — real-time session booking, progress tracking, trainer-client communication.",
+      "Built the web platform — scheduling, training plans, exercise libraries, invoicing, point-of-sale — plus a bilingual corporate site and 5 partner portals expanding the studio's B2B reach.",
+      "Coordinated 6 offshore engineers across concurrent product streams at a 78% on-time release rate.",
+      "Deployed AI into the coaching team's daily workflow — turned \"we should use AI\" into specific applied use cases across coaching delivery and client management.",
     ],
     video: {
       label: "NHS Personal Training — iOS app demo",
@@ -97,14 +97,14 @@ export const experiences: Experience[] = [
     },
   },
   {
-    role: "Personal Trainer",
+    role: "Personal Trainer · Embedded with Executives",
     company: "MTM Personal Training",
     location: "Berlin, Germany",
     from: "Apr 2024",
     to: "Dec 2024",
     bullets: [
-      "Pursued personal training out of a deep interest in sport and human performance. Coached executives and founders one-on-one in a premium studio setting.",
-      "Built a professional network of 40+ German founders and CEOs through coaching relationships — connections that informed later consulting and startup work.",
+      "Coached executives and founders one-on-one in a premium studio — embedded fieldwork that became the domain foundation for Charles (AI strength coach) and the NHS technical lead role that followed.",
+      "Built a network of 40+ German founders and CEOs through these coaching relationships — connections that informed later consulting and product work.",
     ],
     video: {
       label: "MTM Personal Training — Fitness tech demo",
@@ -120,10 +120,9 @@ export const experiences: Experience[] = [
     from: "Feb 2022",
     to: "Feb 2024",
     bullets: [
-      "Directed launch and live operations of BLOCKLORDS — an online blockchain strategy game that reached $40M in trade volume.",
-      "Led a 10-person cross-timezone team. Cut deployment projection from 6 to 4 months. Maintained 97% sprint velocity adherence.",
-      "Introduced the Unity-to-blockchain smart contract connection for Direct Sales — $200K in direct revenue.",
-      "Built Grafana and Tableau dashboards for on-chain analytics, giving leadership real-time visibility into game economy health.",
+      "Shipped BLOCKLORDS, an online blockchain strategy game that reached $40M in trade volume; led a 10-person cross-timezone team and cut deployment projection 6 → 4 months at 97% sprint velocity.",
+      "Wrote the Unity ↔ smart-contract bridge for the Direct Sales feature (C# + Solidity calls) — $200K in direct revenue.",
+      "Built Grafana and Tableau dashboards for on-chain analytics, giving leadership real-time visibility into game-economy health and player behaviour.",
     ],
     video: {
       label: "Metaking Studios — Game launch demo",
@@ -139,9 +138,8 @@ export const experiences: Experience[] = [
     from: "Jan 2021",
     to: "Feb 2022",
     bullets: [
-      "Orchestrated 5 gaming project launches across Ethereum, Polygon, and BSC.",
-      "Negotiated ~$500K investor funding, extending runway by ~9 months.",
-      "Managed Lighthouse — a fund-generating platform supporting 10+ external game developers.",
+      "Shipped 5 gaming project launches across Ethereum, Polygon, and BSC; managed Lighthouse — a fund-generating platform supporting 10+ external game developers; negotiated ~$500K investor funding, extending runway ~9 months.",
+      "Built KPI tracking dashboards in SQL + Tableau on top of on-chain event data, giving leadership real-time visibility into ecosystem health.",
     ],
     video: {
       label: "Seascape Network — Program management overview",
@@ -172,27 +170,42 @@ export const experiences: Experience[] = [
 
 export const projects: Project[] = [
   {
-    name: "ViaVia",
+    name: "Charles",
+    status: "Beta",
+    url: "https://charles-website-ten.vercel.app/",
     summary:
-      "A multi-city European travel platform. Planning a five-city trip across Europe is meant to be the fun part — right now it's the bottleneck. ViaVia turns the routing, booking, and pacing into something simple and affordable.",
+      "AI strength-training coach for iOS. Builds periodised programmes (accumulation, intensification, strength) that rebuild session by session as the user logs what actually happened. Flutter + Supabase + pgvector — two-layer architecture: relational gym data on Layer 1, vector-backed AI knowledge on Layer 2. Multi-model orchestration (Claude, Gemini, swappable). Six deterministic filter layers before the model ever sees the data.",
+    tech: ["Flutter", "Supabase", "pgvector", "Claude", "Gemini"],
+  },
+  {
+    name: "ViaVia",
+    status: "Live",
+    url: "https://viavia.solutions/",
+    summary:
+      "Multi-city European travel platform. Planning a five-city trip across Europe is meant to be the fun part — right now it's the bottleneck. ViaVia turns the routing, booking, and pacing into one simple flow.",
     tech: [],
   },
   {
-    name: "Charles",
+    name: "Viadio",
+    status: "Live · App Store + Google Play",
+    url: "https://www.getviadio.com/",
     summary:
-      "An AI strength training coach for iOS. Builds periodised training programmes — accumulation, intensification, strength — and rebuilds them session by session as the user logs what actually happened. Multi-model orchestration, Pinecone vector retrieval, six layers of deterministic filtering before the model ever sees the data.",
+      "AI-powered memory video app. Turn existing phone photos and videos into meaningful compilations — cinematic memory videos generated from what's already on your device.",
     tech: [],
   },
   {
     name: "CelesteAI",
+    status: "Live",
+    url: "https://getcelestai.com",
     summary:
       "Localised astrology, computed and written by AI. Charts and readings that take time, place, and language seriously.",
     tech: [],
   },
   {
     name: "ShipStack",
+    status: "Internal · Luminous Group",
     summary:
-      "A production framework for AI-native software. Seven AI departments coordinating through human approval gates — the structure that lets a small team ship product without losing oversight.",
+      "Production framework for AI-native software. Seven AI departments coordinating through human approval gates — the structure that lets a small team ship product without losing oversight.",
     tech: [],
   },
 ];
@@ -205,12 +218,11 @@ export const skills: Skills = {
   certifications: [
     "Meta – Backend Developer",
     "Google – Project Management Specialization",
-    "GO TEL – Programming Using Python",
-    "Salesforce – Sales & CRM Overview",
     "UIUC – Leading Teams: Developing as a Leader",
   ],
 };
 
+// Kept for backwards compatibility — UI now uses the split arrays below.
 export const aiSkills: string[] = [
   "Claude",
   "ChatGPT",
@@ -237,9 +249,42 @@ export const aiSkills: string[] = [
   "RevenueCat",
 ];
 
+// AI Engineering: the serious infrastructure I build with.
+export const aiEngineering: string[] = [
+  "Claude",
+  "GPT",
+  "Gemini",
+  "Mistral",
+  "Llama (local)",
+  "MCP",
+  "LangGraph",
+  "Pinecone",
+  "Supabase AI",
+  "Cursor",
+];
+
+// AI Tools I use daily: the prosumer + workflow surface.
+export const aiTools: string[] = [
+  "ChatGPT",
+  "Cove AI",
+  "Hera",
+  "Perplexity",
+  "Sora",
+  "Dora.AI",
+  "fal.ai",
+  "Kling AI",
+  "Power BI with AI",
+  "UiPath",
+  "Cluely",
+  "DeepSeek",
+  "Grok",
+  "RevenueCat",
+];
+
 // Uses sourced from tool docs and common workflows; kept concise for UI tooltip
 export const aiUses: Record<string, string> = {
   Claude: "long-form reasoning, agent backbone, sensitive documents",
+  GPT: "OpenAI's API as an agent backbone — multi-model orchestration alongside Claude",
   ChatGPT: "rapid drafting, refactors, and idea exploration",
   Gemini: "Workspace help and multimodal research",
   Mistral: "European LLM, cost-efficient inference",

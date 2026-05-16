@@ -2,17 +2,16 @@
 
 import Image from "next/image";
 import { motion, useReducedMotion, useMotionValue, useSpring, useTransform, useMotionTemplate } from "framer-motion";
-import { useState, useRef } from "react";
+import { useRef, useState } from "react";
 import FallingEmojiGame from "./FallingEmojiGame";
+
+const LONG_PRESS_MS = 1500;
 
 export default function BusinessCard() {
   const prefersReduced = useReducedMotion();
-  const [isHovering, setIsHovering] = useState(false);
-  const [clickCount, setClickCount] = useState(0);
   const [isGameOpen, setIsGameOpen] = useState(false);
   const cardRef = useRef<HTMLDivElement>(null);
-
-  const CLICKS_NEEDED = 5;
+  const longPressTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
@@ -26,7 +25,6 @@ export default function BusinessCard() {
     damping: 35,
   });
 
-  // Dynamic shadow based on tilt - much more subtle
   const shadowX = useSpring(useTransform(mouseX, [-0.5, 0.5], [-8, 8]), {
     stiffness: 150,
     damping: 35,
@@ -36,46 +34,37 @@ export default function BusinessCard() {
     damping: 35,
   });
 
-  // Create animated box shadow with strong base shadow for depth
   const boxShadow = useMotionTemplate`${shadowX}px ${shadowY}px 20px rgba(0, 0, 0, 0.4), 0 20px 40px -10px rgba(0, 0, 0, 0.5), 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 0 20px rgba(255, 255, 255, 0.05)`;
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (prefersReduced || !cardRef.current) return;
-
     const rect = cardRef.current.getBoundingClientRect();
     const centerX = rect.left + rect.width / 2;
     const centerY = rect.top + rect.height / 2;
-
     const deltaX = (e.clientX - centerX) / (rect.width / 2);
     const deltaY = (e.clientY - centerY) / (rect.height / 2);
-
     mouseX.set(deltaX);
     mouseY.set(deltaY);
   };
 
   const handleMouseLeave = () => {
-    setIsHovering(false);
     mouseX.set(0);
     mouseY.set(0);
   };
 
-  const handleCardClick = () => {
-    const newCount = clickCount + 1;
-    setClickCount(newCount);
-
-    if (newCount >= CLICKS_NEEDED) {
-      // Launch game
-      setIsGameOpen(true);
-      setClickCount(0); // Reset counter
+  const clearLongPress = () => {
+    if (longPressTimer.current) {
+      clearTimeout(longPressTimer.current);
+      longPressTimer.current = null;
     }
   };
 
-  // Get hover message based on click count
-  const getHoverMessage = () => {
-    if (clickCount === 0) return "Click to play Emoji Catcher 🎮";
-    const remaining = CLICKS_NEEDED - clickCount;
-    if (remaining === 1) return "1 more click to play! 🎮";
-    return `${remaining} more clicks to play! 🎮`;
+  const startLongPress = () => {
+    clearLongPress();
+    longPressTimer.current = setTimeout(() => {
+      setIsGameOpen(true);
+      longPressTimer.current = null;
+    }, LONG_PRESS_MS);
   };
 
   const fadeSlide = {
@@ -91,7 +80,7 @@ export default function BusinessCard() {
     <>
     <motion.div
       ref={cardRef}
-      className="relative border border-white/10 rounded-xl p-6 sm:p-8 bg-white/5 backdrop-blur-sm mb-12 sm:mb-16 cursor-pointer will-change-transform group"
+      className="relative border border-white/10 rounded-xl p-6 sm:p-8 bg-white/5 backdrop-blur-sm mb-12 sm:mb-16 will-change-transform group"
       style={{
         transformStyle: "preserve-3d",
         perspective: 1000,
@@ -101,25 +90,11 @@ export default function BusinessCard() {
           ? "0 20px 40px -10px rgba(0, 0, 0, 0.5), 0 10px 25px -5px rgba(0, 0, 0, 0.3)"
           : boxShadow,
       }}
-      onClick={handleCardClick}
       onMouseMove={handleMouseMove}
-      onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={handleMouseLeave}
       whileHover={prefersReduced ? {} : { scale: 1.02, transition: { duration: 0.3 } }}
       {...fadeSlide}
     >
-      {/* Hover tooltip */}
-      {isHovering && clickCount > 0 && clickCount < CLICKS_NEEDED && (
-        <motion.div
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -10 }}
-          className="absolute -top-16 left-1/2 -translate-x-1/2 bg-white text-black px-4 py-2 rounded-lg text-sm font-medium whitespace-nowrap shadow-lg pointer-events-none z-50"
-        >
-          {getHoverMessage()}
-          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-full w-0 h-0 border-l-8 border-r-8 border-t-8 border-l-transparent border-r-transparent border-t-white"></div>
-        </motion.div>
-      )}
       <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center">
         {/* Profile Photo */}
         <div className="relative w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden border-2 border-white/20 flex-shrink-0">
@@ -140,8 +115,11 @@ export default function BusinessCard() {
               <h1 className="font-display text-2xl sm:text-3xl tracking-tight">
                 Klemen Kocic
               </h1>
-              <p className="text-sm sm:text-base text-foreground/80 mt-1">
-                Builder · Founder
+              <p className="text-sm sm:text-base text-foreground/90 mt-1 font-medium">
+                AI Solutions Engineer &amp; Interaction Architect — Luminous Group
+              </p>
+              <p className="text-xs sm:text-sm text-foreground/65 mt-1.5 max-w-xl">
+                I help non-technical leaders find where AI fits — and build the systems behind it.
               </p>
             </div>
 
@@ -224,9 +202,35 @@ export default function BusinessCard() {
               </svg>
               Munich, Germany
             </div>
+            <span className="hidden sm:inline text-foreground/40">•</span>
+            <a
+              href="/Klemen_Kocic_CV.pdf"
+              download
+              className="flex items-center gap-1.5 hover:text-foreground transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V3" />
+              </svg>
+              Download CV
+            </a>
           </div>
         </div>
       </div>
+
+      {/* Hidden easter-egg trigger: long-press the small ✦ for ~1.5s */}
+      <button
+        type="button"
+        aria-label="Easter egg — long-press to play"
+        title="Long-press to play"
+        onPointerDown={startLongPress}
+        onPointerUp={clearLongPress}
+        onPointerLeave={clearLongPress}
+        onPointerCancel={clearLongPress}
+        onContextMenu={(e) => e.preventDefault()}
+        className="absolute bottom-2 right-2 text-foreground/30 hover:text-foreground/60 transition-colors text-sm leading-none select-none touch-none"
+      >
+        ✦
+      </button>
     </motion.div>
 
     {/* Game Modal */}

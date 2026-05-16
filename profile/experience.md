@@ -2,18 +2,19 @@
 
 ## Current Roles
 
-### Interaction Architecture — Luminous Group
+### AI Solutions Engineer / Interaction Architect — Luminous Group
 **Jul 2025 – Present · Munich, Germany**
 
 Luminous Group is a human-centred AI consultancy that's also building its own AI product, Luminosity. I work both sides.
 
 **What I do:**
+- Led capability-assessment engagements with ~20 CEOs and senior executives plus one full company rollout — translating ambiguous AI goals into specific workflows their teams adopted, across dentistry, education, and sport.
+- Built and operate Luminosity's production substrate — agent provisioning, MCP tool servers, multi-machine rule sync, weekly automated intelligence sweeps (Firecrawl + RSS + Exa), and an automated video production pipeline (Remotion + ElevenLabs + ffmpeg).
+- Co-architect of Luminosity, our internal multi-agent multi-person production system. Each person works with their own agents; agents coordinate across people through deliberate, observable message-passing. Isolated memory by default — if context isn't explicit, it doesn't propagate.
 - Interaction Architecture: designing the structure of how humans work with the agents. The transparency that makes communication visible, the pacing that keeps autonomous action under human control, the progressive structure that lets domain experts engage with autonomous AI without technical fluency.
-- Help build Luminosity — our internal multi-agent, multi-person system. Each person works with their own agents; agents coordinate across people through deliberate, observable message-passing. Isolated memory by default — if context isn't explicit, it doesn't propagate.
-- Led capability-assessment workshops with CEOs, executives, and professionals across dentistry, education, and sport. Helped ~20 individuals plus one full company go from "I don't know how AI fits" to a working answer for their specific work.
-- Built internal systems: CRM integrations (Attio, Linear, GitHub), operational tooling, agent-mediated workflows that keep the team coordinated without adding meetings.
-- Lead author and co-author of seven essays on human-AI collaboration at Luminous Group, including *The Displacement of Judgement*, *They Built It. They Can't Control It.*, *What You Govern Determines What You Become*, *The Resolution of Intelligence*, and *What Agents Cannot Want*.
-- Co-inventor on patents filed at Luminous Group, on the architecture of human-agent collaboration.
+- Co-inventor on patents covering multi-agent multi-team coordination architecture.
+- Author or co-author of seven essays on human-AI collaboration at Luminous Group, including *The Displacement of Judgement*, *They Built It. They Can't Control It.*, *What You Govern Determines What You Become*, *The Resolution of Intelligence*, and *What Agents Cannot Want*.
+- Built agent-mediated workflows integrating Attio, Linear, and GitHub that keep a distributed team coordinated without recurring meetings.
 
 **What I learned:** Augmentation works when you design for human judgement, not around it. The organisations that get the most from AI are the ones that got specific about what their people are actually good at — then built AI around those strengths.
 
@@ -22,7 +23,7 @@ Luminous Group is a human-centred AI consultancy that's also building its own AI
 
 ViaVia builds AI systems for professionals. Started in September 2025 — a place to ship AI products outside the consultancy work, against problems I care about.
 
-**Current focus: Charles.** An AI strength training coach, coming soon to the App Store. Charles builds periodised training programmes (accumulation, intensification, strength blocks) and rebuilds them session by session as the user logs what actually happened. Multi-model under the hood (Claude, Gemini, swappable). Vector retrieval via Pinecone for surfacing the right training context session by session. Six layers of filtering before the LLM ever sees the data: AI does what's genuinely hard to code, deterministic code does the rest.
+**Current focus: Charles.** An AI strength training coach (iOS, currently in beta). Charles builds periodised training programmes (accumulation, intensification, strength blocks) and rebuilds them session by session as the user logs what actually happened. Built in Flutter + Supabase + pgvector — two-layer architecture (relational gym data on Layer 1, vector-backed AI knowledge on Layer 2). Multi-model under the hood (Claude, Gemini, swappable). Six layers of filtering before the LLM ever sees the data: AI does what's genuinely hard to code, deterministic code does the rest.
 
 **What I do:**
 - Lead Charles end-to-end with my co-founder: data model, periodisation logic, the feedback loop, multi-model orchestration, the filtering pipeline.
@@ -49,12 +50,12 @@ Led technology development for a premium personal training studio — building t
 
 **What I learned:** Managing offshore teams well comes down to three things: clear specs, consistent check-ins, and never assuming silence means progress. The 78% on-time rate came from catching slippage early, not from heroics at the end.
 
-### Personal Trainer — MTM Personal Training
+### Personal Trainer (Embedded with Executives) — MTM Personal Training
 **Apr 2024 – Dec 2024 · Berlin, Germany**
 
-Pursued personal training out of a deep interest in sport and human performance. Coached executives and founders one-on-one in a premium studio setting.
+Coached executives and founders one-on-one in a premium studio setting — embedded fieldwork that became the domain foundation for Charles (AI strength coach) and the NHS technical lead role that followed.
 
-Built a professional network of 40+ German founders and CEOs through coaching relationships — connections that informed later consulting and startup work.
+Built a professional network of 40+ German founders and CEOs through these coaching relationships — connections that informed later consulting and product work.
 
 **Why it matters now:** Reading people is a transferable skill. The ability to sense when someone is checked out, when they're holding back, when they need a push versus when they need patience — that's not a gym skill, it's a leadership skill. It shows up in every consulting engagement and every team I lead.
 

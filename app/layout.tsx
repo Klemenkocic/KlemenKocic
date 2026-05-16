@@ -51,7 +51,7 @@ export default function RootLayout({
     "@type": "Person",
     name: "Klemen Kocic",
     alternateName: "Klemen Kočič",
-    jobTitle: "AI Interaction Architecture at Luminous Group · Builder of AI systems",
+    jobTitle: "AI Solutions Engineer & Interaction Architect at Luminous Group",
     worksFor: [
       {
         "@type": "Organization",
@@ -78,7 +78,7 @@ export default function RootLayout({
     url: "https://klemenkocic.com",
     image: "https://klemenkocic.com/images/profile.jpg",
     description:
-      "Builder of AI systems that keep humans in the loop. Interaction Architecture at Luminous Group, working on Luminosity — a multi-agent, multi-person system. Based in Munich, Germany.",
+      "AI Solutions Engineer and Interaction Architect at Luminous Group. I help non-technical leaders find where AI fits — and build the systems behind it. Co-architect and substrate operator for Luminosity (multi-agent multi-person production system, two years live). Co-inventor on patents covering multi-agent multi-team coordination. Based in Munich, Germany.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Munich",

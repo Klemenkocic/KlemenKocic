@@ -7,7 +7,7 @@ import Section from "@/components/Section";
 import EducationSection from "@/components/EducationSection";
 import CertificationsGrid from "@/components/CertificationsGrid";
 import BusinessCard from "@/components/BusinessCard";
-import { experiences, projects, skills, personalSkills, aiSkills, aiUses, blogPosts } from "@/content/workData";
+import { experiences, projects, skills, personalSkills, aiEngineering, aiTools, aiUses, blogPosts } from "@/content/workData";
 import ProgressRail from "@/components/ProgressRail";
 import ExperienceVideo from "@/components/work/ExperienceVideo";
 
@@ -62,19 +62,19 @@ export default function WorkClient() {
           </h1>
           <div className="mt-4 sm:mt-6 space-y-4 text-sm sm:text-base text-foreground/80 leading-relaxed max-w-3xl">
             <p>
-              I build AI architecture that keeps humans in the loop. More
-              precisely, I work on interaction architecture, across three
-              layers: how agents get the right information at the right time
-              (retrieval, vectors, the structure of context); how humans and
-              agents work together (transparency, pacing, deliberate
-              coordination); and what gets surfaced back to the user at the
-              right moment.
+              I design how humans and AI agents work together. At Luminous
+              Group I&apos;m building Luminosity — an internal multi-agent
+              multi-person production system where each person works with
+              their own agents and coordination happens through observable,
+              deliberate message-passing. I also operate the production
+              substrate behind it. Previously I led tech at NHS (Munich) and
+              shipped a $40M blockchain game at MetaKing.
             </p>
             <p>
-              I focus on understanding what people actually need and finding
-              where AI can help them specifically. A lot of people are lost
-              in the pace AI is moving at right now. I stay close to the
-              work, so I can give real help to real people.
+              I run capability assessments with non-technical leaders —
+              dentists, educators, coaches — and translate AI into the
+              specific workflows that actually move their week. The work I
+              like most lives between people, product, and technology.
             </p>
           </div>
         </motion.div>
@@ -87,19 +87,17 @@ export default function WorkClient() {
         </motion.h2>
         <motion.div className="space-y-4 text-sm sm:text-base leading-relaxed max-w-3xl" {...fadeSlide(0)}>
           <p className="text-foreground/85">
-            I care about the team, I work hard, I tell the truth, and I try to understand
-            before I optimise. I&apos;m at my best with people who want clarity, momentum,
-            and outcomes.
+            Best with founders and operators who want clarity and momentum, not
+            committee.
           </p>
           <p className="text-foreground/85">
-            Hands-on by default. Asking questions early, surfacing problems before they
-            harden. The work lives between people, product, and technology — being
-            comfortable in all three is what makes the difference.
+            Hands-on by default — I&apos;d rather prototype Tuesday than spec it
+            through Friday.
           </p>
           <p className="text-foreground/85">
-            Sport taught me to read people before reading data. Coaching taught me
-            patience — and that the best intervention is usually a good question, not
-            a good answer. Showing up is the whole thing.
+            I coach. So I ask the question before I write the doc. Sport taught me to
+            read people before data; the best intervention is usually a good question,
+            not a good answer.
           </p>
         </motion.div>
       </Section>
@@ -174,15 +172,50 @@ export default function WorkClient() {
           {projects.map((p, i) => (
             <motion.div
               key={p.name}
-              className="border border-white/10 rounded-xl p-4 sm:p-6 bg-white/5 backdrop-blur-[1px] min-w-0"
+              className="border border-white/10 rounded-xl p-4 sm:p-6 bg-white/5 backdrop-blur-[1px] min-w-0 flex flex-col"
               {...fadeSlide(i)}
             >
-              <h3 className="font-display text-lg sm:text-xl md:text-2xl mb-2 sm:mb-3">
-                {p.name}
-              </h3>
-              <p className="text-sm sm:text-base text-foreground/80 leading-relaxed">
+              <div className="flex items-start justify-between gap-3 mb-2 sm:mb-3">
+                <h3 className="font-display text-lg sm:text-xl md:text-2xl">
+                  {p.name}
+                </h3>
+                <span
+                  className={`text-[10px] sm:text-xs px-2 py-1 rounded-full whitespace-nowrap ${
+                    p.status.startsWith("Live")
+                      ? "bg-emerald-500/20 text-emerald-300 border border-emerald-500/30"
+                      : p.status === "Beta"
+                      ? "bg-amber-500/20 text-amber-200 border border-amber-500/30"
+                      : "bg-white/10 text-foreground/70 border border-white/20"
+                  }`}
+                >
+                  {p.status}
+                </span>
+              </div>
+              <p className="text-sm sm:text-base text-foreground/80 leading-relaxed flex-1">
                 {p.summary}
               </p>
+              {p.tech.length > 0 && (
+                <div className="mt-3 flex flex-wrap gap-1.5">
+                  {p.tech.map((t) => (
+                    <span key={t} className="text-[10px] sm:text-xs px-2 py-0.5 rounded-full bg-white/10 text-foreground/80">
+                      {t}
+                    </span>
+                  ))}
+                </div>
+              )}
+              {p.url && (
+                <a
+                  href={p.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-foreground/90 hover:text-white transition-colors self-start"
+                >
+                  <span>Visit</span>
+                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
+              )}
             </motion.div>
           ))}
         </div>
@@ -252,30 +285,12 @@ export default function WorkClient() {
           <Category title="Tools" items={skills.tools} />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-10 mt-8 sm:mt-10">
-          <Category title="Personal & People Skills" items={personalSkills} />
+          <Category title="How I work with people" items={personalSkills} />
           <LanguagesSection />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-10 mt-8 sm:mt-10">
-          <div className="min-w-0">
-            <h3 className="text-xs sm:text-sm uppercase tracking-widest text-foreground/60 mb-3">AI Skill Set</h3>
-            <div className="relative">
-              {/* Reserve vertical space for tooltips so the first row can be hovered without overlap */}
-              <div className="absolute -top-8 left-0 right-0 h-8" />
-              <div className="flex flex-wrap gap-1.5 sm:gap-2">
-                {aiSkills.map((s: string) => (
-                  <div key={s} className="relative group">
-                    <span className="text-xs px-2 sm:px-2.5 py-1 rounded-full bg-white/10 text-foreground/90 inline-block">
-                      {s}
-                    </span>
-                    <div className="hidden sm:inline-block pointer-events-none absolute left-0 -top-8 z-20 w-fit max-w-none whitespace-nowrap text-[10px] sm:text-[11px] px-3 py-1.5 rounded-md bg-gradient-to-r from-gray-900 to-black backdrop-blur-sm text-white shadow-lg border border-white/10 opacity-0 group-hover:opacity-100 transition-opacity">
-                      I use this for {aiUses[s] ?? "everyday tasks"}.
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-          <div /> {/* Empty div for grid alignment */}
+        <div className="mt-8 sm:mt-10 space-y-6 sm:space-y-8">
+          <AiSkillCloud title="AI Engineering" items={aiEngineering} uses={aiUses} />
+          <AiSkillCloud title="AI Tools I Use Daily" items={aiTools} uses={aiUses} />
         </div>
       </Section>
 
@@ -287,14 +302,17 @@ export default function WorkClient() {
 
       {/* Contact */}
       <Section className="py-12 sm:py-16 md:py-24">
-        <motion.div className="text-center" {...fadeSlide()}>
+        <motion.div className="text-center max-w-2xl mx-auto" {...fadeSlide()}>
           <h2 className="font-display text-xl sm:text-2xl md:text-3xl mb-4 sm:mb-6">
-            Want to know more?
+            Open to work
           </h2>
-          <p className="text-sm sm:text-base text-foreground/80 mb-6 sm:mb-8">
-            Reach out directly — I&apos;d love to hear from you.
+          <p className="text-sm sm:text-base text-foreground/85 mb-2">
+            <span className="text-foreground/60">Open to:</span> AI Solutions Engineer · Forward-Deployed Engineer · AI Solutions Consultant · Founding GTM roles.
           </p>
-          <div className="flex items-center justify-center">
+          <p className="text-sm sm:text-base text-foreground/85 mb-6 sm:mb-8">
+            <span className="text-foreground/60">Based in:</span> Munich, Germany · EU citizen · open to remote (EU/US hours) · available from July 2026.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
             <motion.a
               href="mailto:klemen.kocic@gmail.com"
               className="inline-flex items-center gap-2 px-6 py-3 bg-transparent border border-white/30 text-white rounded-lg font-medium text-sm sm:text-base hover:bg-white/10 transition-colors"
@@ -314,7 +332,19 @@ export default function WorkClient() {
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 />
               </svg>
-              Email Me
+              Email me
+            </motion.a>
+            <motion.a
+              href="/Klemen_Kocic_CV.pdf"
+              download
+              className="inline-flex items-center gap-2 px-6 py-3 bg-white/10 border border-white/20 text-white rounded-lg font-medium text-sm sm:text-base hover:bg-white/15 transition-colors"
+              whileHover={prefersReduced ? undefined : { scale: 1.05 }}
+              whileTap={prefersReduced ? undefined : { scale: 0.95 }}
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V3" />
+              </svg>
+              Download CV (PDF)
             </motion.a>
           </div>
         </motion.div>
@@ -343,6 +373,30 @@ function Category({ title, items }: { title: string; items: string[] }) {
             {it}
           </span>
         ))}
+      </div>
+    </div>
+  );
+}
+
+function AiSkillCloud({ title, items, uses }: { title: string; items: string[]; uses: Record<string, string> }) {
+  return (
+    <div className="min-w-0">
+      <h3 className="text-xs sm:text-sm uppercase tracking-widest text-foreground/60 mb-3">{title}</h3>
+      <div className="relative">
+        {/* Reserve vertical space for tooltips so the first row can be hovered without overlap */}
+        <div className="absolute -top-8 left-0 right-0 h-8" />
+        <div className="flex flex-wrap gap-1.5 sm:gap-2">
+          {items.map((s) => (
+            <div key={s} className="relative group">
+              <span className="text-xs px-2 sm:px-2.5 py-1 rounded-full bg-white/10 text-foreground/90 inline-block">
+                {s}
+              </span>
+              <div className="hidden sm:inline-block pointer-events-none absolute left-0 -top-8 z-20 w-fit max-w-none whitespace-nowrap text-[10px] sm:text-[11px] px-3 py-1.5 rounded-md bg-gradient-to-r from-gray-900 to-black backdrop-blur-sm text-white shadow-lg border border-white/10 opacity-0 group-hover:opacity-100 transition-opacity">
+                I use this for {uses[s] ?? "everyday tasks"}.
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

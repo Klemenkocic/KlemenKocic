@@ -25,21 +25,6 @@ export const certifications: CertificationItem[] = [
     note: "Google Career Certificates",
   },
   {
-    name: "Programming Using Python",
-    issuer: "GO TEL",
-    year: "",
-    logoSrc: "/images/Go tel.png",
-    logoAlt: "GO TEL",
-    note: "Placeholder until authoritative logo is confirmed",
-  },
-  {
-    name: "Sales & CRM Overview",
-    issuer: "Salesforce",
-    year: "",
-    logoSrc: "/images/Salesforce.png",
-    logoAlt: "Salesforce logo",
-  },
-  {
     name: "Leading Teams: Developing as a Leader",
     issuer: "University of Illinois Urbana–Champaign",
     year: "",
