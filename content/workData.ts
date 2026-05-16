@@ -171,7 +171,7 @@ export const experiences: Experience[] = [
 export const projects: Project[] = [
   {
     name: "Charles",
-    status: "Beta",
+    status: "Live",
     url: "https://charles-website-ten.vercel.app/",
     summary:
       "AI strength-training coach for iOS. Builds periodised programmes (accumulation, intensification, strength) that rebuild session by session as the user logs what actually happened. Flutter + Supabase + pgvector. Two-layer architecture: relational gym data on Layer 1, vector-backed AI knowledge on Layer 2. Multi-model orchestration (Claude, Gemini, swappable). Six deterministic filter layers before the model ever sees the data.",

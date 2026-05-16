@@ -59,7 +59,7 @@ cv:
           - Partner-ecosystem analytics contributed to 30+ integrations and MAU growth from ~10K to ~56K.
 
     projects:
-      - name: '[Charles](https://charles-website-ten.vercel.app/) (Beta)'
+      - name: '[Charles](https://charles-website-ten.vercel.app/)'
         summary: AI strength-training coach for iOS. Periodised programmes that rebuild session by session. Flutter + Supabase + pgvector (two-layer architecture), multi-model orchestration (Claude, Gemini), six deterministic filter layers wrapping the model.
       - name: Other shipped products
         summary: '[ViaVia](https://viavia.solutions/) (multi-city European travel, live) · [Viadio](https://www.getviadio.com/) (AI memory videos, live on App Store + Google Play) · [CelesteAI](https://getcelestai.com) (localised astrology, live) · ShipStack (production framework for AI-native software, internal at Luminous Group).'
@@ -80,7 +80,7 @@ cv:
         end_date: 2023-06
         location: Ljubljana, Slovenia
         highlights:
-          - Exchange semester at University of Seoul (2021–2022)
+          - Bilateral exchange at University of Seoul (2021–2022), on scholarship
 
     languages:
       - label: Languages

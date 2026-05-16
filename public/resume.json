@@ -124,7 +124,7 @@
       "institution": "University of Seoul",
       "url": "https://www.uos.ac.kr/",
       "area": "Business Administration",
-      "studyType": "Bilateral Exchange",
+      "studyType": "Bilateral Exchange (on scholarship)",
       "startDate": "2021-09",
       "endDate": "2022-02",
       "location": "Seoul, South Korea"
@@ -278,7 +278,7 @@
   "projects": [
     {
       "name": "Charles",
-      "description": "AI strength-training coach for iOS (Beta). Periodised programmes that rebuild session by session as the user logs what actually happened. Flutter + Supabase + pgvector. Two-layer architecture: relational gym data on Layer 1, vector-backed AI knowledge on Layer 2. Multi-model orchestration (Claude, Gemini, swappable). Six deterministic filter layers before the model ever sees the data.",
+      "description": "AI strength-training coach for iOS. Periodised programmes that rebuild session by session as the user logs what actually happened. Flutter + Supabase + pgvector. Two-layer architecture: relational gym data on Layer 1, vector-backed AI knowledge on Layer 2. Multi-model orchestration (Claude, Gemini, swappable). Six deterministic filter layers before the model ever sees the data.",
       "url": "https://charles-website-ten.vercel.app/",
       "keywords": ["Flutter", "Supabase", "pgvector", "Claude", "Gemini", "iOS", "AI coach", "RAG"],
       "highlights": [
