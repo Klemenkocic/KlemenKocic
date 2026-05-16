@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     default: "Klemen Kocič",
     template: "%s | Klemen Kocič",
   },
-  description: "Portfolio of Klemen Kocič — work, life, and experiments.",
+  description: "Portfolio of Klemen Kocič. Work, life, and experiments.",
   icons: {
     icon: "/favicon.ico",
   },
@@ -78,7 +78,7 @@ export default function RootLayout({
     url: "https://klemenkocic.com",
     image: "https://klemenkocic.com/images/profile.jpg",
     description:
-      "AI Solutions Engineer and Interaction Architect at Luminous Group. I help non-technical leaders find where AI fits — and build the systems behind it. Co-architect and substrate operator for Luminosity (multi-agent multi-person production system, two years live). Co-inventor on patents covering multi-agent multi-team coordination. Based in Munich, Germany.",
+      "AI Solutions Engineer and Interaction Architect at Luminous Group. I help non-technical leaders find where AI fits, and build the systems behind it. Co-architect and substrate operator for Luminosity (multi-agent multi-person production system, two years live). Co-inventor on patents covering multi-agent multi-team coordination. Based in Munich, Germany.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Munich",

@@ -13,7 +13,7 @@ export type EducationItem = {
 export const education: EducationItem[] = [
   {
     institution: "University of Ljubljana — School of Economics and Business",
-    program: "B.Sc. International Business",
+    program: "B.A. International Business",
     location: "Ljubljana, Slovenia",
     from: "2019",
     to: "2023",

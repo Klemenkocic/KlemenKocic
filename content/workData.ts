@@ -62,16 +62,14 @@ export const experiences: Experience[] = [
     from: "Jul 2025",
     to: "Present",
     bullets: [
-      "Led capability-assessment engagements with ~20 CEOs and senior executives plus one full company rollout — translated ambiguous AI goals into specific workflows their teams adopted, across dentistry, education, and sport.",
-      "Built and operate Luminosity's production substrate — agent provisioning, MCP tool servers, multi-machine rule sync, weekly automated intelligence sweeps (Firecrawl + RSS + Exa), and an automated video production pipeline (Remotion + ElevenLabs + ffmpeg).",
-      "Co-architect of Luminosity, our internal multi-agent multi-person production system — each person works with their own agents, and agents coordinate across people through deliberate, observable message-passing. Isolated memory by default — if context isn't explicit, it doesn't propagate.",
-      "Designed the interaction architecture — the transparency that makes communication visible, the pacing that keeps autonomous action under human control, the progressive structure that lets domain experts engage with autonomous AI without technical fluency.",
+      "Led capability-assessment engagements with ~20 CEOs and senior executives plus one full company rollout. Translated ambiguous AI goals into specific workflows their teams adopted, across dentistry, education, and sport.",
+      "Built and operate Luminosity's production substrate: agent provisioning, MCP tool servers, knowledge and context graphs, multi-machine rule sync, weekly automated intelligence sweeps (Firecrawl, RSS, Exa), automated video production pipeline (Remotion, ElevenLabs, ffmpeg), and team-coordination workflows across Attio, Linear, GitHub, and Slack.",
+      "Co-architect of Luminosity, our internal multi-agent multi-person production system. Each person works with their own agents, and agents coordinate across people through deliberate, observable message-passing. Isolated memory by default. If context isn't explicit, it doesn't propagate.",
       "Co-inventor on patents covering multi-agent multi-team coordination architecture.",
-      "Author or co-author of seven published essays on human-AI collaboration — see Writing section.",
-      "Built agent-mediated workflows integrating Attio, Linear, and GitHub that keep a distributed team coordinated without recurring meetings.",
+      "Co-author of eight essays on human-AI collaboration published at Luminous Group. See Writing section.",
     ],
     video: {
-      label: "Luminous Group — AI solutions demo",
+      label: "Luminous Group AI solutions demo",
       srcWebm: "",
       srcMp4: "/videos/work/Luminous.mp4",
       poster: "/videos/work/luminous-poster.jpg",
@@ -84,13 +82,13 @@ export const experiences: Experience[] = [
     from: "Jan 2025",
     to: "Feb 2026",
     bullets: [
-      "Co-developed a native iOS coaching app (Swift, SwiftUI) — real-time session booking, progress tracking, trainer-client communication.",
-      "Built the web platform — scheduling, training plans, exercise libraries, invoicing, point-of-sale — plus a bilingual corporate site and 5 partner portals expanding the studio's B2B reach.",
+      "Co-developed a native iOS coaching app (Swift, SwiftUI): real-time session booking, progress tracking, trainer-client communication.",
+      "Built the web platform covering scheduling, training plans, exercise libraries, invoicing, and point-of-sale, plus a bilingual corporate site and 5 partner portals expanding the studio's B2B reach.",
       "Coordinated 6 offshore engineers across concurrent product streams at a 78% on-time release rate.",
-      "Deployed AI into the coaching team's daily workflow — turned \"we should use AI\" into specific applied use cases across coaching delivery and client management.",
+      "Deployed AI into the coaching team's daily workflow. Turned \"we should use AI\" into specific applied use cases across coaching delivery and client management.",
     ],
     video: {
-      label: "NHS Personal Training — iOS app demo",
+      label: "NHS Personal Training iOS app demo",
       srcWebm: "",
       srcMp4: "/videos/work/New Health Society Technical Lead.mp4",
       poster: "/videos/work/nhs-poster.jpg",
@@ -103,11 +101,11 @@ export const experiences: Experience[] = [
     from: "Apr 2024",
     to: "Dec 2024",
     bullets: [
-      "Coached executives and founders one-on-one in a premium studio — embedded fieldwork that became the domain foundation for Charles (AI strength coach) and the NHS technical lead role that followed.",
-      "Built a network of 40+ German founders and CEOs through these coaching relationships — connections that informed later consulting and product work.",
+      "Coached executives and founders one-on-one in a premium studio. Embedded fieldwork that became the domain foundation for Charles (AI strength coach) and the NHS technical lead role that followed.",
+      "Built a network of 40+ German founders and CEOs through these coaching relationships. Connections that informed later consulting and product work.",
     ],
     video: {
-      label: "MTM Personal Training — Fitness tech demo",
+      label: "MTM Personal Training fitness tech demo",
       srcWebm: "",
       srcMp4: "/videos/work/MTM Personal Training.mp4",
       poster: "/videos/work/mtm-poster.jpg",
@@ -121,11 +119,11 @@ export const experiences: Experience[] = [
     to: "Feb 2024",
     bullets: [
       "Shipped BLOCKLORDS, an online blockchain strategy game that reached $40M in trade volume; led a 10-person cross-timezone team and cut deployment projection 6 → 4 months at 97% sprint velocity.",
-      "Wrote the Unity ↔ smart-contract bridge for the Direct Sales feature (C# + Solidity calls) — $200K in direct revenue.",
+      "Wrote the Unity ↔ smart-contract bridge for the Direct Sales feature (C# + Solidity calls). $200K in direct revenue.",
       "Built Grafana and Tableau dashboards for on-chain analytics, giving leadership real-time visibility into game-economy health and player behaviour.",
     ],
     video: {
-      label: "Metaking Studios — Game launch demo",
+      label: "Metaking Studios game launch demo",
       srcWebm: "",
       srcMp4: "/videos/work/Metaking Studios Project Manager.mp4",
       poster: "/videos/work/metaking-poster.jpg",
@@ -138,11 +136,11 @@ export const experiences: Experience[] = [
     from: "Jan 2021",
     to: "Feb 2022",
     bullets: [
-      "Shipped 5 gaming project launches across Ethereum, Polygon, and BSC; managed Lighthouse — a fund-generating platform supporting 10+ external game developers; negotiated ~$500K investor funding, extending runway ~9 months.",
+      "Shipped 5 gaming project launches across Ethereum, Polygon, and BSC. Managed Lighthouse, a fund-generating platform supporting 10+ external game developers. Negotiated ~$500K investor funding, extending runway ~9 months.",
       "Built KPI tracking dashboards in SQL + Tableau on top of on-chain event data, giving leadership real-time visibility into ecosystem health.",
     ],
     video: {
-      label: "Seascape Network — Program management overview",
+      label: "Seascape Network program management overview",
       srcWebm: "",
       srcMp4: "/videos/work/Seascaep network Program Manager.mp4",
       poster: "/videos/work/seascape-pm-poster.jpg",
@@ -160,7 +158,7 @@ export const experiences: Experience[] = [
       "Built repeatable KPI tracking to support leadership planning and investor reporting.",
     ],
     video: {
-      label: "Seascape Network — Data analytics dashboard",
+      label: "Seascape Network data analytics dashboard",
       srcWebm: "",
       srcMp4: "/videos/work/Seascape Network Data analyst.mp4",
       poster: "/videos/work/seascape-data-poster.jpg",
@@ -174,7 +172,7 @@ export const projects: Project[] = [
     status: "Beta",
     url: "https://charles-website-ten.vercel.app/",
     summary:
-      "AI strength-training coach for iOS. Builds periodised programmes (accumulation, intensification, strength) that rebuild session by session as the user logs what actually happened. Flutter + Supabase + pgvector — two-layer architecture: relational gym data on Layer 1, vector-backed AI knowledge on Layer 2. Multi-model orchestration (Claude, Gemini, swappable). Six deterministic filter layers before the model ever sees the data.",
+      "AI strength-training coach for iOS. Builds periodised programmes (accumulation, intensification, strength) that rebuild session by session as the user logs what actually happened. Flutter + Supabase + pgvector. Two-layer architecture: relational gym data on Layer 1, vector-backed AI knowledge on Layer 2. Multi-model orchestration (Claude, Gemini, swappable). Six deterministic filter layers before the model ever sees the data.",
     tech: ["Flutter", "Supabase", "pgvector", "Claude", "Gemini"],
   },
   {
@@ -182,7 +180,7 @@ export const projects: Project[] = [
     status: "Live",
     url: "https://viavia.solutions/",
     summary:
-      "Multi-city European travel platform. Planning a five-city trip across Europe is meant to be the fun part — right now it's the bottleneck. ViaVia turns the routing, booking, and pacing into one simple flow.",
+      "Multi-city European travel platform. Planning a five-city trip across Europe is meant to be the fun part. Right now it's the bottleneck. ViaVia turns the routing, booking, and pacing into one simple flow.",
     tech: [],
   },
   {
@@ -190,7 +188,7 @@ export const projects: Project[] = [
     status: "Live · App Store + Google Play",
     url: "https://www.getviadio.com/",
     summary:
-      "AI-powered memory video app. Turn existing phone photos and videos into meaningful compilations — cinematic memory videos generated from what's already on your device.",
+      "AI-powered memory video app. Turn existing phone photos and videos into meaningful compilations. Cinematic memory videos generated from what's already on your device.",
     tech: [],
   },
   {
@@ -205,7 +203,7 @@ export const projects: Project[] = [
     name: "ShipStack",
     status: "Internal · Luminous Group",
     summary:
-      "Production framework for AI-native software. Seven AI departments coordinating through human approval gates — the structure that lets a small team ship product without losing oversight.",
+      "Production framework for AI-native software. Seven AI departments coordinating through human approval gates. The structure that lets a small team ship product without losing oversight.",
     tech: [],
   },
 ];
@@ -222,7 +220,7 @@ export const skills: Skills = {
   ],
 };
 
-// Kept for backwards compatibility — UI now uses the split arrays below.
+// Kept for backwards compatibility. UI now uses the split arrays below.
 export const aiSkills: string[] = [
   "Claude",
   "ChatGPT",
@@ -258,7 +256,10 @@ export const aiEngineering: string[] = [
   "Llama (local)",
   "MCP",
   "LangGraph",
+  "Knowledge graphs",
+  "Context graphs",
   "Pinecone",
+  "pgvector",
   "Supabase AI",
   "Cursor",
 ];
@@ -284,15 +285,18 @@ export const aiTools: string[] = [
 // Uses sourced from tool docs and common workflows; kept concise for UI tooltip
 export const aiUses: Record<string, string> = {
   Claude: "long-form reasoning, agent backbone, sensitive documents",
-  GPT: "OpenAI's API as an agent backbone — multi-model orchestration alongside Claude",
+  GPT: "OpenAI's API as an agent backbone. Multi-model orchestration alongside Claude.",
   ChatGPT: "rapid drafting, refactors, and idea exploration",
+  "Knowledge graphs": "structured domain knowledge that agents can query and update across sessions",
+  "Context graphs": "the live structure of what an agent knows about a person, a project, and the relationships between them",
+  pgvector: "Postgres-native vector retrieval. Used in Charles's two-layer architecture (relational + vector).",
   Gemini: "Workspace help and multimodal research",
   Mistral: "European LLM, cost-efficient inference",
-  "Cove AI": "visual AI canvas — used before Microsoft acquired the team",
+  "Cove AI": "visual AI canvas, used before Microsoft acquired the team",
   "Llama (local)": "local LLM for offline experimentation and privacy-sensitive work",
-  MCP: "Model Context Protocol — connecting tools and data to LLMs",
+  MCP: "Model Context Protocol. Connecting tools and data to LLMs.",
   LangGraph: "graph-based LLM workflows with loops and branches",
-  Pinecone: "vector store for retrieval — giving agents the right context at the right time",
+  Pinecone: "vector store for retrieval. Giving agents the right context at the right time.",
   Cursor: "AI pair programming inside the editor",
   Hera: "agentic automations and workflow orchestration",
   Perplexity: "grounded web research with citations",
@@ -312,7 +316,7 @@ export const aiUses: Record<string, string> = {
 export const blogPosts: BlogPost[] = [
   {
     title: "They Built It. They Can't Control It.",
-    excerpt: "The largest AI companies keep losing control of their own systems — Amazon, Anthropic, Google, Microsoft, OpenAI. The pattern is the same: AI-generated code deployed without adequate human review, then a post-hoc requirement that senior engineers approve AI-assisted changes. Co-written with Barton Friedland and Jim Highsmith, this piece argues the failures are not technological but architectural, and that aviation, surgery, and nuclear safety solved a version of this problem decades ago by treating human oversight as essential capability rather than expendable overhead.",
+    excerpt: "The largest AI companies keep losing control of their own systems. Amazon, Anthropic, Google, Microsoft, OpenAI. The pattern is the same: AI-generated code deployed without adequate human review, then a post-hoc requirement that senior engineers approve AI-assisted changes. Co-written with Barton Friedland and Jim Highsmith, this piece argues the failures are not technological but architectural, and that aviation, surgery, and nuclear safety solved a version of this problem decades ago by treating human oversight as essential capability rather than expendable overhead.",
     url: "https://www.luminousgroup.net/liminality/they-built-it-they-cant-control-it",
     date: "Apr 26",
     readingTime: "9 min read",
@@ -320,7 +324,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     title: "What You Govern Determines What You Become",
-    excerpt: "AI systems optimise what is specified; they do not determine what ought to be specified. If the objective encoded three years ago was incomplete, the system has been compounding that gap at scale — into pricing, hiring, incentives, and capital allocation. The dashboards stay green the entire time.",
+    excerpt: "AI systems optimise what is specified; they do not determine what ought to be specified. If the objective encoded three years ago was incomplete, the system has been compounding that gap at scale, into pricing, hiring, incentives, and capital allocation. The dashboards stay green the entire time.",
     url: "https://www.luminousgroup.net/liminality/what-are-you-scaling",
     date: "Mar 15",
     readingTime: "12 min read",
@@ -336,7 +340,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     title: "What Agents Cannot Want",
-    excerpt: "In an agent-mediated world, execution becomes abundant. What becomes scarce is direction driven by human intent. When agents raise the standard, they erase the old signal that 'good work' once carried—and scarcity migrates upward, from making things to deciding which things deserve to exist.",
+    excerpt: "In an agent-mediated world, execution becomes abundant. What becomes scarce is direction driven by human intent. When agents raise the standard, they erase the old signal that 'good work' once carried. Scarcity migrates upward, from making things to deciding which things deserve to exist.",
     url: "https://www.luminousgroup.net/liminality/what-agents-cannot-want",
     date: "Feb 16",
     readingTime: "7 min read",
@@ -344,7 +348,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     title: "The Displacement of Judgement",
-    excerpt: "Modern organisations have systematically moved consequential decision-making away from human judgement, automating critical choices upstream while leaders remain nominally responsible for ratifying predetermined outcomes. The displacement creates the illusion of control while eliminating genuine strategic choice. Co-written with Barton Friedland — formative vs corrective intervention as the lever for redesigning systems that preserve discernment while decisions remain malleable.",
+    excerpt: "Modern organisations have systematically moved consequential decision-making away from human judgement, automating critical choices upstream while leaders remain nominally responsible for ratifying predetermined outcomes. The displacement creates the illusion of control while eliminating genuine strategic choice. Co-written with Barton Friedland. Formative vs corrective intervention as the lever for redesigning systems that preserve discernment while decisions remain malleable.",
     url: "https://www.luminousgroup.net/liminality/the-displacement-of-judgement",
     date: "Feb 9",
     readingTime: "8 min read",
@@ -352,7 +356,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     title: "Open the Window",
-    excerpt: "Using AI at work is not cheating—when it is used to augment human judgment and capability, not replace it. A framework for organizations to permit, equip, and audit AI-assisted work.",
+    excerpt: "Using AI at work is not cheating when it is used to augment human judgment and capability, not replace it. A framework for organizations to permit, equip, and audit AI-assisted work.",
     url: "https://www.luminousgroup.net/liminality/open-the-window",
     date: "Nov 28",
     readingTime: "6 min read",
@@ -360,7 +364,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     title: "More Than a Mirror",
-    excerpt: "AI isn't lacking—most of the time, it's a you-problem. Bring vague questions and thin knowledge, and AI will upscale your vagueness. This article explores the Augmentation Arc: Mirror, Lens, Lighthouse, and Prism—four modes that transform how we work with AI from reflection to resonance.",
+    excerpt: "AI isn't lacking. Most of the time, it's a you-problem. Bring vague questions and thin knowledge, and AI will upscale your vagueness. This article explores the Augmentation Arc: Mirror, Lens, Lighthouse, and Prism. Four modes that transform how we work with AI from reflection to resonance.",
     url: "https://www.luminousgroup.net/liminality/more-than-a-mirror",
     date: "Sep 24",
     readingTime: "5 min read",
@@ -368,7 +372,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     title: "The Racing Yacht",
-    excerpt: "Steve Jobs called the computer a 'bicycle for the mind'—but that metaphor no longer fits. In the age of AI, leaders need to think less like cyclists and more like sailors. This piece explores how augmentation requires collective intelligence, turning ambient signals into strategic advantage.",
+    excerpt: "Steve Jobs called the computer a 'bicycle for the mind.' That metaphor no longer fits. In the age of AI, leaders need to think less like cyclists and more like sailors. This piece explores how augmentation requires collective intelligence, turning ambient signals into strategic advantage.",
     url: "https://www.luminousgroup.net/liminality/the-racing-yacht",
     date: "Oct 10",
     readingTime: "4 min read",

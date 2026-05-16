@@ -63,7 +63,7 @@ export default function WorkClient() {
           <div className="mt-4 sm:mt-6 space-y-4 text-sm sm:text-base text-foreground/80 leading-relaxed max-w-3xl">
             <p>
               I design how humans and AI agents work together. At Luminous
-              Group I&apos;m building Luminosity — an internal multi-agent
+              Group I&apos;m building Luminosity, an internal multi-agent
               multi-person production system where each person works with
               their own agents and coordination happens through observable,
               deliberate message-passing. I also operate the production
@@ -71,8 +71,8 @@ export default function WorkClient() {
               shipped a $40M blockchain game at MetaKing.
             </p>
             <p>
-              I run capability assessments with non-technical leaders —
-              dentists, educators, coaches — and translate AI into the
+              I run capability assessments with non-technical leaders.
+              Dentists, educators, coaches. And translate AI into the
               specific workflows that actually move their week. The work I
               like most lives between people, product, and technology.
             </p>
@@ -88,8 +88,8 @@ export default function WorkClient() {
         <motion.div className="space-y-4 text-sm sm:text-base leading-relaxed max-w-3xl" {...fadeSlide(0)}>
           <p className="text-foreground/85">
             I&apos;m at my best with founders and operators who want clarity, momentum,
-            and outcomes — not committee. Hands-on by default. I&apos;d rather
-            prototype Tuesday than spec it through Friday.
+            and outcomes. Hands-on by default. I&apos;d rather prototype Tuesday than
+            spec it through Friday.
           </p>
           <p className="text-foreground/85">
             The work lives between people, product, and technology. Being comfortable

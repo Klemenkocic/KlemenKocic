@@ -116,10 +116,10 @@ export default function BusinessCard() {
                 Klemen Kocic
               </h1>
               <p className="text-sm sm:text-base text-foreground/90 mt-1 font-medium">
-                AI Solutions Engineer &amp; Interaction Architect — Luminous Group
+                AI Solutions Engineer &amp; Interaction Architect at Luminous Group
               </p>
               <p className="text-xs sm:text-sm text-foreground/65 mt-1.5 max-w-xl">
-                I help non-technical leaders find where AI fits — and build the systems behind it.
+                I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them.
               </p>
             </div>
 
@@ -220,7 +220,7 @@ export default function BusinessCard() {
       {/* Hidden easter-egg trigger: long-press the small ✦ for ~1.5s */}
       <button
         type="button"
-        aria-label="Easter egg — long-press to play"
+        aria-label="Easter egg, long-press to play"
         title="Long-press to play"
         onPointerDown={startLongPress}
         onPointerUp={clearLongPress}

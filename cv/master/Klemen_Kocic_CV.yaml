@@ -12,7 +12,7 @@ cv:
       username: Klemenkocic
   sections:
     summary:
-      - Co-architect of an internal multi-agent multi-person production system (30 agents, 5 machines, two years live); co-inventor on its patents. Hands-on across iOS, web, and LLM orchestration; customer-facing delivery with ~20 CEO workshops and one enterprise rollout. Ship surgical AI — deterministic code where it matters, model where it has to.
+      - "Co-architect of an internal multi-agent multi-person production system (30 agents, 5 machines, two years live); co-inventor on its patents. Hands-on across iOS, web, and LLM orchestration. Customer-facing delivery with ~20 CEO workshops and one enterprise rollout. Ship surgical AI: deterministic code where it matters, model where it has to."
 
     experience:
       - company: Luminous Group
@@ -21,12 +21,11 @@ cv:
         end_date: present
         location: Munich, Germany
         highlights:
-          - Ran ~20 CEO/executive capability assessments plus one company rollout — translated ambiguous AI goals into adopted workflows across dentistry, education, and sport.
-          - Built and operate Luminosity's production substrate — agent provisioning, MCP tool servers, multi-machine rule sync, weekly automated intelligence sweeps (Firecrawl + RSS + Exa), and an automated video production pipeline (Remotion + ElevenLabs + ffmpeg).
-          - Co-architect of Luminosity, an internal multi-agent multi-person production system — 30 agents across 5 machines, two years live; agents coordinate via observable, deliberate message-passing with prospective visibility and drift detection built in.
+          - Led capability-assessment engagements with ~20 CEOs and senior executives plus one full company rollout. Translated ambiguous AI goals into specific workflows their teams adopted, across dentistry, education, and sport.
+          - "Built and operate Luminosity's production substrate: agent provisioning, MCP tool servers, knowledge and context graphs, multi-machine rule sync, weekly automated intelligence sweeps (Firecrawl, RSS, Exa), automated video production pipeline (Remotion, ElevenLabs, ffmpeg), and team-coordination workflows across Attio, Linear, GitHub, and Slack."
+          - "Co-architect of Luminosity, an internal multi-agent multi-person production system (30 agents across 5 machines, two years live). Agents coordinate via observable, deliberate message-passing with prospective visibility and drift detection built in."
           - Co-inventor on patents covering multi-agent multi-team coordination architecture.
-          - Author or co-author of seven published essays on human-AI collaboration at luminousgroup.net.
-          - Shipped agent-mediated tooling integrating Attio, Linear, and GitHub that keeps a distributed team coordinated without recurring meetings.
+          - Co-author of eight published essays on human-AI collaboration at luminousgroup.net.
 
       - company: NHS Personal Training GmbH
         position: Technical Lead
@@ -34,9 +33,9 @@ cv:
         end_date: 2026-02
         location: Munich, Germany
         highlights:
-          - Co-developed a native iOS coaching app (Swift, SwiftUI) — real-time booking, progress tracking, trainer–client communication.
-          - Built the web platform — scheduling, training plans, exercise libraries, invoicing, point-of-sale — plus a bilingual corporate site and 5 partner portals expanding B2B reach.
-          - Coordinated 6 offshore engineers across concurrent product streams at 78% on-time release rate; deployed AI into the coaching team's daily workflow with applied use cases.
+          - "Co-developed a native iOS coaching app (Swift, SwiftUI): real-time booking, progress tracking, trainer-client communication."
+          - Built the web platform covering scheduling, training plans, exercise libraries, invoicing, and point-of-sale, plus a bilingual corporate site and 5 partner portals expanding B2B reach.
+          - Coordinated 6 offshore engineers across concurrent product streams at 78% on-time release rate. Deployed AI into the coaching team's daily workflow with applied use cases.
 
       - company: MetaKing Studios
         position: Project Manager
@@ -70,7 +69,7 @@ cv:
 
     skills:
       - label: AI & LLMs
-        details: Claude, GPT, Gemini, multi-model orchestration, LangGraph, MCP, Pinecone, RAG, prompt design, agent architecture, evaluations
+        details: Claude, GPT, Gemini, multi-model orchestration, LangGraph, MCP, knowledge graphs, context graphs, Pinecone, pgvector, RAG, prompt design, agent architecture, evaluations
       - label: Engineering
         details: TypeScript, Python, Swift/SwiftUI, Flutter, React/Next.js, Node.js, PostgreSQL, Supabase, pgvector
       - label: Solutions & Delivery
