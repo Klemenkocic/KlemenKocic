@@ -11,9 +11,6 @@ cv:
     - network: GitHub
       username: Klemenkocic
   sections:
-    summary:
-      - "Co-architect of an internal multi-agent multi-person production system (30 agents, 5 machines, two years live); co-inventor on its patents. Hands-on across iOS, web, and LLM orchestration. Customer-facing engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture, plus one full company. Ship surgical AI: deterministic code where it matters, model where it has to."
-
     experience:
       - company: Luminous Group
         position: AI Systems Architect
@@ -85,6 +82,11 @@ cv:
     languages:
       - label: Languages
         details: Slovenian (Native) · English (C2) · Serbo-Croatian (B2) · German (B1)
+
+    Selected Writing:
+      - "*[They Built It. They Can't Control It.](https://www.luminousgroup.net/liminality/they-built-it-they-cant-control-it)* — with Barton Friedland and Jim Highsmith"
+      - "*[What Agents Cannot Want](https://www.luminousgroup.net/liminality/what-agents-cannot-want)*"
+      - "*[The Displacement of Judgement](https://www.luminousgroup.net/liminality/the-displacement-of-judgement)* — with Barton Friedland"
 
 design:
   theme: engineeringresumes
