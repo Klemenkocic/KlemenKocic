@@ -8,7 +8,7 @@
 Luminous Group is a human-centred AI consultancy that's also building its own AI product, Luminosity. I work both sides.
 
 **What I do:**
-- Led capability-assessment engagements with ~20 CEOs and senior executives plus one full company rollout. Translated ambiguous AI goals into specific workflows their teams adopted, across dentistry, education, and sport.
+- Led capability-assessment engagements with ~20 CEOs and senior executives plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted, across dentistry, education, and sport.
 - Built and operate Luminosity's production substrate: agent provisioning, MCP tool servers, knowledge and context graphs, multi-machine rule sync, weekly automated intelligence sweeps (Firecrawl, RSS, Exa), automated video production pipeline (Remotion, ElevenLabs, ffmpeg), and team-coordination workflows across Attio, Linear, GitHub, and Slack.
 - Co-architect of Luminosity, our internal multi-agent multi-person production system. Each person works with their own agents; agents coordinate across people through deliberate, observable message-passing. Isolated memory by default. If context isn't explicit, it doesn't propagate.
 - Interaction Architecture: designing the structure of how humans work with the agents. The transparency that makes communication visible, the pacing that keeps autonomous action under human control, the progressive structure that lets domain experts engage with autonomous AI without technical fluency.

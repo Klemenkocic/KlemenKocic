@@ -62,7 +62,7 @@ export const experiences: Experience[] = [
     from: "Jul 2025",
     to: "Present",
     bullets: [
-      "Led capability-assessment engagements with ~20 CEOs and senior executives plus one full company rollout. Translated ambiguous AI goals into specific workflows their teams adopted, across dentistry, education, and sport.",
+      "Led capability-assessment engagements with ~20 CEOs and senior executives plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted, across dentistry, education, and sport.",
       "Built and operate Luminosity's production substrate: agent provisioning, MCP tool servers, knowledge and context graphs, multi-machine rule sync, weekly automated intelligence sweeps (Firecrawl, RSS, Exa), automated video production pipeline (Remotion, ElevenLabs, ffmpeg), and team-coordination workflows across Attio, Linear, GitHub, and Slack.",
       "Co-architect of Luminosity, our internal multi-agent multi-person production system. Each person works with their own agents, and agents coordinate across people through deliberate, observable message-passing. Isolated memory by default. If context isn't explicit, it doesn't propagate.",
       "Co-inventor on patents covering multi-agent multi-team coordination architecture.",

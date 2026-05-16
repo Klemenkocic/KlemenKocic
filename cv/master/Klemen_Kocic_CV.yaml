@@ -21,9 +21,9 @@ cv:
         end_date: present
         location: Munich, Germany
         highlights:
-          - Led capability-assessment engagements with ~20 CEOs and senior executives plus one full company rollout. Translated ambiguous AI goals into specific workflows their teams adopted, across dentistry, education, and sport.
+          - Led capability-assessment engagements with ~20 CEOs and senior executives plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted, across dentistry, education, and sport.
           - "Built and operate Luminosity's production substrate: agent provisioning, MCP tool servers, knowledge and context graphs, multi-machine rule sync, weekly automated intelligence sweeps (Firecrawl, RSS, Exa), automated video production pipeline (Remotion, ElevenLabs, ffmpeg), and team-coordination workflows across Attio, Linear, GitHub, and Slack."
-          - "Co-architect of Luminosity, an internal multi-agent multi-person production system (30 agents across 5 machines, two years live). Agents coordinate via observable, deliberate message-passing with prospective visibility and drift detection built in."
+          - "Co-architect of Luminosity, an internal multi-agent multi-person production system (30 agents across 5 machines, two years live). Agents coordinate via observable, deliberate message-passing, with isolated memory by default."
           - Co-inventor on patents covering multi-agent multi-team coordination architecture.
           - Co-author of eight published essays on human-AI collaboration at luminousgroup.net.
 
@@ -57,15 +57,9 @@ cv:
 
     projects:
       - name: '[Charles](https://charles-website-ten.vercel.app/) (Beta)'
-        summary: AI strength-training coach for iOS. Periodised programmes that rebuild session by session; Flutter + Supabase + pgvector (two-layer architecture), multi-model orchestration (Claude, Gemini), six deterministic filter layers wrapping the model.
-      - name: '[ViaVia](https://viavia.solutions/) (Live)'
-        summary: Multi-city European travel platform. One flow for routing, booking, and pacing across cities.
-      - name: '[Viadio](https://www.getviadio.com/) (Live · App Store + Google Play)'
-        summary: AI-powered memory video app. Turn existing phone photos and videos into meaningful compilations.
-      - name: '[CelesteAI](https://getcelestai.com) (Live)'
-        summary: Localised astrology, AI-computed; charts that take time, place, and language seriously.
-      - name: 'ShipStack (Internal · Luminous Group)'
-        summary: Production framework for AI-native software; seven AI departments coordinating through human approval gates.
+        summary: AI strength-training coach for iOS. Periodised programmes that rebuild session by session. Flutter + Supabase + pgvector (two-layer architecture), multi-model orchestration (Claude, Gemini), six deterministic filter layers wrapping the model.
+      - name: Other shipped products
+        summary: '[ViaVia](https://viavia.solutions/) (multi-city European travel, live) · [Viadio](https://www.getviadio.com/) (AI memory videos, live on App Store + Google Play) · [CelesteAI](https://getcelestai.com) (localised astrology, live) · ShipStack (production framework for AI-native software, internal at Luminous Group).'
 
     skills:
       - label: AI & LLMs
@@ -119,6 +113,9 @@ design:
     space_below_name: 0.2cm
     space_below_headline: 0.15cm
     space_below_connections: 0.3cm
+  links:
+    underline: false
+    show_external_link_icon: false
 locale:
   language: english
 settings:
