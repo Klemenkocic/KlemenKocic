@@ -56,18 +56,18 @@ export const personalSkills: string[] = [
 
 export const experiences: Experience[] = [
   {
-    role: "Interaction Architect / AI Solutions Engineer",
+    role: "AI Systems Architect",
     company: "Luminous Group",
     location: "Munich, Germany",
     from: "Jul 2025",
     to: "Present",
     bullets: [
-      "Led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture, plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted.",
-      "Co-architect of Luminosity, our internal multi-agent multi-person production system (30 agents across 5 machines, two years live). Designed the three-layer system architecture — Interaction, Coordination, Data — behind the company's \"AI that instruments the human\" thesis.",
-      "Built and operate Luminosity's runtime across multiple machines: agent provisioning, MCP tool servers, the rules-and-skills harness, knowledge and context graphs, intelligence-sweep infrastructure, video production pipeline, and team-coordination workflows.",
+      "Co-led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture, plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted.",
+      "Co-architect of Luminosity, our internal multi-agent multi-person production system (30 agents across 5 machines, two years live), built around the three-layer system architecture (Interaction, Coordination, Data) behind the company's \"AI that instruments the human\" thesis.",
+      "Built Luminosity's video production pipeline and the team-coordination workflows that keep the distributed team aligned. Co-built the runtime infrastructure: agent provisioning, MCP tool servers, the rules-and-skills harness, and knowledge and context graphs.",
+      "Built an internal system that collects signal from across the AI ecosystem, distributes it to the team, and surfaces actionable items for the company's strategy.",
       "Co-inventor on patents covering multi-agent multi-team coordination.",
-      "Lead the editorial voice for Luminous Group's public surfaces (website, positioning, bios) and the Interaction Experience research track that grounds Luminosity's product design.",
-      "Co-author of eight of the twenty essays published at luminousgroup.net/liminality on human-AI collaboration. See Writing section.",
+      "Shape Luminous Group's editorial voice on public surfaces (website, positioning, bios) alongside the founding team. Co-author of eight of the twenty essays published at luminousgroup.net/liminality on human-AI collaboration. See Writing section.",
     ],
     video: {
       label: "Luminous Group AI solutions demo",

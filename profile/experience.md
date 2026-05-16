@@ -2,19 +2,18 @@
 
 ## Current Roles
 
-### Interaction Architect / AI Solutions Engineer — Luminous Group
+### AI Systems Architect — Luminous Group
 **Jul 2025 – Present · Munich, Germany**
 
 Luminous Group is a human-centred AI consultancy that's also building its own AI product, Luminosity. I work both sides.
 
 **What I do:**
-- Led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture, plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted.
-- Co-architect of Luminosity, our internal multi-agent multi-person production system (30 agents across 5 machines, two years live). Designed the three-layer system architecture — Interaction, Coordination, Data — behind the company's "AI that instruments the human" thesis.
-- Built and operate Luminosity's runtime across multiple machines: agent provisioning, MCP tool servers, the rules-and-skills harness, knowledge and context graphs, intelligence-sweep infrastructure, video production pipeline, and team-coordination workflows.
-- Interaction Architecture: designing the structure of how humans work with the agents. The transparency that makes communication visible, the pacing that keeps autonomous action under human control, the progressive structure that lets domain experts engage with autonomous AI without technical fluency.
-- Co-inventor on patents covering multi-agent multi-team coordination architecture.
-- Co-author of eight essays on human-AI collaboration at Luminous Group, including *The Displacement of Judgement*, *They Built It. They Can't Control It.*, *What You Govern Determines What You Become*, *The Resolution of Intelligence*, and *What Agents Cannot Want*.
-- Built agent-mediated workflows integrating Attio, Linear, and GitHub that keep a distributed team coordinated without recurring meetings.
+- Co-led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture, plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted.
+- Co-architect of Luminosity, our internal multi-agent multi-person production system (30 agents across 5 machines, two years live), built around the three-layer system architecture (Interaction, Coordination, Data) behind the company's "AI that instruments the human" thesis.
+- Built Luminosity's video production pipeline and the team-coordination workflows that keep the distributed team aligned. Co-built the runtime infrastructure: agent provisioning, MCP tool servers, the rules-and-skills harness, and knowledge and context graphs.
+- Built an internal system that collects signal from across the AI ecosystem, distributes it to the team, and surfaces actionable items for the company's strategy.
+- Co-inventor on patents covering multi-agent multi-team coordination.
+- Shape Luminous Group's editorial voice on public surfaces (website, positioning, bios) alongside the founding team. Co-author of eight of the twenty essays at luminousgroup.net/liminality on human-AI collaboration, including *The Displacement of Judgement*, *They Built It. They Can't Control It.*, *What You Govern Determines What You Become*, *The Resolution of Intelligence*, and *What Agents Cannot Want*.
 
 **What I learned:** Augmentation works when you design for human judgement, not around it. The organisations that get the most from AI are the ones that got specific about what their people are actually good at, then built AI around those strengths.
 

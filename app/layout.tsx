@@ -57,9 +57,9 @@ export default function RootLayout({
     "@type": "Person",
     name: "Klemen Kocic",
     alternateName: "Klemen Kočič",
-    jobTitle: "Interaction Architect & AI Solutions Engineer at Luminous Group",
+    jobTitle: "AI Systems Architect at Luminous Group",
     description:
-      "I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. Co-architect of Luminosity (an internal multi-agent multi-person production system: 30 agents across 5 machines, two years live). Co-inventor on patents covering multi-agent multi-team coordination. Co-author of eight essays on human-AI collaboration. Based in Munich, Germany.",
+      "AI Systems Architect at Luminous Group. I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. Co-architect of Luminosity (an internal multi-agent multi-person production system: 30 agents across 5 machines, two years live). Co-inventor on patents covering multi-agent multi-team coordination. Co-author of eight of the twenty essays on human-AI collaboration. Based in Munich, Germany.",
     url: "https://klemenkocic.com",
     image: "https://klemenkocic.com/images/profile.jpg",
     address: {
@@ -80,7 +80,7 @@ export default function RootLayout({
     hasOccupation: [
       {
         "@type": "Occupation",
-        name: "Interaction Architect / AI Solutions Engineer",
+        name: "AI Systems Architect",
         occupationLocation: {
           "@type": "City",
           name: "Munich, Germany",
