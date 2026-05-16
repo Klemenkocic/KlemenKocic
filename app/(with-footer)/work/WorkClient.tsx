@@ -62,19 +62,19 @@ export default function WorkClient() {
           </h1>
           <div className="mt-4 sm:mt-6 space-y-4 text-sm sm:text-base text-foreground/80 leading-relaxed max-w-3xl">
             <p>
-              I design how humans and AI agents work together. At Luminous
-              Group I&apos;m building Luminosity, an internal multi-agent
-              multi-person production system where each person works with
-              their own agents and coordination happens through observable,
-              deliberate message-passing. I also operate the production
-              substrate behind it. Previously I led tech at NHS (Munich) and
-              shipped a $40M blockchain game at MetaKing.
+              I build AI architecture that keeps humans in the loop. More
+              precisely, I work on interaction architecture, across three
+              layers: how agents get the right information at the right time
+              (retrieval, vectors, the structure of context); how humans and
+              agents work together (transparency, pacing, deliberate
+              coordination); and what gets surfaced back to the user at the
+              right moment.
             </p>
             <p>
-              I run capability assessments with non-technical leaders.
-              Dentists, educators, coaches. And translate AI into the
-              specific workflows that actually move their week. The work I
-              like most lives between people, product, and technology.
+              I focus on understanding what people actually need and finding
+              where AI can help them specifically. A lot of people are lost
+              in the pace AI is moving at right now. I stay close to the
+              work, so I can give real help to real people.
             </p>
           </div>
         </motion.div>
@@ -87,18 +87,19 @@ export default function WorkClient() {
         </motion.h2>
         <motion.div className="space-y-4 text-sm sm:text-base leading-relaxed max-w-3xl" {...fadeSlide(0)}>
           <p className="text-foreground/85">
-            I&apos;m at my best with founders and operators who want clarity, momentum,
-            and outcomes. Hands-on by default. I&apos;d rather prototype Tuesday than
-            spec it through Friday.
+            I care about the team, I work hard, I tell the truth, and I try to understand
+            before I optimise. I&apos;m at my best with people who want clarity, momentum,
+            and outcomes.
           </p>
           <p className="text-foreground/85">
-            The work lives between people, product, and technology. Being comfortable
-            in all three is what makes the difference. I ask questions early and
-            surface problems before they harden.
+            Hands-on by default. Asking questions early, surfacing problems before they
+            harden. The work lives between people, product, and technology — being
+            comfortable in all three is what makes the difference.
           </p>
           <p className="text-foreground/85">
-            Sport taught me to read people before reading data. Showing up is the
-            whole thing.
+            Sport taught me to read people before reading data. Coaching taught me
+            patience — and that the best intervention is usually a good question, not
+            a good answer. Showing up is the whole thing.
           </p>
         </motion.div>
       </Section>
