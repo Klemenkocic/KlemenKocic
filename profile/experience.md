@@ -8,9 +8,9 @@
 Luminous Group is a human-centred AI consultancy that's also building its own AI product, Luminosity. I work both sides.
 
 **What I do:**
-- Led capability-assessment engagements with ~20 CEOs and senior executives plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted, across dentistry, education, and sport.
-- Built and operate Luminosity's production substrate: agent provisioning, MCP tool servers, knowledge and context graphs, multi-machine rule sync, weekly automated intelligence sweeps (Firecrawl, RSS, Exa), automated video production pipeline (Remotion, ElevenLabs, ffmpeg), and team-coordination workflows across Attio, Linear, GitHub, and Slack.
-- Co-architect of Luminosity, our internal multi-agent multi-person production system. Each person works with their own agents; agents coordinate across people through deliberate, observable message-passing. Isolated memory by default. If context isn't explicit, it doesn't propagate.
+- Led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture, plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted.
+- Co-architect of Luminosity, our internal multi-agent multi-person production system (30 agents across 5 machines, two years live). Designed the three-layer system architecture — Interaction, Coordination, Data — behind the company's "AI that instruments the human" thesis.
+- Built and operate Luminosity's runtime across multiple machines: agent provisioning, MCP tool servers, the rules-and-skills harness, knowledge and context graphs, intelligence-sweep infrastructure, video production pipeline, and team-coordination workflows.
 - Interaction Architecture: designing the structure of how humans work with the agents. The transparency that makes communication visible, the pacing that keeps autonomous action under human control, the progressive structure that lets domain experts engage with autonomous AI without technical fluency.
 - Co-inventor on patents covering multi-agent multi-team coordination architecture.
 - Co-author of eight essays on human-AI collaboration at Luminous Group, including *The Displacement of Judgement*, *They Built It. They Can't Control It.*, *What You Govern Determines What You Become*, *The Resolution of Intelligence*, and *What Agents Cannot Want*.
@@ -65,7 +65,8 @@ Built a professional network of 40+ German founders and CEOs through these coach
 Directed the launch and live operations of BLOCKLORDS, an online blockchain strategy game that reached $40M in trade volume.
 
 - Led a 10-person cross-timezone team. Implemented Jira and Asana workflows that cut deployment projection from 6 to 4 months. Maintained 97% sprint velocity adherence.
-- Introduced the technical connection between Unity and blockchain smart contracts for a Direct Sales feature. $200K in direct revenue.
+- Coordinated the team across Jira, Asana, and Miro from architecture to game economy (using Machinations) to the Unity build, plus a Unity-to-blockchain bridge designed to stay non-intrusive so players never had to touch the on-chain layer to enjoy the game.
+- Owned go-to-market for the BLOCKLORDS launch: marketing materials, community activation across Discord, Telegram, and X, partnerships with Web3 gaming guilds, launch-day coordination across regions, and on-chain growth tracking after launch.
 - Built Grafana and Tableau dashboards for on-chain analytics, giving leadership real-time visibility into game economy health and player behaviour.
 
 **What I learned:** In a fast-moving studio, the project manager's real job is information flow. The team that knows what's happening (across timezones, across functions) ships faster than the team with better engineers but worse communication.

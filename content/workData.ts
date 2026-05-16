@@ -62,11 +62,12 @@ export const experiences: Experience[] = [
     from: "Jul 2025",
     to: "Present",
     bullets: [
-      "Led capability-assessment engagements with ~20 CEOs and senior executives plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted, across dentistry, education, and sport.",
-      "Built and operate Luminosity's production substrate: agent provisioning, MCP tool servers, knowledge and context graphs, multi-machine rule sync, weekly automated intelligence sweeps (Firecrawl, RSS, Exa), automated video production pipeline (Remotion, ElevenLabs, ffmpeg), and team-coordination workflows across Attio, Linear, GitHub, and Slack.",
-      "Co-architect of Luminosity, our internal multi-agent multi-person production system. Each person works with their own agents, and agents coordinate across people through deliberate, observable message-passing. Isolated memory by default. If context isn't explicit, it doesn't propagate.",
-      "Co-inventor on patents covering multi-agent multi-team coordination architecture.",
-      "Co-author of eight essays on human-AI collaboration published at Luminous Group. See Writing section.",
+      "Led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture, plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted.",
+      "Co-architect of Luminosity, our internal multi-agent multi-person production system (30 agents across 5 machines, two years live). Designed the three-layer system architecture — Interaction, Coordination, Data — behind the company's \"AI that instruments the human\" thesis.",
+      "Built and operate Luminosity's runtime across multiple machines: agent provisioning, MCP tool servers, the rules-and-skills harness, knowledge and context graphs, intelligence-sweep infrastructure, video production pipeline, and team-coordination workflows.",
+      "Co-inventor on patents covering multi-agent multi-team coordination.",
+      "Lead the editorial voice for Luminous Group's public surfaces (website, positioning, bios) and the Interaction Experience research track that grounds Luminosity's product design.",
+      "Co-author of eight of the twenty essays published at luminousgroup.net/liminality on human-AI collaboration. See Writing section.",
     ],
     video: {
       label: "Luminous Group AI solutions demo",
@@ -119,7 +120,8 @@ export const experiences: Experience[] = [
     to: "Feb 2024",
     bullets: [
       "Shipped BLOCKLORDS, an online blockchain strategy game that reached $40M in trade volume; led a 10-person cross-timezone team and cut deployment projection 6 → 4 months at 97% sprint velocity.",
-      "Wrote the Unity ↔ smart-contract bridge for the Direct Sales feature (C# + Solidity calls). $200K in direct revenue.",
+      "Coordinated the team across Jira, Asana, and Miro from architecture to game economy (using Machinations) to the Unity build, plus a Unity-to-blockchain bridge designed to stay non-intrusive so players never had to touch the on-chain layer to enjoy the game.",
+      "Owned go-to-market for the BLOCKLORDS launch: marketing materials, community activation across Discord, Telegram, and X, partnerships with Web3 gaming guilds, launch-day coordination across regions, and on-chain growth tracking after launch.",
       "Built Grafana and Tableau dashboards for on-chain analytics, giving leadership real-time visibility into game-economy health and player behaviour.",
     ],
     video: {
