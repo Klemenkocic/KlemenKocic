@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Klemen Kocic
-  headline: AI Solutions Engineer · Forward-Deployed · Multi-Agent Production Systems
+  headline: Interaction Architect · Forward-Deployed AI · Multi-Agent Production Systems
   location: Munich, Germany
   email: klemen.kocic@gmail.com
   website: https://klemenkocic.com
@@ -16,7 +16,7 @@ cv:
 
     experience:
       - company: Luminous Group
-        position: AI Solutions Engineer / Interaction Architect
+        position: Interaction Architect / AI Solutions Engineer
         start_date: 2025-07
         end_date: present
         location: Munich, Germany

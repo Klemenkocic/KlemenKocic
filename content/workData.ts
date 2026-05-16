@@ -56,7 +56,7 @@ export const personalSkills: string[] = [
 
 export const experiences: Experience[] = [
   {
-    role: "AI Solutions Engineer / Interaction Architect",
+    role: "Interaction Architect / AI Solutions Engineer",
     company: "Luminous Group",
     location: "Munich, Germany",
     from: "Jul 2025",

@@ -116,7 +116,7 @@ export default function BusinessCard() {
                 Klemen Kocic
               </h1>
               <p className="text-sm sm:text-base text-foreground/90 mt-1 font-medium">
-                AI Solutions Engineer &amp; Interaction Architect at Luminous Group
+                Interaction Architect &amp; AI Solutions Engineer at Luminous Group
               </p>
               <p className="text-xs sm:text-sm text-foreground/65 mt-1.5 max-w-xl">
                 I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them.

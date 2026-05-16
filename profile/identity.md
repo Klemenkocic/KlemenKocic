@@ -6,7 +6,7 @@ I build AI systems that keep humans in the loop. And I write about what I learn.
 
 ## Short bio (50 words)
 
-I'm AI Solutions Engineer / Interaction Architect at Luminous Group. I design Luminosity (our internal multi-agent multi-person system) and run capability assessments with non-technical leaders. I also ship AI products under my own ventures: Charles, ViaVia, Viadio, CelesteAI. Before this: Web3 gaming at $40M scale, distributed engineering teams, coaching founders in Berlin.
+I'm Interaction Architect / AI Solutions Engineer at Luminous Group. I design Luminosity (our internal multi-agent multi-person system) and run capability assessments with non-technical leaders. I also ship AI products under my own ventures: Charles, ViaVia, Viadio, CelesteAI. Before this: Web3 gaming at $40M scale, distributed engineering teams, coaching founders in Berlin.
 
 ## Site intro (focus-only, no experience-listing)
 
@@ -16,7 +16,7 @@ I focus on understanding what people actually need and finding where AI can help
 
 ## Medium bio (120 words)
 
-I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. At Luminous Group I'm AI Solutions Engineer / Interaction Architect: I design Luminosity, our multi-agent multi-person production system, and operate the production substrate behind it (agent provisioning, MCP servers, knowledge and context graphs, multi-machine rule sync, intelligence-sweep infrastructure, video production pipeline). Co-inventor on patents covering multi-agent multi-team coordination.
+I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. At Luminous Group I'm Interaction Architect / AI Solutions Engineer: I design Luminosity, our multi-agent multi-person production system, and operate the production substrate behind it (agent provisioning, MCP servers, knowledge and context graphs, multi-machine rule sync, intelligence-sweep infrastructure, video production pipeline). Co-inventor on patents covering multi-agent multi-team coordination.
 
 I run capability assessments with CEOs and senior executives. ~20 individuals plus one full company. Translating ambiguous AI goals into specific workflows their teams adopted.
 
