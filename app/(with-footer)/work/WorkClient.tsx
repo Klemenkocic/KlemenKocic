@@ -87,17 +87,18 @@ export default function WorkClient() {
         </motion.h2>
         <motion.div className="space-y-4 text-sm sm:text-base leading-relaxed max-w-3xl" {...fadeSlide(0)}>
           <p className="text-foreground/85">
-            Best with founders and operators who want clarity and momentum, not
-            committee.
+            I&apos;m at my best with founders and operators who want clarity, momentum,
+            and outcomes — not committee. Hands-on by default. I&apos;d rather
+            prototype Tuesday than spec it through Friday.
           </p>
           <p className="text-foreground/85">
-            Hands-on by default — I&apos;d rather prototype Tuesday than spec it
-            through Friday.
+            The work lives between people, product, and technology. Being comfortable
+            in all three is what makes the difference. I ask questions early and
+            surface problems before they harden.
           </p>
           <p className="text-foreground/85">
-            I coach. So I ask the question before I write the doc. Sport taught me to
-            read people before data; the best intervention is usually a good question,
-            not a good answer.
+            Sport taught me to read people before reading data. Showing up is the
+            whole thing.
           </p>
         </motion.div>
       </Section>
@@ -304,13 +305,10 @@ export default function WorkClient() {
       <Section className="py-12 sm:py-16 md:py-24">
         <motion.div className="text-center max-w-2xl mx-auto" {...fadeSlide()}>
           <h2 className="font-display text-xl sm:text-2xl md:text-3xl mb-4 sm:mb-6">
-            Open to work
+            Want to know more?
           </h2>
-          <p className="text-sm sm:text-base text-foreground/85 mb-2">
-            <span className="text-foreground/60">Open to:</span> AI Solutions Engineer · Forward-Deployed Engineer · AI Solutions Consultant · Founding GTM roles.
-          </p>
-          <p className="text-sm sm:text-base text-foreground/85 mb-6 sm:mb-8">
-            <span className="text-foreground/60">Based in:</span> Munich, Germany · EU citizen · open to remote (EU/US hours) · available from July 2026.
+          <p className="text-sm sm:text-base text-foreground/80 mb-6 sm:mb-8">
+            Munich, Germany · EU citizen · open to remote (EU/US hours) · available from July 2026.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
             <motion.a
