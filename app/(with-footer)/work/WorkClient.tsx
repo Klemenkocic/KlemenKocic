@@ -351,7 +351,7 @@ export default function WorkClient() {
       {/* 7) Closer */}
       <Section className="py-16 sm:py-20 md:py-28">
         <motion.p className="text-sm sm:text-base text-foreground/80" {...fadeSlide()}>
-          Thanks for reading — onward.
+          Thanks for reading. Onward.
         </motion.p>
       </Section>
     </main>
