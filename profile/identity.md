@@ -42,6 +42,7 @@ AI raises the floor. It does not raise the ceiling. The ceiling is still human j
 
 ## Differentiators
 
+- **Self-taught engineer.** Started teaching myself code in 2018, alongside the BA International Business. Shipped production iOS, Android, web, blockchain, AI systems, and knowledge graphs before and after graduating. The business degree is the credential; the engineering is the practice.
 - **Builder who consults.** I don't advise from outside the system. I build the systems I recommend. When I say "augmented workflow," I mean one I designed, tested, and shipped internally first.
 - **Non-linear path.** Gaming → coaching → AI. Seoul → Berlin → Munich. The unusual combination means I read rooms differently and design for how people actually behave, not how org charts say they should.
 - **Practitioner-writer.** Four published pieces on AI augmentation strategy. The writing comes from building, not from reading about building.

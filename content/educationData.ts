@@ -8,6 +8,7 @@ export type EducationItem = {
   imageAlt: string;
   logoSrc?: string;
   logoAlt?: string;
+  note?: string;
 };
 
 export const education: EducationItem[] = [
@@ -21,6 +22,7 @@ export const education: EducationItem[] = [
     imageAlt: "School of Economics and Business, University of Ljubljana",
     logoSrc: "/images/education/seb-logo.svg",
     logoAlt: "SEB LU logo",
+    note: "Self-taught engineer since 2018. Shipped production iOS, Android, web, blockchain, AI systems, and knowledge graphs alongside the degree.",
   },
   {
     institution: "ISCTE — Instituto Universitário de Lisboa",

@@ -42,6 +42,11 @@ export default function EducationSection() {
                   {item.location ? `${item.location} • ` : ""}
                   {item.from}–{item.to}
                 </p>
+                {item.note && (
+                  <p className="text-xs sm:text-sm text-foreground/70 mt-3 leading-relaxed">
+                    {item.note}
+                  </p>
+                )}
               </div>
             </motion.article>
           );
