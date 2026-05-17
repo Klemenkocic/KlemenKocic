@@ -8,8 +8,8 @@
 Luminous Group is a human-centred AI consultancy that's also building its own AI product, Luminosity. I work both sides.
 
 **What I do:**
-- Co-led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture, plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted.
-- Co-architect of Luminosity, our internal multi-agent multi-person production system (30 agents across 5 machines, two years live), built around the three-layer system architecture (Interaction, Coordination, Data) behind the company's "AI that instruments the human" thesis.
+- Co-led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture. Helped them translate ambiguous AI goals into specific workflows their teams adopted.
+- Co-architect of Luminosity, our internal multi-agent multi-person production system serving seven people across the company. Designed around the three-layer system architecture (Interaction, Coordination, Data) behind the company's "AI that instruments the human" thesis.
 - Built Luminosity's video production pipeline and the team-coordination workflows that keep the distributed team aligned. Co-built the runtime infrastructure: agent provisioning, MCP tool servers, the rules-and-skills harness, and knowledge and context graphs.
 - Built an internal system that collects signal from across the AI ecosystem, distributes it to the team, and surfaces actionable items for the company's strategy.
 - Co-inventor on patents covering multi-agent multi-team coordination.
@@ -44,7 +44,7 @@ Led technology development for a premium personal training studio. Built the dig
 - Oversaw the web platform: scheduling, training plans, exercise libraries, invoicing, point-of-sale.
 - Built the bilingual corporate website and 5 partner portals, expanding the studio's B2B reach.
 - Directed a team of 6 offshore engineers, maintaining a 78% on-time release rate across concurrent product streams.
-- Helped the coaching team adopt AI in their daily work, turning a vague "we should use AI" aspiration into specific use cases people actually applied.
+- Deployed AI into the coaching team's daily workflow: pgvector retrieval over scientific training data, methodology-driven programme generation, and multi-model orchestration (Claude, ChatGPT, Gemini) for client analysis and content drafting.
 - Launched a bilingual corporate website and 5 partner portals, expanding B2B reach.
 
 **What I learned:** Managing offshore teams well comes down to three things: clear specs, consistent check-ins, and never assuming silence means progress. The 78% on-time rate came from catching slippage early, not from heroics at the end.

@@ -59,7 +59,7 @@ export default function RootLayout({
     alternateName: "Klemen Kočič",
     jobTitle: "AI Systems Architect at Luminous Group",
     description:
-      "AI Systems Architect at Luminous Group. I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. Co-architect of Luminosity (an internal multi-agent multi-person production system: 30 agents across 5 machines, two years live). Co-inventor on patents covering multi-agent multi-team coordination. Co-author of eight of the twenty essays on human-AI collaboration. Based in Munich, Germany.",
+      "AI Systems Architect at Luminous Group. I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. Co-architect of Luminosity (an internal multi-agent multi-person production system serving seven people across the company, designed around three coordination layers: Interaction, Coordination, Data). Co-inventor on patents covering multi-agent multi-team coordination. Co-author of eight of the twenty essays on human-AI collaboration. Based in Munich, Germany.",
     url: "https://klemenkocic.com",
     image: "https://klemenkocic.com/images/profile.jpg",
     address: {

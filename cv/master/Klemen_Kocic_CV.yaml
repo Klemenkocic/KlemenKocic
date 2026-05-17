@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Klemen Kocic
-  headline: AI Systems Architect · Forward-Deployed AI · Multi-Agent Production Systems
+  headline: AI Systems Architect · Forward-Deployed · Multi-Agent Production Systems
   location: Munich, Germany
   email: klemen.kocic@gmail.com
   website: https://klemenkocic.com
@@ -18,12 +18,12 @@ cv:
         end_date: present
         location: Munich, Germany
         highlights:
-          - Co-led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture, plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted.
-          - "Co-architect of Luminosity, our internal multi-agent multi-person production system (30 agents across 5 machines, two years live), built around the three-layer system architecture (Interaction, Coordination, Data) behind the company's \"AI that instruments the human\" thesis."
-          - "Built Luminosity's video production pipeline and the team-coordination workflows that keep the distributed team aligned. Co-built the runtime infrastructure: agent provisioning, MCP tool servers, the rules-and-skills harness, and knowledge and context graphs."
-          - Built an internal system that collects signal from across the AI ecosystem, distributes it to the team, and surfaces actionable items for the company's strategy.
+          - Co-led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture. Helped them translate ambiguous AI goals into specific workflows their teams adopted.
+          - "Co-architect of Luminosity, our internal multi-agent multi-person production system for seven people, designed around the three-layer architecture (Interaction, Coordination, Data) behind the company's \"AI that instruments the human\" thesis."
+          - "Built Luminosity's video pipeline and team-coordination workflows. Co-built the runtime: agent provisioning, MCP tool servers, the rules-and-skills harness, and knowledge and context graphs."
+          - "Built and operate the company's weekly AI-intelligence pipeline: collection from across the ecosystem, distribution to teammates, triage into strategy."
           - Co-inventor on patents covering multi-agent multi-team coordination.
-          - Shape Luminous Group's editorial voice on public surfaces (website, positioning, bios) alongside the founding team. Co-author of eight of the twenty essays at luminousgroup.net/liminality on human-AI collaboration.
+          - Shape Luminous Group's editorial voice on public surfaces (website, positioning, bios) with the founding team. Co-author of eight of the twenty essays at luminousgroup.net/liminality on human-AI collaboration.
 
       - company: NHS Personal Training GmbH
         position: Technical Lead
@@ -33,7 +33,7 @@ cv:
         highlights:
           - "Co-developed a native iOS coaching app (Swift, SwiftUI): real-time booking, progress tracking, trainer-client communication."
           - Built the web platform covering scheduling, training plans, exercise libraries, invoicing, and point-of-sale, plus a bilingual corporate site and 5 partner portals expanding B2B reach.
-          - Coordinated 6 offshore engineers across concurrent product streams at 78% on-time release rate. Deployed AI into the coaching team's daily workflow with applied use cases.
+          - "Coordinated 6 offshore engineers across concurrent product streams at 78% on-time release rate. Deployed AI into the coaching team's daily workflow: pgvector retrieval over scientific training data, methodology-driven programme generation, and multi-model orchestration (Claude, ChatGPT, Gemini)."
 
       - company: MetaKing Studios
         position: Project Manager
@@ -63,7 +63,7 @@ cv:
 
     skills:
       - label: AI & LLMs
-        details: Claude, GPT, Gemini, multi-model orchestration, LangGraph, MCP, knowledge graphs, context graphs, Pinecone, pgvector, RAG, prompt design, agent architecture, evaluations
+        details: Claude, GPT, Gemini, multi-model orchestration, LangGraph, MCP, knowledge graphs, context graphs, Pinecone, RAG, prompt design, agent architecture, evaluations
       - label: Engineering
         details: TypeScript, Python, Swift/SwiftUI, Flutter, React/Next.js, Node.js, PostgreSQL, Supabase, pgvector
       - label: Solutions & Delivery
@@ -85,9 +85,7 @@ cv:
         details: Slovenian (Native) · English (C2) · Serbo-Croatian (B2) · German (B1)
 
     Selected Writing:
-      - "*[They Built It. They Can't Control It.](https://www.luminousgroup.net/liminality/they-built-it-they-cant-control-it)* — with Barton Friedland and Jim Highsmith"
-      - "*[What Agents Cannot Want](https://www.luminousgroup.net/liminality/what-agents-cannot-want)*"
-      - "*[The Displacement of Judgement](https://www.luminousgroup.net/liminality/the-displacement-of-judgement)* — with Barton Friedland"
+      - "*[They Built It. They Can't Control It.](https://www.luminousgroup.net/liminality/they-built-it-they-cant-control-it)* (with Barton Friedland and Jim Highsmith) · *[What Agents Cannot Want](https://www.luminousgroup.net/liminality/what-agents-cannot-want)* · *[The Displacement of Judgement](https://www.luminousgroup.net/liminality/the-displacement-of-judgement)* (with Barton Friedland). All at luminousgroup.net/liminality."
 
 design:
   theme: engineeringresumes

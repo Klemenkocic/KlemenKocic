@@ -62,12 +62,12 @@ export const experiences: Experience[] = [
     from: "Jul 2025",
     to: "Present",
     bullets: [
-      "Co-led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture, plus one full company. Helped them translate ambiguous AI goals into specific workflows their teams adopted.",
-      "Co-architect of Luminosity, our internal multi-agent multi-person production system (30 agents across 5 machines, two years live), built around the three-layer system architecture (Interaction, Coordination, Data) behind the company's \"AI that instruments the human\" thesis.",
+      "Co-led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture. Helped them translate ambiguous AI goals into specific workflows their teams adopted.",
+      "Co-architect of Luminosity, our internal multi-agent multi-person production system serving seven people across the company. Designed around the three-layer system architecture (Interaction, Coordination, Data) behind the company's \"AI that instruments the human\" thesis.",
       "Built Luminosity's video production pipeline and the team-coordination workflows that keep the distributed team aligned. Co-built the runtime infrastructure: agent provisioning, MCP tool servers, the rules-and-skills harness, and knowledge and context graphs.",
-      "Built an internal system that collects signal from across the AI ecosystem, distributes it to the team, and surfaces actionable items for the company's strategy.",
+      "Built and operate the company's weekly AI-intelligence pipeline: collection from across the ecosystem, distribution to teammates, and triage into the strategy. The system informs partnership decisions, product positioning, and competitive response.",
       "Co-inventor on patents covering multi-agent multi-team coordination.",
-      "Shape Luminous Group's editorial voice on public surfaces (website, positioning, bios) alongside the founding team. Co-author of eight of the twenty essays published at luminousgroup.net/liminality on human-AI collaboration. See Writing section.",
+      "Shape Luminous Group's editorial voice on public surfaces (website, positioning, bios) with the founding team. Co-author of eight of the twenty essays published at luminousgroup.net/liminality on human-AI collaboration. See Writing section.",
     ],
     video: {
       label: "Luminous Group AI solutions demo",
@@ -86,7 +86,7 @@ export const experiences: Experience[] = [
       "Co-developed a native iOS coaching app (Swift, SwiftUI): real-time session booking, progress tracking, trainer-client communication.",
       "Built the web platform covering scheduling, training plans, exercise libraries, invoicing, and point-of-sale, plus a bilingual corporate site and 5 partner portals expanding the studio's B2B reach.",
       "Coordinated 6 offshore engineers across concurrent product streams at a 78% on-time release rate.",
-      "Deployed AI into the coaching team's daily workflow. Turned \"we should use AI\" into specific applied use cases across coaching delivery and client management.",
+      "Deployed AI into the coaching team's daily workflow: pgvector retrieval over scientific training data, methodology-driven programme generation, and multi-model orchestration (Claude, ChatGPT, Gemini) for client analysis and content drafting.",
     ],
     video: {
       label: "NHS Personal Training iOS app demo",
@@ -213,7 +213,7 @@ export const projects: Project[] = [
 export const skills: Skills = {
   languages: ["JavaScript", "TypeScript", "Python", "Swift", "SQL", "HTML/CSS"],
   frameworks: ["React", "Next.js", "React Native", "Node.js", "Tailwind CSS", "SwiftUI"],
-  data_platforms: ["PostgreSQL", "Supabase", "Pinecone", "MongoDB", "Firebase", "Tableau", "Grafana"],
+  data_platforms: ["PostgreSQL", "Supabase", "pgvector", "MongoDB", "Firebase", "Tableau", "Grafana"],
   tools: ["Git", "GitHub", "Warp", "Miro", "Jira", "Asana", "Xcode", "VS Code", "Vercel", "Tana", "Obsidian", "npm/pnpm", "Agile/Scrum"],
   certifications: [
     "Meta – Backend Developer",
@@ -261,7 +261,6 @@ export const aiEngineering: string[] = [
   "Knowledge graphs",
   "Context graphs",
   "Pinecone",
-  "pgvector",
   "Supabase AI",
   "Cursor",
 ];
