@@ -62,10 +62,10 @@ export const experiences: Experience[] = [
     from: "Jul 2025",
     to: "Present",
     bullets: [
-      "Co-led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture. Helped them translate ambiguous AI goals into specific workflows their teams adopted.",
+      "Co-led ~6 capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture. Translated ambiguous AI goals into specific workflows, each shipped as a working product or reference architecture their team adopted.",
       "Co-architect of Luminosity, our internal multi-agent multi-person production system serving seven people across the company. Designed around the three-layer system architecture (Interaction, Coordination, Data) behind the company's \"AI that instruments the human\" thesis.",
       "Built Luminosity's video production pipeline and the team-coordination workflows that keep the distributed team aligned. Co-built the runtime infrastructure: agent provisioning, MCP tool servers, the rules-and-skills harness, and knowledge and context graphs.",
-      "Built and operate the company's weekly AI-intelligence pipeline: collection from across the ecosystem, distribution to teammates, and triage into the strategy. The system informs partnership decisions, product positioning, and competitive response.",
+      "Built and operate the company's weekly AI-intelligence pipeline: ~14 parallel agents pull from 40+ sources across 12 categories, routing ~50 net-new entries a week into Tana, Slack, and a shared GitHub doc with per-person and per-agent callouts so each teammate (and each agent) gets a concrete list of items to act on. The system informs partnership decisions, product positioning, and competitive response.",
       "Co-inventor on patents covering multi-agent multi-team coordination.",
       "Shape Luminous Group's editorial voice on public surfaces (website, positioning, bios) with the founding team. Co-author of eight of the twenty essays published at luminousgroup.net/liminality on human-AI collaboration. See Writing section.",
     ],
@@ -83,7 +83,7 @@ export const experiences: Experience[] = [
     from: "Jan 2025",
     to: "Feb 2026",
     bullets: [
-      "Co-developed a native iOS coaching app (Swift, SwiftUI): real-time session booking, progress tracking, trainer-client communication.",
+      "Co-developed a native iOS coaching app (Swift, SwiftUI) purpose-built for the gym's one-on-one personal training methodology: adopted by every trainer and client, still in daily production use across the gym's coaching team.",
       "Built the web platform covering scheduling, training plans, exercise libraries, invoicing, and point-of-sale, plus a bilingual corporate site and 5 partner portals expanding the studio's B2B reach.",
       "Coordinated 6 offshore engineers across concurrent product streams at a 78% on-time release rate.",
       "Deployed AI into the coaching team's daily workflow: pgvector retrieval over scientific training data, methodology-driven programme generation, and multi-model orchestration (Claude, ChatGPT, Gemini) for client analysis and content drafting.",
@@ -156,7 +156,7 @@ export const experiences: Experience[] = [
     to: "Jan 2021",
     bullets: [
       "Analyzed user and wallet growth to inform product launches and partnership priorities.",
-      "Partner ecosystem insights contributed to 30+ integrations and MAU growth from ~10k to ~56k.",
+      "Partner-ecosystem analytics drove 30+ integration decisions and 460% MAU growth (10K → 56K).",
       "Built repeatable KPI tracking to support leadership planning and investor reporting.",
     ],
     video: {
@@ -190,7 +190,7 @@ export const projects: Project[] = [
     status: "Live · App Store + Google Play",
     url: "https://www.getviadio.com/",
     summary:
-      "AI-powered memory video app. Turn existing phone photos and videos into meaningful compilations. Cinematic memory videos generated from what's already on your device.",
+      "AI memory video app for iOS and Android. Turn existing phone photos into meaningful compilations. An image-research algorithm and prompting structure does the heavy lifting under the hood, so users never need to think about AI.",
     tech: [],
   },
   {

@@ -18,10 +18,10 @@ cv:
         end_date: present
         location: Munich, Germany
         highlights:
-          - Co-led capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture. Helped them translate ambiguous AI goals into specific workflows their teams adopted.
+          - Co-led ~6 capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture. Translated ambiguous AI goals into specific workflows, each shipped as a working product or reference architecture their team adopted.
           - "Co-architect of Luminosity, our internal multi-agent multi-person production system for seven people, designed around the three-layer architecture (Interaction, Coordination, Data) behind the company's \"AI that instruments the human\" thesis."
           - "Built Luminosity's video pipeline and team-coordination workflows. Co-built the runtime: agent provisioning, MCP tool servers, the rules-and-skills harness, and knowledge and context graphs."
-          - "Built and operate the company's weekly AI-intelligence pipeline: collection from across the ecosystem, distribution to teammates, triage into strategy."
+          - "Built and operate the company's weekly AI-intelligence pipeline: ~14 parallel agents pull from 40+ sources across 12 categories, routing ~50 net-new entries a week into Tana, Slack, and a shared GitHub doc with per-person and per-agent callouts so each teammate (and each agent) gets a concrete list of items to act on."
           - Co-inventor on patents covering multi-agent multi-team coordination.
           - Shape Luminous Group's editorial voice on public surfaces (website, positioning, bios) with the founding team. Co-author of eight of the twenty essays at luminousgroup.net/liminality on human-AI collaboration.
 
@@ -31,7 +31,7 @@ cv:
         end_date: 2026-02
         location: Munich, Germany
         highlights:
-          - "Co-developed a native iOS coaching app (Swift, SwiftUI): real-time booking, progress tracking, trainer-client communication."
+          - "Co-developed a native iOS coaching app (Swift, SwiftUI) purpose-built for the gym's one-on-one personal training methodology: adopted by every trainer and client, still in daily production use across the gym's coaching team."
           - Built the web platform covering scheduling, training plans, exercise libraries, invoicing, and point-of-sale, plus a bilingual corporate site and 5 partner portals expanding B2B reach.
           - "Coordinated 6 offshore engineers across concurrent product streams at 78% on-time release rate. Deployed AI into the coaching team's daily workflow: pgvector retrieval over scientific training data, methodology-driven programme generation, and multi-model orchestration (Claude, ChatGPT, Gemini)."
 
@@ -53,13 +53,15 @@ cv:
         location: Seoul / Stockholm / Lisbon
         highlights:
           - Shipped 5 gaming launches across Ethereum, Polygon, and BSC; managed Lighthouse, a fund-generating platform supporting 10+ external game developers; negotiated ~$500K investor funding (~9 months runway).
-          - Partner-ecosystem analytics contributed to 30+ integrations and MAU growth from ~10K to ~56K.
+          - Partner-ecosystem analytics drove 30+ integration decisions and 460% MAU growth (10K → 56K).
 
     projects:
       - name: '[Charles](https://charles-website-ten.vercel.app/)'
         summary: AI strength-training coach for iOS. Periodised programmes that rebuild session by session. Flutter + Supabase + pgvector (two-layer architecture), multi-model orchestration (Claude, Gemini), six deterministic filter layers wrapping the model.
+      - name: '[Viadio](https://www.getviadio.com/)'
+        summary: AI memory video app, live on App Store and Google Play. Image-research algorithm and prompting structure that turns a user's existing phone photos into a memory video; the AI is invisible to the user.
       - name: Other shipped products
-        summary: '[ViaVia](https://viavia.solutions/) (multi-city European travel, live) · [Viadio](https://www.getviadio.com/) (AI memory videos, live on App Store + Google Play) · [CelesteAI](https://getcelestai.com) (localised astrology, live) · ShipStack (production framework for AI-native software, internal at Luminous Group).'
+        summary: '[ViaVia](https://viavia.solutions/) (multi-city European travel, live) · [CelesteAI](https://getcelestai.com) (localised astrology, live) · ShipStack (production framework for AI-native software, internal at Luminous Group).'
 
     skills:
       - label: AI & LLMs
@@ -67,7 +69,7 @@ cv:
       - label: Engineering
         details: TypeScript, Python, Swift/SwiftUI, Flutter, React/Next.js, Node.js, PostgreSQL, Supabase, pgvector
       - label: Solutions & Delivery
-        details: Workshop facilitation, executive presentation, technical scoping, presales, stakeholder alignment, CRM (Salesforce, Attio)
+        details: Workshop facilitation, executive presentation, technical scoping, presales, stakeholder alignment, CRM (Salesforce, Attio), knowledge tooling (Tana, Obsidian)
 
     education:
       - institution: University of Ljubljana
@@ -91,8 +93,8 @@ design:
   theme: engineeringresumes
   page:
     size: a4
-    top_margin: 1.1cm
-    bottom_margin: 1.1cm
+    top_margin: 0.8cm
+    bottom_margin: 0.8cm
     left_margin: 1.3cm
     right_margin: 1.3cm
     show_footer: false
@@ -105,11 +107,11 @@ design:
       connections: 9pt
       section_titles: 11pt
   section_titles:
-    space_above: 0.22cm
-    space_below: 0.12cm
+    space_above: 0.16cm
+    space_below: 0.08cm
   sections:
-    space_between_regular_entries: 0.18cm
-    space_between_text_based_entries: 0.06cm
+    space_between_regular_entries: 0.12cm
+    space_between_text_based_entries: 0.04cm
   entries:
     date_and_location_width: 3.3cm
     space_between_columns: 0.2cm
