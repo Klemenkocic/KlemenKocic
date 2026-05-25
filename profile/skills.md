@@ -15,7 +15,7 @@
 - **Frameworks:** React, Next.js, React Native, Node.js, Tailwind CSS, SwiftUI
 - **Data:** PostgreSQL, Supabase, MongoDB, Firebase, Tableau, Grafana
 - **Infrastructure:** Git, GitHub, Vercel, npm/pnpm, Xcode, VS Code
-- **Methodologies:** Agile/Scrum, CI/CD, async-first distributed team workflows
+- **Methodologies:** Agile and adaptive delivery, agility-based evaluation, CI/CD, async-first distributed team workflows
 - **AI engineering:** Multi-agent orchestration, plan-and-execute patterns, tool-use, MCP (Model Context Protocol), LangGraph
 - **LLM providers in production:** Anthropic (Claude), OpenAI, Google (Gemini), Mistral, Cove AI (pre-Microsoft acquisition), local Llama
 - **Vector stores:** Pinecone, Supabase pgvector

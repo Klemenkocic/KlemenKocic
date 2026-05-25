@@ -285,6 +285,7 @@ export default function WorkClient() {
           <Category title="Frameworks" items={skills.frameworks} />
           <Category title="Data Platforms" items={skills.data_platforms} />
           <Category title="Tools" items={skills.tools} />
+          <Category title="Methodology" items={skills.methodology} />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 md:gap-10 mt-8 sm:mt-10">
           <Category title="How I work with people" items={personalSkills} />

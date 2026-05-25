@@ -43,6 +43,7 @@ export type Skills = {
   frameworks: string[];
   data_platforms: string[];
   tools: string[];
+  methodology: string[];
   certifications: string[];
 };
 
@@ -214,7 +215,8 @@ export const skills: Skills = {
   languages: ["JavaScript", "TypeScript", "Python", "Swift", "SQL", "HTML/CSS"],
   frameworks: ["React", "Next.js", "React Native", "Node.js", "Tailwind CSS", "SwiftUI"],
   data_platforms: ["PostgreSQL", "Supabase", "pgvector", "MongoDB", "Firebase", "Tableau", "Grafana"],
-  tools: ["Git", "GitHub", "Warp", "Miro", "Jira", "Asana", "Xcode", "VS Code", "Vercel", "Tana", "Obsidian", "npm/pnpm", "Agile/Scrum"],
+  tools: ["Git", "GitHub", "Warp", "Miro", "Jira", "Asana", "Xcode", "VS Code", "Vercel", "Tana", "Obsidian", "npm/pnpm"],
+  methodology: ["Agile & adaptive delivery", "Agility-based evaluation", "CI/CD", "Async-first distributed teams"],
   certifications: [
     "Meta – Backend Developer",
     "Google – Project Management Specialization",
