@@ -121,14 +121,14 @@ Fix the typo ("Aligenement" → "Alignment"). Otherwise these are fine for your 
 
 > Led technology development for a premium personal training studio, building the digital infrastructure that supported coaching delivery, client management, and business operations.
 >
-> • Co-developed a native iOS coaching app (Swift) for premium clients with real-time session booking, progress tracking, and trainer-client communication
-> • Oversaw the web platform handling scheduling, training plans, exercise libraries, invoicing, and point-of-sale operations
-> • Directed a team of 6 offshore engineers, maintaining a 78% on-time release rate across concurrent product streams
-> • Launched a bilingual corporate website and 5 partner portals, expanding the studio's B2B reach
+> • Architected and co-built the full system: React Native (Expo) apps for clients and coaches over a Ruby on Rails + PostgreSQL backend, covering scheduling, training plans, exercise library, invoicing, and point-of-sale with role-based access. Adopted by every coach and client, still in daily production use
+> • Directed a team of 6 offshore engineers, maintaining a 87% on-time release rate across concurrent product streams
+> • Built macro/meso-cycle plan generation into our methodology software with an AI layer on top for added support, cutting training-plan creation from 4 hours to 30 minutes
+> • Built the bilingual corporate website solo, plus 5 partner portals expanding the studio's B2B reach
 
-**NOTE:** This role bridges your personal training world with your tech leadership. The iOS app line shows technical depth. "Directed a team of 6 offshore engineers" shows you manage distributed teams. Both matter for your target audiences. Past tense since this role has ended.
+**NOTE:** This role bridges your personal training world with your tech leadership. The system bullet shows technical depth (full-stack, multi-platform, production); "Directed a team of 6 offshore engineers" shows you manage distributed teams. Both matter for your target audiences. Past tense since this role has ended.
 
-**CHECK WITH KLEMEN:** Are these bullets accurate? Confirm the 78% on-time rate and the 6 engineers figure — these came from the website data. If anything is off, adjust the numbers.
+**VERIFIED (2026-05-26):** Stack and AI claims corrected against the actual `nhs-app` codebase — React Native (Expo) + Ruby on Rails + PostgreSQL, no Flutter/native Swift, no pgvector/multi-model (those belong to Charles). The 4h→30min metric is the macro/meso-cycle authoring in the (private) methodology software with an AI layer on top. 87% on-time and 6 engineers confirmed.
 
 ---
 

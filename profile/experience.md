@@ -40,14 +40,12 @@ ViaVia builds AI systems for professionals. Started in September 2025 as a place
 
 Led technology development for a premium personal training studio. Built the digital infrastructure that supported coaching delivery, client management, and business operations.
 
-- Co-developed a native iOS coaching app (Swift) for premium clients: real-time session booking, progress tracking, trainer-client communication.
-- Oversaw the web platform: scheduling, training plans, exercise libraries, invoicing, point-of-sale.
-- Built the bilingual corporate website and 5 partner portals, expanding the studio's B2B reach.
-- Directed a team of 6 offshore engineers, maintaining a 78% on-time release rate across concurrent product streams.
-- Deployed AI into the coaching team's daily workflow: pgvector retrieval over scientific training data, methodology-driven programme generation, and multi-model orchestration (Claude, ChatGPT, Gemini) for client analysis and content drafting.
-- Launched a bilingual corporate website and 5 partner portals, expanding B2B reach.
+- Architected and co-built the full system: React Native (Expo) apps for clients and coaches over a Ruby on Rails + PostgreSQL backend, with role-based access so each side saw only the data it needed. Covered scheduling, training plans, exercise library, invoicing, and point-of-sale; adopted by every coach and client and still in daily production use.
+- Directed a team of 6 offshore engineers across concurrent product streams, maintaining a 87% on-time release rate.
+- Built macro/meso-cycle plan generation into our methodology software with an AI layer on top for added support, cutting training-plan creation from 4 hours to 30 minutes.
+- Built the bilingual corporate website solo, plus 5 partner portals expanding the studio's B2B reach.
 
-**What I learned:** Managing offshore teams well comes down to three things: clear specs, consistent check-ins, and never assuming silence means progress. The 78% on-time rate came from catching slippage early, not from heroics at the end.
+**What I learned:** Managing offshore teams well comes down to three things: clear specs, consistent check-ins, and never assuming silence means progress. The 87% on-time rate came from catching slippage early, not from heroics at the end.
 
 ### Personal Trainer (Embedded with Executives) — MTM Personal Training
 **Apr 2024 – Dec 2024 · Berlin, Germany**
