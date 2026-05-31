@@ -171,10 +171,10 @@ export const experiences: Experience[] = [
 export const projects: Project[] = [
   {
     name: "Charles",
-    status: "Live",
-    url: "https://charles-website-ten.vercel.app/",
+    status: "Live · App Store",
+    url: "https://apps.apple.com/de/app/charles-personal-trainer/id6760557138?l=en-GB",
     summary:
-      "AI strength-training coach for iOS. Builds periodised programmes (accumulation, intensification, strength) that rebuild session by session as the user logs what actually happened. Flutter + Supabase + pgvector. Two-layer architecture: relational gym data on Layer 1, vector-backed AI knowledge on Layer 2. Multi-model orchestration (Claude, Gemini, swappable). Six deterministic filter layers before the model ever sees the data.",
+      "AI strength-training coach for iOS, live on the App Store. Builds periodised programmes (accumulation, intensification, strength) that rebuild session by session as the user logs what actually happened. Flutter + Supabase + pgvector. Two-layer architecture: relational gym data on Layer 1, vector-backed AI knowledge on Layer 2. Multi-model orchestration (Claude, Gemini, swappable). Six deterministic filter layers before the model ever sees the data.",
     tech: ["Flutter", "Supabase", "pgvector", "Claude", "Gemini"],
   },
   {
@@ -188,7 +188,7 @@ export const projects: Project[] = [
   {
     name: "Viadio",
     status: "Live · App Store + Google Play",
-    url: "https://www.getviadio.com/",
+    url: "https://apps.apple.com/de/app/viadio-video-creator/id6759189100?l=en-GB",
     summary:
       "AI memory video app for iOS and Android. Turn existing phone photos into meaningful compilations. An image-research algorithm and prompting structure does the heavy lifting under the hood, so users never need to think about AI.",
     tech: [],
@@ -203,9 +203,10 @@ export const projects: Project[] = [
   },
   {
     name: "ShipStack",
-    status: "Internal · Luminous Group",
+    status: "Open Source",
+    url: "https://github.com/ViaViaTravel/ship-stack",
     summary:
-      "Production framework for AI-native software. Seven AI departments coordinating through human approval gates. The structure that lets a small team ship product without losing oversight.",
+      "Open-source production framework for AI-native software. Seven AI departments coordinating through human approval gates. The structure that lets a small team ship product without losing oversight.",
     tech: [],
   },
 ];

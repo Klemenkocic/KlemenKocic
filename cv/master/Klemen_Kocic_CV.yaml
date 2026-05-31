@@ -56,12 +56,12 @@ cv:
           - Partner-ecosystem analytics drove 30+ integration decisions and 460% MAU growth (10K → 56K).
 
     projects:
-      - name: '[Charles](https://charles-website-ten.vercel.app/)'
-        summary: AI strength-training coach for iOS. Periodised programmes that rebuild session by session. Flutter + Supabase + pgvector (two-layer architecture), multi-model orchestration (Claude, Gemini), six deterministic filter layers wrapping the model.
+      - name: Charles
+        summary: AI strength-training coach, live on the App Store. Periodised programmes that rebuild session by session. Flutter + Supabase + pgvector (two-layer architecture), multi-model orchestration (Claude, Gemini), six deterministic filter layers wrapping the model.
       - name: '[Viadio](https://www.getviadio.com/)'
         summary: AI memory video app, live on App Store and Google Play. Image-research algorithm and prompting structure that turns a user's existing phone photos into a memory video; the AI is invisible to the user.
       - name: Other shipped products
-        summary: '[ViaVia](https://viavia.solutions/) (multi-city European travel, live) · [CelesteAI](https://getcelestai.com) (localised astrology, live) · ShipStack (production framework for AI-native software, internal at Luminous Group).'
+        summary: '[ViaVia](https://viavia.solutions/) (multi-city European travel, live) · [CelesteAI](https://getcelestai.com) (localised astrology, live) · [ShipStack](https://github.com/ViaViaTravel/ship-stack) (open-source production framework for AI-native software).'
 
     skills:
       - label: AI & LLMs

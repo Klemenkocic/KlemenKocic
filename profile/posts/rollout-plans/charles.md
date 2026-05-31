@@ -41,7 +41,7 @@ Charles tracks every swap, every adaptation, every reason. You can see why the s
 Charles can run on Gemini, Claude, or others. The model is a swappable component. Bigger thread: betting your product on one provider is the new vendor lock-in. The orchestration layer is where the real work lives.
 
 **9. Meet Charles.**
-Reveal. Screenshots. TestFlight. Try it.
+Reveal. Screenshots. Live on the App Store. Try it.
 
 ---
 

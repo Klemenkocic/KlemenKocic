@@ -20,7 +20,7 @@ I find where AI fits in real work. I build the systems behind it. I work alongsi
 
 I run capability assessments with CEOs and senior executives. ~20 individuals plus one full company. Translating ambiguous AI goals into specific workflows their teams adopted.
 
-I also ship AI products under my own ventures: Charles (AI strength training coach, iOS, Flutter + Supabase + pgvector, multi-model orchestration with six deterministic filter layers), ViaVia (multi-city European travel), Viadio (AI memory videos from phone photos), CelesteAI (localised astrology).
+I also ship AI products under my own ventures: Charles (AI strength training coach, live on the App Store, Flutter + Supabase + pgvector, multi-model orchestration with six deterministic filter layers), ViaVia (multi-city European travel), Viadio (AI memory videos from phone photos), CelesteAI (localised astrology).
 
 I write about what I learn. Eight essays at luminousgroup.net on human-AI collaboration, including *The Displacement of Judgement* (with Barton Friedland) and *They Built It. They Can't Control It.*
 
