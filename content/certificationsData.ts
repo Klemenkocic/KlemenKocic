@@ -12,7 +12,7 @@ export const certifications: CertificationItem[] = [
     name: "Agentic Engineering",
     issuer: "Industrial Logic",
     year: "2026",
-    logoSrc: "",
+    logoSrc: "/images/Industrial-Logic.png",
     logoAlt: "Industrial Logic logo",
     note: "Deterministic guardrails, hooks, and test design for agentic coding.",
   },

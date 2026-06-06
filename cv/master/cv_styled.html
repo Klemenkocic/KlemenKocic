@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: A4; margin: 1.3cm 1.9cm 1.45cm 2.0cm; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 9.3pt;
+    line-height: 1.31;
+    color: #232323;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  a { color: #2d5f86; text-decoration: none; }
+
+  /* ---------- Header ---------- */
+  .title {
+    font-size: 23pt;
+    font-weight: 300;
+    color: #303030;
+    letter-spacing: 0.4px;
+    margin: 0 0 0.38cm 0;
+  }
+  .toprow { display: flex; justify-content: space-between; align-items: flex-start; }
+  .info { flex: 1; padding-top: 2px; }
+  .irow { display: flex; margin-bottom: 1.5px; }
+  .ilabel { width: 2.5cm; flex: 0 0 2.5cm; text-align: right; padding-right: 0.55cm; color: #6a6a6a; }
+  .ival { flex: 1; color: #232323; }
+  .ival .name { font-weight: 700; }
+  .photo { flex: 0 0 auto; margin-left: 0.6cm; }
+  .photo img { width: 3.25cm; height: 4.0cm; object-fit: cover; display: block; }
+
+  /* ---------- Section header ---------- */
+  .sec { display: flex; align-items: center; gap: 0.3cm; margin: 0.38cm 0 0.16cm 0; }
+  .sec h2 { font-size: 12.5pt; font-weight: 400; color: #333; margin: 0; white-space: nowrap; }
+  .sec .rule { flex: 1; height: 1px; background: #c2c2c2; }
+  .sec.first { margin-top: 0.42cm; }
+
+  /* ---------- Entries ---------- */
+  .entry { display: flex; margin-bottom: 0.24cm; page-break-inside: avoid; }
+  .entry:last-child { margin-bottom: 0; }
+  .date { width: 3.6cm; flex: 0 0 3.6cm; text-align: right; padding-right: 0.45cm; color: #5a5a5a; padding-top: 1px; white-space: nowrap; }
+  .body { flex: 1; }
+  .org { font-weight: 700; color: #1f1f1f; }
+  .pos { color: #333; }
+  .meta-line { margin-bottom: 2px; }
+  .sub { color: #444; margin-bottom: 3px; }
+
+  ul.hl { margin: 2px 0 0 0; padding: 0; list-style: none; }
+  ul.hl li { position: relative; padding-left: 0.42cm; margin-bottom: 1.5px; }
+  ul.hl li:before { content: "\25AA"; position: absolute; left: 0; top: -0.5px; color: #8a8a8a; font-size: 8pt; }
+
+  .txt { color: #2a2a2a; }
+  b { font-weight: 700; color: #1f1f1f; }
+
+  /* text-row (skills / languages) */
+  .trow { display: flex; margin-bottom: 0.15cm; page-break-inside: avoid; }
+  .trow .label { width: 3.6cm; flex: 0 0 3.6cm; text-align: right; padding-right: 0.45cm; color: #5a5a5a; padding-top: 1px; }
+  .trow .val { flex: 1; }
+</style>
+</head>
+<body>
+
+  <div class="title">Curriculum Vitae</div>
+
+  <div class="toprow">
+    <div class="info">
+      <div class="irow"><div class="ilabel">Name</div><div class="ival"><span class="name">Klemen Kocic</span></div></div>
+      <div class="irow"><div class="ilabel">Role</div><div class="ival">AI Systems Architect</div></div>
+      <div class="irow"><div class="ilabel">Location</div><div class="ival">Munich, Germany</div></div>
+      <div class="irow"><div class="ilabel">Email</div><div class="ival">klemen.kocic@gmail.com</div></div>
+      <div class="irow"><div class="ilabel">Website</div><div class="ival"><a href="https://klemenkocic.com">klemenkocic.com</a></div></div>
+      <div class="irow"><div class="ilabel">LinkedIn</div><div class="ival"><a href="https://www.linkedin.com/in/klemenkocic">linkedin.com/in/klemenkocic</a></div></div>
+      <div class="irow"><div class="ilabel">GitHub</div><div class="ival"><a href="https://github.com/Klemenkocic">github.com/Klemenkocic</a></div></div>
+    </div>
+    <div class="photo"><img src="__PHOTO_DATA_URI__" alt="Klemen Kocic"></div>
+  </div>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <div class="sec first"><h2>Professional Experience</h2><div class="rule"></div></div>
+
+  <div class="entry">
+    <div class="date">07/2025 &ndash; Present</div>
+    <div class="body">
+      <div class="meta-line"><span class="org">Luminous Group</span>, Munich</div>
+      <div class="sub">AI Systems Architect</div>
+      <ul class="hl">
+        <li class="txt">Co-architect of <b>Luminosity</b>, our internal <b>multi-agent</b>, multi-person production system for seven people, designed around the three-layer architecture (Interaction, Coordination, Data) behind the company&rsquo;s &ldquo;AI that instruments the human&rdquo; thesis.</li>
+        <li class="txt">Built Luminosity&rsquo;s video pipeline and team-coordination workflows. Co-built the runtime: agent provisioning, MCP tool servers, the rules-and-skills harness, and knowledge and context graphs.</li>
+        <li class="txt">Built and operate the company&rsquo;s weekly AI-intelligence pipeline: ~14 parallel agents pull from 40+ sources across 12 categories into a Tana knowledge graph, turning ~50 net-new entries a week into concrete action items per teammate and per agent (surfaced in Slack and a shared GitHub doc).</li>
+        <li class="txt">Co-led ~6 capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture &mdash; translating ambiguous AI goals into specific workflows, each shipped as a working product or reference architecture their team adopted.</li>
+        <li class="txt">Co-inventor on <b>patents</b> covering multi-agent, multi-team coordination.</li>
+        <li class="txt">Shape Luminous Group&rsquo;s editorial voice on public surfaces (website, positioning, bios) with the founding team. Co-author of eight of the twenty essays at luminousgroup.net/liminality on human&ndash;AI collaboration.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="date">01/2025 &ndash; 02/2026</div>
+    <div class="body">
+      <div class="meta-line"><span class="org">NHS Personal Training GmbH</span>, Munich</div>
+      <div class="sub">Technical Lead</div>
+      <ul class="hl">
+        <li class="txt">Architected and co-built the full system: React Native (Expo) apps for clients and coaches over a Ruby on Rails + PostgreSQL backend &mdash; scheduling, training plans, exercise library, invoicing, and point-of-sale with role-based access. Led 6 offshore engineers at <b>87%</b> on-time release; adopted by every coach and client, still in daily production use.</li>
+        <li class="txt">Built macro/meso-cycle plan generation in our methodology software with an AI layer on top for added support, cutting training-plan creation from 4 hours to 30 minutes.</li>
+        <li class="txt">Built the bilingual corporate website solo, plus 5 partner portals expanding B2B reach.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="date">02/2022 &ndash; 02/2024</div>
+    <div class="body">
+      <div class="meta-line"><span class="org">MetaKing Studios</span>, Stockholm</div>
+      <div class="sub">Project Manager</div>
+      <ul class="hl">
+        <li class="txt">Shipped <b>BLOCKLORDS</b>, an online blockchain strategy game that reached <b>$40M</b> in trade volume; led a 10-person cross-timezone team and cut the deployment projection 6&nbsp;&rarr;&nbsp;4 months at <b>97%</b> sprint velocity.</li>
+        <li class="txt">Coordinated the team across Jira, Asana, and Miro from architecture to game economy (using Machinations) to the Unity build, plus a Unity-to-blockchain bridge designed to stay non-intrusive so players never had to touch the on-chain layer to enjoy the game.</li>
+        <li class="txt">Owned go-to-market for the BLOCKLORDS launch: marketing materials, community activation across Discord, Telegram, and X, partnerships with Web3 gaming guilds, launch-day coordination across regions, and on-chain growth tracking after launch.</li>
+        <li class="txt">Built Grafana and Tableau dashboards for on-chain analytics, giving leadership real-time visibility into game-economy health and player behaviour.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="date">03/2020 &ndash; 02/2022</div>
+    <div class="body">
+      <div class="meta-line"><span class="org">Seascape Network</span>, Seoul / Stockholm / Lisbon</div>
+      <div class="sub">Program Manager &amp; Data Analyst</div>
+      <ul class="hl">
+        <li class="txt">Shipped 5 gaming launches across Ethereum, Polygon, and BSC; managed Lighthouse, a fund-generating platform supporting 10+ external game developers; negotiated ~<b>$500K</b> investor funding (~9 months runway).</li>
+        <li class="txt">Partner-ecosystem analytics drove 30+ integration decisions and <b>460%</b> MAU growth (10K&nbsp;&rarr;&nbsp;56K).</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ================= PROJECTS ================= -->
+  <div class="sec"><h2>Selected Projects</h2><div class="rule"></div></div>
+
+  <div class="entry">
+    <div class="date">Live</div>
+    <div class="body">
+      <div class="meta-line"><span class="org"><a href="https://apps.apple.com/de/app/charles-personal-trainer/id6760557138?l=en-GB">Charles</a></span> &mdash; AI strength-training coach</div>
+      <div class="txt">Live on the App Store. Periodised programmes that rebuild session by session. Flutter + Supabase + pgvector (two-layer architecture), multi-model orchestration (Claude, Gemini), six deterministic filter layers wrapping the model.</div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="date">Live</div>
+    <div class="body">
+      <div class="meta-line"><span class="org"><a href="https://www.getviadio.com/">Viadio</a></span> &mdash; AI memory video app</div>
+      <div class="txt">Live on App Store and Google Play. Image-research algorithm and prompting structure that turns a user&rsquo;s existing phone photos into a memory video; the AI is invisible to the user.</div>
+    </div>
+  </div>
+
+  <div class="entry">
+    <div class="date">Live</div>
+    <div class="body">
+      <div class="meta-line"><span class="org">Other shipped products</span></div>
+      <div class="txt"><a href="https://viavia.solutions/">ViaVia</a> (multi-city European travel) &middot; <a href="https://getcelestai.com">CelesteAI</a> (localised astrology) &middot; <a href="https://github.com/ViaViaTravel/ship-stack">ShipStack</a> (open-source production framework for AI-native software).</div>
+    </div>
+  </div>
+
+  <!-- ================= SKILLS ================= -->
+  <div class="sec"><h2>Skills &amp; Competencies</h2><div class="rule"></div></div>
+
+  <div class="trow"><div class="label">AI &amp; LLMs</div><div class="val">Claude, GPT, Gemini, multi-model orchestration, LangGraph, MCP, knowledge graphs, context graphs, Pinecone, RAG, prompt design, agent architecture, evaluations</div></div>
+  <div class="trow"><div class="label">Engineering</div><div class="val">TypeScript, Python, Swift/SwiftUI, Flutter, React/Next.js, Node.js, PostgreSQL, Supabase, pgvector</div></div>
+  <div class="trow"><div class="label">Solutions &amp; Delivery</div><div class="val">Agile and adaptive delivery, agility-based evaluation, workshop facilitation, executive presentation, technical scoping, presales, stakeholder alignment, CRM (Salesforce, Attio), knowledge tooling (Tana, Obsidian)</div></div>
+
+  <!-- ================= EDUCATION ================= -->
+  <div class="sec"><h2>Education</h2><div class="rule"></div></div>
+
+  <div class="entry">
+    <div class="date">09/2019 &ndash; 06/2023</div>
+    <div class="body">
+      <div class="meta-line"><span class="org">University of Ljubljana</span>, Ljubljana, Slovenia</div>
+      <div class="sub">BA, International Business</div>
+      <ul class="hl">
+        <li class="txt">Bilateral exchange at University of Seoul (2021&ndash;2022), on scholarship.</li>
+        <li class="txt">Self-taught engineer since 2018. Shipped production iOS, Android, web, blockchain, AI systems, and knowledge graphs alongside the degree.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ================= CERTIFICATIONS ================= -->
+  <div class="sec"><h2>Certifications</h2><div class="rule"></div></div>
+
+  <div class="trow"><div class="label">Certifications</div><div class="val"><b>Agentic Engineering</b> (Industrial Logic) &middot; Meta Backend Developer &middot; Google Project Management &middot; Precision Nutrition L1</div></div>
+
+  <!-- ================= LANGUAGES ================= -->
+  <div class="sec"><h2>Languages</h2><div class="rule"></div></div>
+
+  <div class="trow"><div class="label">Languages</div><div class="val">Slovenian (Native) &middot; English (C2) &middot; Serbo-Croatian (B2) &middot; German (B1)</div></div>
+
+  <!-- ================= WRITING ================= -->
+  <div class="sec"><h2>Selected Writing</h2><div class="rule"></div></div>
+
+  <div class="trow">
+    <div class="label">Essays</div>
+    <div class="val">
+      <i><a href="https://www.luminousgroup.net/liminality/they-built-it-they-cant-control-it">They Built It. They Can&rsquo;t Control It.</a></i> (with Barton Friedland and Jim Highsmith) &middot;
+      <i><a href="https://www.luminousgroup.net/liminality/what-agents-cannot-want">What Agents Cannot Want</a></i> &middot;
+      <i><a href="https://www.luminousgroup.net/liminality/the-displacement-of-judgement">The Displacement of Judgement</a></i> (with Barton Friedland). All at luminousgroup.net/liminality.
+    </div>
+  </div>
+
+</body>
+</html>
