@@ -28,7 +28,11 @@ export default function CertificationsGrid() {
             {...fade}
           >
             <div className="flex items-center justify-center h-20">
-              <Image src={c.logoSrc} alt={c.logoAlt} width={140} height={56} className="h-12 w-auto object-contain" />
+              {c.logoSrc ? (
+                <Image src={c.logoSrc} alt={c.logoAlt} width={140} height={56} className="h-12 w-auto object-contain" />
+              ) : (
+                <span className="font-display text-xl text-foreground/80">{c.issuer}</span>
+              )}
             </div>
             <div className="mt-4">
               <p className="font-medium">{c.name}</p>

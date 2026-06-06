@@ -9,6 +9,14 @@ export type CertificationItem = {
 
 export const certifications: CertificationItem[] = [
   {
+    name: "Agentic Engineering",
+    issuer: "Industrial Logic",
+    year: "2026",
+    logoSrc: "",
+    logoAlt: "Industrial Logic logo",
+    note: "Deterministic guardrails, hooks, and test design for agentic coding.",
+  },
+  {
     name: "Meta Backend Developer",
     issuer: "Meta",
     year: "",

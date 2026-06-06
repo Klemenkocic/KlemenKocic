@@ -55,6 +55,7 @@
 
 ## Certifications
 
+- Industrial Logic — Agentic Engineering
 - Meta — Backend Developer
 - Google — Project Management Specialisation
 - GO TEL — Programming Using Python
