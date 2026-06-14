@@ -16,7 +16,7 @@ I focus on understanding what people actually need and finding where AI can help
 
 ## Medium bio (120 words)
 
-I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. At Luminous Group I'm AI Systems Architect: I co-architect Luminosity, our internal multi-agent multi-person production system serving seven people across the company, designed around three coordination layers (Interaction, Coordination, Data). Built the video production pipeline and team-coordination workflows; co-built the runtime infrastructure (agent provisioning, MCP servers, knowledge and context graphs). Co-inventor on patents covering multi-agent multi-team coordination.
+I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. At Luminous Group I'm AI Systems Architect: I co-architect Luminosity, our internal multi-agent multi-person production system serving seven people across the company, designed around three coordination layers (Interaction, Coordination, Data). Built the video production pipeline and team-coordination workflows; co-built the runtime infrastructure (agent provisioning, MCP servers, knowledge and context graphs, ElevenLabs voice for the agents). Co-inventor on patents covering multi-agent multi-team coordination.
 
 I run capability assessments with CEOs and senior executives. ~20 individuals plus one full company. Translating ambiguous AI goals into specific workflows their teams adopted.
 

@@ -64,7 +64,7 @@ export const experiences: Experience[] = [
     to: "Present",
     bullets: [
       "Co-architect of Luminosity, our internal multi-agent multi-person production system serving seven people across the company. Designed around the three-layer system architecture (Interaction, Coordination, Data) behind the company's \"AI that instruments the human\" thesis.",
-      "Built Luminosity's video production pipeline and the team-coordination workflows that keep the distributed team aligned. Co-built the runtime infrastructure: agent provisioning, MCP tool servers, the rules-and-skills harness, and knowledge and context graphs.",
+      "Built Luminosity's video production pipeline and the team-coordination workflows that keep the distributed team aligned. Co-built the runtime infrastructure: agent provisioning, MCP tool servers, the rules-and-skills harness, knowledge and context graphs, and ElevenLabs text-to-speech that gives the agents voice.",
       "Built and operate the company's weekly AI-intelligence pipeline: ~14 parallel agents pull from 40+ sources across 12 categories into a Tana knowledge graph, turning ~50 net-new entries a week into concrete action items per teammate and per agent (also surfaced in Slack and a shared GitHub doc). The system informs partnership decisions, product positioning, and competitive response.",
       "Co-led ~6 capability-assessment engagements with senior leaders across healthcare, sport, law, marketing, automotive sales, and architecture. Translated ambiguous AI goals into specific workflows, each shipped as a working product or reference architecture their team adopted.",
       "Co-inventor on patents covering multi-agent multi-team coordination.",
