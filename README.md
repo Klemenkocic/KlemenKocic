@@ -1,6 +1,6 @@
 ### Hi, I'm Klemen.
 
-I'm an AI Systems Architect at [Luminous Group](https://luminousgroup.net), based in Munich.
+I'm an AI Solutions Architect at [Luminous Group](https://luminousgroup.net), based in Munich.
 
 > I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them.
 
