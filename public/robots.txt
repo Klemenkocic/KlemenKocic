@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://klemenkocic.com/sitemap.xml
+Host: https://klemenkocic.com
+
+#
+#        🌱
+#
+#  Planting trees in the shade of which I will never sit.
+#
+#  You read robots.txt for fun. So do I.
+#  There is a game here: /plant
+#

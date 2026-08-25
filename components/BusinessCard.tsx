@@ -2,20 +2,11 @@
 
 import Image from "next/image";
 import { motion, useReducedMotion, useMotionValue, useSpring, useTransform, useMotionTemplate } from "framer-motion";
-import { useRef, useState } from "react";
-import FallingEmojiGame from "./FallingEmojiGame";
-
-/** Clicks on the card needed to open the game. */
-const UNLOCK_CLICKS = 7;
-/** A pause longer than this resets the count, so stray clicks never accumulate. */
-const CLICK_WINDOW_MS = 2000;
+import { useRef } from "react";
 
 export default function BusinessCard() {
   const prefersReduced = useReducedMotion();
-  const [isGameOpen, setIsGameOpen] = useState(false);
   const cardRef = useRef<HTMLDivElement>(null);
-  const clickCount = useRef(0);
-  const resetTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
@@ -56,26 +47,6 @@ export default function BusinessCard() {
     mouseY.set(0);
   };
 
-  // Hidden easter egg: click the card UNLOCK_CLICKS times to open the game.
-  // Clicks that land on a link or button are ignored, so hammering "Download CV"
-  // or the social icons never trips it.
-  const handleCardClick = (e: React.MouseEvent<HTMLDivElement>) => {
-    if ((e.target as HTMLElement).closest("a, button")) return;
-
-    clickCount.current += 1;
-    if (resetTimer.current) clearTimeout(resetTimer.current);
-
-    if (clickCount.current >= UNLOCK_CLICKS) {
-      clickCount.current = 0;
-      setIsGameOpen(true);
-      return;
-    }
-
-    resetTimer.current = setTimeout(() => {
-      clickCount.current = 0;
-    }, CLICK_WINDOW_MS);
-  };
-
   const fadeSlide = {
     initial: prefersReduced ? { opacity: 0 } : { opacity: 0, y: 16 },
     whileInView: { opacity: 1, y: 0 },
@@ -86,7 +57,6 @@ export default function BusinessCard() {
   };
 
   return (
-    <>
     <motion.div
       ref={cardRef}
       className="relative border border-white/10 rounded-xl p-6 sm:p-8 bg-white/5 backdrop-blur-sm mb-12 sm:mb-16 will-change-transform group"
@@ -101,7 +71,6 @@ export default function BusinessCard() {
       }}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      onClick={handleCardClick}
       whileHover={prefersReduced ? {} : { scale: 1.02, transition: { duration: 0.3 } }}
       {...fadeSlide}
     >
@@ -229,8 +198,5 @@ export default function BusinessCard() {
 
     </motion.div>
 
-    {/* Game Modal */}
-    <FallingEmojiGame isOpen={isGameOpen} onClose={() => setIsGameOpen(false)} />
-    </>
   );
 }

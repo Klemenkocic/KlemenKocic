@@ -3,6 +3,7 @@ import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import ClientIntroWrapper from "@/components/ClientIntroWrapper";
 import SeasonFavicon from "@/components/SeasonFavicon";
+import Discovery from "@/components/sunline/Discovery";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -233,6 +234,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} ${outfit.variable} antialiased`}>
         <SeasonFavicon />
+        <Discovery />
         <ClientIntroWrapper>{children}</ClientIntroWrapper>
       </body>
     </html>
