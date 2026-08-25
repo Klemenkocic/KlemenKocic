@@ -5,13 +5,17 @@ import { motion, useReducedMotion, useMotionValue, useSpring, useTransform, useM
 import { useRef, useState } from "react";
 import FallingEmojiGame from "./FallingEmojiGame";
 
-const LONG_PRESS_MS = 1500;
+/** Clicks on the card needed to open the game. */
+const UNLOCK_CLICKS = 7;
+/** A pause longer than this resets the count, so stray clicks never accumulate. */
+const CLICK_WINDOW_MS = 2000;
 
 export default function BusinessCard() {
   const prefersReduced = useReducedMotion();
   const [isGameOpen, setIsGameOpen] = useState(false);
   const cardRef = useRef<HTMLDivElement>(null);
-  const longPressTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const clickCount = useRef(0);
+  const resetTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
@@ -52,19 +56,24 @@ export default function BusinessCard() {
     mouseY.set(0);
   };
 
-  const clearLongPress = () => {
-    if (longPressTimer.current) {
-      clearTimeout(longPressTimer.current);
-      longPressTimer.current = null;
-    }
-  };
+  // Hidden easter egg: click the card UNLOCK_CLICKS times to open the game.
+  // Clicks that land on a link or button are ignored, so hammering "Download CV"
+  // or the social icons never trips it.
+  const handleCardClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    if ((e.target as HTMLElement).closest("a, button")) return;
 
-  const startLongPress = () => {
-    clearLongPress();
-    longPressTimer.current = setTimeout(() => {
+    clickCount.current += 1;
+    if (resetTimer.current) clearTimeout(resetTimer.current);
+
+    if (clickCount.current >= UNLOCK_CLICKS) {
+      clickCount.current = 0;
       setIsGameOpen(true);
-      longPressTimer.current = null;
-    }, LONG_PRESS_MS);
+      return;
+    }
+
+    resetTimer.current = setTimeout(() => {
+      clickCount.current = 0;
+    }, CLICK_WINDOW_MS);
   };
 
   const fadeSlide = {
@@ -92,6 +101,7 @@ export default function BusinessCard() {
       }}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
+      onClick={handleCardClick}
       whileHover={prefersReduced ? {} : { scale: 1.02, transition: { duration: 0.3 } }}
       {...fadeSlide}
     >
@@ -217,20 +227,6 @@ export default function BusinessCard() {
         </div>
       </div>
 
-      {/* Hidden easter-egg trigger: long-press the small ✦ for ~1.5s */}
-      <button
-        type="button"
-        aria-label="Easter egg, long-press to play"
-        title="Long-press to play"
-        onPointerDown={startLongPress}
-        onPointerUp={clearLongPress}
-        onPointerLeave={clearLongPress}
-        onPointerCancel={clearLongPress}
-        onContextMenu={(e) => e.preventDefault()}
-        className="absolute bottom-2 right-2 text-foreground/30 hover:text-foreground/60 transition-colors text-sm leading-none select-none touch-none"
-      >
-        ✦
-      </button>
     </motion.div>
 
     {/* Game Modal */}
