@@ -1,12 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-  <rect width="256" height="256" rx="48" fill="#ffffff"/>
-  <g fill="none" stroke="#111827" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M92 40l-24 176"/>
-    <path d="M188 40l-24 176"/>
-    <path d="M24 104h208"/>
-    <path d="M24 160h208"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Klemen Kocic">
+  <rect width="256" height="256" rx="48" fill="#0D0D0F"/>
+  <g fill="none" stroke="#C89B6E" stroke-linecap="round">
+    <path d="M128 222V138" stroke-width="32"/>
+    <path d="M128 178Q102 172 82 130M128 178Q154 172 174 130" stroke-width="20"/>
+    <path d="M128 142Q116 122 106 104M128 142Q140 122 150 104" stroke-width="16"/>
+  </g>
+  <defs><clipPath id="kkCanopy"><circle cx="128" cy="90" r="48"/><circle cx="95" cy="114" r="40"/><circle cx="161" cy="114" r="40"/></clipPath></defs>
+  <g clip-path="url(#kkCanopy)">
+    <path d="M128 105L-272 105L-155 -178L128 -295Z" fill="#A8DB57"/>
+    <path d="M128 105L128 -295L411 -178L528 105Z" fill="#2FC275"/>
+    <path d="M128 105L528 105L411 388L128 505Z" fill="#FF7A59"/>
+    <path d="M128 105L128 505L-155 388L-272 105Z" fill="#CFE4F2"/>
   </g>
 </svg>
-
-
-

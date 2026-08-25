@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Summer tree">
+  <rect width="256" height="256" rx="48" fill="#0D0D0F"/>
+  <g fill="none" stroke="#C89B6E" stroke-linecap="round">
+    <path d="M128 222V138" stroke-width="32"/>
+    <path d="M128 178Q102 172 82 130M128 178Q154 172 174 130" stroke-width="20"/>
+    <path d="M128 142Q116 122 106 104M128 142Q140 122 150 104" stroke-width="16"/>
+  </g>
+  <g fill="#2FC275"><circle cx="128" cy="90" r="48"/><circle cx="95" cy="114" r="40"/><circle cx="161" cy="114" r="40"/></g>
+</svg>

@@ -1,13 +1,13 @@
 # Job preferences — Klemen Kocic
 
-Source of truth for tool filtering, agent context, and recruiter-routing. Updated 2026-05-17.
+Source of truth for tool filtering, agent context, and recruiter-routing. Updated 2026-05-25.
 
 ## Geography
 
 - **Base:** Munich, Germany. Available from July 2026.
 - **EU citizen** — no sponsorship needed for EU roles.
 - **Acceptable cities for in-person or hybrid:** any major EU city. Munich, Berlin, Frankfurt, Amsterdam, London, Paris all in scope. Willing to commute weekly for the right role.
-- **Setup:** in-person or hybrid only. **Not pure remote.**
+- **Setup:** open to in-person, hybrid, or fully remote. Munich-based; hybrid/in-person preferred, but remote is now acceptable (updated 2026-05-25).
 - **Travel:** willing.
 
 ## Role shapes (in priority order)
@@ -53,6 +53,6 @@ Source of truth for tool filtering, agent context, and recruiter-routing. Update
 ## Identity & positioning anchor
 
 - **"Translator who can build / Forward-Deployed shape."** People-person first; demonstrable builder credibility (Luminosity production substrate, shipped Charles + Viadio + ViaVia + CelesteAI).
-- Title at Luminous Group: AI Systems Architect.
+- Title at Luminous Group: AI Solutions Architect.
 - Self-taught engineer since 2018; shipped production iOS, Android, web, blockchain, AI systems, and knowledge graphs.
 - See `project_positioning_target_roles.md` in memory for full positioning context.

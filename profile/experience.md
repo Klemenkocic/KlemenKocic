@@ -2,7 +2,7 @@
 
 ## Current Roles
 
-### AI Systems Architect — Luminous Group
+### AI Solutions Architect — Luminous Group
 **Jul 2025 – Present · Munich, Germany**
 
 Luminous Group is a human-centred AI consultancy that's also building its own AI product, Luminosity. I work both sides.

@@ -13,7 +13,7 @@ AI agents are very good at optimising in a direction. Give them a goal and const
 
 That's still a human thing. At least for now.
 
-I think that's worth protecting. Not because AI isn't powerful. It is. But because the moment we stop making the hard decisions about direction and let the systems do it for us, we lose the thing that actually matters.
+I think that's worth protecting. AI is powerful, but the moment we stop making the hard decisions about direction and let the systems do it for us, we lose the thing that actually matters.
 
 Execution is becoming infrastructure. The scarce thing is the willingness to commit to a direction before you know if it's right.
 

@@ -6,6 +6,20 @@ type IntroSplashProps = {
   onDone: () => void;
 };
 
+/**
+ * The site's opening line, revealed phrase by phrase.
+ *
+ * Split into phrases rather than words: at eleven words a per-word stagger
+ * runs too long and wraps unpredictably on narrow screens. Phrases keep the
+ * grammar intact on every line.
+ */
+const PHRASES = ["Planting trees", "in the shade of which", "I will never sit."];
+
+const PRE_BLACK_MS = 500;
+const SHOW_MS = 3400;
+const FADE_MS = 700;
+const PHRASE_STAGGER_MS = 420;
+
 export default function IntroSplash({ onDone }: IntroSplashProps) {
   const [hidden, setHidden] = useState(false);
   const [closing, setClosing] = useState(false);
@@ -30,16 +44,12 @@ export default function IntroSplash({ onDone }: IntroSplashProps) {
     }
 
     // First show a pure black screen for smoother visual load, then the text
-    const preBlackMs = 500;
-    const showMs = 2200; // longer display time
-    const fadeMs = 700;  // longer fade duration
-
-    const toShowText = setTimeout(() => setPreBlack(false), preBlackMs);
-    const toClose = setTimeout(() => setClosing(true), preBlackMs + showMs);
+    const toShowText = setTimeout(() => setPreBlack(false), PRE_BLACK_MS);
+    const toClose = setTimeout(() => setClosing(true), PRE_BLACK_MS + SHOW_MS);
     const toHide = setTimeout(() => {
       setHidden(true);
       onDone();
-    }, preBlackMs + showMs + fadeMs);
+    }, PRE_BLACK_MS + SHOW_MS + FADE_MS);
 
     return () => {
       clearTimeout(toShowText);
@@ -49,8 +59,6 @@ export default function IntroSplash({ onDone }: IntroSplashProps) {
   }, [onDone, prefersReduced]);
 
   if (hidden) return null;
-
-  const words = ["keep", "it", "simple"];
 
   return (
     <div
@@ -64,16 +72,21 @@ export default function IntroSplash({ onDone }: IntroSplashProps) {
       {preBlack ? (
         <div className="absolute inset-0 bg-black" aria-hidden />
       ) : (
-        <div className="intro-text flex gap-2 sm:gap-3 text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-display select-none px-4">
-          {words.map((w, i) => (
-            <span key={w} className="intro-word" style={{ animationDelay: `${i * 260}ms` }}>
-              {w}
+        // Block layout, not flex: a column flex container sizes to max-content
+        // and overflows narrow viewports. Block spans inherit the width they
+        // are given, so the line stays inside the screen at 320px.
+        <p className="intro-text w-full text-xl sm:text-4xl md:text-5xl lg:text-6xl font-display leading-snug text-center select-none px-5">
+          {PHRASES.map((phrase, i) => (
+            <span
+              key={phrase}
+              className="intro-line block"
+              style={{ animationDelay: `${i * PHRASE_STAGGER_MS}ms` }}
+            >
+              {phrase}
             </span>
           ))}
-        </div>
+        </p>
       )}
     </div>
   );
 }
-
-

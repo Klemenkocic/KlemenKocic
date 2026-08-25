@@ -17,6 +17,6 @@ When one is working, it breathes — a slow pulse of muted teal. When one needs 
 
 You don't switch between applications. You don't type into a box. You sit at the centre of a field of intelligence, and the field arranges itself around what matters to you right now.
 
-We call this The Planetarium. It's not science fiction. It's the design direction we're working toward. Every piece we're building now — the coordination, the memory, the governance — is infrastructure for this.
+We call this The Planetarium. It is the design direction we're working toward. Every piece we're building now, the coordination, the memory, the governance, is infrastructure for this.
 
 The interface we have today is a scaffold. The experience we're building toward is a room.

@@ -9,7 +9,7 @@ I've been working with AI for a while now. I use it for basically everything. Bu
 
 But what actually happened was that the AI got it wrong a lot. Like, a lot. Wrong approach, wrong files, jumping ahead before I'd even finished thinking. And I kept catching it. Kept saying no, that's not what I meant, go back.
 
-I think that's actually the skill. Not the prompting. The catching. Knowing when something's off before you've fully articulated why.
+I think that's actually the skill. The catching. Knowing when something's off before you've fully articulated why.
 
 It reminds me of coaching, honestly. In a gym you learn to watch someone move and just know something's wrong before you can name the muscle. Same thing here. You develop a feel for when the output isn't quite right, even when it looks fine on the surface.
 

@@ -97,14 +97,14 @@ a:focus-visible {
   border-radius: 2px;
 }
 
-/* Intro word animation inspired by sequential word reveal pattern */
-.intro-word {
+/* Intro line animation: sequential phrase reveal */
+.intro-line {
   opacity: 0;
   transform: translateY(10px);
-  animation: introWord 720ms ease-out forwards;
+  animation: introLine 720ms ease-out forwards;
 }
 
-@keyframes introWord {
+@keyframes introLine {
   to {
     opacity: 1;
     transform: translateY(0);

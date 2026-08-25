@@ -5,7 +5,7 @@
 
 ---
 
-The hard part of working with AI isn't the AI. It's the coordination.
+The hard part of working with AI is the coordination.
 
 How do you hand things back and forth between yourself and the machine? When do you step in, when do you let it run, when do you stop it?
 

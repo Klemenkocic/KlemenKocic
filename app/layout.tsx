@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import ClientIntroWrapper from "@/components/ClientIntroWrapper";
+import SeasonFavicon from "@/components/SeasonFavicon";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -23,9 +24,9 @@ export const metadata: Metadata = {
     template: "%s | Klemen Kocič",
   },
   description: "Portfolio of Klemen Kocič. Work, life, and experiments.",
-  icons: {
-    icon: "/favicon.ico",
-  },
+  // No `icons` field on purpose: an explicit entry here overrides Next's
+  // file-based convention, which is what kept app/icon.svg from ever being
+  // linked. Next picks up app/icon.svg (and app/favicon.ico) on its own.
   openGraph: {
     title: "Klemen Kocič",
     description: "Work, life, and experiments.",
@@ -57,9 +58,9 @@ export default function RootLayout({
     "@type": "Person",
     name: "Klemen Kocic",
     alternateName: "Klemen Kočič",
-    jobTitle: "AI Systems Architect at Luminous Group",
+    jobTitle: "AI Solutions Architect at Luminous Group",
     description:
-      "AI Systems Architect at Luminous Group. I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. Co-architect of Luminosity (an internal multi-agent multi-person production system serving seven people across the company, designed around three coordination layers: Interaction, Coordination, Data). Co-inventor on patents covering multi-agent multi-team coordination. Co-author of eight of the twenty essays on human-AI collaboration. Based in Munich, Germany.",
+      "AI Solutions Architect at Luminous Group. I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. Co-architect of Luminosity (an internal multi-agent multi-person production system serving seven people across the company, designed around three coordination layers: Interaction, Coordination, Data). Co-inventor on patents covering multi-agent multi-team coordination. Co-author of eight of the twenty essays on human-AI collaboration. Based in Munich, Germany.",
     url: "https://klemenkocic.com",
     image: "https://klemenkocic.com/images/profile.jpg",
     address: {
@@ -80,7 +81,7 @@ export default function RootLayout({
     hasOccupation: [
       {
         "@type": "Occupation",
-        name: "AI Systems Architect",
+        name: "AI Solutions Architect",
         occupationLocation: {
           "@type": "City",
           name: "Munich, Germany",
@@ -231,6 +232,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${inter.variable} ${outfit.variable} antialiased`}>
+        <SeasonFavicon />
         <ClientIntroWrapper>{children}</ClientIntroWrapper>
       </body>
     </html>

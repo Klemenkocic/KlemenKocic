@@ -6,7 +6,7 @@ I build AI systems that keep humans in the loop. And I write about what I learn.
 
 ## Short bio (50 words)
 
-I'm AI Systems Architect at Luminous Group. I co-architect Luminosity (our internal multi-agent multi-person system) and co-lead capability assessments with non-technical leaders. I also ship AI products under my own ventures: Charles, ViaVia, Viadio, CelesteAI. Before this: Web3 gaming at $40M scale, distributed engineering teams, coaching founders in Berlin.
+I'm AI Solutions Architect at Luminous Group. I co-architect Luminosity (our internal multi-agent multi-person system) and co-lead capability assessments with non-technical leaders. I also ship AI products under my own ventures: Charles, ViaVia, Viadio, CelesteAI. Before this: Web3 gaming at $40M scale, distributed engineering teams, coaching founders in Berlin.
 
 ## Site intro (focus-only, no experience-listing)
 
@@ -16,7 +16,7 @@ I focus on understanding what people actually need and finding where AI can help
 
 ## Medium bio (120 words)
 
-I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. At Luminous Group I'm AI Systems Architect: I co-architect Luminosity, our internal multi-agent multi-person production system serving seven people across the company, designed around three coordination layers (Interaction, Coordination, Data). Built the video production pipeline and team-coordination workflows; co-built the runtime infrastructure (agent provisioning, MCP servers, knowledge and context graphs, ElevenLabs voice for the agents). Co-inventor on patents covering multi-agent multi-team coordination.
+I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. At Luminous Group I'm AI Solutions Architect: I co-architect Luminosity, our internal multi-agent multi-person production system serving seven people across the company, designed around three coordination layers (Interaction, Coordination, Data). Built the video production pipeline and team-coordination workflows; co-built the runtime infrastructure (agent provisioning, MCP servers, knowledge and context graphs, ElevenLabs voice for the agents). Co-inventor on patents covering multi-agent multi-team coordination.
 
 I run capability assessments with CEOs and senior executives. ~20 individuals plus one full company. Translating ambiguous AI goals into specific workflows their teams adopted.
 

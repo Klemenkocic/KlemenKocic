@@ -8,11 +8,11 @@
   },
   "basics": {
     "name": "Klemen Kocic",
-    "label": "AI Systems Architect",
+    "label": "AI Solutions Architect",
     "image": "https://klemenkocic.com/images/profile.jpg",
     "email": "klemen.kocic@gmail.com",
     "url": "https://klemenkocic.com",
-    "summary": "I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. AI Systems Architect at Luminous Group. Co-architect of Luminosity (an internal multi-agent multi-person production system serving seven people across the company, designed around three coordination layers: Interaction, Coordination, Data). Co-inventor on patents covering multi-agent multi-team coordination. Co-author of eight of the twenty essays on human-AI collaboration at luminousgroup.net/liminality.",
+    "summary": "I find where AI fits in real work. I build the systems behind it. I work alongside the people who use them. AI Solutions Architect at Luminous Group. Co-architect of Luminosity (an internal multi-agent multi-person production system serving seven people across the company, designed around three coordination layers: Interaction, Coordination, Data). Co-inventor on patents covering multi-agent multi-team coordination. Co-author of eight of the twenty essays on human-AI collaboration at luminousgroup.net/liminality.",
     "location": {
       "city": "Munich",
       "region": "Bavaria",
@@ -34,7 +34,7 @@
   "work": [
     {
       "name": "Luminous Group",
-      "position": "AI Systems Architect",
+      "position": "AI Solutions Architect",
       "url": "https://luminousgroup.net",
       "location": "Munich, Germany",
       "startDate": "2025-07",

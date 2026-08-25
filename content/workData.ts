@@ -57,7 +57,7 @@ export const personalSkills: string[] = [
 
 export const experiences: Experience[] = [
   {
-    role: "AI Systems Architect",
+    role: "AI Solutions Architect",
     company: "Luminous Group",
     location: "Munich, Germany",
     from: "Jul 2025",
@@ -223,33 +223,6 @@ export const skills: Skills = {
     "UIUC – Leading Teams: Developing as a Leader",
   ],
 };
-
-// Kept for backwards compatibility. UI now uses the split arrays below.
-export const aiSkills: string[] = [
-  "Claude",
-  "ChatGPT",
-  "Gemini",
-  "Mistral",
-  "Cove AI",
-  "Llama (local)",
-  "MCP",
-  "LangGraph",
-  "Pinecone",
-  "Cursor",
-  "Hera",
-  "Perplexity",
-  "Sora",
-  "Dora.AI",
-  "fal.ai",
-  "Kling AI",
-  "Power BI with AI",
-  "UiPath",
-  "Cluely",
-  "DeepSeek",
-  "Grok",
-  "Supabase AI",
-  "RevenueCat",
-];
 
 // AI Engineering: the serious infrastructure I build with.
 export const aiEngineering: string[] = [
