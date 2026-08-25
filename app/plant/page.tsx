@@ -6,8 +6,18 @@ export const metadata: Metadata = {
   title: "Sunline",
   description:
     "A branch grows toward the sun. Hold to rise, release to fall, stay in the light.",
-  // Findable if you look for it, not something a search engine leads with.
-  robots: { index: false, follow: true },
+  openGraph: {
+    title: "Sunline",
+    description:
+      "A branch grows toward the sun. Hold to rise, release to fall, stay in the light.",
+    url: "https://klemenkocic.com/plant",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sunline",
+    description: "Hold to rise, release to fall, stay in the light.",
+  },
 };
 
 export default function PlantPage() {

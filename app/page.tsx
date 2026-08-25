@@ -87,7 +87,32 @@ export default function Home() {
           </div>
         </motion.div>
       </Link>
-    </main>
+      </main>
+
+      {/* Sunline sits under the split rather than beside it: it is a third
+          thing you can do here, not a third thing I am. */}
+      <Link
+        href="/plant"
+        className="sunline-link group absolute inset-x-0 bottom-0 z-20 mx-auto flex w-fit items-center gap-2.5 px-5 py-4 text-foreground/45 transition-colors hover:text-foreground focus-visible:text-foreground"
+      >
+        <svg viewBox="0 0 24 24" className="h-4 w-4 flex-shrink-0" fill="none" aria-hidden>
+          <path d="M12 21v-7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          <path
+            d="M12 14c0-3 2-5 5-5 0 3-2 5-5 5Z"
+            className="origin-bottom transition-transform duration-500 group-hover:-rotate-6"
+            fill="currentColor"
+          />
+          <path
+            d="M12 15c0-2.6-1.8-4.4-4.4-4.4 0 2.6 1.8 4.4 4.4 4.4Z"
+            className="origin-bottom transition-transform duration-500 group-hover:rotate-6"
+            fill="currentColor"
+          />
+        </svg>
+        <span className="font-display text-sm tracking-tight">Sunline</span>
+        <span className="text-xs text-foreground/35 group-hover:text-foreground/60 transition-colors">
+          a small game
+        </span>
+      </Link>
 
     {/* Focus ring for accessibility */}
     <style jsx>{`

@@ -79,12 +79,13 @@ export default function SunlineGame() {
   // --- input: one bit, held or not -----------------------------------------
   useEffect(() => {
     const down = (e: Event) => {
-      // Space scrolls the page and Enter re-triggers focused buttons; neither
-      // is wanted while playing.
       if (e instanceof KeyboardEvent) {
         if (e.code !== "Space" && e.code !== "ArrowUp") return;
-        if (e.repeat) return;
+        // preventDefault MUST come before the repeat check. Holding a key
+        // fires a stream of repeat keydowns, and letting those through is
+        // what scrolls the page out from under the game.
         e.preventDefault();
+        if (e.repeat) return;
       }
       if (phaseRef.current !== "playing") {
         start();
